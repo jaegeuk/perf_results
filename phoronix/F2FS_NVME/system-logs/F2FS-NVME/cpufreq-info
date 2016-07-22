@@ -1,0 +1,178 @@
+cpufrequtils 008: cpufreq-info (C) Dominik Brodowski 2004-2009
+Report errors and bugs to cpufreq@vger.kernel.org, please.
+analyzing CPU 0:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 0
+  CPUs which need to have their frequency coordinated by software: 0
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 1:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 1
+  CPUs which need to have their frequency coordinated by software: 1
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 2:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 2
+  CPUs which need to have their frequency coordinated by software: 2
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 3:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 3
+  CPUs which need to have their frequency coordinated by software: 3
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 4:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 4
+  CPUs which need to have their frequency coordinated by software: 4
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 5:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 5
+  CPUs which need to have their frequency coordinated by software: 5
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 6:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 6
+  CPUs which need to have their frequency coordinated by software: 6
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 7:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 7
+  CPUs which need to have their frequency coordinated by software: 7
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 8:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 8
+  CPUs which need to have their frequency coordinated by software: 8
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.21 GHz (asserted by call to hardware).
+analyzing CPU 9:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 9
+  CPUs which need to have their frequency coordinated by software: 9
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.21 GHz (asserted by call to hardware).
+analyzing CPU 10:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 10
+  CPUs which need to have their frequency coordinated by software: 10
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 11:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 11
+  CPUs which need to have their frequency coordinated by software: 11
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 12:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 12
+  CPUs which need to have their frequency coordinated by software: 12
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 13:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 13
+  CPUs which need to have their frequency coordinated by software: 13
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 14:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 14
+  CPUs which need to have their frequency coordinated by software: 14
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+analyzing CPU 15:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 15
+  CPUs which need to have their frequency coordinated by software: 15
+  maximum transition latency: 0.97 ms.
+  hardware limits: 1.20 GHz - 3.20 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 1.20 GHz and 3.20 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
