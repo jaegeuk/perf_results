@@ -8,6 +8,11 @@ if [ -z $1 ]; then
 	exit
 fi
 
+echo "Info: copy fs_mark/$1 from perf"
+rm -rf fs_mark/$1 2>/dev/null
+mkdir fs_mark/$1 2>/dev/null
+rsync -r --delete-excluded --delete perf:/root/xfstests-f2fs/fs_log.txt fs_mark/$1/
+
 echo "Info: copy fxmark/$1 from perf"
 rm -rf fxmark/$1 2>/dev/null
 mkdir fxmark/$1 2>/dev/null
