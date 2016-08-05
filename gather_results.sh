@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TAR=perf.tar
+TAR=$1_perf.tar
 EMAIL=jaegeuk.kim@huawei.com
 
 if [ -z $1 ]; then
