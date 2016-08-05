@@ -1,6 +1,7 @@
+=== F2FS ===
 
 #  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
-#	Version 3.3, 4 thread(s) starting at Fri Aug  5 11:11:04 2016
+#	Version 3.3, 4 thread(s) starting at Fri Aug  5 15:00:07 2016
 #	Sync method: INBAND FSYNC: fsync() per file in write loop.
 #	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
 #	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
@@ -8,13 +9,14 @@
 #	App overhead is time in microseconds spent in the test not doing file writing related system calls.
 #
 FSUse%        Count         Size    Files/sec     App Overhead
-     1      1179648         8192      39647.7          6814891
-     3      2359296         8192      31035.0          7254734
-     4      3538944         8192      24872.1          7357215
-     5      4718592         8192      21271.6          7327518
+     1      1179648         8192      38902.7          6865813
+     3      2359296         8192      30298.4          7120576
+     4      3538944         8192      24338.6          7100254
+     5      4718592         8192      21748.3          7115628
+=== EXT4 ===
 
 #  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
-#	Version 3.3, 4 thread(s) starting at Fri Aug  5 11:14:16 2016
+#	Version 3.3, 4 thread(s) starting at Fri Aug  5 15:03:21 2016
 #	Sync method: INBAND FSYNC: fsync() per file in write loop.
 #	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
 #	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
@@ -22,13 +24,14 @@ FSUse%        Count         Size    Files/sec     App Overhead
 #	App overhead is time in microseconds spent in the test not doing file writing related system calls.
 #
 FSUse%        Count         Size    Files/sec     App Overhead
-     5      1179648         8192      20306.8          7816023
-     6      2359296         8192      19585.2          8110889
-     7      3538944         8192      19372.5          8088571
-     8      4718592         8192      19381.0          8038463
+     5      1179648         8192      20295.5          7898120
+     6      2359296         8192      19681.0          7987908
+     7      3538944         8192      19514.0          8072553
+     8      4718592         8192      19427.9          8011682
+=== XFS ===
 
 #  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
-#	Version 3.3, 4 thread(s) starting at Fri Aug  5 11:18:28 2016
+#	Version 3.3, 4 thread(s) starting at Fri Aug  5 15:07:32 2016
 #	Sync method: INBAND FSYNC: fsync() per file in write loop.
 #	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
 #	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
@@ -36,13 +39,14 @@ FSUse%        Count         Size    Files/sec     App Overhead
 #	App overhead is time in microseconds spent in the test not doing file writing related system calls.
 #
 FSUse%        Count         Size    Files/sec     App Overhead
-     0      1179648         8192       9377.9         10809807
-     1      2359296         8192       9343.7         10656728
-     2      3538944         8192       9538.5         10465755
-     3      4718592         8192       9378.5         10469923
+     0      1179648         8192       9121.7         10917359
+     1      2359296         8192       9405.6         10800110
+     2      3538944         8192       9408.4         10569113
+     3      4718592         8192       9448.0         10408765
+=== BTRFS ===
 
 #  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
-#	Version 3.3, 4 thread(s) starting at Fri Aug  5 11:27:02 2016
+#	Version 3.3, 4 thread(s) starting at Fri Aug  5 15:16:09 2016
 #	Sync method: INBAND FSYNC: fsync() per file in write loop.
 #	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
 #	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
@@ -50,7 +54,7 @@ FSUse%        Count         Size    Files/sec     App Overhead
 #	App overhead is time in microseconds spent in the test not doing file writing related system calls.
 #
 FSUse%        Count         Size    Files/sec     App Overhead
-     0      1179648         8192       5532.3          9684407
-     1      2359296         8192       4210.2         10291521
-     2      3538944         8192       3734.0         10613847
-     3      4718592         8192       3564.1         10541088
+     0      1179648         8192       5402.8          9649341
+     1      2359296         8192       4214.4         10485314
+     2      3538944         8192       3689.1         10588515
+     3      4718592         8192       3596.3         10683725
