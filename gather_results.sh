@@ -8,16 +8,17 @@ if [ -z $1 ]; then
 	exit
 fi
 
-mkdir $1 2>/dev/null
-rm -rf $1/*
+echo "Info: copy fxmark/$1 from perf"
+rm -rf fxmark/$1 2>/dev/null
+mkdir fxmark/$1 2>/dev/null
+rsync -r --delete-excluded --delete perf:/root/fxmark/fxmark_nvme/* fxmark/$1/
 
-echo "Info: copy $1/fxmark from perf"
-rsync -r --delete-excluded --delete perf:/root/fxmark/fxmark_nvme $1/
-
-echo "Info: copy $1/phoronix from perf"
-mkdir $1/phoronix
-rsync -r --delete-excluded --delete perf:/var/www/html/test-results/20??* $1/phoronix/
-rsync -r --delete-excluded --delete perf:/var/www/html/test-results/merge-* $1/phoronix/
+echo "Info: copy phoronix/$1 from perf"
+rm -rf phoronix/$1 2>/dev/null
+mkdir phoronix/$1 2>/dev/null
+rsync -r --delete-excluded --delete perf:/var/www/html/test-results/20??* phoronix/$1/
+rsync -r --delete-excluded --delete perf:/var/www/html/test-results/merge-* phoronix/$1/
+ls phoronix/$1 | grep merge
 
 echo "Info: tar $1 into $TAR"
 tar -cvf $TAR $1/ >/dev/null 2>/dev/null
