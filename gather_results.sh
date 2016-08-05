@@ -20,11 +20,11 @@ rsync -r --delete-excluded --delete perf:/var/www/html/test-results/20??* phoron
 rsync -r --delete-excluded --delete perf:/var/www/html/test-results/merge-* phoronix/$1/
 ls phoronix/$1 | grep merge
 
-echo "Info: tar $1 into $TAR"
-tar -cvf $TAR $1/ >/dev/null 2>/dev/null
-
 echo -n "Send email? (Use Ctrl-C to cancel) "
 read ans
+
+echo "Info: tar $1 into $TAR"
+tar -cvf $TAR $1/ >/dev/null 2>/dev/null
 
 if [ -z $ans ]; then
 	echo Sent
