@@ -1,0 +1,123 @@
+Module                  Size  Used by
+f2fs                  339968  1 
+xfs                  1015808  0 
+libcrc32c              16384  1 xfs
+ipt_MASQUERADE         16384  3 
+nf_nat_masquerade_ipv4    16384  1 ipt_MASQUERADE
+iptable_nat            16384  1 
+nf_nat_ipv4            16384  1 iptable_nat
+nf_nat                 28672  2 nf_nat_masquerade_ipv4,nf_nat_ipv4
+nf_conntrack_ipv4      16384  2 
+nf_defrag_ipv4         16384  1 nf_conntrack_ipv4
+xt_conntrack           16384  1 
+nf_conntrack          110592  5 nf_conntrack_ipv4,nf_nat_masquerade_ipv4,xt_conntrack,nf_nat_ipv4,nf_nat
+ipt_REJECT             16384  2 
+nf_reject_ipv4         16384  1 ipt_REJECT
+xt_CHECKSUM            16384  1 
+iptable_mangle         16384  1 
+xt_tcpudp              16384  6 
+bridge                131072  0 
+stp                    16384  1 bridge
+llc                    16384  2 bridge,stp
+ip6table_filter        16384  0 
+ip6_tables             28672  1 ip6table_filter
+iptable_filter         16384  1 
+ip_tables              24576  3 iptable_mangle,iptable_filter,iptable_nat
+ebtable_nat            16384  0 
+ebtables               36864  1 ebtable_nat
+x_tables               36864  11 ipt_REJECT,iptable_mangle,ip_tables,ebtables,iptable_filter,xt_tcpudp,ipt_MASQUERADE,xt_CHECKSUM,ip6table_filter,xt_conntrack,ip6_tables
+binfmt_misc            20480  1 
+snd_hda_codec_hdmi     45056  1 
+rpcsec_gss_krb5        36864  0 
+nfsv4                 548864  1 
+dm_crypt               28672  0 
+intel_rapl             20480  0 
+sb_edac                24576  0 
+edac_core              53248  1 sb_edac
+x86_pkg_temp_thermal    16384  0 
+intel_powerclamp       16384  0 
+coretemp               16384  0 
+hp_wmi                 16384  0 
+sparse_keymap          16384  1 hp_wmi
+snd_hda_codec_realtek    86016  1 
+kvm_intel             188416  0 
+snd_hda_codec_generic    73728  1 snd_hda_codec_realtek
+kvm                   577536  1 kvm_intel
+snd_hda_intel          36864  0 
+irqbypass              16384  1 kvm
+snd_hda_codec         135168  4 snd_hda_intel,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_codec_realtek
+crct10dif_pclmul       16384  0 
+crc32_pclmul           16384  1 
+ghash_clmulni_intel    16384  0 
+aesni_intel           167936  0 
+aes_x86_64             20480  1 aesni_intel
+lrw                    16384  1 aesni_intel
+bnep                   20480  2 
+glue_helper            16384  1 aesni_intel
+rfcomm                 77824  0 
+ablk_helper            16384  1 aesni_intel
+cryptd                 24576  3 ablk_helper,ghash_clmulni_intel,aesni_intel
+bluetooth             552960  10 bnep,rfcomm
+snd_hda_core           81920  5 snd_hda_intel,snd_hda_codec,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_codec_realtek
+snd_hwdep              16384  1 snd_hda_codec
+snd_pcm               106496  4 snd_hda_intel,snd_hda_codec,snd_hda_core,snd_hda_codec_hdmi
+nd_pmem                16384  0 
+nd_btt                 24576  1 nd_pmem
+serio_raw              16384  0 
+snd_seq_midi           16384  0 
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_rawmidi            32768  1 snd_seq_midi
+snd_seq                69632  2 snd_seq_midi_event,snd_seq_midi
+snd_seq_device         16384  3 snd_seq,snd_rawmidi,snd_seq_midi
+snd_timer              32768  2 snd_seq,snd_pcm
+mei_me                 36864  0 
+snd                    86016  11 snd_hda_intel,snd_hwdep,snd_seq,snd_hda_codec,snd_timer,snd_rawmidi,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_seq_device,snd_hda_codec_realtek,snd_pcm
+lpc_ich                24576  0 
+soundcore              16384  1 snd
+mei                   102400  1 mei_me
+nvme                   28672  0 
+nvme_core              36864  1 nvme
+nfsd                  303104  2 
+tpm_infineon           20480  0 
+auth_rpcgss            61440  2 nfsd,rpcsec_gss_krb5
+nfs_acl                16384  1 nfsd
+nfs                   253952  2 nfsv4
+lockd                  90112  2 nfsd,nfs
+grace                  16384  2 nfsd,lockd
+sunrpc                339968  14 auth_rpcgss,nfsd,rpcsec_gss_krb5,nfsv4,nfs_acl,lockd,nfs
+fscache                65536  2 nfsv4,nfs
+mac_hid                16384  0 
+nls_iso8859_1          16384  1 
+parport_pc             36864  0 
+ppdev                  20480  0 
+lp                     20480  0 
+parport                49152  3 lp,parport_pc,ppdev
+btrfs                1024000  0 
+xor                    24576  1 btrfs
+raid6_pq              102400  1 btrfs
+hid_generic            16384  0 
+usbhid                 53248  0 
+hid                   118784  2 hid_generic,usbhid
+nouveau              1544192  2 
+mxm_wmi                16384  1 nouveau
+video                  40960  1 nouveau
+ttm                    98304  1 nouveau
+drm_kms_helper        155648  1 nouveau
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            16384  1 drm_kms_helper
+sysimgblt              16384  1 drm_kms_helper
+fb_sys_fops            16384  1 drm_kms_helper
+igb                   200704  0 
+psmouse               122880  0 
+e1000e                245760  0 
+dca                    16384  1 igb
+ahci                   36864  0 
+ptp                    20480  2 igb,e1000e
+mpt3sas               217088  4 
+i2c_algo_bit           16384  2 igb,nouveau
+pps_core               16384  1 ptp
+raid_class             16384  1 mpt3sas
+libahci                32768  1 ahci
+drm                   360448  5 nouveau,ttm,drm_kms_helper
+scsi_transport_sas     45056  1 mpt3sas
+wmi                    16384  3 mxm_wmi,nouveau,hp_wmi
