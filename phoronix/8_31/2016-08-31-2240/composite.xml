@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.4.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2016-08-31-2240</Title>
+    <LastModified>2016-09-01 00:30:52</LastModified>
+    <TestClient>Phoronix Test Suite v6.4.0 (Hasvik)</TestClient>
+    <Description>Intel Xeon E5-2630 v3 testing with a HP 2129 and NVIDIA Device 11b4 4096MB on Ubuntu 14.04 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>XFS-SSD</Identifier>
+    <Hardware>Processor: Intel Xeon E5-2630 v3 @ 2.40GHz (16 Cores), Motherboard: HP 2129, Chipset: Intel Haswell-E DMI2, Memory: 2 x 8192 MB 2133MHz Samsung, Disk: 2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4, Graphics: NVIDIA Device 11b4 4096MB, Audio: Realtek ALC221, Network: Intel Connection</Hardware>
+    <Software>OS: Ubuntu 14.04, Kernel: 4.8.0-rc2+ (x86_64) 20160823, Display Driver: nouveau 1.0.10, Compiler: GCC 4.8.4, File-System: xfs, Screen Resolution: 1024x768</Software>
+    <User>root</User>
+    <TimeStamp>2016-08-31 22:40:50</TimeStamp>
+    <TestClientVersion>6.4.0</TestClientVersion>
+    <Notes>Python 2.7.6.</Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-libmudflap --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-multilib-list=m32,m64,mx32 --with-tune=generic -v","disk-scheduler":"DEADLINE","disk-mount-options":"data=ordered,errors=remount-ro,relatime,rw","cpu-scaling-governor":"intel_pstate powersave"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/aio-stress-1.1.1</Identifier>
+    <Title>AIO-Stress</Title>
+    <AppVersion>0.21</AppVersion>
+    <Arguments>-o 2</Arguments>
+    <Description>Test: Random Write</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>664.45</Value>
+        <RawString>2238.91:336.88:210.54:322.9:414.36:463.12</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -laio"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>randread sync 1 0 4k  IOPS</Arguments>
+    <Description>Type: Random Read - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 4KB - Disk Target: Default Test Directory - Result: IOPS</Description>
+    <Scale>IOPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>8359</Value>
+        <RawString>8361:8358:8359</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>randwrite sync 1 0 4k  IOPS</Arguments>
+    <Description>Type: Random Write - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 4KB - Disk Target: Default Test Directory - Result: IOPS</Description>
+    <Scale>IOPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>77615</Value>
+        <RawString>77917:77598:77329</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>read sync 1 0 1m  MBS</Arguments>
+    <Description>Type: Sequential Read - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 1MB - Disk Target: Default Test Directory - Result: MB/s</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>424.16</Value>
+        <RawString>423.608:424.384:424.487</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>write sync 1 0 1m  MBS</Arguments>
+    <Description>Type: Sequential Write - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 1MB - Disk Target: Default Test Directory - Result: MB/s</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>474.86</Value>
+        <RawString>461.418:483.201:479.955</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 1000</Arguments>
+    <Description>Test: 1000 Files, 1MB Size</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>57.78</Value>
+        <RawString>99:49.5:49.6:49.6:49.6:49.4</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 5000 -t 4</Arguments>
+    <Description>Test: 5000 Files, 1MB Size, 4 Threads</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>87.87</Value>
+        <RawString>87.6:87.6:88.4</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 4000 -D 32</Arguments>
+    <Description>Test: 4000 Files, 32 Sub Dirs, 1MB Size</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>78.63</Value>
+        <RawString>98.3:62.2:88.1:67.7:67.6:87.9</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 1000 -S 0</Arguments>
+    <Description>Test: 1000 Files, 1MB Size, No Sync/FSync</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>1382.55</Value>
+        <RawString>1987.3:100.1:259.5:1965.1:1999.2:1984.1</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/dbench-1.0.0</Identifier>
+    <Title>Dbench</Title>
+    <AppVersion>4.0</AppVersion>
+    <Arguments>6</Arguments>
+    <Description>Client Count: 6</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>226.72</Value>
+        <RawString>227.973:230.993:221.195</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lpopt -O2"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/iozone-1.8.0</Identifier>
+    <Title>IOzone</Title>
+    <AppVersion>3.405</AppVersion>
+    <Arguments>-r 1m -s 2048M -i0 -i1</Arguments>
+    <Description>Record Size: 1MB - File Size: 2GB - Disk Test: Read Performance</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>523.30</Value>
+        <RawString>522.21484375:523.65625:524.0205078125</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/iozone-1.8.0</Identifier>
+    <Title>IOzone</Title>
+    <AppVersion>3.405</AppVersion>
+    <Arguments>-r 1m -s 2048M -i0</Arguments>
+    <Description>Record Size: 1MB - File Size: 2GB - Disk Test: Write Performance</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>433.27</Value>
+        <RawString>432.8408203125:433.1875:433.7734375</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/tiobench-1.2.0</Identifier>
+    <Title>Threaded I/O Tester</Title>
+    <AppVersion>0.3.3</AppVersion>
+    <Arguments>-k2 -k1 -f 64 -t 4</Arguments>
+    <Description>Test: Random Read - Size Per Thread: 64MB - Thread Count: 4</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>3054.55</Value>
+        <RawString>3058.927:3054.144:3050.566</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/tiobench-1.2.0</Identifier>
+    <Title>Threaded I/O Tester</Title>
+    <AppVersion>0.3.3</AppVersion>
+    <Arguments>-k3 -k2 -f 64 -t 4</Arguments>
+    <Description>Test: Random Write - Size Per Thread: 64MB - Thread Count: 4</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>9.06</Value>
+        <RawString>9.345:8.367:10.564:10.343:6.79:8.927</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compilebench-1.0.1</Identifier>
+    <Title>Compile Bench</Title>
+    <AppVersion>0.6</AppVersion>
+    <Arguments>COMPILE</Arguments>
+    <Description>Test: Compile</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>593.13</Value>
+        <RawString>587.27:583.5:608.61</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/unpack-linux-1.0.0</Identifier>
+    <Title>Unpacking The Linux Kernel</Title>
+    <AppVersion></AppVersion>
+    <Arguments></Arguments>
+    <Description>linux-2.6.32.tar.bz2</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>12.44</Value>
+        <RawString>12.066169977188:12.028028011322:12.285928964615:12.98814201355:12.942497014999:12.314796924591</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/postmark-1.1.0</Identifier>
+    <Title>PostMark</Title>
+    <AppVersion>1.51</AppVersion>
+    <Arguments></Arguments>
+    <Description>Disk Transaction Performance</Description>
+    <Scale>TPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>XFS-SSD</Identifier>
+        <Value>3205</Value>
+        <RawString>3246:3164:3205</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

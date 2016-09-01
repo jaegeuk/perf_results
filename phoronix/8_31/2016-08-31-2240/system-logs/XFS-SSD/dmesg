@@ -1,0 +1,3364 @@
+Linux version 4.8.0-rc2+ (root@perf) (gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ) #48 SMP Tue Aug 23 10:53:53 PDT 2016
+Command line: BOOT_IMAGE=/boot/vmlinuz-4.8.0-rc2+ root=UUID=04e7788e-651c-4593-b013-93bf3b6568d4 ro memmap=16G!16G
+KERNEL supported cpus:
+  Intel GenuineIntel
+  AMD AuthenticAMD
+  Centaur CentaurHauls
+x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+x86/fpu: Using 'eager' FPU context switches.
+e820: BIOS-provided physical RAM map:
+BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+BIOS-e820: [mem 0x00000000000c0000-0x000000000010ffff] type 20
+BIOS-e820: [mem 0x0000000000110000-0x00000000ca36afff] usable
+BIOS-e820: [mem 0x00000000ca36b000-0x00000000ca46afff] reserved
+BIOS-e820: [mem 0x00000000ca46b000-0x00000000ca56afff] type 20
+BIOS-e820: [mem 0x00000000ca56b000-0x00000000cb6befff] reserved
+BIOS-e820: [mem 0x00000000cb6bf000-0x00000000cbefefff] ACPI NVS
+BIOS-e820: [mem 0x00000000cbeff000-0x00000000cbfd0fff] ACPI data
+BIOS-e820: [mem 0x00000000cbfd1000-0x00000000cbffffff] usable
+BIOS-e820: [mem 0x00000000d0000000-0x00000000dfffffff] reserved
+BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+BIOS-e820: [mem 0x0000000100000000-0x000000082fffffff] usable
+NX (Execute Disable) protection: active
+e820: user-defined physical RAM map:
+user: [mem 0x0000000000000000-0x000000000009ffff] usable
+user: [mem 0x00000000000c0000-0x000000000010ffff] type 20
+user: [mem 0x0000000000110000-0x00000000ca36afff] usable
+user: [mem 0x00000000ca36b000-0x00000000ca46afff] reserved
+user: [mem 0x00000000ca46b000-0x00000000ca56afff] type 20
+user: [mem 0x00000000ca56b000-0x00000000cb6befff] reserved
+user: [mem 0x00000000cb6bf000-0x00000000cbefefff] ACPI NVS
+user: [mem 0x00000000cbeff000-0x00000000cbfd0fff] ACPI data
+user: [mem 0x00000000cbfd1000-0x00000000cbffffff] usable
+user: [mem 0x00000000d0000000-0x00000000dfffffff] reserved
+user: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+user: [mem 0x0000000100000000-0x00000003ffffffff] usable
+user: [mem 0x0000000400000000-0x00000007ffffffff] persistent (type 12)
+user: [mem 0x0000000800000000-0x000000082fffffff] usable
+efi: EFI v2.31 by EDK II BIOS ID:
+efi:  SMBIOS=0xcb6be000  ACPI=0xcbfd0000  ACPI 2.0=0xcbfd0014 
+SMBIOS 2.8 present.
+DMI: Hewlett-Packard HP Z840 Workstation/2129, BIOS M60 v01.62 07/22/2015
+e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+e820: remove [mem 0x000a0000-0x000fffff] usable
+e820: last_pfn = 0x830000 max_arch_pfn = 0x400000000
+MTRR default type: write-back
+MTRR fixed ranges enabled:
+  00000-9FFFF write-back
+  A0000-BFFFF uncachable
+  C0000-FFFFF write-protect
+MTRR variable ranges enabled:
+  0 base 0000E0000000 mask 3FFFE0000000 uncachable
+  1 base 0000D0000000 mask 3FFFF0000000 uncachable
+  2 base 380000000000 mask 3FFF80000000 uncachable
+  3 base 0000CE000000 mask 3FFFFE000000 uncachable
+  4 disabled
+  5 disabled
+  6 disabled
+  7 disabled
+  8 disabled
+  9 disabled
+x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- WT  
+e820: last_pfn = 0xcc000 max_arch_pfn = 0x400000000
+Scanning 1 areas for low memory corruption
+Base memory trampoline at [ffffa1ac80097000] 97000 size 24576
+Using GB pages for direct mapping
+BRK [0xad23f000, 0xad23ffff] PGTABLE
+BRK [0xad240000, 0xad240fff] PGTABLE
+BRK [0xad241000, 0xad241fff] PGTABLE
+BRK [0xad242000, 0xad242fff] PGTABLE
+BRK [0xad243000, 0xad243fff] PGTABLE
+BRK [0xad244000, 0xad244fff] PGTABLE
+RAMDISK: [mem 0x347f8000-0x363f3fff]
+ACPI: Early table checksum verification disabled
+ACPI: RSDP 0x00000000CBFD0014 000024 (v02 HPQOEM)
+ACPI: XSDT 0x00000000CBFCF0E8 0000C4 (v01 HPQOEM SLIC-WKS 00000000      01000013)
+ACPI: FACP 0x00000000CBFCA000 0000F4 (v04 HPQOEM SLIC-WKS 00000000 INTL 20091013)
+ACPI: DSDT 0x00000000CBF98000 021AB8 (v02 HPQOEM SLIC-WKS 00000003 INTL 20091013)
+ACPI: FACS 0x00000000CBC18000 000040
+ACPI: TCPA 0x00000000CBFCE000 000032 (v02 HPQOEM EDK2     00000002      01000013)
+ACPI: SSDT 0x00000000CBFCD000 0003C2 (v01 HPQOEM TcgTable 00001000 INTL 20130328)
+ACPI: SSDT 0x00000000CBFCC000 000E58 (v01 COMPAQ Plat_Wmi 00000001 INTL 20130328)
+ACPI: UEFI 0x00000000CBEEF000 000042 (v01                 00000000      00000000)
+ACPI: BDAT 0x00000000CBFCB000 000030 (v01 HPQOEM SLIC-WKS 00000000 INTL 20091013)
+ACPI: MSDM 0x00000000CBFC9000 000055 (v03 HPQOEM SLIC-WKS 00000000 INTL 20091013)
+ACPI: SLIC 0x00000000CBFC8000 000176 (v01 HPQOEM SLIC-WKS 00000001 INTL 20091013)
+ACPI: HPET 0x00000000CBFC7000 000038 (v01 HPQOEM SLIC-WKS 00000001 INTL 20091013)
+ACPI: APIC 0x00000000CBFC6000 00085C (v02 HPQOEM SLIC-WKS 00000000 INTL 20091013)
+ACPI: MCFG 0x00000000CBFC3000 00003C (v01 HPQOEM SLIC-WKS 00000001 INTL 20091013)
+ACPI: MSCT 0x00000000CBFC1000 000090 (v01 HPQOEM SLIC-WKS 00000001 INTL 20091013)
+ACPI: PMCT 0x00000000CBFBF000 000064 (v01 HPQOEM SLIC-WKS 00000000 INTL 20091013)
+ACPI: SLIT 0x00000000CBFBD000 00006C (v01 HPQOEM SLIC-WKS 00000001 INTL 20091013)
+ACPI: SRAT 0x00000000CBFBB000 000E30 (v03 HPQOEM SLIC-WKS 00000001 INTL 20091013)
+ACPI: WDDT 0x00000000CBFBA000 000040 (v01 HPQOEM SLIC-WKS 00000000 INTL 20091013)
+ACPI: SSDT 0x00000000CBF42000 05594B (v02 HPQOEM SSDT  PM 00004000 INTL 20130328)
+ACPI: DMAR 0x00000000CBF41000 0000C8 (v01 HPQOEM SLIC-WKS 00000001 INTL 20091013)
+ACPI: ASF! 0x00000000CBF40000 000074 (v32 INTEL   HCG     00000001 TFSM 000F4240)
+ACPI: BGRT 0x00000000CBF3F000 000038 (v01 INTEL  TIANO    00000001 MSFT 01000013)
+ACPI: Local APIC address 0xfee00000
+SRAT: PXM 0 -> APIC 0x00 -> Node 0
+SRAT: PXM 0 -> APIC 0x02 -> Node 0
+SRAT: PXM 0 -> APIC 0x04 -> Node 0
+SRAT: PXM 0 -> APIC 0x06 -> Node 0
+SRAT: PXM 0 -> APIC 0x08 -> Node 0
+SRAT: PXM 0 -> APIC 0x0a -> Node 0
+SRAT: PXM 0 -> APIC 0x0c -> Node 0
+SRAT: PXM 0 -> APIC 0x0e -> Node 0
+SRAT: PXM 0 -> APIC 0x01 -> Node 0
+SRAT: PXM 0 -> APIC 0x03 -> Node 0
+SRAT: PXM 0 -> APIC 0x05 -> Node 0
+SRAT: PXM 0 -> APIC 0x07 -> Node 0
+SRAT: PXM 0 -> APIC 0x09 -> Node 0
+SRAT: PXM 0 -> APIC 0x0b -> Node 0
+SRAT: PXM 0 -> APIC 0x0d -> Node 0
+SRAT: PXM 0 -> APIC 0x0f -> Node 0
+ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x82fffffff]
+NUMA: Initialized distance table, cnt=1
+NODE_DATA(0) allocated [mem 0x82fff8000-0x82fffcfff]
+Zone ranges:
+  DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+  DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+  Normal   [mem 0x0000000100000000-0x000000082fffffff]
+  Device   empty
+Movable zone start for each node
+Early memory node ranges
+  node   0: [mem 0x0000000000001000-0x000000000009ffff]
+  node   0: [mem 0x0000000000110000-0x00000000ca36afff]
+  node   0: [mem 0x00000000cbfd1000-0x00000000cbffffff]
+  node   0: [mem 0x0000000100000000-0x00000003ffffffff]
+  node   0: [mem 0x0000000800000000-0x000000082fffffff]
+Initmem setup node 0 [mem 0x0000000000001000-0x000000082fffffff]
+On node 0 totalpages: 4170537
+  DMA zone: 64 pages used for memmap
+  DMA zone: 1084 pages reserved
+  DMA zone: 3983 pages, LIFO batch:0
+  DMA32 zone: 12879 pages used for memmap
+  DMA32 zone: 824218 pages, LIFO batch:31
+  Normal zone: 52224 pages used for memmap
+  Normal zone: 3342336 pages, LIFO batch:31
+ACPI: PM-Timer IO Port: 0x408
+ACPI: Local APIC address 0xfee00000
+ACPI: LAPIC_NMI (acpi_id[0x00] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x05] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x06] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x07] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x08] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x09] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x0a] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x0b] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x0c] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x0d] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x0e] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x0f] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x10] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x11] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x12] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x13] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x14] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x15] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x16] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x17] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x18] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x19] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x1a] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x1b] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x1c] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x1d] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x1e] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x1f] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x20] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x21] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x22] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x23] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x24] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x25] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x26] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x27] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x28] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x29] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x2a] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x2b] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x2c] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x2d] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x2e] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x2f] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x30] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x31] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x32] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x33] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x34] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x35] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x36] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x37] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x38] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x39] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x3a] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x3b] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x3c] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x3d] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x3e] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x3f] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x40] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x41] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x42] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x43] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x44] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x45] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x46] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x47] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x48] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x49] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x4a] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x4b] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x4c] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x4d] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x4e] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x4f] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x50] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x51] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x52] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x53] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x54] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x55] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x56] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x57] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x58] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x59] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x5a] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x5b] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x5c] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x5d] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x5e] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x5f] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x60] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x61] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x62] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x63] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x64] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x65] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x66] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x67] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x68] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x69] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x6a] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x6b] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x6c] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x6d] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x6e] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x6f] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x70] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x71] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x72] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x73] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x74] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x75] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x76] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x77] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x78] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x79] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x7a] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x7b] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x7c] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x7c] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x7d] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x7e] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x7f] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x80] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x81] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x82] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x83] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x84] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x85] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x86] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x87] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x88] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x89] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x8a] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x8b] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x8c] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x8d] high level lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x8f] high level lint[0x1])
+IOAPIC[0]: apic_id 8, version 32, address 0xfec00000, GSI 0-23
+IOAPIC[1]: apic_id 9, version 32, address 0xfec01000, GSI 24-47
+ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+ACPI: IRQ0 used by override.
+ACPI: IRQ9 used by override.
+Using ACPI (MADT) for SMP configuration information
+ACPI: HPET id: 0x8086a701 base: 0xfed00000
+smpboot: Allowing 144 CPUs, 128 hotplug CPUs
+PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+PM: Registered nosave memory: [mem 0x000a0000-0x000bffff]
+PM: Registered nosave memory: [mem 0x000c0000-0x0010ffff]
+PM: Registered nosave memory: [mem 0xca36b000-0xca46afff]
+PM: Registered nosave memory: [mem 0xca46b000-0xca56afff]
+PM: Registered nosave memory: [mem 0xca56b000-0xcb6befff]
+PM: Registered nosave memory: [mem 0xcb6bf000-0xcbefefff]
+PM: Registered nosave memory: [mem 0xcbeff000-0xcbfd0fff]
+PM: Registered nosave memory: [mem 0xcc000000-0xcfffffff]
+PM: Registered nosave memory: [mem 0xd0000000-0xdfffffff]
+PM: Registered nosave memory: [mem 0xe0000000-0xfed1bfff]
+PM: Registered nosave memory: [mem 0xfed1c000-0xfed1ffff]
+PM: Registered nosave memory: [mem 0xfed20000-0xffffffff]
+PM: Registered nosave memory: [mem 0x400000000-0x7ffffffff]
+e820: [mem 0xe0000000-0xfed1bfff] available for PCI devices
+Booting paravirtualized kernel on bare hardware
+clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:144 nr_node_ids:1
+percpu: Embedded 36 pages/cpu @ffffa1b49d200000 s107096 r8192 d32168 u262144
+pcpu-alloc: s107096 r8192 d32168 u262144 alloc=1*2097152
+pcpu-alloc: [0] 000 001 002 003 004 005 006 007 
+pcpu-alloc: [0] 008 009 010 011 012 013 014 015 
+pcpu-alloc: [0] 016 017 018 019 020 021 022 023 
+pcpu-alloc: [0] 024 025 026 027 028 029 030 031 
+pcpu-alloc: [0] 032 033 034 035 036 037 038 039 
+pcpu-alloc: [0] 040 041 042 043 044 045 046 047 
+pcpu-alloc: [0] 048 049 050 051 052 053 054 055 
+pcpu-alloc: [0] 056 057 058 059 060 061 062 063 
+pcpu-alloc: [0] 064 065 066 067 068 069 070 071 
+pcpu-alloc: [0] 072 073 074 075 076 077 078 079 
+pcpu-alloc: [0] 080 081 082 083 084 085 086 087 
+pcpu-alloc: [0] 088 089 090 091 092 093 094 095 
+pcpu-alloc: [0] 096 097 098 099 100 101 102 103 
+pcpu-alloc: [0] 104 105 106 107 108 109 110 111 
+pcpu-alloc: [0] 112 113 114 115 116 117 118 119 
+pcpu-alloc: [0] 120 121 122 123 124 125 126 127 
+pcpu-alloc: [0] 128 129 130 131 132 133 134 135 
+pcpu-alloc: [0] 136 137 138 139 140 141 142 143 
+Built 1 zonelists in Node order, mobility grouping on.  Total pages: 4104286
+Policy zone: Normal
+Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.8.0-rc2+ root=UUID=04e7788e-651c-4593-b013-93bf3b6568d4 ro memmap=16G!16G
+log_buf_len individual max cpu contribution: 4096 bytes
+log_buf_len total cpu_extra contributions: 585728 bytes
+log_buf_len min size: 262144 bytes
+log_buf_len: 1048576 bytes
+early log buf free: 238812(91%)
+PID hash table entries: 4096 (order: 3, 32768 bytes)
+Calgary: detecting Calgary via BIOS EBDA area
+Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Memory: 16137600K/16682148K available (8280K kernel code, 1408K rwdata, 3732K rodata, 1604K init, 1288K bss, 544548K reserved, 0K cma-reserved)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=144, Nodes=1
+Hierarchical RCU implementation.
+	Build-time adjustment of leaf fanout to 64.
+	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=144.
+RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=144
+kmemleak: Kernel memory leak detector disabled
+NR_IRQS:16640 nr_irqs:1984 16
+Console: colour dummy device 80x25
+console [tty0] enabled
+kmemleak: Early log buffer exceeded (2007), please increase DEBUG_KMEMLEAK_EARLY_LOG_SIZE
+clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+hpet clockevent registered
+tsc: Fast TSC calibration using PIT
+tsc: Detected 2394.416 MHz processor
+Calibrating delay loop (skipped), value calculated using timer frequency.. 4788.83 BogoMIPS (lpj=9577664)
+pid_max: default: 147456 minimum: 1152
+ACPI: Core revision 20160422
+ACPI: 4 ACPI AML tables successfully acquired and loaded
+
+Security Framework initialized
+Yama: becoming mindful.
+AppArmor: AppArmor initialized
+Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes)
+Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes)
+Mount-cache hash table entries: 32768 (order: 6, 262144 bytes)
+Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes)
+CPU: Physical Processor ID: 0
+CPU: Processor Core ID: 0
+ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+ENERGY_PERF_BIAS: View and update with x86_energy_perf_policy(8)
+mce: CPU supports 22 MCE banks
+CPU0: Thermal monitoring enabled (TM1)
+process: using mwait in idle threads
+Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+Freeing SMP alternatives memory: 32K (ffffffffa80f3000 - ffffffffa80fb000)
+ftrace: allocating 32531 entries in 128 pages
+smpboot: APIC(0) Converting physical 0 to logical package 0
+smpboot: Max logical packages: 18
+DMAR: Host address width 46
+DMAR: DRHD base: 0x000000fbffd000 flags: 0x0
+DMAR: dmar0: reg_base_addr fbffd000 ver 1:0 cap d2008c10ef0466 ecap f0205b
+DMAR: DRHD base: 0x000000fbffc000 flags: 0x1
+DMAR: dmar1: reg_base_addr fbffc000 ver 1:0 cap d2078c106f0466 ecap f020df
+DMAR: RMRR base: 0x000000ca8e6000 end: 0x000000ca8e8fff
+DMAR: ATSR flags: 0x0
+DMAR-IR: IOAPIC id 8 under DRHD base  0xfbffc000 IOMMU 1
+DMAR-IR: IOAPIC id 9 under DRHD base  0xfbffc000 IOMMU 1
+DMAR-IR: HPET id 0 under DRHD base 0xfbffc000
+DMAR-IR: Queued invalidation will be enabled to support x2apic and Intr-remapping.
+DMAR-IR: Enabled IRQ remapping in x2apic mode
+x2apic enabled
+Switched APIC routing to cluster x2apic.
+..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+TSC deadline timer enabled
+smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (family: 0x6, model: 0x3f, stepping: 0x2)
+Performance Events: PEBS fmt2+, Haswell events, 16-deep LBR, full-width counters, Intel PMU driver.
+... version:                3
+... bit width:              48
+... generic registers:      4
+... value mask:             0000ffffffffffff
+... max period:             0000ffffffffffff
+... fixed-purpose events:   3
+... event mask:             000000070000000f
+x86: Booting SMP configuration:
+.... node  #0, CPUs:          #1   #2   #3   #4   #5   #6   #7   #8   #9  #10  #11  #12  #13  #14  #15
+x86: Booted up 1 node, 16 CPUs
+smpboot: Total of 16 processors activated (76638.79 BogoMIPS)
+devtmpfs: initialized
+x86/mm: Memory block size: 128MB
+evm: security.selinux
+evm: security.SMACK64
+evm: security.SMACK64EXEC
+evm: security.SMACK64TRANSMUTE
+evm: security.SMACK64MMAP
+evm: security.ima
+evm: security.capability
+PM: Registering ACPI NVS region [mem 0xcb6bf000-0xcbefefff] (8650752 bytes)
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+pinctrl core: initialized pinctrl subsystem
+RTC time: 16:28:28, date: 08/31/16
+NET: Registered protocol family 16
+cpuidle: using governor ladder
+cpuidle: using governor menu
+PCCT header not found.
+ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+ACPI: bus type PCI registered
+PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xd0000000-0xdfffffff] (base 0xd0000000)
+PCI: MMCONFIG at [mem 0xd0000000-0xdfffffff] reserved in E820
+PCI: Using configuration type 1 for base access
+core: PMU erratum BJ122, BV98, HSD29 worked around, HT is on
+HugeTLB registered 1 GB page size, pre-allocated 0 pages
+HugeTLB registered 2 MB page size, pre-allocated 0 pages
+ACPI: Added _OSI(Module Device)
+ACPI: Added _OSI(Processor Device)
+ACPI: Added _OSI(3.0 _SCP Extensions)
+ACPI: Added _OSI(Processor Aggregator Device)
+ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+ACPI: Interpreter enabled
+ACPI: (supports S0 S3 S4 S5)
+ACPI: Using IOAPIC for interrupt routing
+PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+ACPI: PCI Root Bridge [UNC0] (domain 0000 [bus ff])
+acpi PNP0A03:03: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+acpi PNP0A03:03: _OSC failed (AE_NOT_FOUND); disabling ASPM
+PCI host bridge to bus 0000:ff
+pci_bus 0000:ff: root bus resource [bus ff]
+pci 0000:ff:0b.0: [8086:2f81] type 00 class 0x088000
+pci 0000:ff:0b.1: [8086:2f36] type 00 class 0x110100
+pci 0000:ff:0b.2: [8086:2f37] type 00 class 0x110100
+pci 0000:ff:0c.0: [8086:2fe0] type 00 class 0x088000
+pci 0000:ff:0c.1: [8086:2fe1] type 00 class 0x088000
+pci 0000:ff:0c.2: [8086:2fe2] type 00 class 0x088000
+pci 0000:ff:0c.3: [8086:2fe3] type 00 class 0x088000
+pci 0000:ff:0c.4: [8086:2fe4] type 00 class 0x088000
+pci 0000:ff:0c.5: [8086:2fe5] type 00 class 0x088000
+pci 0000:ff:0c.6: [8086:2fe6] type 00 class 0x088000
+pci 0000:ff:0c.7: [8086:2fe7] type 00 class 0x088000
+pci 0000:ff:0f.0: [8086:2ff8] type 00 class 0x088000
+pci 0000:ff:0f.1: [8086:2ff9] type 00 class 0x088000
+pci 0000:ff:0f.4: [8086:2ffc] type 00 class 0x088000
+pci 0000:ff:0f.5: [8086:2ffd] type 00 class 0x088000
+pci 0000:ff:0f.6: [8086:2ffe] type 00 class 0x088000
+pci 0000:ff:10.0: [8086:2f1d] type 00 class 0x088000
+pci 0000:ff:10.1: [8086:2f34] type 00 class 0x110100
+pci 0000:ff:10.5: [8086:2f1e] type 00 class 0x088000
+pci 0000:ff:10.6: [8086:2f7d] type 00 class 0x110100
+pci 0000:ff:10.7: [8086:2f1f] type 00 class 0x088000
+pci 0000:ff:12.0: [8086:2fa0] type 00 class 0x088000
+pci 0000:ff:12.1: [8086:2f30] type 00 class 0x110100
+pci 0000:ff:13.0: [8086:2fa8] type 00 class 0x088000
+pci 0000:ff:13.1: [8086:2f71] type 00 class 0x088000
+pci 0000:ff:13.2: [8086:2faa] type 00 class 0x088000
+pci 0000:ff:13.3: [8086:2fab] type 00 class 0x088000
+pci 0000:ff:13.4: [8086:2fac] type 00 class 0x088000
+pci 0000:ff:13.5: [8086:2fad] type 00 class 0x088000
+pci 0000:ff:13.6: [8086:2fae] type 00 class 0x088000
+pci 0000:ff:13.7: [8086:2faf] type 00 class 0x088000
+pci 0000:ff:14.0: [8086:2fb0] type 00 class 0x088000
+pci 0000:ff:14.1: [8086:2fb1] type 00 class 0x088000
+pci 0000:ff:14.2: [8086:2fb2] type 00 class 0x088000
+pci 0000:ff:14.3: [8086:2fb3] type 00 class 0x088000
+pci 0000:ff:14.6: [8086:2fbe] type 00 class 0x088000
+pci 0000:ff:14.7: [8086:2fbf] type 00 class 0x088000
+pci 0000:ff:15.0: [8086:2fb4] type 00 class 0x088000
+pci 0000:ff:15.1: [8086:2fb5] type 00 class 0x088000
+pci 0000:ff:15.2: [8086:2fb6] type 00 class 0x088000
+pci 0000:ff:15.3: [8086:2fb7] type 00 class 0x088000
+pci 0000:ff:16.0: [8086:2f68] type 00 class 0x088000
+pci 0000:ff:16.6: [8086:2f6e] type 00 class 0x088000
+pci 0000:ff:16.7: [8086:2f6f] type 00 class 0x088000
+pci 0000:ff:17.0: [8086:2fd0] type 00 class 0x088000
+pci 0000:ff:17.4: [8086:2fb8] type 00 class 0x088000
+pci 0000:ff:17.5: [8086:2fb9] type 00 class 0x088000
+pci 0000:ff:17.6: [8086:2fba] type 00 class 0x088000
+pci 0000:ff:17.7: [8086:2fbb] type 00 class 0x088000
+pci 0000:ff:1e.0: [8086:2f98] type 00 class 0x088000
+pci 0000:ff:1e.1: [8086:2f99] type 00 class 0x088000
+pci 0000:ff:1e.2: [8086:2f9a] type 00 class 0x088000
+pci 0000:ff:1e.3: [8086:2fc0] type 00 class 0x088000
+pci 0000:ff:1e.3: [Firmware Bug]: reg 0x10: invalid BAR (can't size)
+pci 0000:ff:1e.4: [8086:2f9c] type 00 class 0x088000
+pci 0000:ff:1f.0: [8086:2f88] type 00 class 0x088000
+pci 0000:ff:1f.2: [8086:2f8a] type 00 class 0x088000
+ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+acpi PNP0A08:00: _OSC: platform does not support [PCIeHotplug PME]
+acpi PNP0A08:00: _OSC: OS now controls [AER PCIeCapability]
+acpi PNP0A08:00: FADT indicates ASPM is unsupported, using BIOS configuration
+PCI host bridge to bus 0000:00
+pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+pci_bus 0000:00: root bus resource [io  0x1000-0xffff window]
+pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+pci_bus 0000:00: root bus resource [mem 0x000c4000-0x000cbfff window]
+pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfbffbfff window]
+pci_bus 0000:00: root bus resource [bus 00-fe]
+pci 0000:00:00.0: [8086:2f00] type 00 class 0x060000
+pci 0000:00:01.0: [8086:2f02] type 01 class 0x060400
+pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:01.0: System wakeup disabled by ACPI
+pci 0000:00:01.1: [8086:2f03] type 01 class 0x060400
+pci 0000:00:01.1: PME# supported from D0 D3hot D3cold
+pci 0000:00:01.1: System wakeup disabled by ACPI
+pci 0000:00:02.0: [8086:2f04] type 01 class 0x060400
+pci 0000:00:02.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:02.0: System wakeup disabled by ACPI
+pci 0000:00:03.0: [8086:2f08] type 01 class 0x060400
+pci 0000:00:03.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:03.0: System wakeup disabled by ACPI
+pci 0000:00:05.0: [8086:2f28] type 00 class 0x088000
+pci 0000:00:05.1: [8086:2f29] type 00 class 0x088000
+pci 0000:00:05.2: [8086:2f2a] type 00 class 0x088000
+pci 0000:00:05.4: [8086:2f2c] type 00 class 0x080020
+pci 0000:00:05.4: reg 0x10: [mem 0xf343e000-0xf343efff]
+pci 0000:00:11.0: [8086:8d7c] type 00 class 0xff0000
+pci 0000:00:11.4: [8086:2827] type 00 class 0x010400
+pci 0000:00:11.4: reg 0x10: [io  0x40a0-0x40a7]
+pci 0000:00:11.4: reg 0x14: [io  0x40b4-0x40b7]
+pci 0000:00:11.4: reg 0x18: [io  0x4098-0x409f]
+pci 0000:00:11.4: reg 0x1c: [io  0x40b0-0x40b3]
+pci 0000:00:11.4: reg 0x20: [io  0x4060-0x407f]
+pci 0000:00:11.4: reg 0x24: [mem 0xf343d000-0xf343d7ff]
+pci 0000:00:11.4: PME# supported from D3hot
+pci 0000:00:14.0: [8086:8d31] type 00 class 0x0c0330
+pci 0000:00:14.0: reg 0x10: [mem 0xf3420000-0xf342ffff 64bit]
+pci 0000:00:14.0: PME# supported from D3hot D3cold
+pci 0000:00:14.0: System wakeup disabled by ACPI
+pci 0000:00:16.0: [8086:8d3a] type 00 class 0x078000
+pci 0000:00:16.0: reg 0x10: [mem 0xf3435000-0xf343500f 64bit]
+pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:16.3: [8086:8d3d] type 00 class 0x070002
+pci 0000:00:16.3: reg 0x10: [io  0x4090-0x4097]
+pci 0000:00:16.3: reg 0x14: [mem 0xf343c000-0xf343cfff]
+pci 0000:00:19.0: [8086:15a0] type 00 class 0x020000
+pci 0000:00:19.0: reg 0x10: [mem 0xf3400000-0xf341ffff]
+pci 0000:00:19.0: reg 0x14: [mem 0xf343b000-0xf343bfff]
+pci 0000:00:19.0: reg 0x18: [io  0x4040-0x405f]
+pci 0000:00:19.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:19.0: System wakeup disabled by ACPI
+pci 0000:00:1a.0: [8086:8d2d] type 00 class 0x0c0320
+pci 0000:00:1a.0: reg 0x10: [mem 0xf343a000-0xf343a3ff]
+pci 0000:00:1a.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:1a.0: System wakeup disabled by ACPI
+pci 0000:00:1b.0: [8086:8d20] type 00 class 0x040300
+pci 0000:00:1b.0: reg 0x10: [mem 0xf3430000-0xf3433fff 64bit]
+pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:1c.0: [8086:8d10] type 01 class 0x060400
+pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:1c.0: System wakeup disabled by ACPI
+pci 0000:00:1c.3: [8086:8d16] type 01 class 0x060400
+pci 0000:00:1c.3: PME# supported from D0 D3hot D3cold
+pci 0000:00:1c.3: System wakeup disabled by ACPI
+pci 0000:00:1c.4: [8086:8d18] type 01 class 0x060400
+pci 0000:00:1c.4: PME# supported from D0 D3hot D3cold
+pci 0000:00:1c.4: System wakeup disabled by ACPI
+pci 0000:00:1d.0: [8086:8d26] type 00 class 0x0c0320
+pci 0000:00:1d.0: reg 0x10: [mem 0xf3439000-0xf34393ff]
+pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:1d.0: System wakeup disabled by ACPI
+pci 0000:00:1f.0: [8086:8d44] type 00 class 0x060100
+pci 0000:00:1f.2: [8086:8d02] type 00 class 0x010601
+pci 0000:00:1f.2: reg 0x10: [io  0x4088-0x408f]
+pci 0000:00:1f.2: reg 0x14: [io  0x40ac-0x40af]
+pci 0000:00:1f.2: reg 0x18: [io  0x4080-0x4087]
+pci 0000:00:1f.2: reg 0x1c: [io  0x40a8-0x40ab]
+pci 0000:00:1f.2: reg 0x20: [io  0x4020-0x403f]
+pci 0000:00:1f.2: reg 0x24: [mem 0xf3438000-0xf34387ff]
+pci 0000:00:1f.2: PME# supported from D3hot
+pci 0000:00:1f.3: [8086:8d22] type 00 class 0x0c0500
+pci 0000:00:1f.3: reg 0x10: [mem 0xf3434000-0xf34340ff 64bit]
+pci 0000:00:1f.3: reg 0x20: [io  0x4000-0x401f]
+pci 0000:01:00.0: [1000:0086] type 00 class 0x010700
+pci 0000:01:00.0: reg 0x10: [io  0x3000-0x30ff]
+pci 0000:01:00.0: reg 0x14: [mem 0xf3340000-0xf334ffff 64bit]
+pci 0000:01:00.0: reg 0x1c: [mem 0xf3300000-0xf333ffff 64bit]
+pci 0000:01:00.0: reg 0x30: [mem 0xfff00000-0xffffffff pref]
+pci 0000:01:00.0: supports D1 D2
+pci 0000:00:01.0: PCI bridge to [bus 01]
+pci 0000:00:01.0:   bridge window [io  0x3000-0x3fff]
+pci 0000:00:01.0:   bridge window [mem 0xf3300000-0xf33fffff]
+pci 0000:00:01.1: PCI bridge to [bus 02]
+pci 0000:03:00.0: [8086:0953] type 00 class 0x010802
+pci 0000:03:00.0: reg 0x10: [mem 0xf3200000-0xf3203fff 64bit]
+pci 0000:03:00.0: reg 0x30: [mem 0xffff0000-0xffffffff pref]
+pci 0000:00:02.0: PCI bridge to [bus 03]
+pci 0000:00:02.0:   bridge window [mem 0xf3200000-0xf32fffff]
+pci 0000:04:00.0: [10de:11b4] type 00 class 0x030000
+pci 0000:04:00.0: reg 0x10: [mem 0xf2000000-0xf2ffffff]
+pci 0000:04:00.0: reg 0x14: [mem 0xe0000000-0xefffffff 64bit pref]
+pci 0000:04:00.0: reg 0x1c: [mem 0xf0000000-0xf1ffffff 64bit pref]
+pci 0000:04:00.0: reg 0x24: [io  0x2000-0x207f]
+pci 0000:04:00.0: reg 0x30: [mem 0xfff80000-0xffffffff pref]
+pci 0000:04:00.1: [10de:0e0a] type 00 class 0x040300
+pci 0000:04:00.1: reg 0x10: [mem 0xf3000000-0xf3003fff]
+pci 0000:00:03.0: PCI bridge to [bus 04]
+pci 0000:00:03.0:   bridge window [io  0x2000-0x2fff]
+pci 0000:00:03.0:   bridge window [mem 0xf2000000-0xf30fffff]
+pci 0000:00:03.0:   bridge window [mem 0xe0000000-0xf1ffffff 64bit pref]
+pci 0000:05:00.0: [8086:1533] type 00 class 0x020000
+pci 0000:05:00.0: reg 0x10: [mem 0xf3100000-0xf317ffff]
+pci 0000:05:00.0: reg 0x18: [io  0x1000-0x101f]
+pci 0000:05:00.0: reg 0x1c: [mem 0xf3180000-0xf3183fff]
+pci 0000:05:00.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:1c.0: PCI bridge to [bus 05]
+pci 0000:00:1c.0:   bridge window [io  0x1000-0x1fff]
+pci 0000:00:1c.0:   bridge window [mem 0xf3100000-0xf31fffff]
+pci 0000:00:1c.3: PCI bridge to [bus 06]
+pci 0000:00:1c.4: PCI bridge to [bus 07]
+ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 9 10 *11 12 14 15)
+ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 9 *10 11 12 14 15)
+ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 7 9 10 *11 12 14 15)
+ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 7 9 10 *11 12 14 15)
+ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 *9 10 11 12 14 15)
+ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 9 10 11 12 14 15) *0, disabled.
+ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 *5 6 7 9 10 11 12 14 15)
+ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 7 9 10 11 12 14 15) *0, disabled.
+ACPI: Enabled 4 GPEs in block 00 to 3F
+vgaarb: setting as boot device: PCI:0000:04:00.0
+vgaarb: device added: PCI:0000:04:00.0,decodes=io+mem,owns=io+mem,locks=none
+vgaarb: loaded
+vgaarb: bridge control possible 0000:04:00.0
+SCSI subsystem initialized
+libata version 3.00 loaded.
+ACPI: bus type USB registered
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+PCI: Using ACPI for IRQ routing
+PCI: pci_cache_line_size set to 64 bytes
+e820: reserve RAM buffer [mem 0xca36b000-0xcbffffff]
+NetLabel: Initializing
+NetLabel:  domain hash size = 128
+NetLabel:  protocols = UNLABELED CIPSOv4
+NetLabel:  unlabeled traffic allowed by default
+hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+hpet0: 8 comparators, 64-bit 14.318180 MHz counter
+clocksource: Switched to clocksource hpet
+VFS: Disk quotas dquot_6.6.0
+VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+AppArmor: AppArmor Filesystem Enabled
+pnp: PnP ACPI init
+pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+system 00:01: [io  0x0500-0x053f] has been reserved
+system 00:01: [io  0x0400-0x047f] has been reserved
+system 00:01: [io  0x0540-0x057f] has been reserved
+system 00:01: [io  0x0600-0x061f] has been reserved
+system 00:01: [io  0x0ca0-0x0ca5] has been reserved
+system 00:01: [io  0x0880-0x0883] has been reserved
+system 00:01: [io  0x0800-0x081f] has been reserved
+system 00:01: [mem 0xfed1c000-0xfed3ffff] could not be reserved
+system 00:01: [mem 0xfed45000-0xfed8bfff] has been reserved
+system 00:01: [mem 0xff000000-0xffffffff] has been reserved
+system 00:01: [mem 0xfee00000-0xfeefffff] has been reserved
+system 00:01: [mem 0xfed12000-0xfed1200f] has been reserved
+system 00:01: [mem 0xfed12010-0xfed1201f] has been reserved
+system 00:01: [mem 0xfed1b000-0xfed1bfff] has been reserved
+system 00:01: Plug and Play ACPI device, IDs PNP0c02 (active)
+pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+pnp 00:03: Plug and Play ACPI device, IDs PNP0f03 PNP0f13 (active)
+pnp 00:04: Plug and Play ACPI device, IDs PNP0303 PNP030b (active)
+pnp 00:05: Plug and Play ACPI device, IDs IFX0102 PNP0c31 (active)
+pnp: PnP ACPI: found 6 devices
+clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+pci 0000:01:00.0: can't claim BAR 6 [mem 0xfff00000-0xffffffff pref]: no compatible bridge window
+pci 0000:03:00.0: can't claim BAR 6 [mem 0xffff0000-0xffffffff pref]: no compatible bridge window
+pci 0000:04:00.0: can't claim BAR 6 [mem 0xfff80000-0xffffffff pref]: no compatible bridge window
+pci 0000:01:00.0: BAR 6: no space for [mem size 0x00100000 pref]
+pci 0000:01:00.0: BAR 6: failed to assign [mem size 0x00100000 pref]
+pci 0000:00:01.0: PCI bridge to [bus 01]
+pci 0000:00:01.0:   bridge window [io  0x3000-0x3fff]
+pci 0000:00:01.0:   bridge window [mem 0xf3300000-0xf33fffff]
+pci 0000:00:01.1: PCI bridge to [bus 02]
+pci 0000:03:00.0: BAR 6: assigned [mem 0xf3210000-0xf321ffff pref]
+pci 0000:00:02.0: PCI bridge to [bus 03]
+pci 0000:00:02.0:   bridge window [mem 0xf3200000-0xf32fffff]
+pci 0000:04:00.0: BAR 6: assigned [mem 0xf3080000-0xf30fffff pref]
+pci 0000:00:03.0: PCI bridge to [bus 04]
+pci 0000:00:03.0:   bridge window [io  0x2000-0x2fff]
+pci 0000:00:03.0:   bridge window [mem 0xf2000000-0xf30fffff]
+pci 0000:00:03.0:   bridge window [mem 0xe0000000-0xf1ffffff 64bit pref]
+pci 0000:00:1c.0: PCI bridge to [bus 05]
+pci 0000:00:1c.0:   bridge window [io  0x1000-0x1fff]
+pci 0000:00:1c.0:   bridge window [mem 0xf3100000-0xf31fffff]
+pci 0000:00:1c.3: PCI bridge to [bus 06]
+pci 0000:00:1c.4: PCI bridge to [bus 07]
+pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+pci_bus 0000:00: resource 5 [io  0x1000-0xffff window]
+pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+pci_bus 0000:00: resource 7 [mem 0x000c4000-0x000cbfff window]
+pci_bus 0000:00: resource 8 [mem 0xe0000000-0xfbffbfff window]
+pci_bus 0000:01: resource 0 [io  0x3000-0x3fff]
+pci_bus 0000:01: resource 1 [mem 0xf3300000-0xf33fffff]
+pci_bus 0000:03: resource 1 [mem 0xf3200000-0xf32fffff]
+pci_bus 0000:04: resource 0 [io  0x2000-0x2fff]
+pci_bus 0000:04: resource 1 [mem 0xf2000000-0xf30fffff]
+pci_bus 0000:04: resource 2 [mem 0xe0000000-0xf1ffffff 64bit pref]
+pci_bus 0000:05: resource 0 [io  0x1000-0x1fff]
+pci_bus 0000:05: resource 1 [mem 0xf3100000-0xf31fffff]
+NET: Registered protocol family 2
+TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+TCP: Hash tables configured (established 131072 bind 65536)
+UDP hash table entries: 8192 (order: 6, 262144 bytes)
+UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes)
+NET: Registered protocol family 1
+pci 0000:04:00.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+PCI: CLS mismatch (32 != 128), using 64 bytes
+Trying to unpack rootfs image as initramfs...
+Freeing initrd memory: 28656K (ffffa1acb47f8000 - ffffa1acb63f4000)
+PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+software IO TLB [mem 0xbd358000-0xc1358000] (64MB) mapped at [ffffa1ad3d358000-ffffa1ad41357fff]
+Intel CQM monitoring enabled
+RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+RAPL PMU: hw unit of domain package 2^-14 Joules
+RAPL PMU: hw unit of domain dram 2^-14 Joules
+RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+Scanning for low memory corruption every 60 seconds
+futex hash table entries: 65536 (order: 10, 4194304 bytes)
+audit: initializing netlink subsys (disabled)
+audit: type=2000 audit(1472660907.964:1): initialized
+Initialise system trusted keyrings
+workingset: timestamp_bits=40 max_order=22 bucket_order=0
+zbud: loaded
+fuse init (API version 7.25)
+Key type big_key registered
+Key type asymmetric registered
+Asymmetric key parser 'x509' registered
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+io scheduler noop registered
+io scheduler deadline registered (default)
+io scheduler cfq registered
+aer 0000:00:01.0:pcie002: service driver aer loaded
+aer 0000:00:01.1:pcie002: service driver aer loaded
+aer 0000:00:02.0:pcie002: service driver aer loaded
+aer 0000:00:03.0:pcie002: service driver aer loaded
+efifb: probing for efifb
+efifb: framebuffer at 0xf1000000, using 1920k, total 1920k
+efifb: mode is 800x600x32, linelength=3200, pages=1
+efifb: scrolling: redraw
+efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Console: switching to colour frame buffer device 100x37
+fb0: EFI VGA frame buffer device
+intel_idle: MWAIT substates: 0x2120
+intel_idle: v0.4.1 model 0x3F
+intel_idle: lapic_timer_reliable_states 0xffffffff
+input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+ACPI: Power Button [PWRB]
+input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+ACPI: Power Button [PWRF]
+GHES: HEST is not enabled!
+00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+serial 0000:00:16.3: enabling device (0000 -> 0003)
+0000:00:16.3: ttyS4 at I/O 0x4090 (irq = 17, base_baud = 115200) is a 16550A
+Linux agpgart interface v0.103
+tpm_tis 00:05: 1.2 TPM (device-id 0x1A, rev-id 16)
+tpm tpm0: TPM is disabled/deactivated (0x7)
+brd: module loaded
+loop: module loaded
+libphy: Fixed MDIO Bus: probed
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+PPP generic driver version 2.4.2
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+ehci-pci: EHCI PCI platform driver
+ehci-pci 0000:00:1a.0: EHCI Host Controller
+ehci-pci 0000:00:1a.0: new USB bus registered, assigned bus number 1
+ehci-pci 0000:00:1a.0: debug port 2
+ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+ehci-pci 0000:00:1a.0: irq 18, io mem 0xf343a000
+ehci-pci 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: EHCI Host Controller
+usb usb1: Manufacturer: Linux 4.8.0-rc2+ ehci_hcd
+usb usb1: SerialNumber: 0000:00:1a.0
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 2 ports detected
+ehci-pci 0000:00:1d.0: EHCI Host Controller
+ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 2
+ehci-pci 0000:00:1d.0: debug port 2
+ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+ehci-pci 0000:00:1d.0: irq 18, io mem 0xf3439000
+ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb2: Product: EHCI Host Controller
+usb usb2: Manufacturer: Linux 4.8.0-rc2+ ehci_hcd
+usb usb2: SerialNumber: 0000:00:1d.0
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 2 ports detected
+ehci-platform: EHCI generic platform driver
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+ohci-pci: OHCI PCI platform driver
+ohci-platform: OHCI generic platform driver
+uhci_hcd: USB Universal Host Controller Interface driver
+xhci_hcd 0000:00:14.0: xHCI Host Controller
+xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 3
+xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x00009810
+xhci_hcd 0000:00:14.0: cache line size of 64 is not supported
+usb usb3: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb3: Product: xHCI Host Controller
+usb usb3: Manufacturer: Linux 4.8.0-rc2+ xhci-hcd
+usb usb3: SerialNumber: 0000:00:14.0
+hub 3-0:1.0: USB hub found
+hub 3-0:1.0: 15 ports detected
+xhci_hcd 0000:00:14.0: xHCI Host Controller
+xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 4
+usb usb4: New USB device found, idVendor=1d6b, idProduct=0003
+usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb4: Product: xHCI Host Controller
+usb usb4: Manufacturer: Linux 4.8.0-rc2+ xhci-hcd
+usb usb4: SerialNumber: 0000:00:14.0
+hub 4-0:1.0: USB hub found
+hub 4-0:1.0: 6 ports detected
+usb: port power management may be unreliable
+i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+serio: i8042 KBD port at 0x60,0x64 irq 1
+serio: i8042 AUX port at 0x60,0x64 irq 12
+mousedev: PS/2 mouse device common for all mice
+rtc_cmos 00:00: RTC can wake from S4
+rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+rtc_cmos 00:00: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+i2c /dev entries driver
+device-mapper: uevent: version 1.0.3
+device-mapper: ioctl: 4.35.0-ioctl (2016-06-23) initialised: dm-devel@redhat.com
+intel_pstate: Intel P-state driver initializing
+ledtrig-cpu: registered to indicate activity on CPUs
+EFI Variables Facility v0.08 2004-May-17
+NET: Registered protocol family 10
+NET: Registered protocol family 17
+Key type dns_resolver registered
+microcode: sig=0x306f2, pf=0x1, revision=0x32
+microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+registered taskstats version 1
+Loading compiled-in X.509 certificates
+Loaded X.509 cert 'Build time autogenerated kernel key: 05384768664f4e181ae73d5552d32aa1d10ba633'
+zswap: loaded using pool lzo/zbud
+Key type trusted registered
+Key type encrypted registered
+AppArmor: AppArmor sha1 policy hashing enabled
+tpm tpm0: A TPM error (7) occurred attempting to read a pcr value
+ima: No TPM chip found, activating TPM-bypass!
+evm: HMAC attrs: 0x1
+  Magic number: 12:964:490
+rtc_cmos 00:00: setting system clock to 2016-08-31 16:28:29 UTC (1472660909)
+BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+EDD information not available.
+PM: Hibernation image not present or could not be loaded.
+Freeing unused kernel memory: 1604K (ffffffffa7f62000 - ffffffffa80f3000)
+Write protecting the kernel read-only data: 14336k
+Freeing unused kernel memory: 1944K (ffffa1ad2c81a000 - ffffa1ad2ca00000)
+Freeing unused kernel memory: 364K (ffffa1ad2cda5000 - ffffa1ad2ce00000)
+systemd-udevd[242]: starting version 204
+wmi: module verification failed: signature and/or required key missing - tainting kernel
+pps_core: LinuxPPS API ver. 1 registered
+pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+PTP clock support registered
+wmi: Mapper loaded
+ahci 0000:00:11.4: version 3.0
+ahci 0000:00:11.4: AHCI 0001.0300 32 slots 4 ports 6 Gbps 0xf impl RAID mode
+ahci 0000:00:11.4: flags: 64bit ncq pm led clo pio slum part ems apst 
+e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
+e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+dca service started, version 1.12.1
+mpt3sas version 13.100.00.00 loaded
+mpt2sas_cm0: 64 BIT PCI BUS DMA ADDRESSING SUPPORTED, total mem (16317016 kB)
+[drm] Initialized drm 1.1.0 20060810
+igb: Intel(R) Gigabit Ethernet Network Driver - version 5.3.0-k
+igb: Copyright (c) 2007-2014 Intel Corporation.
+igb 0000:05:00.0: enabling device (0100 -> 0102)
+checking generic (f1000000 1e0000) vs hw (e0000000 10000000)
+checking generic (f1000000 1e0000) vs hw (f0000000 2000000)
+fb: switching to nouveaufb from EFI VGA
+Console: switching to colour dummy device 80x25
+nouveau 0000:04:00.0: NVIDIA GK104 (0e4340a2)
+pps pps0: new PPS source ptp0
+igb 0000:05:00.0: added PHC on eth0
+igb 0000:05:00.0: Intel(R) Gigabit Ethernet Network Connection
+igb 0000:05:00.0: eth0: (PCIe:2.5Gb/s:Width x1) ec:b1:d7:5f:74:fc
+igb 0000:05:00.0: eth0: PBA No: 000300-000
+igb 0000:05:00.0: Using MSI-X interrupts. 4 rx queue(s), 4 tx queue(s)
+scsi host1: ahci
+scsi host2: ahci
+scsi host3: ahci
+scsi host4: ahci
+ata1: SATA max UDMA/133 abar m2048@0xf343d000 port 0xf343d100 irq 29
+ata2: SATA max UDMA/133 abar m2048@0xf343d000 port 0xf343d180 irq 29
+ata3: SATA max UDMA/133 abar m2048@0xf343d000 port 0xf343d200 irq 29
+ata4: SATA max UDMA/133 abar m2048@0xf343d000 port 0xf343d280 irq 29
+ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 4 ports 6 Gbps 0x3 impl SATA mode
+ahci 0000:00:1f.2: flags: 64bit ncq pm led clo pio slum part ems apst 
+scsi host5: ahci
+scsi host6: ahci
+scsi host7: ahci
+scsi host8: ahci
+ata5: SATA max UDMA/133 abar m2048@0xf3438000 port 0xf3438100 irq 38
+ata6: SATA max UDMA/133 abar m2048@0xf3438000 port 0xf3438180 irq 38
+ata7: DUMMY
+ata8: DUMMY
+e1000e 0000:00:19.0: enabling device (0140 -> 0142)
+e1000e 0000:00:19.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+mpt2sas_cm0: MSI-X vectors supported: 16, no of cores: 16, max_msix_vectors: -1
+mpt2sas0-msix0: PCI-MSI-X enabled: IRQ 40
+mpt2sas0-msix1: PCI-MSI-X enabled: IRQ 41
+mpt2sas0-msix2: PCI-MSI-X enabled: IRQ 42
+mpt2sas0-msix3: PCI-MSI-X enabled: IRQ 43
+mpt2sas0-msix4: PCI-MSI-X enabled: IRQ 44
+mpt2sas0-msix5: PCI-MSI-X enabled: IRQ 45
+mpt2sas0-msix6: PCI-MSI-X enabled: IRQ 46
+mpt2sas0-msix7: PCI-MSI-X enabled: IRQ 47
+mpt2sas0-msix8: PCI-MSI-X enabled: IRQ 50
+mpt2sas0-msix9: PCI-MSI-X enabled: IRQ 51
+mpt2sas0-msix10: PCI-MSI-X enabled: IRQ 52
+mpt2sas0-msix11: PCI-MSI-X enabled: IRQ 53
+mpt2sas0-msix12: PCI-MSI-X enabled: IRQ 54
+mpt2sas0-msix13: PCI-MSI-X enabled: IRQ 55
+mpt2sas0-msix14: PCI-MSI-X enabled: IRQ 56
+mpt2sas0-msix15: PCI-MSI-X enabled: IRQ 57
+mpt2sas_cm0: iomem(0x00000000f3340000), mapped(0xffffbf8a82060000), size(65536)
+mpt2sas_cm0: ioport(0x0000000000003000), size(256)
+tsc: Refined TSC clocksource calibration: 2394.456 MHz
+clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2283c236f90, max_idle_ns: 440795217409 ns
+usb 1-1: new high-speed USB device number 2 using ehci-pci
+mpt2sas_cm0: sending diag reset !!
+usb 2-1: new high-speed USB device number 2 using ehci-pci
+nouveau 0000:04:00.0: bios: version 80.04.fe.00.18
+nouveau 0000:04:00.0: fb: 4096 MiB GDDR5
+e1000e 0000:00:19.0 0000:00:19.0 (uninitialized): registered PHC clock
+[TTM] Zone  kernel: Available graphics memory: 8158508 kiB
+[TTM] Zone   dma32: Available graphics memory: 2097152 kiB
+[TTM] Initializing pool allocator
+[TTM] Initializing DMA pool allocator
+nouveau 0000:04:00.0: DRM: VRAM: 4096 MiB
+nouveau 0000:04:00.0: DRM: GART: 1048576 MiB
+nouveau 0000:04:00.0: DRM: TMDS table version 2.0
+nouveau 0000:04:00.0: DRM: DCB version 4.0
+nouveau 0000:04:00.0: DRM: DCB outp 00: 01000f02 00020030
+nouveau 0000:04:00.0: DRM: DCB outp 01: 02000f00 00000000
+nouveau 0000:04:00.0: DRM: DCB outp 03: 02822fa6 0f420010
+nouveau 0000:04:00.0: DRM: DCB outp 04: 02022f62 00020010
+nouveau 0000:04:00.0: DRM: DCB outp 05: 04833fb6 0f420010
+nouveau 0000:04:00.0: DRM: DCB outp 06: 04033f72 00020010
+nouveau 0000:04:00.0: DRM: DCB conn 00: 00001030
+nouveau 0000:04:00.0: DRM: DCB conn 02: 00002246
+nouveau 0000:04:00.0: DRM: DCB conn 03: 00010346
+nouveau 0000:04:00.0: DRM: DCB conn 04: 00000460
+[drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[drm] Driver supports precise vblank timestamp query.
+usb 1-1: New USB device found, idVendor=8087, idProduct=800a
+usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+hub 1-1:1.0: USB hub found
+hub 1-1:1.0: 6 ports detected
+e1000e 0000:00:19.0 eth1: (PCI Express:2.5GT/s:Width x1) ec:b1:d7:5f:74:fb
+e1000e 0000:00:19.0 eth1: Intel(R) PRO/1000 Network Connection
+e1000e 0000:00:19.0 eth1: MAC: 11, PHY: 12, PBA No: FFFFFF-0FF
+usb 2-1: New USB device found, idVendor=8087, idProduct=8002
+usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+hub 2-1:1.0: USB hub found
+hub 2-1:1.0: 8 ports detected
+ata4: SATA link down (SStatus 0 SControl 300)
+ata2: SATA link down (SStatus 0 SControl 300)
+ata1: SATA link down (SStatus 0 SControl 300)
+ata3: SATA link down (SStatus 0 SControl 300)
+ata6: SATA link down (SStatus 0 SControl 300)
+ata5: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+ata5.00: ATAPI: hp       DVDRAM GUB0N, SA02, max UDMA/100
+ata5.00: configured for UDMA/100
+scsi 5:0:0:0: CD-ROM            hp       DVDRAM GUB0N     SA02 PQ: 0 ANSI: 5
+e1000e 0000:00:19.0 em1: renamed from eth1
+sr 5:0:0:0: [sr0] scsi3-mmc drive: 24x/24x writer dvd-ram cd/rw xa/form2 cdda tray
+cdrom: Uniform CD-ROM driver Revision: 3.20
+sr 5:0:0:0: Attached scsi CD-ROM sr0
+sr 5:0:0:0: Attached scsi generic sg0 type 5
+nouveau 0000:04:00.0: DRM: MM: using COPY for buffer copies
+systemd-udevd[245]: renamed network interface eth1 to em1
+mpt2sas_cm0: diag reset: SUCCESS
+clocksource: Switched to clocksource tsc
+nouveau 0000:04:00.0: No connectors reported connected with modes
+[drm] Cannot find any crtc or sizes - going 1024x768
+mpt2sas_cm0: Allocated physical memory: size(7417 kB)
+mpt2sas_cm0: Current Controller Queue Depth(2936),Max Controller Queue Depth(3072)
+mpt2sas_cm0: Scatter Gather Elements per IO(128)
+mpt2sas_cm0: LSISAS2308: FWVersion(18.10.00.00), ChipRevision(0x05), BiosVersion(07.35.02.00)
+mpt2sas_cm0: Protocol=(
+Initiator), 
+Capabilities=(Raid
+,TLR,EEDP
+,Snapshot Buffer,Diag Trace Buffer
+,Task Set Full,NCQ
+)
+scsi host0: Fusion MPT SAS Host
+mpt2sas_cm0: sending port enable !!
+nouveau 0000:04:00.0: DRM: allocated 1024x768 fb: 0x60000, bo ffffa1b493700400
+fbcon: nouveaufb (fb0) is primary device
+Console: switching to colour frame buffer device 128x48
+nouveau 0000:04:00.0: fb0: nouveaufb frame buffer device
+[drm] Initialized nouveau 1.3.1 20120801 for 0000:04:00.0 on minor 0
+mpt2sas_cm0: host_add: handle(0x0001), sas_addr(0x50014380328cf9d8), phys(8)
+usb 4-4: new SuperSpeed USB device number 2 using xhci_hcd
+usb 4-4: New USB device found, idVendor=0451, idProduct=8140
+usb 4-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+hub 4-4:1.0: USB hub found
+hub 4-4:1.0: 4 ports detected
+random: fast init done
+usb 3-13: new high-speed USB device number 3 using xhci_hcd
+usb 3-13: New USB device found, idVendor=0451, idProduct=8142
+usb 3-13: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+usb 3-13: SerialNumber: 90080859CACD
+hub 3-13:1.0: USB hub found
+hub 3-13:1.0: 4 ports detected
+usb 3-13.1: new low-speed USB device number 4 using xhci_hcd
+usb 3-13.1: New USB device found, idVendor=0461, idProduct=4e04
+usb 3-13.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+usb 3-13.1: Product: USB NETVISTA FULL WIDTH KEYBOARD
+usb 3-13.1: Manufacturer: NOVATEK
+hidraw: raw HID events driver (C) Jiri Kosina
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+input: NOVATEK USB NETVISTA FULL WIDTH KEYBOARD as /devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13.1/3-13.1:1.0/0003:0461:4E04.0001/input/input5
+hid-generic 0003:0461:4E04.0001: input,hidraw0: USB HID v1.10 Keyboard [NOVATEK USB NETVISTA FULL WIDTH KEYBOARD] on usb-0000:00:14.0-13.1/input0
+input: NOVATEK USB NETVISTA FULL WIDTH KEYBOARD as /devices/pci0000:00/0000:00:14.0/usb3/3-13/3-13.1/3-13.1:1.1/0003:0461:4E04.0002/input/input6
+hid-generic 0003:0461:4E04.0002: input,hidraw1: USB HID v1.10 Device [NOVATEK USB NETVISTA FULL WIDTH KEYBOARD] on usb-0000:00:14.0-13.1/input1
+mpt2sas_cm0: port enable: SUCCESS
+scsi 0:0:0:0: Direct-Access     ATA      SanDisk SDSSDHII 10RL PQ: 0 ANSI: 6
+scsi 0:0:0:0: SATA: handle(0x0009), sas_addr(0x4433221100000000), phy(0), device_name(0x5001b44e8249a043)
+scsi 0:0:0:0: SATA: enclosure_logical_id(0x50014380328cf9d8), slot(0)
+scsi 0:0:0:0: atapi(n), ncq(y), asyn_notify(n), smart(y), fua(y), sw_preserve(y)
+scsi 0:0:1:0: Direct-Access     ATA      SanDisk SDSSDHII 10RL PQ: 0 ANSI: 6
+scsi 0:0:1:0: SATA: handle(0x000a), sas_addr(0x4433221101000000), phy(1), device_name(0x5001b44e59a31258)
+scsi 0:0:1:0: SATA: enclosure_logical_id(0x50014380328cf9d8), slot(1)
+scsi 0:0:1:0: atapi(n), ncq(y), asyn_notify(n), smart(y), fua(y), sw_preserve(y)
+sd 0:0:0:0: Attached scsi generic sg1 type 0
+sd 0:0:0:0: [sda] 1875385008 512-byte logical blocks: (960 GB/894 GiB)
+sd 0:0:1:0: Attached scsi generic sg2 type 0
+sd 0:0:1:0: [sdb] 1875385008 512-byte logical blocks: (960 GB/894 GiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Mode Sense: 7f 00 10 08
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, supports DPO and FUA
+sd 0:0:1:0: [sdb] Write Protect is off
+sd 0:0:1:0: [sdb] Mode Sense: 7f 00 10 08
+sd 0:0:1:0: [sdb] Write cache: enabled, read cache: enabled, supports DPO and FUA
+ sda: sda1 sda2 sda3
+ sdb: sdb1
+sd 0:0:0:0: [sda] Attached SCSI disk
+sd 0:0:1:0: [sdb] Attached SCSI disk
+raid6: sse2x1   gen()  7683 MB/s
+raid6: sse2x1   xor()  5979 MB/s
+raid6: sse2x2   gen()  9690 MB/s
+raid6: sse2x2   xor()  6546 MB/s
+raid6: sse2x4   gen() 11284 MB/s
+raid6: sse2x4   xor()  7886 MB/s
+raid6: avx2x1   gen() 14935 MB/s
+raid6: avx2x2   gen() 17337 MB/s
+raid6: avx2x4   gen() 20259 MB/s
+raid6: using algorithm avx2x4 gen() 20259 MB/s
+raid6: using avx2x2 recovery algorithm
+xor: automatically using best checksumming function:
+   avx       : 23343.000 MB/sec
+Btrfs loaded, crc32c=crc32c-intel
+EXT4-fs (sda2): INFO: recovery required on readonly filesystem
+EXT4-fs (sda2): write access will be enabled during recovery
+EXT4-fs (sda2): recovery complete
+EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+init: ureadahead main process (403) terminated with status 5
+Adding 33459196k swap on /dev/sda3.  Priority:-1 extents:1 across:33459196k SSFS
+EXT4-fs (sda2): re-mounted. Opts: errors=remount-ro
+systemd-udevd[578]: starting version 204
+lp: driver loaded but no devices found
+ppdev: user-space parallel port driver
+FS-Cache: Loaded
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+FS-Cache: Netfs 'nfs' registered for caching
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+random: crng init done
+init: idmapd-mounting (/var/www/html/test-results) main process (617) killed by TERM signal
+nvme nvme0: pci function 0000:03:00.0
+nd_pmem namespace0.0: unable to guarantee persistence of writes
+snd_hda_intel 0000:00:1b.0: enabling device (0100 -> 0102)
+snd_hda_intel 0000:04:00.1: enabling device (0100 -> 0102)
+snd_hda_intel 0000:04:00.1: Disabling MSI
+snd_hda_intel 0000:04:00.1: Handle vga_switcheroo audio client
+snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC221: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=1 (0x17/0x0/0x0/0x0/0x0)
+snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+snd_hda_codec_realtek hdaudioC0D0:    inputs:
+snd_hda_codec_realtek hdaudioC0D0:      Front Mic=0x1a
+snd_hda_codec_realtek hdaudioC0D0:      Front Mic=0x18
+snd_hda_codec_realtek hdaudioC0D0:      Line=0x1b
+AVX2 version of gcm_enc/dec engaged.
+AES CTR mode by8 optimization enabled
+input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input7
+input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input8
+input: HDA Intel PCH Line as /devices/pci0000:00/0000:00:1b.0/sound/card0/input9
+input: HDA Intel PCH Line Out as /devices/pci0000:00/0000:00:1b.0/sound/card0/input10
+input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card0/input11
+ACPI Error: Needed [Buffer/String/Package], found [Integer] ffffa1b4937081b0 (20160422/exresop-593)
+ACPI Exception: AE_AML_OPERAND_TYPE, While resolving operands for [OpcodeName unavailable] (20160422/dswexec-460)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPO] (Node ffffa1b49cce8668), AE_AML_OPERAND_TYPE (20160422/psparse-542)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffffa1b49cce86b8), AE_AML_OPERAND_TYPE (20160422/psparse-542)
+ACPI Error: Needed [Buffer/String/Package], found [Integer] ffffa1b4934da708 (20160422/exresop-593)
+ACPI Exception: AE_AML_OPERAND_TYPE, While resolving operands for [OpcodeName unavailable] (20160422/dswexec-460)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPO] (Node ffffa1b49cce8668), AE_AML_OPERAND_TYPE (20160422/psparse-542)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffffa1b49cce86b8), AE_AML_OPERAND_TYPE (20160422/psparse-542)
+ACPI Error: Needed [Buffer/String/Package], found [Integer] ffffa1b493527090 (20160422/exresop-593)
+ACPI Exception: AE_AML_OPERAND_TYPE, While resolving operands for [OpcodeName unavailable] (20160422/dswexec-460)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPO] (Node ffffa1b49cce8668), AE_AML_OPERAND_TYPE (20160422/psparse-542)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffffa1b49cce86b8), AE_AML_OPERAND_TYPE (20160422/psparse-542)
+input: HP WMI hotkeys as /devices/virtual/input/input12
+Bluetooth: Core ver 2.21
+NET: Registered protocol family 31
+Bluetooth: HCI device and connection manager initialized
+Bluetooth: HCI socket layer initialized
+Bluetooth: L2CAP socket layer initialized
+Bluetooth: SCO socket layer initialized
+ACPI Error: Attempt to CreateField of length zero (20160422/dsopcode-168)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPI] (Node ffffa1b49cce8618), AE_AML_OPERAND_VALUE (20160422/psparse-542)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffffa1b49cce86b8), AE_AML_OPERAND_VALUE (20160422/psparse-542)
+Bluetooth: RFCOMM TTY layer initialized
+Bluetooth: RFCOMM socket layer initialized
+Bluetooth: RFCOMM ver 1.11
+Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Bluetooth: BNEP filters: protocol multicast
+Bluetooth: BNEP socket layer initialized
+audit: type=1400 audit(1472660920.804:2): apparmor="STATUS" operation="profile_load" name="/sbin/dhclient" pid=761 comm="apparmor_parser"
+audit: type=1400 audit(1472660920.804:3): apparmor="STATUS" operation="profile_load" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=761 comm="apparmor_parser"
+audit: type=1400 audit(1472660920.804:4): apparmor="STATUS" operation="profile_load" name="/usr/lib/connman/scripts/dhclient-script" pid=761 comm="apparmor_parser"
+audit: type=1400 audit(1472660920.804:5): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=760 comm="apparmor_parser"
+audit: type=1400 audit(1472660920.804:6): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=760 comm="apparmor_parser"
+audit: type=1400 audit(1472660920.804:7): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=760 comm="apparmor_parser"
+audit: type=1400 audit(1472660920.804:8): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=761 comm="apparmor_parser"
+audit: type=1400 audit(1472660920.804:9): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=761 comm="apparmor_parser"
+audit: type=1400 audit(1472660920.804:10): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=760 comm="apparmor_parser"
+audit: type=1400 audit(1472660920.804:11): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=760 comm="apparmor_parser"
+EDAC MC: Ver: 3.0.0
+EDAC sbridge: Seeking for: PCI ID 8086:2fa0
+EDAC sbridge: Seeking for: PCI ID 8086:2fa0
+EDAC sbridge: Seeking for: PCI ID 8086:2ffc
+EDAC sbridge: Seeking for: PCI ID 8086:2ffc
+EDAC sbridge: Seeking for: PCI ID 8086:2ffd
+EDAC sbridge: Seeking for: PCI ID 8086:2ffd
+EDAC sbridge: Seeking for: PCI ID 8086:2f60
+EDAC sbridge: Seeking for: PCI ID 8086:2fa8
+EDAC sbridge: Seeking for: PCI ID 8086:2fa8
+EDAC sbridge: Seeking for: PCI ID 8086:2f71
+EDAC sbridge: Seeking for: PCI ID 8086:2f71
+EDAC sbridge: Seeking for: PCI ID 8086:2faa
+EDAC sbridge: Seeking for: PCI ID 8086:2faa
+EDAC sbridge: Seeking for: PCI ID 8086:2fab
+EDAC sbridge: Seeking for: PCI ID 8086:2fab
+EDAC sbridge: Seeking for: PCI ID 8086:2fac
+EDAC sbridge: Seeking for: PCI ID 8086:2fac
+EDAC sbridge: Seeking for: PCI ID 8086:2fad
+EDAC sbridge: Seeking for: PCI ID 8086:2fad
+EDAC sbridge: Seeking for: PCI ID 8086:2fbd
+EDAC sbridge: Seeking for: PCI ID 8086:2fbf
+EDAC sbridge: Seeking for: PCI ID 8086:2fbf
+EDAC sbridge: Seeking for: PCI ID 8086:2fb9
+EDAC sbridge: Seeking for: PCI ID 8086:2fb9
+EDAC sbridge: Seeking for: PCI ID 8086:2fbb
+EDAC sbridge: Seeking for: PCI ID 8086:2fbb
+EDAC sbridge: Seeking for: PCI ID 8086:2f68
+EDAC sbridge: Seeking for: PCI ID 8086:2f68
+EDAC sbridge: Seeking for: PCI ID 8086:2f79
+EDAC sbridge: Seeking for: PCI ID 8086:2f6a
+EDAC sbridge: Seeking for: PCI ID 8086:2f6b
+EDAC sbridge: Seeking for: PCI ID 8086:2f6c
+EDAC sbridge: Seeking for: PCI ID 8086:2f6d
+EDAC MC0: Giving out device to module sbridge_edac.c controller Haswell Socket#0: DEV 0000:ff:12.0 (INTERRUPT)
+EDAC sbridge:  Ver: 1.1.1 
+intel_rapl: Found RAPL domain package
+intel_rapl: Found RAPL domain dram
+intel_rapl: DRAM domain energy unit 15300pj
+pmem0: detected capacity change from 0 to 17179869184
+init: Failed to obtain startpar-bridge instance: Unknown parameter: INSTANCE
+init: statd-mounting (/var/www/html/test-results) main process (619) killed by TERM signal
+IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+NFS: Registering the id_resolver key type
+Key type id_resolver registered
+Key type id_legacy registered
+input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:03.0/0000:04:00.1/sound/card1/input13
+input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:03.0/0000:04:00.1/sound/card1/input14
+input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:03.0/0000:04:00.1/sound/card1/input15
+igb 0000:05:00.0 eth0: igb: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+ nvme0n1: p1
+BTRFS: device fsid 10c4bc64-b170-4df4-bbb1-23e7aa5e8b99 devid 1 transid 91 /dev/nvme0n1p1
+audit_printk_skb: 12 callbacks suppressed
+audit: type=1400 audit(1472660931.144:16): apparmor="STATUS" operation="profile_load" name="/usr/lib/cups/backend/cups-pdf" pid=1311 comm="apparmor_parser"
+audit: type=1400 audit(1472660931.144:17): apparmor="STATUS" operation="profile_load" name="/usr/sbin/cupsd" pid=1311 comm="apparmor_parser"
+audit: type=1400 audit(1472660931.144:18): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/cupsd" pid=1311 comm="apparmor_parser"
+init: cups main process (1330) killed by HUP signal
+init: cups main process ended, respawning
+init: failsafe main process (1251) killed by TERM signal
+audit: type=1400 audit(1472660931.252:19): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=1501 comm="apparmor_parser"
+audit: type=1400 audit(1472660931.252:20): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1501 comm="apparmor_parser"
+audit: type=1400 audit(1472660931.252:21): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1501 comm="apparmor_parser"
+audit: type=1400 audit(1472660931.252:22): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1501 comm="apparmor_parser"
+audit: type=1400 audit(1472660931.252:23): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1501 comm="apparmor_parser"
+audit: type=1400 audit(1472660931.252:24): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1501 comm="apparmor_parser"
+audit: type=1400 audit(1472660931.252:25): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/ntpd" pid=1507 comm="apparmor_parser"
+IPv6: ADDRCONF(NETDEV_UP): em1: link is not ready
+Ebtables v2.0 registered
+ip_tables: (C) 2000-2006 Netfilter Core Team
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need this.
+init: plymouth-upstart-bridge main process ended, respawning
+init: plymouth-upstart-bridge main process (2107) terminated with status 1
+init: plymouth-upstart-bridge main process ended, respawning
+cgroup: systemd-logind (838) created nested cgroup for controller "memory" which has incomplete hierarchy support. Nested cgroups may change behavior in the future.
+cgroup: "memory" requires setting use_hierarchy to 1 on the root
+nf_conntrack version 0.5.0 (65536 buckets, 262144 max)
+init: plymouth-stop pre-start process (2181) terminated with status 1
+audit_printk_skb: 33 callbacks suppressed
+audit: type=1400 audit(1472660961.204:37): apparmor="STATUS" operation="profile_replace" name="/usr/lib/cups/backend/cups-pdf" pid=2286 comm="apparmor_parser"
+audit: type=1400 audit(1472660961.204:38): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/cupsd" pid=2286 comm="apparmor_parser"
+audit: type=1400 audit(1472660961.204:39): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/cupsd" pid=2286 comm="apparmor_parser"
+drop-caches (39404): drop_caches: 3
+Broke affinity for irq 50
+Broke affinity for irq 70
+smpboot: CPU 8 is now offline
+Broke affinity for irq 33
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 70
+Broke affinity for irq 71
+smpboot: CPU 9 is now offline
+Broke affinity for irq 33
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+smpboot: CPU 10 is now offline
+Broke affinity for irq 31
+Broke affinity for irq 33
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 73
+smpboot: CPU 11 is now offline
+Broke affinity for irq 31
+Broke affinity for irq 33
+Broke affinity for irq 39
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 73
+Broke affinity for irq 74
+smpboot: CPU 12 is now offline
+Broke affinity for irq 31
+Broke affinity for irq 33
+Broke affinity for irq 35
+Broke affinity for irq 39
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 73
+Broke affinity for irq 74
+Broke affinity for irq 75
+smpboot: CPU 13 is now offline
+Broke affinity for irq 31
+Broke affinity for irq 32
+Broke affinity for irq 33
+Broke affinity for irq 35
+Broke affinity for irq 39
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 73
+Broke affinity for irq 74
+Broke affinity for irq 75
+Broke affinity for irq 76
+smpboot: CPU 14 is now offline
+Broke affinity for irq 31
+Broke affinity for irq 32
+Broke affinity for irq 33
+Broke affinity for irq 35
+Broke affinity for irq 39
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 73
+Broke affinity for irq 74
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+smpboot: CPU 15 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (39455): drop_caches: 3
+drop-caches (39585): drop_caches: 3
+drop-caches (39652): drop_caches: 3
+drop-caches (39776): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (39844): drop_caches: 3
+drop-caches (39969): drop_caches: 3
+drop-caches (40006): drop_caches: 3
+drop-caches (40130): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (40167): drop_caches: 3
+drop-caches (40291): drop_caches: 3
+drop-caches (40325): drop_caches: 3
+traps: irqbalance[1677] general protection ip:405f14 sp:7ffc8c734900 error:0 in irqbalance[400000+a000]
+init: irqbalance main process (1677) killed by SEGV signal
+drop-caches (40451): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (40488): drop_caches: 3
+drop-caches (40612): drop_caches: 3
+drop-caches (40650): drop_caches: 3
+drop-caches (40774): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (40811): drop_caches: 3
+drop-caches (40924): drop_caches: 3
+drop-caches (40958): drop_caches: 3
+drop-caches (41071): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (41108): drop_caches: 3
+drop-caches (41230): drop_caches: 3
+drop-caches (41264): drop_caches: 3
+drop-caches (41393): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (41430): drop_caches: 3
+drop-caches (41554): drop_caches: 3
+drop-caches (41591): drop_caches: 3
+drop-caches (41715): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (41752): drop_caches: 3
+drop-caches (41876): drop_caches: 3
+drop-caches (41913): drop_caches: 3
+drop-caches (42037): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (42074): drop_caches: 3
+drop-caches (42599): drop_caches: 3
+drop-caches (42645): drop_caches: 3
+drop-caches (43169): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (43207): drop_caches: 3
+drop-caches (43774): drop_caches: 3
+drop-caches (43808): drop_caches: 3
+drop-caches (44405): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (44442): drop_caches: 3
+drop-caches (44552): drop_caches: 3
+drop-caches (44589): drop_caches: 3
+drop-caches (44696): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (44733): drop_caches: 3
+drop-caches (44843): drop_caches: 3
+drop-caches (44880): drop_caches: 3
+drop-caches (44990): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (45028): drop_caches: 3
+drop-caches (45141): drop_caches: 3
+drop-caches (45175): drop_caches: 3
+drop-caches (45288): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (45325): drop_caches: 3
+drop-caches (45441): drop_caches: 3
+drop-caches (45478): drop_caches: 3
+drop-caches (45594): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (45631): drop_caches: 3
+drop-caches (45755): drop_caches: 3
+drop-caches (45790): drop_caches: 3
+drop-caches (45914): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (45951): drop_caches: 3
+drop-caches (46075): drop_caches: 3
+drop-caches (46112): drop_caches: 3
+drop-caches (46236): drop_caches: 3
+Broke affinity for irq 26
+Broke affinity for irq 34
+Broke affinity for irq 44
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 66
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+smpboot: CPU 4 is now offline
+Broke affinity for irq 19
+Broke affinity for irq 26
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 66
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+smpboot: CPU 5 is now offline
+Broke affinity for irq 19
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 31
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 66
+Broke affinity for irq 68
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+smpboot: CPU 6 is now offline
+Broke affinity for irq 19
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 31
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 39
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 66
+Broke affinity for irq 68
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+Broke affinity for irq 76
+smpboot: CPU 7 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (46286): drop_caches: 3
+drop-caches (46405): drop_caches: 3
+drop-caches (46473): drop_caches: 3
+drop-caches (46591): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (46655): drop_caches: 3
+drop-caches (46767): drop_caches: 3
+drop-caches (46804): drop_caches: 3
+drop-caches (46916): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (46954): drop_caches: 3
+drop-caches (47066): drop_caches: 3
+drop-caches (47103): drop_caches: 3
+drop-caches (47215): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (47252): drop_caches: 3
+drop-caches (47364): drop_caches: 3
+drop-caches (47398): drop_caches: 3
+drop-caches (47510): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (47547): drop_caches: 3
+drop-caches (47656): drop_caches: 3
+drop-caches (47693): drop_caches: 3
+drop-caches (47799): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (47836): drop_caches: 3
+drop-caches (47958): drop_caches: 3
+drop-caches (47992): drop_caches: 3
+drop-caches (48107): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (48144): drop_caches: 3
+drop-caches (48256): drop_caches: 3
+drop-caches (48290): drop_caches: 3
+drop-caches (48405): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (48442): drop_caches: 3
+drop-caches (48554): drop_caches: 3
+drop-caches (48588): drop_caches: 3
+drop-caches (48701): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (48738): drop_caches: 3
+drop-caches (49261): drop_caches: 3
+drop-caches (49310): drop_caches: 3
+drop-caches (49837): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (49877): drop_caches: 3
+drop-caches (50671): drop_caches: 3
+drop-caches (50708): drop_caches: 3
+drop-caches (51435): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (51472): drop_caches: 3
+drop-caches (51578): drop_caches: 3
+drop-caches (51615): drop_caches: 3
+drop-caches (51721): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (51759): drop_caches: 3
+drop-caches (51865): drop_caches: 3
+drop-caches (51902): drop_caches: 3
+drop-caches (52008): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (52044): drop_caches: 3
+drop-caches (52151): drop_caches: 3
+drop-caches (52188): drop_caches: 3
+drop-caches (52294): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (52330): drop_caches: 3
+drop-caches (52443): drop_caches: 3
+drop-caches (52477): drop_caches: 3
+drop-caches (52587): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (52625): drop_caches: 3
+drop-caches (52737): drop_caches: 3
+drop-caches (52774): drop_caches: 3
+drop-caches (52886): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (52923): drop_caches: 3
+drop-caches (53035): drop_caches: 3
+drop-caches (53072): drop_caches: 3
+drop-caches (53184): drop_caches: 3
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 31
+Broke affinity for irq 32
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 38
+Broke affinity for irq 39
+Broke affinity for irq 42
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 64
+Broke affinity for irq 66
+Broke affinity for irq 68
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+Broke affinity for irq 76
+smpboot: CPU 2 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 25
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 31
+Broke affinity for irq 32
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 38
+Broke affinity for irq 39
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 68
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+Broke affinity for irq 76
+smpboot: CPU 3 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (53228): drop_caches: 3
+drop-caches (53338): drop_caches: 3
+drop-caches (53406): drop_caches: 3
+drop-caches (53515): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (53579): drop_caches: 3
+drop-caches (53685): drop_caches: 3
+drop-caches (53722): drop_caches: 3
+drop-caches (53828): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (53866): drop_caches: 3
+drop-caches (53972): drop_caches: 3
+drop-caches (54009): drop_caches: 3
+drop-caches (54115): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (54152): drop_caches: 3
+drop-caches (54258): drop_caches: 3
+drop-caches (54292): drop_caches: 3
+drop-caches (54398): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (54435): drop_caches: 3
+drop-caches (54542): drop_caches: 3
+drop-caches (54576): drop_caches: 3
+drop-caches (54680): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (54717): drop_caches: 3
+drop-caches (54825): drop_caches: 3
+drop-caches (54859): drop_caches: 3
+drop-caches (54966): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (55003): drop_caches: 3
+drop-caches (55109): drop_caches: 3
+drop-caches (55143): drop_caches: 3
+drop-caches (55249): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (55286): drop_caches: 3
+drop-caches (55392): drop_caches: 3
+drop-caches (55429): drop_caches: 3
+drop-caches (55535): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (55572): drop_caches: 3
+drop-caches (56110): drop_caches: 3
+drop-caches (56162): drop_caches: 3
+drop-caches (56684): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (56736): drop_caches: 3
+drop-caches (58011): drop_caches: 3
+drop-caches (58048): drop_caches: 3
+drop-caches (59150): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (59188): drop_caches: 3
+drop-caches (59292): drop_caches: 3
+drop-caches (59326): drop_caches: 3
+drop-caches (59433): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (59470): drop_caches: 3
+drop-caches (59574): drop_caches: 3
+drop-caches (59608): drop_caches: 3
+drop-caches (59712): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (59749): drop_caches: 3
+drop-caches (59865): drop_caches: 3
+drop-caches (59902): drop_caches: 3
+drop-caches (60006): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (60043): drop_caches: 3
+drop-caches (60150): drop_caches: 3
+drop-caches (60185): drop_caches: 3
+drop-caches (60292): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (60329): drop_caches: 3
+drop-caches (60435): drop_caches: 3
+drop-caches (60472): drop_caches: 3
+drop-caches (60578): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (60615): drop_caches: 3
+drop-caches (60721): drop_caches: 3
+drop-caches (60755): drop_caches: 3
+drop-caches (60861): drop_caches: 3
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 25
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 31
+Broke affinity for irq 32
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 38
+Broke affinity for irq 39
+Broke affinity for irq 41
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 73
+Broke affinity for irq 74
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+smpboot: CPU 1 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (60904): drop_caches: 3
+drop-caches (61010): drop_caches: 3
+drop-caches (61078): drop_caches: 3
+drop-caches (61182): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (61243): drop_caches: 3
+drop-caches (61346): drop_caches: 3
+drop-caches (61380): drop_caches: 3
+drop-caches (61483): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (61521): drop_caches: 3
+drop-caches (61624): drop_caches: 3
+drop-caches (61661): drop_caches: 3
+drop-caches (61764): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (61801): drop_caches: 3
+drop-caches (61904): drop_caches: 3
+drop-caches (61938): drop_caches: 3
+drop-caches (62041): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (62078): drop_caches: 3
+drop-caches (62184): drop_caches: 3
+drop-caches (62218): drop_caches: 3
+drop-caches (62321): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (62358): drop_caches: 3
+drop-caches (62464): drop_caches: 3
+drop-caches (62499): drop_caches: 3
+drop-caches (62602): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (62639): drop_caches: 3
+drop-caches (62742): drop_caches: 3
+drop-caches (62779): drop_caches: 3
+drop-caches (62882): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (62919): drop_caches: 3
+drop-caches (63022): drop_caches: 3
+drop-caches (63059): drop_caches: 3
+drop-caches (63162): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (63199): drop_caches: 3
+drop-caches (63751): drop_caches: 3
+drop-caches (63804): drop_caches: 3
+drop-caches (64351): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (64404): drop_caches: 3
+drop-caches (66426): drop_caches: 3
+drop-caches (66460): drop_caches: 3
+drop-caches (68196): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (68234): drop_caches: 3
+drop-caches (68337): drop_caches: 3
+drop-caches (68374): drop_caches: 3
+drop-caches (68477): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (68514): drop_caches: 3
+drop-caches (68617): drop_caches: 3
+drop-caches (68651): drop_caches: 3
+drop-caches (68754): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (68792): drop_caches: 3
+drop-caches (68895): drop_caches: 3
+drop-caches (68932): drop_caches: 3
+drop-caches (69035): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (69072): drop_caches: 3
+drop-caches (69175): drop_caches: 3
+drop-caches (69212): drop_caches: 3
+drop-caches (69315): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (69352): drop_caches: 3
+drop-caches (69470): drop_caches: 3
+drop-caches (69507): drop_caches: 3
+drop-caches (69610): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (69647): drop_caches: 3
+drop-caches (69750): drop_caches: 3
+drop-caches (69785): drop_caches: 3
+x86: Booting SMP configuration:
+smpboot: Booting Node 0 Processor 1 APIC 0x2
+smpboot: Booting Node 0 Processor 2 APIC 0x4
+smpboot: Booting Node 0 Processor 3 APIC 0x6
+smpboot: Booting Node 0 Processor 4 APIC 0x8
+smpboot: Booting Node 0 Processor 5 APIC 0xa
+smpboot: Booting Node 0 Processor 6 APIC 0xc
+smpboot: Booting Node 0 Processor 7 APIC 0xe
+smpboot: Booting Node 0 Processor 8 APIC 0x1
+smpboot: Booting Node 0 Processor 9 APIC 0x3
+smpboot: Booting Node 0 Processor 10 APIC 0x5
+smpboot: Booting Node 0 Processor 11 APIC 0x7
+smpboot: Booting Node 0 Processor 12 APIC 0x9
+smpboot: Booting Node 0 Processor 13 APIC 0xb
+smpboot: Booting Node 0 Processor 14 APIC 0xd
+smpboot: Booting Node 0 Processor 15 APIC 0xf
+drop-caches (70601): drop_caches: 3
+Broke affinity for irq 50
+smpboot: CPU 8 is now offline
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 71
+smpboot: CPU 9 is now offline
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 71
+Broke affinity for irq 72
+smpboot: CPU 10 is now offline
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 71
+Broke affinity for irq 72
+smpboot: CPU 11 is now offline
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+smpboot: CPU 12 is now offline
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+smpboot: CPU 13 is now offline
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+smpboot: CPU 14 is now offline
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+smpboot: CPU 15 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (70648): drop_caches: 3
+drop-caches (70778): drop_caches: 3
+SGI XFS with ACLs, security attributes, realtime, no debug enabled
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (70859): drop_caches: 3
+drop-caches (70983): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 12bc9a90-9536-4e73-b93e-6e76ad8ad3c7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (71079): drop_caches: 3
+drop-caches (71205): drop_caches: 3
+drop-caches (71275): drop_caches: 3
+drop-caches (71399): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (71473): drop_caches: 3
+drop-caches (71597): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (71637): drop_caches: 3
+drop-caches (71767): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 15327201-3766-490f-9f73-70ff4c9d8efb devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (71826): drop_caches: 3
+drop-caches (71961): drop_caches: 3
+drop-caches (71998): drop_caches: 3
+drop-caches (72122): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (72159): drop_caches: 3
+drop-caches (72283): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (72323): drop_caches: 3
+drop-caches (72447): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid e3e586bf-71bd-4837-a716-6d9c4c9b9925 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (72506): drop_caches: 3
+drop-caches (72630): drop_caches: 3
+drop-caches (72668): drop_caches: 3
+drop-caches (72792): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (72829): drop_caches: 3
+drop-caches (72953): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (72993): drop_caches: 3
+drop-caches (73118): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid aabe920b-f3b4-4e87-9d89-4a7d4b82bc9e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (73174): drop_caches: 3
+drop-caches (73301): drop_caches: 3
+drop-caches (73335): drop_caches: 3
+drop-caches (73459): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (73495): drop_caches: 3
+drop-caches (73609): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (73649): drop_caches: 3
+drop-caches (73765): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 93133440-9f65-44ad-a37b-165cf86bed6c devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (73825): drop_caches: 3
+drop-caches (73938): drop_caches: 3
+drop-caches (73975): drop_caches: 3
+drop-caches (74088): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (74125): drop_caches: 3
+drop-caches (74262): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (74302): drop_caches: 3
+drop-caches (74423): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 1ec1fe1f-f5d6-4b0e-b2b4-a303adc0f3bc devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (74482): drop_caches: 3
+drop-caches (74607): drop_caches: 3
+drop-caches (74644): drop_caches: 3
+drop-caches (74766): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (74803): drop_caches: 3
+drop-caches (74927): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (74967): drop_caches: 3
+drop-caches (75091): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid f20984de-4c31-4557-80da-4eaaaf3b499d devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (75151): drop_caches: 3
+drop-caches (75275): drop_caches: 3
+drop-caches (75312): drop_caches: 3
+drop-caches (75459): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (75496): drop_caches: 3
+drop-caches (75620): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (75660): drop_caches: 3
+drop-caches (75785): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid acc10e7c-05ed-4ece-bd6a-19740f41477f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (75844): drop_caches: 3
+drop-caches (75968): drop_caches: 3
+drop-caches (76005): drop_caches: 3
+drop-caches (76129): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (76166): drop_caches: 3
+drop-caches (76715): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (76761): drop_caches: 3
+drop-caches (77297): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid fbe20690-1dc7-4b5b-9244-4e7fdc2ade06 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (77374): drop_caches: 3
+drop-caches (77917): drop_caches: 3
+drop-caches (77981): drop_caches: 3
+drop-caches (78509): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (78546): drop_caches: 3
+drop-caches (79110): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (79150): drop_caches: 3
+drop-caches (79881): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 75166b6f-b193-47da-8381-355ae1fd4675 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (79940): drop_caches: 3
+drop-caches (82034): drop_caches: 3
+drop-caches (82089): drop_caches: 3
+drop-caches (82674): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (82712): drop_caches: 3
+drop-caches (82822): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (82862): drop_caches: 3
+drop-caches (82972): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 2d8e229a-cd84-4382-a300-4536719268c7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (83031): drop_caches: 3
+drop-caches (83141): drop_caches: 3
+drop-caches (83178): drop_caches: 3
+drop-caches (83288): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (83325): drop_caches: 3
+drop-caches (83435): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (83475): drop_caches: 3
+drop-caches (83586): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid eda42c64-7c89-4cee-8d80-2fd5b79cb675 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (83645): drop_caches: 3
+drop-caches (83755): drop_caches: 3
+drop-caches (83792): drop_caches: 3
+drop-caches (83902): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (83940): drop_caches: 3
+drop-caches (84053): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (84090): drop_caches: 3
+drop-caches (84206): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 11e69eb7-9cc6-426f-af3c-9a03c37074c2 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (84265): drop_caches: 3
+drop-caches (84375): drop_caches: 3
+drop-caches (84412): drop_caches: 3
+drop-caches (84525): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (84562): drop_caches: 3
+drop-caches (84678): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (84718): drop_caches: 3
+drop-caches (84839): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 0cdaf51a-cbe0-428e-a4ce-f7b1faade269 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (84898): drop_caches: 3
+drop-caches (85023): drop_caches: 3
+drop-caches (85060): drop_caches: 3
+drop-caches (85188): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (85224): drop_caches: 3
+drop-caches (85349): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (85389): drop_caches: 3
+drop-caches (85513): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 8d0ec3dc-3fbb-4cf8-a675-17270bc00777 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (85572): drop_caches: 3
+drop-caches (85696): drop_caches: 3
+drop-caches (85734): drop_caches: 3
+drop-caches (85858): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (85895): drop_caches: 3
+drop-caches (86019): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (86059): drop_caches: 3
+drop-caches (86184): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 594357e6-e63c-463d-bd58-a7c9ab7f9150 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (86240): drop_caches: 3
+drop-caches (86364): drop_caches: 3
+drop-caches (86401): drop_caches: 3
+drop-caches (86525): drop_caches: 3
+Broke affinity for irq 26
+Broke affinity for irq 34
+Broke affinity for irq 44
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 66
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+smpboot: CPU 4 is now offline
+Broke affinity for irq 19
+Broke affinity for irq 26
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 66
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+smpboot: CPU 5 is now offline
+Broke affinity for irq 19
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 31
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 66
+Broke affinity for irq 68
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+smpboot: CPU 6 is now offline
+Broke affinity for irq 19
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 31
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 39
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 66
+Broke affinity for irq 68
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+Broke affinity for irq 76
+smpboot: CPU 7 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (86572): drop_caches: 3
+drop-caches (86684): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (86758): drop_caches: 3
+drop-caches (86870): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 18478710-88fa-4f6b-b680-2fda6fc264cf devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (86962): drop_caches: 3
+drop-caches (87074): drop_caches: 3
+drop-caches (87142): drop_caches: 3
+drop-caches (87254): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (87318): drop_caches: 3
+drop-caches (87431): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (87471): drop_caches: 3
+drop-caches (87586): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 72181d33-1903-4295-a855-eaddacd41d5c devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (87645): drop_caches: 3
+drop-caches (87757): drop_caches: 3
+drop-caches (87794): drop_caches: 3
+drop-caches (87906): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (87943): drop_caches: 3
+drop-caches (88055): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (88095): drop_caches: 3
+drop-caches (88207): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid a4bea074-3cb9-4ae6-a7e0-ac5c431d531d devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (88266): drop_caches: 3
+drop-caches (88378): drop_caches: 3
+drop-caches (88418): drop_caches: 3
+drop-caches (88530): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (88568): drop_caches: 3
+drop-caches (88680): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (88720): drop_caches: 3
+drop-caches (88833): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 484ed59c-d822-4b40-8086-add216638d70 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (88892): drop_caches: 3
+drop-caches (89004): drop_caches: 3
+drop-caches (89038): drop_caches: 3
+drop-caches (89150): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (89187): drop_caches: 3
+drop-caches (89296): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (89336): drop_caches: 3
+drop-caches (89442): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 4c32af13-1cb3-46f3-bd11-60c7763c33f6 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (89501): drop_caches: 3
+drop-caches (89607): drop_caches: 3
+drop-caches (89644): drop_caches: 3
+drop-caches (89750): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (89788): drop_caches: 3
+drop-caches (89915): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (89955): drop_caches: 3
+drop-caches (90065): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 84105fb3-3317-4eea-a2ff-149ab73db8a2 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (90124): drop_caches: 3
+drop-caches (90236): drop_caches: 3
+drop-caches (90273): drop_caches: 3
+drop-caches (90385): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (90423): drop_caches: 3
+drop-caches (90535): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (90572): drop_caches: 3
+drop-caches (90684): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 0cd23d8f-fdf3-4b89-9820-97c58d14b6ea devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (90743): drop_caches: 3
+drop-caches (90855): drop_caches: 3
+drop-caches (90892): drop_caches: 3
+drop-caches (91004): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (91041): drop_caches: 3
+drop-caches (91153): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (91193): drop_caches: 3
+drop-caches (91306): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 02e58e49-6d2f-405a-83e9-9aea1610615d devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (91365): drop_caches: 3
+drop-caches (91477): drop_caches: 3
+drop-caches (91514): drop_caches: 3
+drop-caches (91626): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (91664): drop_caches: 3
+drop-caches (92239): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (92294): drop_caches: 3
+drop-caches (92881): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 1c9c923d-b8ad-4115-84e5-6f81ae178462 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (92959): drop_caches: 3
+drop-caches (93509): drop_caches: 3
+drop-caches (93574): drop_caches: 3
+drop-caches (94122): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (94162): drop_caches: 3
+drop-caches (94950): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (94990): drop_caches: 3
+drop-caches (95903): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 90102dbc-d10c-4269-8b71-eed21ae258d7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (95962): drop_caches: 3
+drop-caches (97565): drop_caches: 3
+drop-caches (97620): drop_caches: 3
+drop-caches (98372): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (98412): drop_caches: 3
+drop-caches (98518): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (98555): drop_caches: 3
+drop-caches (98661): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 55b25d33-2d86-4dbc-ac18-4396d321cefd devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (98721): drop_caches: 3
+drop-caches (98829): drop_caches: 3
+drop-caches (98866): drop_caches: 3
+drop-caches (98972): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (99009): drop_caches: 3
+drop-caches (99115): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (99155): drop_caches: 3
+drop-caches (99262): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 3a64b700-0773-4419-aeb6-e209b8f5f616 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (99321): drop_caches: 3
+drop-caches (99427): drop_caches: 3
+drop-caches (99465): drop_caches: 3
+drop-caches (99571): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (99607): drop_caches: 3
+drop-caches (99714): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (99754): drop_caches: 3
+drop-caches (99860): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid a8de46fb-5acc-4a30-bacc-136d1bf8dcb1 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (99919): drop_caches: 3
+drop-caches (100028): drop_caches: 3
+drop-caches (100065): drop_caches: 3
+drop-caches (100171): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (100208): drop_caches: 3
+drop-caches (100317): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (100357): drop_caches: 3
+drop-caches (100471): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 1bb7dfe9-5fe9-4b0b-b00c-5ea8cfbf3534 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (100527): drop_caches: 3
+drop-caches (100642): drop_caches: 3
+drop-caches (100676): drop_caches: 3
+drop-caches (100788): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (100825): drop_caches: 3
+drop-caches (100949): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (100989): drop_caches: 3
+drop-caches (101101): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 06f1297a-b47f-4279-8ee8-faf721156a5a devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (101157): drop_caches: 3
+drop-caches (101272): drop_caches: 3
+drop-caches (101309): drop_caches: 3
+drop-caches (101421): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (101459): drop_caches: 3
+drop-caches (101571): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (101611): drop_caches: 3
+drop-caches (101724): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 4d16374d-f801-4571-951f-add175431c7a devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (101783): drop_caches: 3
+drop-caches (101895): drop_caches: 3
+drop-caches (101929): drop_caches: 3
+drop-caches (102041): drop_caches: 3
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 31
+Broke affinity for irq 32
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 38
+Broke affinity for irq 39
+Broke affinity for irq 42
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 64
+Broke affinity for irq 66
+Broke affinity for irq 68
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+Broke affinity for irq 76
+smpboot: CPU 2 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 25
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 31
+Broke affinity for irq 32
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 38
+Broke affinity for irq 39
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 68
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 74
+Broke affinity for irq 75
+Broke affinity for irq 76
+smpboot: CPU 3 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (102089): drop_caches: 3
+drop-caches (102198): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (102269): drop_caches: 3
+drop-caches (102375): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid e20ec95b-05a8-40cd-a110-6e732a799636 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (102467): drop_caches: 3
+drop-caches (102573): drop_caches: 3
+drop-caches (102644): drop_caches: 3
+drop-caches (102750): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (102814): drop_caches: 3
+drop-caches (102920): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (102960): drop_caches: 3
+drop-caches (103067): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 534d1424-4ab5-4318-b51f-9b88d423cc30 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (103126): drop_caches: 3
+drop-caches (103233): drop_caches: 3
+drop-caches (103270): drop_caches: 3
+drop-caches (103376): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (103413): drop_caches: 3
+drop-caches (103519): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (103559): drop_caches: 3
+drop-caches (103665): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 52ac7f81-c462-4ba5-8b5b-e8f8ac7a2f6c devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (103724): drop_caches: 3
+drop-caches (103830): drop_caches: 3
+drop-caches (103864): drop_caches: 3
+drop-caches (103970): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (104007): drop_caches: 3
+drop-caches (104113): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (104153): drop_caches: 3
+drop-caches (104260): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 78850d5a-8a72-4596-9ff6-70f038ba7033 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (104319): drop_caches: 3
+drop-caches (104425): drop_caches: 3
+drop-caches (104463): drop_caches: 3
+drop-caches (104569): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (104606): drop_caches: 3
+drop-caches (104710): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (104750): drop_caches: 3
+drop-caches (104854): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid fd1369fc-e66b-4ff7-be9f-b7d34723b454 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (104913): drop_caches: 3
+drop-caches (105017): drop_caches: 3
+drop-caches (105054): drop_caches: 3
+drop-caches (105158): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (105195): drop_caches: 3
+drop-caches (105302): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (105342): drop_caches: 3
+drop-caches (105450): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid d7871805-e67e-48e4-8973-05f5e6f464c7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (105507): drop_caches: 3
+drop-caches (105614): drop_caches: 3
+drop-caches (105651): drop_caches: 3
+drop-caches (105758): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (105795): drop_caches: 3
+drop-caches (105901): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (105941): drop_caches: 3
+drop-caches (106047): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 323d27df-9afd-48b8-8197-2cd648ac6442 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (106103): drop_caches: 3
+drop-caches (106209): drop_caches: 3
+drop-caches (106246): drop_caches: 3
+drop-caches (106352): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (106389): drop_caches: 3
+drop-caches (106495): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (106536): drop_caches: 3
+drop-caches (106643): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid ddd45850-80e0-4b1a-bc64-3d2d06cd9f97 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (106702): drop_caches: 3
+drop-caches (106808): drop_caches: 3
+drop-caches (106842): drop_caches: 3
+drop-caches (106948): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (106985): drop_caches: 3
+drop-caches (107521): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (107580): drop_caches: 3
+drop-caches (108129): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 8b2acef4-2578-4d22-8083-bde3b36a4a6e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (108206): drop_caches: 3
+drop-caches (108879): drop_caches: 3
+drop-caches (108941): drop_caches: 3
+drop-caches (109465): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (109518): drop_caches: 3
+drop-caches (110820): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (110860): drop_caches: 3
+drop-caches (112303): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 5fb88760-ca04-4356-946c-268a812e2094 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (112361): drop_caches: 3
+drop-caches (115023): drop_caches: 3
+drop-caches (115081): drop_caches: 3
+drop-caches (116198): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (116234): drop_caches: 3
+drop-caches (116339): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (116380): drop_caches: 3
+drop-caches (116484): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 2f0ebf47-33c6-4151-8bea-8ddf78fe3fd9 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (116543): drop_caches: 3
+drop-caches (116647): drop_caches: 3
+drop-caches (116681): drop_caches: 3
+drop-caches (116785): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (116821): drop_caches: 3
+drop-caches (116926): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (116966): drop_caches: 3
+drop-caches (117071): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 3ab6d528-5674-49e5-a1c3-1f5126795600 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (117130): drop_caches: 3
+drop-caches (117234): drop_caches: 3
+drop-caches (117271): drop_caches: 3
+drop-caches (117375): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (117412): drop_caches: 3
+drop-caches (117516): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (117557): drop_caches: 3
+drop-caches (117661): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 923716e9-8b97-4443-808f-ea99f21f3d11 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (117720): drop_caches: 3
+drop-caches (117824): drop_caches: 3
+drop-caches (117861): drop_caches: 3
+drop-caches (117968): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (118005): drop_caches: 3
+drop-caches (118112): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (118152): drop_caches: 3
+drop-caches (118257): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 94e56309-f115-4449-8d1f-2d3daeed2344 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (118316): drop_caches: 3
+drop-caches (118423): drop_caches: 3
+drop-caches (118460): drop_caches: 3
+drop-caches (118564): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (118602): drop_caches: 3
+drop-caches (118708): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (118748): drop_caches: 3
+drop-caches (118854): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 2d0e956e-d45c-410c-afaf-8ba2b4d773c4 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (118912): drop_caches: 3
+drop-caches (119019): drop_caches: 3
+drop-caches (119056): drop_caches: 3
+drop-caches (119162): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (119199): drop_caches: 3
+drop-caches (119305): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (119342): drop_caches: 3
+drop-caches (119449): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 3ebaa81d-71e0-40e4-8510-f92924f36534 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (119508): drop_caches: 3
+drop-caches (119614): drop_caches: 3
+drop-caches (119651): drop_caches: 3
+drop-caches (119757): drop_caches: 3
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 25
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 31
+Broke affinity for irq 32
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 38
+Broke affinity for irq 39
+Broke affinity for irq 41
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 56
+Broke affinity for irq 57
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 72
+Broke affinity for irq 73
+Broke affinity for irq 74
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+smpboot: CPU 1 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (119801): drop_caches: 3
+drop-caches (119907): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (119977): drop_caches: 3
+drop-caches (120080): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid afd13437-779b-4e77-986b-82e9c6c79b69 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (120160): drop_caches: 3
+drop-caches (120267): drop_caches: 3
+drop-caches (120322): drop_caches: 3
+drop-caches (120425): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (120486): drop_caches: 3
+drop-caches (120589): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (120629): drop_caches: 3
+drop-caches (120734): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 6549221c-6341-42d4-89a7-4df597a1edc3 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (120790): drop_caches: 3
+drop-caches (120893): drop_caches: 3
+drop-caches (120930): drop_caches: 3
+drop-caches (121036): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (121073): drop_caches: 3
+drop-caches (121176): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (121213): drop_caches: 3
+drop-caches (121319): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 8a52c160-8e2e-4889-a4f7-e990069e53fc devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (121375): drop_caches: 3
+drop-caches (121478): drop_caches: 3
+drop-caches (121515): drop_caches: 3
+drop-caches (121618): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (121655): drop_caches: 3
+drop-caches (121758): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (121798): drop_caches: 3
+drop-caches (121903): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid d1489b8a-100e-474f-beb9-710362ec9ed7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (121962): drop_caches: 3
+drop-caches (122065): drop_caches: 3
+drop-caches (122102): drop_caches: 3
+drop-caches (122217): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (122254): drop_caches: 3
+drop-caches (122357): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (122397): drop_caches: 3
+drop-caches (122500): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 33d72f0b-2b72-4224-9142-5691c7a1e6c7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (122559): drop_caches: 3
+drop-caches (122662): drop_caches: 3
+drop-caches (122699): drop_caches: 3
+drop-caches (122802): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (122839): drop_caches: 3
+drop-caches (122945): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (122983): drop_caches: 3
+drop-caches (123090): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 709afabb-bf62-44ef-9ab2-b91239af907a devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (123146): drop_caches: 3
+drop-caches (123252): drop_caches: 3
+drop-caches (123286): drop_caches: 3
+drop-caches (123392): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (123429): drop_caches: 3
+drop-caches (123532): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (123569): drop_caches: 3
+drop-caches (123675): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 0c129fc9-4811-44af-8f85-4498b1ab6310 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (123731): drop_caches: 3
+drop-caches (123834): drop_caches: 3
+drop-caches (123871): drop_caches: 3
+drop-caches (123974): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (124011): drop_caches: 3
+drop-caches (124114): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (124155): drop_caches: 3
+drop-caches (124260): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 3c6125c4-1513-475a-a4b2-4a9e9e1bf200 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (124319): drop_caches: 3
+drop-caches (124422): drop_caches: 3
+drop-caches (124459): drop_caches: 3
+drop-caches (124562): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (124599): drop_caches: 3
+drop-caches (125153): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (125211): drop_caches: 3
+drop-caches (125771): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid b6c212f2-e816-4eff-b496-184cef7b7876 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (125852): drop_caches: 3
+drop-caches (126434): drop_caches: 3
+drop-caches (126492): drop_caches: 3
+drop-caches (127062): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (127114): drop_caches: 3
+drop-caches (129151): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (129191): drop_caches: 3
+drop-caches (131646): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 82f9daac-4a62-4076-bc24-1b844d4d6cdf devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (131706): drop_caches: 3
+drop-caches (136332): drop_caches: 3
+drop-caches (136387): drop_caches: 3
+drop-caches (138130): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (138167): drop_caches: 3
+drop-caches (138270): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (138310): drop_caches: 3
+drop-caches (138413): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 4a8c68f0-79c5-439e-941a-47eb230607d6 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (138469): drop_caches: 3
+drop-caches (138572): drop_caches: 3
+drop-caches (138609): drop_caches: 3
+drop-caches (138712): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (138749): drop_caches: 3
+drop-caches (138852): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (138893): drop_caches: 3
+drop-caches (138997): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid f64ab503-e83a-42ce-a06c-d974d6d5a4c8 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (139056): drop_caches: 3
+drop-caches (139159): drop_caches: 3
+drop-caches (139193): drop_caches: 3
+drop-caches (139296): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (139333): drop_caches: 3
+drop-caches (139436): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (139476): drop_caches: 3
+drop-caches (139579): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid f679c028-3d98-487e-bf0c-a99c236e0bf7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (139637): drop_caches: 3
+drop-caches (139741): drop_caches: 3
+drop-caches (139778): drop_caches: 3
+drop-caches (139884): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (139921): drop_caches: 3
+drop-caches (140024): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (140064): drop_caches: 3
+drop-caches (140169): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 8234ff42-a809-4056-b394-cecc1e0ea6cc devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (140227): drop_caches: 3
+drop-caches (140331): drop_caches: 3
+drop-caches (140368): drop_caches: 3
+drop-caches (140471): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (140508): drop_caches: 3
+drop-caches (140611): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (140651): drop_caches: 3
+drop-caches (140754): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid f7ca5b9e-d0c4-463a-983b-7d7ed4d1cb0a devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (140813): drop_caches: 3
+drop-caches (140916): drop_caches: 3
+drop-caches (140950): drop_caches: 3
+drop-caches (141053): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (141090): drop_caches: 3
+drop-caches (141193): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+drop-caches (141233): drop_caches: 3
+drop-caches (141337): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 4aeb070b-5877-4964-8dd4-80b1b9169fac devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (141397): drop_caches: 3
+drop-caches (141500): drop_caches: 3
+drop-caches (141534): drop_caches: 3
+x86: Booting SMP configuration:
+smpboot: Booting Node 0 Processor 1 APIC 0x2
+smpboot: Booting Node 0 Processor 2 APIC 0x4
+smpboot: Booting Node 0 Processor 3 APIC 0x6
+smpboot: Booting Node 0 Processor 4 APIC 0x8
+smpboot: Booting Node 0 Processor 5 APIC 0xa
+smpboot: Booting Node 0 Processor 6 APIC 0xc
+smpboot: Booting Node 0 Processor 7 APIC 0xe
+smpboot: Booting Node 0 Processor 8 APIC 0x1
+smpboot: Booting Node 0 Processor 9 APIC 0x3
+smpboot: Booting Node 0 Processor 10 APIC 0x5
+smpboot: Booting Node 0 Processor 11 APIC 0x7
+smpboot: Booting Node 0 Processor 12 APIC 0x9
+smpboot: Booting Node 0 Processor 13 APIC 0xb
+smpboot: Booting Node 0 Processor 14 APIC 0xd
+smpboot: Booting Node 0 Processor 15 APIC 0xf
+ nvme0n1: p1
+f2fs: loading out-of-tree module taints kernel.
+python (1005): drop_caches: 3
+python (1005): drop_caches: 3
+python (2019): drop_caches: 3
+python (2019): drop_caches: 3
+python (4324): drop_caches: 3
+python (4324): drop_caches: 3
+sd 0:0:1:0: [sdb] tag#31 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sd 0:0:1:0: [sdb] tag#31 Sense Key : Illegal Request [current] 
+sd 0:0:1:0: [sdb] tag#31 Add. Sense: Logical block address out of range
+sd 0:0:1:0: [sdb] tag#31 CDB: Write same(16) 93 08 00 00 00 00 6f 80 07 21 00 48 13 8f 00 00
+blk_update_request: critical target error, dev sdb, sector 1870661409
+python (64865): drop_caches: 3
+python (64865): drop_caches: 3
+python (66187): drop_caches: 3
+python (66187): drop_caches: 3
+python (67526): drop_caches: 3
+python (67526): drop_caches: 3
+python (39645): drop_caches: 3
+python (39645): drop_caches: 3
+python (40528): drop_caches: 3
+python (40528): drop_caches: 3
+python (41424): drop_caches: 3
+python (41424): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: discard
+python (92873): drop_caches: 3
+python (92873): drop_caches: 3
+python (93402): drop_caches: 3
+python (93402): drop_caches: 3
+python (93933): drop_caches: 3
+python (93933): drop_caches: 3
+python (94470): drop_caches: 3
+python (94470): drop_caches: 3
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+python (1385): drop_caches: 3
+python (1385): drop_caches: 3
+python (2749): drop_caches: 3
+python (2749): drop_caches: 3
+python (4072): drop_caches: 3
+python (4072): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+sd 0:0:1:0: [sdb] tag#31 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sd 0:0:1:0: [sdb] tag#31 Sense Key : Illegal Request [current] 
+sd 0:0:1:0: [sdb] tag#31 Add. Sense: Logical block address out of range
+sd 0:0:1:0: [sdb] tag#31 CDB: Write same(16) 93 08 00 00 00 00 6f 80 07 21 00 48 13 8f 00 00
+blk_update_request: critical target error, dev sdb, sector 1870661409
+python (66235): drop_caches: 3
+python (66235): drop_caches: 3
+python (67488): drop_caches: 3
+python (67488): drop_caches: 3
+python (68773): drop_caches: 3
+python (68773): drop_caches: 3
+sd 0:0:1:0: [sdb] tag#0 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sd 0:0:1:0: [sdb] tag#0 Sense Key : Illegal Request [current] 
+sd 0:0:1:0: [sdb] tag#0 Add. Sense: Logical block address out of range
+sd 0:0:1:0: [sdb] tag#0 CDB: Write same(16) 93 08 00 00 00 00 6f c0 88 00 00 07 92 b0 00 00
+blk_update_request: critical target error, dev sdb, sector 1874888704
+EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: discard
+python (133280): drop_caches: 3
+python (133280): drop_caches: 3
+python (134198): drop_caches: 3
+python (134198): drop_caches: 3
+python (135087): drop_caches: 3
+python (135087): drop_caches: 3
+sd 0:0:1:0: [sdb] tag#31 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sd 0:0:1:0: [sdb] tag#31 Sense Key : Illegal Request [current] 
+sd 0:0:1:0: [sdb] tag#31 Add. Sense: Logical block address out of range
+sd 0:0:1:0: [sdb] tag#31 CDB: Write same(16) 93 08 00 00 00 00 6f 80 07 21 00 48 13 8f 00 00
+blk_update_request: critical target error, dev sdb, sector 1870661409
+XFS (sdb1): Mounting V5 Filesystem
+XFS (sdb1): Ending clean mount
+python (75590): drop_caches: 3
+python (75590): drop_caches: 3
+python (80120): drop_caches: 3
+python (80120): drop_caches: 3
+python (84400): drop_caches: 3
+python (84400): drop_caches: 3
