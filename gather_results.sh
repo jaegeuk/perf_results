@@ -16,7 +16,10 @@ rsync -r --delete-excluded --delete perf:/root/xfstests-f2fs/fs_log.txt fs_mark/
 echo "Info: copy fxmark/$1 from perf"
 rm -rf fxmark/$1 2>/dev/null
 mkdir fxmark/$1 2>/dev/null
-rsync -r --delete-excluded --delete perf:/root/fxmark-f2fs/fxmark_nvme/* fxmark/$1/
+mkdir fxmark/$1/ramdisk 2>/dev/null
+mkdir fxmark/$1/nvme 2>/dev/null
+rsync -r --delete-excluded --delete perf:/root/fxmark-f2fs/fxmark_ramdisk/* fxmark/$1/ramdisk
+rsync -r --delete-excluded --delete perf:/root/fxmark-f2fs/fxmark_nvme/* fxmark/$1/nvme
 
 echo "Info: copy phoronix/$1 from perf"
 rm -rf phoronix/$1 2>/dev/null
