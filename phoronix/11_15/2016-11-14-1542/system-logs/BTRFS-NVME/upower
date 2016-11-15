@@ -1,0 +1,9 @@
+Daemon:
+  daemon-version:  0.9.23
+  can-suspend:     yes
+  can-hibernate:   yes
+  on-battery:      no
+  on-low-battery:  no
+  lid-is-closed:   no
+  lid-is-present:  no
+  is-docked:       no

@@ -1,0 +1,4160 @@
+systemd-udevd[304]: starting version 204
+wmi: module verification failed: signature and/or required key missing - tainting kernel
+pps_core: LinuxPPS API ver. 1 registered
+pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[drm] Initialized
+wmi: Mapper loaded
+PTP clock support registered
+ahci 0000:00:11.4: version 3.0
+ahci 0000:00:11.4: AHCI 0001.0300 32 slots 4 ports 6 Gbps 0xf impl RAID mode
+ahci 0000:00:11.4: flags: 64bit ncq led clo pio ems apst 
+dca service started, version 1.12.1
+e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
+e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+mpt3sas version 13.100.00.00 loaded
+igb: Intel(R) Gigabit Ethernet Network Driver - version 5.4.0-k
+mpt2sas_cm0: 64 BIT PCI BUS DMA ADDRESSING SUPPORTED, total mem (264059004 kB)
+igb: Copyright (c) 2007-2014 Intel Corporation.
+igb 0000:05:00.0: enabling device (0100 -> 0102)
+checking generic (f1000000 1e0000) vs hw (e0000000 10000000)
+checking generic (f1000000 1e0000) vs hw (f0000000 2000000)
+fb: switching to nouveaufb from EFI VGA
+Console: switching to colour dummy device 80x25
+nouveau 0000:04:00.0: NVIDIA GK104 (0e4340a2)
+pps pps0: new PPS source ptp0
+igb 0000:05:00.0: added PHC on eth0
+igb 0000:05:00.0: Intel(R) Gigabit Ethernet Network Connection
+igb 0000:05:00.0: eth0: (PCIe:2.5Gb/s:Width x1) ec:b1:d7:5f:74:fc
+igb 0000:05:00.0: eth0: PBA No: 000300-000
+igb 0000:05:00.0: Using MSI-X interrupts. 4 rx queue(s), 4 tx queue(s)
+tsc: Refined TSC clocksource calibration: 2394.455 MHz
+clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2283c1579c6, max_idle_ns: 440795259439 ns
+usb 1-1: new high-speed USB device number 2 using ehci-pci
+nouveau 0000:04:00.0: bios: version 80.04.fe.00.18
+scsi host1: ahci
+scsi host2: ahci
+scsi host3: ahci
+scsi host4: ahci
+ata1: SATA max UDMA/133 abar m2048@0xf333d000 port 0xf333d100 irq 16
+ata2: SATA max UDMA/133 abar m2048@0xf333d000 port 0xf333d180 irq 16
+ata3: SATA max UDMA/133 abar m2048@0xf333d000 port 0xf333d200 irq 16
+ata4: SATA max UDMA/133 abar m2048@0xf333d000 port 0xf333d280 irq 16
+ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 4 ports 6 Gbps 0x3 impl RAID mode
+ahci 0000:00:1f.2: flags: 64bit ncq led clo pio ems apst 
+nouveau 0000:04:00.0: fb: 4096 MiB GDDR5
+scsi host5: ahci
+scsi host6: ahci
+scsi host7: ahci
+scsi host8: ahci
+ata5: SATA max UDMA/133 abar m2048@0xf3338000 port 0xf3338100 irq 16
+ata6: SATA max UDMA/133 abar m2048@0xf3338000 port 0xf3338180 irq 16
+ata7: DUMMY
+ata8: DUMMY
+e1000e 0000:00:19.0: enabling device (0140 -> 0142)
+e1000e 0000:00:19.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+usb 2-1: new high-speed USB device number 2 using ehci-pci
+usb 3-13: new high-speed USB device number 2 using xhci_hcd
+[TTM] Zone  kernel: Available graphics memory: 132029502 kiB
+[TTM] Zone   dma32: Available graphics memory: 2097152 kiB
+[TTM] Initializing pool allocator
+[TTM] Initializing DMA pool allocator
+nouveau 0000:04:00.0: DRM: VRAM: 4096 MiB
+nouveau 0000:04:00.0: DRM: GART: 1048576 MiB
+nouveau 0000:04:00.0: DRM: TMDS table version 2.0
+nouveau 0000:04:00.0: DRM: DCB version 4.0
+nouveau 0000:04:00.0: DRM: DCB outp 00: 01000f02 00020030
+nouveau 0000:04:00.0: DRM: DCB outp 01: 02000f00 00000000
+nouveau 0000:04:00.0: DRM: DCB outp 03: 02822fa6 0f420010
+nouveau 0000:04:00.0: DRM: DCB outp 04: 02022f62 00020010
+nouveau 0000:04:00.0: DRM: DCB outp 05: 04833fb6 0f420010
+nouveau 0000:04:00.0: DRM: DCB outp 06: 04033f72 00020010
+nouveau 0000:04:00.0: DRM: DCB conn 00: 00001030
+nouveau 0000:04:00.0: DRM: DCB conn 02: 00002246
+nouveau 0000:04:00.0: DRM: DCB conn 03: 00010346
+nouveau 0000:04:00.0: DRM: DCB conn 04: 00000460
+[drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[drm] Driver supports precise vblank timestamp query.
+e1000e 0000:00:19.0 0000:00:19.0 (uninitialized): registered PHC clock
+usb 1-1: New USB device found, idVendor=8087, idProduct=800a
+usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+hub 1-1:1.0: USB hub found
+hub 1-1:1.0: 6 ports detected
+usb 3-13: New USB device found, idVendor=0451, idProduct=8142
+usb 3-13: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+usb 3-13: SerialNumber: 90080859CACD
+usb 2-1: New USB device found, idVendor=8087, idProduct=8002
+usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+hub 3-13:1.0: USB hub found
+hub 2-1:1.0: USB hub found
+hub 3-13:1.0: 4 ports detected
+hub 2-1:1.0: 8 ports detected
+e1000e 0000:00:19.0 eth1: (PCI Express:2.5GT/s:Width x1) ec:b1:d7:5f:74:fb
+e1000e 0000:00:19.0 eth1: Intel(R) PRO/1000 Network Connection
+e1000e 0000:00:19.0 eth1: MAC: 11, PHY: 12, PBA No: FFFFFF-0FF
+e1000e 0000:00:19.0 em1: renamed from eth1
+mpt2sas_cm0: MSI-X vectors supported: 16, no of cores: 32, max_msix_vectors: -1
+mpt2sas0-msix0: PCI-MSI-X enabled: IRQ 38
+mpt2sas0-msix1: PCI-MSI-X enabled: IRQ 39
+mpt2sas0-msix2: PCI-MSI-X enabled: IRQ 40
+mpt2sas0-msix3: PCI-MSI-X enabled: IRQ 41
+mpt2sas0-msix4: PCI-MSI-X enabled: IRQ 42
+mpt2sas0-msix5: PCI-MSI-X enabled: IRQ 43
+mpt2sas0-msix6: PCI-MSI-X enabled: IRQ 44
+mpt2sas0-msix7: PCI-MSI-X enabled: IRQ 45
+mpt2sas0-msix8: PCI-MSI-X enabled: IRQ 46
+mpt2sas0-msix9: PCI-MSI-X enabled: IRQ 47
+mpt2sas0-msix10: PCI-MSI-X enabled: IRQ 48
+mpt2sas0-msix11: PCI-MSI-X enabled: IRQ 49
+mpt2sas0-msix12: PCI-MSI-X enabled: IRQ 50
+mpt2sas0-msix13: PCI-MSI-X enabled: IRQ 51
+mpt2sas0-msix14: PCI-MSI-X enabled: IRQ 52
+mpt2sas0-msix15: PCI-MSI-X enabled: IRQ 53
+mpt2sas_cm0: iomem(0x00000000f3240000), mapped(0xffffc0435a070000), size(65536)
+mpt2sas_cm0: ioport(0x0000000000003000), size(256)
+usb 4-4: new SuperSpeed USB device number 2 using xhci_hcd
+ata1: SATA link down (SStatus 0 SControl 300)
+ata2: SATA link down (SStatus 0 SControl 300)
+ata3: SATA link down (SStatus 0 SControl 300)
+ata4: SATA link down (SStatus 0 SControl 300)
+usb 4-4: New USB device found, idVendor=0451, idProduct=8140
+usb 4-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+hub 4-4:1.0: USB hub found
+hub 4-4:1.0: 4 ports detected
+nouveau 0000:04:00.0: DRM: MM: using COPY for buffer copies
+ata5: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+ata6: SATA link down (SStatus 0 SControl 300)
+systemd-udevd[307]: renamed network interface eth1 to em1
+ata5.00: ATAPI: hp       DVDRAM GUB0N, SA02, max UDMA/100
+ata5.00: configured for UDMA/100
+scsi 5:0:0:0: CD-ROM            hp       DVDRAM GUB0N     SA02 PQ: 0 ANSI: 5
+sr 5:0:0:0: [sr0] scsi3-mmc drive: 24x/24x writer dvd-ram cd/rw xa/form2 cdda tray
+cdrom: Uniform CD-ROM driver Revision: 3.20
+sr 5:0:0:0: Attached scsi CD-ROM sr0
+sr 5:0:0:0: Attached scsi generic sg0 type 5
+mpt2sas_cm0: sending diag reset !!
+nouveau 0000:04:00.0: No connectors reported connected with modes
+[drm] Cannot find any crtc or sizes - going 1024x768
+nouveau 0000:04:00.0: DRM: allocated 1024x768 fb: 0x60000, bo ffff9d695e167400
+fbcon: nouveaufb (fb0) is primary device
+Console: switching to colour frame buffer device 128x48
+nouveau 0000:04:00.0: fb0: nouveaufb frame buffer device
+[drm] Initialized nouveau 1.3.1 20120801 for 0000:04:00.0 on minor 0
+clocksource: Switched to clocksource tsc
+mpt2sas_cm0: diag reset: SUCCESS
+mpt2sas_cm0: Allocated physical memory: size(7417 kB)
+mpt2sas_cm0: Current Controller Queue Depth(2936),Max Controller Queue Depth(3072)
+mpt2sas_cm0: Scatter Gather Elements per IO(128)
+random: fast init done
+mpt2sas_cm0: LSISAS2308: FWVersion(18.10.00.00), ChipRevision(0x05), BiosVersion(07.35.02.00)
+mpt2sas_cm0: Protocol=(
+Initiator
+), 
+Capabilities=(
+Raid
+,TLR
+,EEDP
+,Snapshot Buffer
+,Diag Trace Buffer
+,Task Set Full
+,NCQ
+)
+scsi host0: Fusion MPT SAS Host
+mpt2sas_cm0: sending port enable !!
+md: linear personality registered for level -1
+md: multipath personality registered for level -4
+md: raid0 personality registered for level 0
+md: raid1 personality registered for level 1
+raid6: sse2x1   gen()  8234 MB/s
+raid6: sse2x1   xor()  6474 MB/s
+raid6: sse2x2   gen() 10581 MB/s
+raid6: sse2x2   xor()  7086 MB/s
+raid6: sse2x4   gen() 12213 MB/s
+raid6: sse2x4   xor()  8570 MB/s
+raid6: avx2x1   gen() 16193 MB/s
+raid6: avx2x2   gen() 18791 MB/s
+raid6: avx2x4   gen() 21841 MB/s
+raid6: using algorithm avx2x4 gen() 21841 MB/s
+raid6: using avx2x2 recovery algorithm
+xor: automatically using best checksumming function   avx       
+async_tx: api initialized (async)
+md: raid6 personality registered for level 6
+md: raid5 personality registered for level 5
+md: raid4 personality registered for level 4
+md: raid10 personality registered for level 10
+mpt2sas_cm0: host_add: handle(0x0001), sas_addr(0x50014380328cf9d8), phys(8)
+mpt2sas_cm0: port enable: SUCCESS
+scsi 0:0:0:0: Direct-Access     ATA      SanDisk SDSSDHII 10RL PQ: 0 ANSI: 6
+scsi 0:0:0:0: SATA: handle(0x0009), sas_addr(0x4433221100000000), phy(0), device_name(0x5001b44e8249a043)
+scsi 0:0:0:0: SATA: enclosure_logical_id(0x50014380328cf9d8), slot(0)
+scsi 0:0:0:0: atapi(n), ncq(y), asyn_notify(n), smart(y), fua(y), sw_preserve(y)
+scsi 0:0:1:0: Direct-Access     ATA      SanDisk SDSSDHII 10RL PQ: 0 ANSI: 6
+scsi 0:0:1:0: SATA: handle(0x000a), sas_addr(0x4433221101000000), phy(1), device_name(0x5001b44e59a31258)
+scsi 0:0:1:0: SATA: enclosure_logical_id(0x50014380328cf9d8), slot(1)
+scsi 0:0:1:0: atapi(n), ncq(y), asyn_notify(n), smart(y), fua(y), sw_preserve(y)
+sd 0:0:0:0: Attached scsi generic sg1 type 0
+sd 0:0:1:0: Attached scsi generic sg2 type 0
+sd 0:0:0:0: [sda] 1875385008 512-byte logical blocks: (960 GB/894 GiB)
+sd 0:0:1:0: [sdb] 1875385008 512-byte logical blocks: (960 GB/894 GiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Mode Sense: 7f 00 10 08
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, supports DPO and FUA
+sd 0:0:1:0: [sdb] Write Protect is off
+sd 0:0:1:0: [sdb] Mode Sense: 7f 00 10 08
+sd 0:0:1:0: [sdb] Write cache: enabled, read cache: enabled, supports DPO and FUA
+ sdb: sdb1
+ sda: sda1 sda2 sda3
+sd 0:0:0:0: [sda] Attached SCSI disk
+sd 0:0:1:0: [sdb] Attached SCSI disk
+Btrfs loaded, crc32c=crc32c-intel
+BTRFS: device fsid 119bcc98-a466-47fb-a312-0d4f642bdcb4 devid 1 transid 178 /dev/sdb1
+EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+init: ureadahead main process (533) terminated with status 5
+Adding 33459196k swap on /dev/sda3.  Priority:-1 extents:1 across:33459196k SSFS
+EXT4-fs (sda2): re-mounted. Opts: errors=remount-ro
+FS-Cache: Loaded
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+systemd-udevd[819]: starting version 204
+FS-Cache: Netfs 'nfs' registered for caching
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+lp: driver loaded but no devices found
+ppdev: user-space parallel port driver
+Bluetooth: Core ver 2.22
+NET: Registered protocol family 31
+Bluetooth: HCI device and connection manager initialized
+Bluetooth: HCI socket layer initialized
+Bluetooth: L2CAP socket layer initialized
+Bluetooth: SCO socket layer initialized
+Bluetooth: RFCOMM TTY layer initialized
+Bluetooth: RFCOMM socket layer initialized
+Bluetooth: RFCOMM ver 1.11
+tpm_inf_pnp 00:05: Found TPM with ID IFX0102
+Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Bluetooth: BNEP filters: protocol multicast
+Bluetooth: BNEP socket layer initialized
+audit: type=1400 audit(1478921472.712:2): apparmor="STATUS" operation="profile_load" name="/usr/lib/cups/backend/cups-pdf" pid=982 comm="apparmor_parser"
+audit: type=1400 audit(1478921472.712:3): apparmor="STATUS" operation="profile_load" name="/usr/sbin/cupsd" pid=982 comm="apparmor_parser"
+audit: type=1400 audit(1478921472.712:4): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/cupsd" pid=982 comm="apparmor_parser"
+init: cups main process (994) killed by HUP signal
+init: cups main process ended, respawning
+nvme nvme0: pci function 0000:86:00.0
+snd_hda_intel 0000:00:1b.0: enabling device (0100 -> 0102)
+snd_hda_intel 0000:04:00.1: enabling device (0100 -> 0102)
+snd_hda_intel 0000:04:00.1: Disabling MSI
+snd_hda_intel 0000:04:00.1: Handle vga_switcheroo audio client
+AVX2 version of gcm_enc/dec engaged.
+AES CTR mode by8 optimization enabled
+snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC221: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=1 (0x17/0x0/0x0/0x0/0x0)
+snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+snd_hda_codec_realtek hdaudioC0D0:    inputs:
+snd_hda_codec_realtek hdaudioC0D0:      Front Mic=0x1a
+snd_hda_codec_realtek hdaudioC0D0:      Front Mic=0x18
+snd_hda_codec_realtek hdaudioC0D0:      Line=0x1b
+audit: type=1400 audit(1478921472.796:5): apparmor="STATUS" operation="profile_load" name="/sbin/dhclient" pid=1072 comm="apparmor_parser"
+audit: type=1400 audit(1478921472.796:6): apparmor="STATUS" operation="profile_load" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1072 comm="apparmor_parser"
+audit: type=1400 audit(1478921472.796:7): apparmor="STATUS" operation="profile_load" name="/usr/lib/connman/scripts/dhclient-script" pid=1072 comm="apparmor_parser"
+audit: type=1400 audit(1478921472.796:8): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1072 comm="apparmor_parser"
+audit: type=1400 audit(1478921472.796:9): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1072 comm="apparmor_parser"
+audit: type=1400 audit(1478921472.796:10): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1072 comm="apparmor_parser"
+input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input5
+audit: type=1400 audit(1478921472.800:11): apparmor="STATUS" operation="profile_load" name="/usr/sbin/ntpd" pid=1087 comm="apparmor_parser"
+input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input6
+input: HDA Intel PCH Line as /devices/pci0000:00/0000:00:1b.0/sound/card0/input7
+input: HDA Intel PCH Line Out as /devices/pci0000:00/0000:00:1b.0/sound/card0/input8
+input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card0/input9
+ACPI Error: Needed [Buffer/String/Package], found [Integer] ffff9d895ebc14c8 (20160831/exresop-594)
+ACPI Exception: AE_AML_OPERAND_TYPE, While resolving operands for [OpcodeName unavailable] (20160831/dswexec-461)
+ACPI Error: 
+Method parse/execution failed [\_SB.WMIV.WVPO] (Node ffff9d696f4c2168), AE_AML_OPERAND_TYPE (20160831/psparse-543)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffff9d696f4c21b8), AE_AML_OPERAND_TYPE
+ (20160831/psparse-543)
+ACPI Error: Needed [Buffer/String/Package], found [Integer] ffff9d895e9175a0 (20160831/exresop-594)
+ACPI Exception: AE_AML_OPERAND_TYPE, While resolving operands for [OpcodeName unavailable] (20160831/dswexec-461)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPO] (Node ffff9d696f4c2168), AE_AML_OPERAND_TYPE (20160831/psparse-543)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffff9d696f4c21b8), AE_AML_OPERAND_TYPE (20160831/psparse-543)
+ACPI Error: Needed [Buffer/String/Package], found [Integer] ffff9d895eb051f8 (20160831/exresop-594)
+ACPI Exception: AE_AML_OPERAND_TYPE, While resolving operands for [OpcodeName unavailable] (20160831/dswexec-461)
+EDAC MC: Ver: 3.0.0
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPO] (Node ffff9d696f4c2168), AE_AML_OPERAND_TYPE (20160831/psparse-543)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffff9d696f4c21b8), AE_AML_OPERAND_TYPE (20160831/psparse-543)
+input: HP WMI hotkeys as /devices/virtual/input/input10
+EDAC sbridge: Seeking for: PCI ID 8086:2fa0
+EDAC sbridge: Seeking for: PCI ID 8086:2fa0
+EDAC sbridge: Seeking for: PCI ID 8086:2fa0
+EDAC sbridge: Seeking for: PCI ID 8086:2ffc
+EDAC sbridge: Seeking for: PCI ID 8086:2ffc
+EDAC sbridge: Seeking for: PCI ID 8086:2ffc
+EDAC sbridge: Seeking for: PCI ID 8086:2ffd
+EDAC sbridge: Seeking for: PCI ID 8086:2ffd
+EDAC sbridge: Seeking for: PCI ID 8086:2ffd
+EDAC sbridge: Seeking for: PCI ID 8086:2f60
+EDAC sbridge: Seeking for: PCI ID 8086:2fa8
+EDAC sbridge: Seeking for: PCI ID 8086:2fa8
+EDAC sbridge: Seeking for: PCI ID 8086:2fa8
+EDAC sbridge: Seeking for: PCI ID 8086:2f71
+EDAC sbridge: Seeking for: PCI ID 8086:2f71
+EDAC sbridge: Seeking for: PCI ID 8086:2f71
+EDAC sbridge: Seeking for: PCI ID 8086:2faa
+EDAC sbridge: Seeking for: PCI ID 8086:2faa
+EDAC sbridge: Seeking for: PCI ID 8086:2faa
+EDAC sbridge: Seeking for: PCI ID 8086:2fab
+EDAC sbridge: Seeking for: PCI ID 8086:2fab
+EDAC sbridge: Seeking for: PCI ID 8086:2fab
+EDAC sbridge: Seeking for: PCI ID 8086:2fac
+EDAC sbridge: Seeking for: PCI ID 8086:2fac
+EDAC sbridge: Seeking for: PCI ID 8086:2fac
+EDAC sbridge: Seeking for: PCI ID 8086:2fad
+EDAC sbridge: Seeking for: PCI ID 8086:2fad
+EDAC sbridge: Seeking for: PCI ID 8086:2fad
+EDAC sbridge: Seeking for: PCI ID 8086:2fbd
+EDAC sbridge: Seeking for: PCI ID 8086:2fbf
+EDAC sbridge: Seeking for: PCI ID 8086:2fbf
+EDAC sbridge: Seeking for: PCI ID 8086:2fbf
+EDAC sbridge: Seeking for: PCI ID 8086:2fb9
+EDAC sbridge: Seeking for: PCI ID 8086:2fb9
+EDAC sbridge: Seeking for: PCI ID 8086:2fb9
+EDAC sbridge: Seeking for: PCI ID 8086:2fbb
+EDAC sbridge: Seeking for: PCI ID 8086:2fbb
+EDAC sbridge: Seeking for: PCI ID 8086:2fbb
+EDAC sbridge: Seeking for: PCI ID 8086:2f68
+EDAC sbridge: Seeking for: PCI ID 8086:2f68
+EDAC sbridge: Seeking for: PCI ID 8086:2f68
+EDAC sbridge: Seeking for: PCI ID 8086:2f79
+EDAC sbridge: Seeking for: PCI ID 8086:2f6a
+EDAC sbridge: Seeking for: PCI ID 8086:2f6b
+EDAC sbridge: Seeking for: PCI ID 8086:2f6c
+EDAC sbridge: Seeking for: PCI ID 8086:2f6d
+EDAC MC0: Giving out device to module sbridge_edac.c controller Haswell Socket#0: DEV 0000:ff:12.0 (INTERRUPT)
+intel_rapl: Found RAPL domain package
+intel_rapl: Found RAPL domain dram
+intel_rapl: DRAM domain energy unit 15300pj
+intel_rapl: Found RAPL domain package
+intel_rapl: Found RAPL domain dram
+intel_rapl: DRAM domain energy unit 15300pj
+ACPI Error: Attempt to CreateField of length zero (20160831/dsopcode-168)
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPI] (Node ffff9d696f4c2118), AE_AML_OPERAND_VALUE (20160831/psparse-543)
+EDAC MC1: Giving out device to module sbridge_edac.c controller Haswell Socket#1: DEV 0000:7f:12.0 (INTERRUPT)
+EDAC sbridge:  Ver: 1.1.1 
+ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffff9d696f4c21b8), AE_AML_OPERAND_VALUE (20160831/psparse-543)
+IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+init: Failed to obtain startpar-bridge instance: Unknown parameter: INSTANCE
+input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:03.0/0000:04:00.1/sound/card1/input11
+input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:03.0/0000:04:00.1/sound/card1/input12
+input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:03.0/0000:04:00.1/sound/card1/input13
+igb 0000:05:00.0 eth0: igb: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+ nvme0n1: p1
+init: failsafe main process (1183) killed by TERM signal
+random: crng init done
+audit_printk_skb: 21 callbacks suppressed
+audit: type=1400 audit(1478921483.420:19): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/ntpd" pid=1693 comm="apparmor_parser"
+audit: type=1400 audit(1478921483.420:20): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=1686 comm="apparmor_parser"
+audit: type=1400 audit(1478921483.420:21): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1686 comm="apparmor_parser"
+audit: type=1400 audit(1478921483.420:22): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1686 comm="apparmor_parser"
+audit: type=1400 audit(1478921483.420:23): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1686 comm="apparmor_parser"
+audit: type=1400 audit(1478921483.420:24): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1686 comm="apparmor_parser"
+audit: type=1400 audit(1478921483.420:25): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1686 comm="apparmor_parser"
+audit: type=1400 audit(1478921483.420:26): apparmor="STATUS" operation="profile_replace" name="/usr/lib/cups/backend/cups-pdf" pid=1691 comm="apparmor_parser"
+audit: type=1400 audit(1478921483.420:27): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/cupsd" pid=1691 comm="apparmor_parser"
+audit: type=1400 audit(1478921483.420:28): apparmor="STATUS" operation="profile_load" name="/usr/lib/libvirt/virt-aa-helper" pid=1688 comm="apparmor_parser"
+IPv6: ADDRCONF(NETDEV_UP): em1: link is not ready
+Ebtables v2.0 registered
+ip_tables: (C) 2000-2006 Netfilter Core Team
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+init: plymouth-upstart-bridge main process ended, respawning
+init: plymouth-upstart-bridge main process (2401) terminated with status 1
+init: plymouth-upstart-bridge main process ended, respawning
+cgroup: systemd-logind (979) created nested cgroup for controller "memory" which has incomplete hierarchy support. Nested cgroups may change behavior in the future.
+cgroup: "memory" requires setting use_hierarchy to 1 on the root
+bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+nf_conntrack version 0.5.0 (65536 buckets, 262144 max)
+init: plymouth-stop pre-start process (2550) terminated with status 1
+audit_printk_skb: 24 callbacks suppressed
+audit: type=1400 audit(1478921502.768:37): apparmor="STATUS" operation="profile_replace" name="/usr/lib/cups/backend/cups-pdf" pid=2603 comm="apparmor_parser"
+audit: type=1400 audit(1478921502.768:38): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/cupsd" pid=2603 comm="apparmor_parser"
+audit: type=1400 audit(1478921502.768:39): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/cupsd" pid=2603 comm="apparmor_parser"
+brd: module loaded
+md: bind<ram0>
+md: bind<ram1>
+md: bind<ram2>
+md: bind<ram3>
+md/raid0:md0: md_size is 134215680 sectors.
+md: RAID0 configuration for md0 - 1 zone
+md: zone0=[ram0/ram1/ram2/ram3]
+      zone-offset=         0KB, device-offset=         0KB, size=  67107840KB
+md0: detected capacity change from 0 to 68718428160
+f2fs: loading out-of-tree module taints kernel.
+F2FS-fs (md0): FAULT_INJECTION was not selected
+F2FS-fs (md0): FAULT_INJECTION was not selected
+python (23764): drop_caches: 3
+python (23764): drop_caches: 3
+python (24361): drop_caches: 3
+python (24361): drop_caches: 3
+python (24961): drop_caches: 3
+python (24961): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: discard
+python (14495): drop_caches: 3
+python (14495): drop_caches: 3
+python (14972): drop_caches: 3
+python (14972): drop_caches: 3
+python (15440): drop_caches: 3
+python (15440): drop_caches: 3
+BTRFS: device fsid ed70ae1b-cb26-493f-8beb-c27bad06cf0f devid 1 transid 4 /dev/md0
+BTRFS info (device md0): turning on discard
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+python (30028): drop_caches: 3
+python (30028): drop_caches: 3
+python (30805): drop_caches: 3
+python (30805): drop_caches: 3
+python (31557): drop_caches: 3
+python (31557): drop_caches: 3
+python (32314): drop_caches: 3
+python (32314): drop_caches: 3
+python (669): drop_caches: 3
+python (669): drop_caches: 3
+python (1459): drop_caches: 3
+python (1459): drop_caches: 3
+F2FS-fs (nvme0n1p1): FAULT_INJECTION was not selected
+python (20923): drop_caches: 3
+python (20923): drop_caches: 3
+python (21917): drop_caches: 3
+python (21917): drop_caches: 3
+python (22908): drop_caches: 3
+python (22908): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: discard
+python (11520): drop_caches: 3
+python (11520): drop_caches: 3
+python (12136): drop_caches: 3
+python (12136): drop_caches: 3
+python (12766): drop_caches: 3
+python (12766): drop_caches: 3
+BTRFS: device fsid 24762cd6-9013-47be-b861-6496c795358f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): turning on discard
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+python (7798): drop_caches: 3
+python (7798): drop_caches: 3
+python (8754): drop_caches: 3
+python (8754): drop_caches: 3
+python (9700): drop_caches: 3
+python (9700): drop_caches: 3
+python (10528): drop_caches: 3
+python (10528): drop_caches: 3
+python (11429): drop_caches: 3
+python (11429): drop_caches: 3
+python (12281): drop_caches: 3
+python (12281): drop_caches: 3
+sd 0:0:1:0: [sdb] tag#31 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sd 0:0:1:0: [sdb] tag#31 Sense Key : Illegal Request [current] 
+sd 0:0:1:0: [sdb] tag#31 Add. Sense: Logical block address out of range
+sd 0:0:1:0: [sdb] tag#31 CDB: Write same(16) 93 08 00 00 00 00 6f 80 07 21 00 48 13 8f 00 00
+blk_update_request: critical target error, dev sdb, sector 1870661409
+F2FS-fs (sdb1): FAULT_INJECTION was not selected
+python (10311): drop_caches: 3
+python (10311): drop_caches: 3
+python (11851): drop_caches: 3
+python (11851): drop_caches: 3
+python (13463): drop_caches: 3
+python (13463): drop_caches: 3
+python (15023): drop_caches: 3
+python (15023): drop_caches: 3
+python (16590): drop_caches: 3
+python (16590): drop_caches: 3
+python (18181): drop_caches: 3
+python (18181): drop_caches: 3
+sd 0:0:1:0: [sdb] tag#0 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sd 0:0:1:0: [sdb] tag#0 Sense Key : Illegal Request [current] 
+sd 0:0:1:0: [sdb] tag#0 Add. Sense: Logical block address out of range
+sd 0:0:1:0: [sdb] tag#0 CDB: Write same(16) 93 08 00 00 00 00 6f c0 88 00 00 07 92 b0 00 00
+blk_update_request: critical target error, dev sdb, sector 1874888704
+EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: discard
+python (20034): drop_caches: 3
+python (20034): drop_caches: 3
+python (21196): drop_caches: 3
+python (21196): drop_caches: 3
+python (22252): drop_caches: 3
+python (22252): drop_caches: 3
+sd 0:0:1:0: [sdb] tag#3 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sd 0:0:1:0: [sdb] tag#3 Sense Key : Illegal Request [current] 
+sd 0:0:1:0: [sdb] tag#3 Add. Sense: Logical block address out of range
+sd 0:0:1:0: [sdb] tag#3 CDB: Write same(16) 93 08 00 00 00 00 6f 80 07 21 00 48 13 8f 00 00
+blk_update_request: critical target error, dev sdb, sector 1870661409
+BTRFS: device fsid ca8fd679-0cc2-411b-bfad-8f7b1b6f1870 devid 1 transid 4 /dev/sdb1
+BTRFS info (device sdb1): turning on discard
+BTRFS info (device sdb1): disk space caching is enabled
+BTRFS info (device sdb1): flagging fs with big metadata feature
+BTRFS info (device sdb1): detected SSD devices, enabling SSD mode
+BTRFS info (device sdb1): creating UUID tree
+python (27512): drop_caches: 3
+python (27512): drop_caches: 3
+python (28806): drop_caches: 3
+python (28806): drop_caches: 3
+python (29954): drop_caches: 3
+python (29954): drop_caches: 3
+python (31245): drop_caches: 3
+python (31245): drop_caches: 3
+python (32482): drop_caches: 3
+python (32482): drop_caches: 3
+python (1242): drop_caches: 3
+python (1242): drop_caches: 3
+------------[ cut here ]------------
+WARNING: CPU: 6 PID: 6712 at fs/btrfs/extent-tree.c:5696 btrfs_free_block_groups+0x356/0x400 [btrfs]
+Modules linked in: f2fs(OE) brd(E) ipt_MASQUERADE(E) nf_nat_masquerade_ipv4(E) iptable_nat(E) nf_nat_ipv4(E) nf_nat(E) nf_conntrack_ipv4(E) nf_defrag_ipv4(E) xt_conntrack(E) nf_conntrack(E) ipt_REJECT(E) nf_reject_ipv4(E) xt_CHECKSUM(E) iptable_mangle(E) xt_tcpudp(E) bridge(E) stp(E) llc(E) ip6table_filter(E) ip6_tables(E) iptable_filter(E) ip_tables(E) ebtable_nat(E) ebtables(E) x_tables(E) snd_hda_codec_hdmi(E) dm_crypt(E) intel_rapl(E) sb_edac(E) edac_core(E) x86_pkg_temp_thermal(E) hp_wmi(E) intel_powerclamp(E) sparse_keymap(E) coretemp(E) kvm_intel(E) kvm(E) irqbypass(E) crct10dif_pclmul(E) crc32_pclmul(E) ghash_clmulni_intel(E) aesni_intel(E) snd_hda_codec_realtek(E) snd_hda_codec_generic(E) aes_x86_64(E) lrw(E) glue_helper(E) ablk_helper(E) cryptd(E) serio_raw(E) snd_hda_intel(E)
+ snd_hda_codec(E) nvme(E) nvme_core(E) snd_hda_core(E) snd_hwdep(E) snd_pcm(E) lpc_ich(E) snd_seq_midi(E) snd_seq_midi_event(E) snd_rawmidi(E) snd_seq(E) snd_seq_device(E) snd_timer(E) snd(E) mei_me(E) soundcore(E) mei(E) tpm_infineon(E) bnep(E) rfcomm(E) bluetooth(E) mac_hid(E) parport_pc(E) ppdev(E) lp(E) parport(E) binfmt_misc(E) nfsd(E) auth_rpcgss(E) nfs_acl(E) nfs(E) lockd(E) grace(E) sunrpc(E) fscache(E) nls_iso8859_1(E) btrfs(E) raid10(E) raid456(E) async_raid6_recov(E) async_memcpy(E) async_pq(E) async_xor(E) async_tx(E) xor(E) raid6_pq(E) libcrc32c(E) raid1(E) raid0(E) multipath(E) linear(E) nouveau(E) mxm_wmi(E) video(E) ttm(E) drm_kms_helper(E) igb(E) syscopyarea(E) sysfillrect(E) e1000e(E) sysimgblt(E) dca(E) psmouse(E) mpt3sas(E) fb_sys_fops(E) ahci(E) ptp(E) raid_class(E) i2c_algo_bit(E) pps_core(E) drm(E) libahci(E) scsi_transport_sas(E) wmi(E) [last unloaded: f2fs]
+CPU: 6 PID: 6712 Comm: umount Tainted: G           OE   4.9.0-rc1+ #75
+Hardware name: Hewlett-Packard HP Z840 Workstation/2129, BIOS M60 v02.23 07/22/2016
+ ffffc04378017d18 ffffffffb03e2c6c 0000000000000000 0000000000000000
+ ffffc04378017d58 ffffffffb007e431 00001640b00e5205 0000000000000000
+ ffff9d887b275400 ffff9d6960b0a000 ffff9d6960b0a090 ffff9d6960b0a0a0
+Call Trace:
+ [<ffffffffb03e2c6c>] dump_stack+0x63/0x87
+ [<ffffffffb007e431>] __warn+0xd1/0xf0
+ [<ffffffffb007e51d>] warn_slowpath_null+0x1d/0x20
+ [<ffffffffc0588f46>] btrfs_free_block_groups+0x356/0x400 [btrfs]
+ [<ffffffffc059b23a>] close_ctree+0x10a/0x320 [btrfs]
+ [<ffffffffc056c8b9>] btrfs_put_super+0x19/0x20 [btrfs]
+ [<ffffffffb021e18f>] generic_shutdown_super+0x6f/0x100
+ [<ffffffffb021e232>] kill_anon_super+0x12/0x20
+ [<ffffffffc056f478>] btrfs_kill_super+0x18/0x110 [btrfs]
+ [<ffffffffb021dba3>] deactivate_locked_super+0x43/0x70
+ [<ffffffffb021dc16>] deactivate_super+0x46/0x60
+ [<ffffffffb023b39f>] cleanup_mnt+0x3f/0x80
+ [<ffffffffb023b432>] __cleanup_mnt+0x12/0x20
+ [<ffffffffb009c1b3>] task_work_run+0x83/0xb0
+ [<ffffffffb0078c91>] exit_to_usermode_loop+0x66/0x92
+ [<ffffffffb00037f9>] syscall_return_slowpath+0x59/0x60
+ [<ffffffffb0826148>] entry_SYSCALL_64_fastpath+0xab/0xad
+---[ end trace b8a12e7500c9e487 ]---
+------------[ cut here ]------------
+WARNING: CPU: 6 PID: 6712 at fs/btrfs/extent-tree.c:5697 btrfs_free_block_groups+0x3f0/0x400 [btrfs]
+Modules linked in: f2fs(OE) brd(E) ipt_MASQUERADE(E) nf_nat_masquerade_ipv4(E) iptable_nat(E) nf_nat_ipv4(E) nf_nat(E) nf_conntrack_ipv4(E) nf_defrag_ipv4(E) xt_conntrack(E) nf_conntrack(E) ipt_REJECT(E) nf_reject_ipv4(E) xt_CHECKSUM(E) iptable_mangle(E) xt_tcpudp(E) bridge(E) stp(E) llc(E) ip6table_filter(E) ip6_tables(E) iptable_filter(E) ip_tables(E) ebtable_nat(E) ebtables(E) x_tables(E) snd_hda_codec_hdmi(E) dm_crypt(E) intel_rapl(E) sb_edac(E) edac_core(E) x86_pkg_temp_thermal(E) hp_wmi(E) intel_powerclamp(E) sparse_keymap(E) coretemp(E) kvm_intel(E) kvm(E) irqbypass(E) crct10dif_pclmul(E) crc32_pclmul(E) ghash_clmulni_intel(E) aesni_intel(E) snd_hda_codec_realtek(E) snd_hda_codec_generic(E) aes_x86_64(E) lrw(E) glue_helper(E) ablk_helper(E) cryptd(E) serio_raw(E) snd_hda_intel(E)
+ snd_hda_codec(E) nvme(E) nvme_core(E) snd_hda_core(E) snd_hwdep(E) snd_pcm(E) lpc_ich(E) snd_seq_midi(E) snd_seq_midi_event(E) snd_rawmidi(E) snd_seq(E) snd_seq_device(E) snd_timer(E) snd(E) mei_me(E) soundcore(E) mei(E) tpm_infineon(E) bnep(E) rfcomm(E) bluetooth(E) mac_hid(E) parport_pc(E) ppdev(E) lp(E) parport(E) binfmt_misc(E) nfsd(E) auth_rpcgss(E) nfs_acl(E) nfs(E) lockd(E) grace(E) sunrpc(E) fscache(E) nls_iso8859_1(E) btrfs(E) raid10(E) raid456(E) async_raid6_recov(E) async_memcpy(E) async_pq(E) async_xor(E) async_tx(E) xor(E) raid6_pq(E) libcrc32c(E) raid1(E) raid0(E) multipath(E) linear(E) nouveau(E) mxm_wmi(E) video(E) ttm(E) drm_kms_helper(E) igb(E) syscopyarea(E) sysfillrect(E) e1000e(E) sysimgblt(E) dca(E) psmouse(E) mpt3sas(E) fb_sys_fops(E) ahci(E) ptp(E) raid_class(E) i2c_algo_bit(E) pps_core(E) drm(E) libahci(E) scsi_transport_sas(E) wmi(E) [last unloaded: f2fs]
+CPU: 6 PID: 6712 Comm: umount Tainted: G        W  OE   4.9.0-rc1+ #75
+Hardware name: Hewlett-Packard HP Z840 Workstation/2129, BIOS M60 v02.23 07/22/2016
+ ffffc04378017d18 ffffffffb03e2c6c 0000000000000000 0000000000000000
+ ffffc04378017d58 ffffffffb007e431 00001641b00e5205 0000000000000000
+ ffff9d887b275400 ffff9d6960b0a000 ffff9d6960b0a090 ffff9d6960b0a0a0
+Call Trace:
+ [<ffffffffb03e2c6c>] dump_stack+0x63/0x87
+ [<ffffffffb007e431>] __warn+0xd1/0xf0
+ [<ffffffffb007e51d>] warn_slowpath_null+0x1d/0x20
+ [<ffffffffc0588fe0>] btrfs_free_block_groups+0x3f0/0x400 [btrfs]
+ [<ffffffffc059b23a>] close_ctree+0x10a/0x320 [btrfs]
+ [<ffffffffc056c8b9>] btrfs_put_super+0x19/0x20 [btrfs]
+ [<ffffffffb021e18f>] generic_shutdown_super+0x6f/0x100
+ [<ffffffffb021e232>] kill_anon_super+0x12/0x20
+ [<ffffffffc056f478>] btrfs_kill_super+0x18/0x110 [btrfs]
+ [<ffffffffb021dba3>] deactivate_locked_super+0x43/0x70
+ [<ffffffffb021dc16>] deactivate_super+0x46/0x60
+ [<ffffffffb023b39f>] cleanup_mnt+0x3f/0x80
+ [<ffffffffb023b432>] __cleanup_mnt+0x12/0x20
+ [<ffffffffb009c1b3>] task_work_run+0x83/0xb0
+ [<ffffffffb0078c91>] exit_to_usermode_loop+0x66/0x92
+ [<ffffffffb00037f9>] syscall_return_slowpath+0x59/0x60
+ [<ffffffffb0826148>] entry_SYSCALL_64_fastpath+0xab/0xad
+---[ end trace b8a12e7500c9e488 ]---
+------------[ cut here ]------------
+WARNING: CPU: 6 PID: 6712 at fs/btrfs/extent-tree.c:10039 btrfs_free_block_groups+0x2a5/0x400 [btrfs]
+Modules linked in: f2fs(OE) brd(E) ipt_MASQUERADE(E) nf_nat_masquerade_ipv4(E) iptable_nat(E) nf_nat_ipv4(E) nf_nat(E) nf_conntrack_ipv4(E) nf_defrag_ipv4(E) xt_conntrack(E) nf_conntrack(E) ipt_REJECT(E) nf_reject_ipv4(E) xt_CHECKSUM(E) iptable_mangle(E) xt_tcpudp(E) bridge(E) stp(E) llc(E) ip6table_filter(E) ip6_tables(E) iptable_filter(E) ip_tables(E) ebtable_nat(E) ebtables(E) x_tables(E) snd_hda_codec_hdmi(E) dm_crypt(E) intel_rapl(E) sb_edac(E) edac_core(E) x86_pkg_temp_thermal(E) hp_wmi(E) intel_powerclamp(E) sparse_keymap(E) coretemp(E) kvm_intel(E) kvm(E) irqbypass(E) crct10dif_pclmul(E) crc32_pclmul(E) ghash_clmulni_intel(E) aesni_intel(E) snd_hda_codec_realtek(E) snd_hda_codec_generic(E) aes_x86_64(E) lrw(E) glue_helper(E) ablk_helper(E) cryptd(E) serio_raw(E) snd_hda_intel(E)
+ snd_hda_codec(E) nvme(E) nvme_core(E) snd_hda_core(E) snd_hwdep(E) snd_pcm(E) lpc_ich(E) snd_seq_midi(E) snd_seq_midi_event(E) snd_rawmidi(E) snd_seq(E) snd_seq_device(E) snd_timer(E) snd(E) mei_me(E) soundcore(E) mei(E) tpm_infineon(E) bnep(E) rfcomm(E) bluetooth(E) mac_hid(E) parport_pc(E) ppdev(E) lp(E) parport(E) binfmt_misc(E) nfsd(E) auth_rpcgss(E) nfs_acl(E) nfs(E) lockd(E) grace(E) sunrpc(E) fscache(E) nls_iso8859_1(E) btrfs(E) raid10(E) raid456(E) async_raid6_recov(E) async_memcpy(E) async_pq(E) async_xor(E) async_tx(E) xor(E) raid6_pq(E) libcrc32c(E) raid1(E) raid0(E) multipath(E) linear(E) nouveau(E) mxm_wmi(E) video(E) ttm(E) drm_kms_helper(E) igb(E) syscopyarea(E) sysfillrect(E) e1000e(E) sysimgblt(E) dca(E) psmouse(E) mpt3sas(E) fb_sys_fops(E) ahci(E) ptp(E) raid_class(E) i2c_algo_bit(E) pps_core(E) drm(E) libahci(E) scsi_transport_sas(E) wmi(E) [last unloaded: f2fs]
+CPU: 6 PID: 6712 Comm: umount Tainted: G        W  OE   4.9.0-rc1+ #75
+Hardware name: Hewlett-Packard HP Z840 Workstation/2129, BIOS M60 v02.23 07/22/2016
+ ffffc04378017d18 ffffffffb03e2c6c 0000000000000000 0000000000000000
+ ffffc04378017d58 ffffffffb007e431 0000273778017d50 0000000000000038
+ 0000000000000000 ffff9d6960b0a000 ffff9d887b274c88 ffff9d887b274c00
+Call Trace:
+ [<ffffffffb03e2c6c>] dump_stack+0x63/0x87
+ [<ffffffffb007e431>] __warn+0xd1/0xf0
+ [<ffffffffb007e51d>] warn_slowpath_null+0x1d/0x20
+ [<ffffffffc0588e95>] btrfs_free_block_groups+0x2a5/0x400 [btrfs]
+ [<ffffffffc059b23a>] close_ctree+0x10a/0x320 [btrfs]
+ [<ffffffffc056c8b9>] btrfs_put_super+0x19/0x20 [btrfs]
+ [<ffffffffb021e18f>] generic_shutdown_super+0x6f/0x100
+ [<ffffffffb021e232>] kill_anon_super+0x12/0x20
+ [<ffffffffc056f478>] btrfs_kill_super+0x18/0x110 [btrfs]
+ [<ffffffffb021dba3>] deactivate_locked_super+0x43/0x70
+ [<ffffffffb021dc16>] deactivate_super+0x46/0x60
+ [<ffffffffb023b39f>] cleanup_mnt+0x3f/0x80
+ [<ffffffffb023b432>] __cleanup_mnt+0x12/0x20
+ [<ffffffffb009c1b3>] task_work_run+0x83/0xb0
+ [<ffffffffb0078c91>] exit_to_usermode_loop+0x66/0x92
+ [<ffffffffb00037f9>] syscall_return_slowpath+0x59/0x60
+ [<ffffffffb0826148>] entry_SYSCALL_64_fastpath+0xab/0xad
+---[ end trace b8a12e7500c9e489 ]---
+BTRFS info (device sdb1): space_info 4 has 18446743967415320576 free, is not full
+BTRFS info (device sdb1): space_info total=1082130432, used=2113536, pinned=0, reserved=0, may_use=107374182400, readonly=65536
+F2FS-fs (md0): FAULT_INJECTION was not selected
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: discard
+BTRFS: device fsid 053b2ada-d68f-43cf-900e-b92a5de68502 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): turning on discard
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+F2FS-fs (nvme0n1p1): FAULT_INJECTION was not selected
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: discard
+BTRFS: device fsid 99417789-8fc0-4b49-8c99-a27aceeaab49 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): turning on discard
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+sd 0:0:1:0: [sdb] tag#31 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sd 0:0:1:0: [sdb] tag#31 Sense Key : Illegal Request [current] 
+sd 0:0:1:0: [sdb] tag#31 Add. Sense: Logical block address out of range
+sd 0:0:1:0: [sdb] tag#31 CDB: Write same(16) 93 08 00 00 00 00 6f 80 07 21 00 48 13 8f 00 00
+blk_update_request: critical target error, dev sdb, sector 1870661409
+F2FS-fs (sdb1): FAULT_INJECTION was not selected
+sd 0:0:1:0: [sdb] tag#0 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sd 0:0:1:0: [sdb] tag#0 Sense Key : Illegal Request [current] 
+sd 0:0:1:0: [sdb] tag#0 Add. Sense: Logical block address out of range
+sd 0:0:1:0: [sdb] tag#0 CDB: Write same(16) 93 08 00 00 00 00 6f c0 88 00 00 07 92 b0 00 00
+blk_update_request: critical target error, dev sdb, sector 1874888704
+EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: discard
+sd 0:0:1:0: [sdb] tag#3 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sd 0:0:1:0: [sdb] tag#3 Sense Key : Illegal Request [current] 
+sd 0:0:1:0: [sdb] tag#3 Add. Sense: Logical block address out of range
+sd 0:0:1:0: [sdb] tag#3 CDB: Write same(16) 93 08 00 00 00 00 6f 80 07 21 00 48 13 8f 00 00
+blk_update_request: critical target error, dev sdb, sector 1870661409
+BTRFS: device fsid 4a8ae0f3-a5fa-4a7f-9f36-0723962044c3 devid 1 transid 4 /dev/sdb1
+BTRFS info (device sdb1): turning on discard
+BTRFS info (device sdb1): disk space caching is enabled
+BTRFS info (device sdb1): flagging fs with big metadata feature
+BTRFS info (device sdb1): detected SSD devices, enabling SSD mode
+BTRFS info (device sdb1): creating UUID tree
+drop-caches (25467): drop_caches: 3
+Broke affinity for irq 34
+smpboot: CPU 16 is now offline
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+smpboot: CPU 17 is now offline
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+smpboot: CPU 18 is now offline
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+smpboot: CPU 19 is now offline
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+smpboot: CPU 20 is now offline
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+smpboot: CPU 21 is now offline
+Broke affinity for irq 30
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+smpboot: CPU 22 is now offline
+Broke affinity for irq 30
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+smpboot: CPU 23 is now offline
+Broke affinity for irq 30
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+smpboot: CPU 24 is now offline
+Broke affinity for irq 30
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+smpboot: CPU 25 is now offline
+Broke affinity for irq 30
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+smpboot: CPU 26 is now offline
+Broke affinity for irq 30
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+smpboot: CPU 27 is now offline
+Broke affinity for irq 30
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+smpboot: CPU 28 is now offline
+Broke affinity for irq 30
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+smpboot: CPU 29 is now offline
+Broke affinity for irq 30
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+smpboot: CPU 30 is now offline
+Broke affinity for irq 30
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 31 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25737): drop_caches: 3
+drop-caches (25839): drop_caches: 3
+BTRFS: device fsid b6346587-2d9a-4cbd-9d54-b84293bf938b devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (26277): drop_caches: 3
+drop-caches (26377): drop_caches: 3
+drop-caches (26709): drop_caches: 3
+drop-caches (26811): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27203): drop_caches: 3
+drop-caches (27305): drop_caches: 3
+BTRFS: device fsid 31776a59-9be4-4b0d-9f53-f442dd4ff02f devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (27571): drop_caches: 3
+drop-caches (27688): drop_caches: 3
+drop-caches (27925): drop_caches: 3
+drop-caches (28027): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (28275): drop_caches: 3
+drop-caches (28374): drop_caches: 3
+BTRFS: device fsid bb307d48-c3cd-4048-8042-36322b8ce55f devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (28646): drop_caches: 3
+drop-caches (28745): drop_caches: 3
+drop-caches (28994): drop_caches: 3
+drop-caches (29096): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (29419): drop_caches: 3
+drop-caches (29521): drop_caches: 3
+BTRFS: device fsid 6a24db12-97f8-4a3e-b08d-e258c9fd9a8a devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (29871): drop_caches: 3
+drop-caches (29973): drop_caches: 3
+drop-caches (30309): drop_caches: 3
+drop-caches (30411): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30728): drop_caches: 3
+drop-caches (30803): drop_caches: 3
+BTRFS: device fsid c48721d5-46c5-4647-a3f2-a70348708e77 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (31141): drop_caches: 3
+drop-caches (31219): drop_caches: 3
+drop-caches (31545): drop_caches: 3
+drop-caches (31620): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31868): drop_caches: 3
+drop-caches (31949): drop_caches: 3
+BTRFS: device fsid 37811e06-32d2-4927-84ee-5bd8d5383341 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (32288): drop_caches: 3
+drop-caches (32372): drop_caches: 3
+drop-caches (32622): drop_caches: 3
+drop-caches (32697): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (536): drop_caches: 3
+drop-caches (639): drop_caches: 3
+BTRFS: device fsid 5a9087f0-1cd8-483f-90ea-fda66138587b devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (1008): drop_caches: 3
+drop-caches (1111): drop_caches: 3
+drop-caches (1367): drop_caches: 3
+drop-caches (1479): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1738): drop_caches: 3
+drop-caches (1850): drop_caches: 3
+BTRFS: device fsid 1d937138-3eb1-4242-a548-a03e4cca345a devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (2221): drop_caches: 3
+drop-caches (2324): drop_caches: 3
+drop-caches (2786): drop_caches: 3
+drop-caches (2894): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3254): drop_caches: 3
+drop-caches (3903): drop_caches: 3
+BTRFS: device fsid 5ea32330-c00b-4efa-beae-7992bbf9e9ba devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (4338): drop_caches: 3
+drop-caches (5017): drop_caches: 3
+drop-caches (5444): drop_caches: 3
+drop-caches (6304): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6616): drop_caches: 3
+drop-caches (7364): drop_caches: 3
+BTRFS: device fsid 3dd75bf1-d4c0-4aec-b10b-24a16a152ca8 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (7632): drop_caches: 3
+drop-caches (16604): drop_caches: 3
+drop-caches (16967): drop_caches: 3
+drop-caches (17280): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (17606): drop_caches: 3
+drop-caches (17678): drop_caches: 3
+BTRFS: device fsid a264482d-d3b2-4665-ba48-008f2285cfd2 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (17947): drop_caches: 3
+drop-caches (18019): drop_caches: 3
+drop-caches (18346): drop_caches: 3
+drop-caches (18418): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (18661): drop_caches: 3
+drop-caches (18733): drop_caches: 3
+BTRFS: device fsid 37ee0895-d7f2-4d21-a26e-fde7117e2365 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (18999): drop_caches: 3
+drop-caches (19074): drop_caches: 3
+drop-caches (19320): drop_caches: 3
+drop-caches (19392): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (19715): drop_caches: 3
+drop-caches (19790): drop_caches: 3
+BTRFS: device fsid 9cd41fbc-2655-41f4-b044-64b5e8db433c devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (20153): drop_caches: 3
+drop-caches (20228): drop_caches: 3
+drop-caches (20546): drop_caches: 3
+drop-caches (20621): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20935): drop_caches: 3
+drop-caches (21010): drop_caches: 3
+BTRFS: device fsid b167c1de-9231-4463-b7b4-f401a7c25aff devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (21357): drop_caches: 3
+drop-caches (21441): drop_caches: 3
+drop-caches (21691): drop_caches: 3
+drop-caches (21766): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22089): drop_caches: 3
+drop-caches (22191): drop_caches: 3
+BTRFS: device fsid 29e3259e-25fd-4b5c-86e6-9a8dfed47748 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (22457): drop_caches: 3
+drop-caches (22557): drop_caches: 3
+drop-caches (22806): drop_caches: 3
+drop-caches (22905): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23232): drop_caches: 3
+drop-caches (23335): drop_caches: 3
+BTRFS: device fsid 0eaac97f-741e-4eb6-82b3-c1c1e1b10713 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (23670): drop_caches: 3
+drop-caches (23775): drop_caches: 3
+drop-caches (24021): drop_caches: 3
+drop-caches (24123): drop_caches: 3
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 79
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 12 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 13 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 14 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 15 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (24381): drop_caches: 3
+drop-caches (24471): drop_caches: 3
+BTRFS: device fsid 76d3086d-fa57-4308-8eff-941b411c7788 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (24848): drop_caches: 3
+drop-caches (24950): drop_caches: 3
+drop-caches (25306): drop_caches: 3
+drop-caches (25396): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25746): drop_caches: 3
+drop-caches (25836): drop_caches: 3
+BTRFS: device fsid e2c3569d-075a-401f-a343-9a30793aa71e devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (26102): drop_caches: 3
+drop-caches (26197): drop_caches: 3
+drop-caches (26455): drop_caches: 3
+drop-caches (26546): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (26794): drop_caches: 3
+drop-caches (26884): drop_caches: 3
+BTRFS: device fsid b6a28f2a-9da2-4e4a-be20-34309795e77e devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (27150): drop_caches: 3
+drop-caches (27240): drop_caches: 3
+drop-caches (27485): drop_caches: 3
+drop-caches (27575): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27830): drop_caches: 3
+drop-caches (27920): drop_caches: 3
+BTRFS: device fsid fc33f105-0d46-4ae6-919d-c18c62e377df devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (28186): drop_caches: 3
+drop-caches (28276): drop_caches: 3
+drop-caches (28528): drop_caches: 3
+drop-caches (28618): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (28861): drop_caches: 3
+drop-caches (28935): drop_caches: 3
+BTRFS: device fsid b61ad4a9-2e6e-47c3-89a9-260b3d8ea35f devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (29207): drop_caches: 3
+drop-caches (29275): drop_caches: 3
+drop-caches (29523): drop_caches: 3
+drop-caches (29594): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (29851): drop_caches: 3
+drop-caches (29922): drop_caches: 3
+BTRFS: device fsid 53d2f4ed-c995-457b-9043-fa7e22ba88ad devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (30191): drop_caches: 3
+drop-caches (30268): drop_caches: 3
+drop-caches (30518): drop_caches: 3
+drop-caches (30589): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30849): drop_caches: 3
+drop-caches (30942): drop_caches: 3
+BTRFS: device fsid 722af2c5-c8c1-492a-a9ff-f558e29e6cd3 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (31205): drop_caches: 3
+drop-caches (31298): drop_caches: 3
+drop-caches (31547): drop_caches: 3
+drop-caches (31640): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31888): drop_caches: 3
+drop-caches (31978): drop_caches: 3
+BTRFS: device fsid a6fc9266-6b3c-49e1-bfe5-672be769109b devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (32251): drop_caches: 3
+drop-caches (32344): drop_caches: 3
+drop-caches (32596): drop_caches: 3
+drop-caches (32686): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (518): drop_caches: 3
+drop-caches (1275): drop_caches: 3
+BTRFS: device fsid 9514397d-a527-4378-afe4-e6438cbb32a4 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (1645): drop_caches: 3
+drop-caches (2335): drop_caches: 3
+drop-caches (2817): drop_caches: 3
+drop-caches (3631): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3942): drop_caches: 3
+drop-caches (4641): drop_caches: 3
+BTRFS: device fsid d9800e04-b422-459d-b0d5-703f36033cd0 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (4911): drop_caches: 3
+drop-caches (11775): drop_caches: 3
+drop-caches (12067): drop_caches: 3
+drop-caches (12361): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (12603): drop_caches: 3
+drop-caches (12671): drop_caches: 3
+BTRFS: device fsid 85cb6461-389a-4dce-bb1a-b53c3e4b9bae devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (12940): drop_caches: 3
+drop-caches (13008): drop_caches: 3
+drop-caches (13257): drop_caches: 3
+drop-caches (13325): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13588): drop_caches: 3
+drop-caches (13653): drop_caches: 3
+BTRFS: device fsid 8b360b04-8612-42e5-aa07-35ade0eeb9bb devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (13919): drop_caches: 3
+drop-caches (13987): drop_caches: 3
+drop-caches (14242): drop_caches: 3
+drop-caches (14310): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14555): drop_caches: 3
+drop-caches (14626): drop_caches: 3
+BTRFS: device fsid ede4f971-ac96-48e8-adbd-dcd8c1d7f915 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (14904): drop_caches: 3
+drop-caches (14975): drop_caches: 3
+drop-caches (15224): drop_caches: 3
+drop-caches (15292): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15540): drop_caches: 3
+drop-caches (15611): drop_caches: 3
+BTRFS: device fsid adba977c-1f00-4cb5-b991-8022fe298cc6 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (15880): drop_caches: 3
+drop-caches (15957): drop_caches: 3
+drop-caches (16204): drop_caches: 3
+drop-caches (16272): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16520): drop_caches: 3
+drop-caches (16610): drop_caches: 3
+BTRFS: device fsid 7e92b02d-d01d-4f80-bfa1-f97983dc5a6c devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (16879): drop_caches: 3
+drop-caches (16970): drop_caches: 3
+drop-caches (17222): drop_caches: 3
+drop-caches (17312): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (17557): drop_caches: 3
+drop-caches (17647): drop_caches: 3
+BTRFS: device fsid 0167b555-8bd3-440c-91d4-30f2576bb301 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (17910): drop_caches: 3
+drop-caches (18004): drop_caches: 3
+drop-caches (18248): drop_caches: 3
+drop-caches (18341): drop_caches: 3
+Broke affinity for irq 16
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 8 is now offline
+Broke affinity for irq 16
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 9 is now offline
+Broke affinity for irq 16
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 10 is now offline
+Broke affinity for irq 1
+Broke affinity for irq 8
+Broke affinity for irq 9
+Broke affinity for irq 12
+Broke affinity for irq 16
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 11 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (18619): drop_caches: 3
+drop-caches (18697): drop_caches: 3
+BTRFS: device fsid 2cadf348-26c2-439b-83e8-07ae23aa1efb devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (19061): drop_caches: 3
+drop-caches (19142): drop_caches: 3
+drop-caches (19478): drop_caches: 3
+drop-caches (19568): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (19927): drop_caches: 3
+drop-caches (20005): drop_caches: 3
+BTRFS: device fsid 89b60e02-b020-4a32-ba81-3c9d9db6e5b2 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (20273): drop_caches: 3
+drop-caches (20356): drop_caches: 3
+drop-caches (20610): drop_caches: 3
+drop-caches (20688): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20933): drop_caches: 3
+drop-caches (21011): drop_caches: 3
+BTRFS: device fsid ea25f74b-9eb0-4371-8cdc-d21f05cddecf devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (21279): drop_caches: 3
+drop-caches (21357): drop_caches: 3
+drop-caches (21604): drop_caches: 3
+drop-caches (21685): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (21927): drop_caches: 3
+drop-caches (22005): drop_caches: 3
+BTRFS: device fsid b4f9bbf9-8c66-4156-8b26-217a8419a035 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (22273): drop_caches: 3
+drop-caches (22351): drop_caches: 3
+drop-caches (22601): drop_caches: 3
+drop-caches (22679): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22924): drop_caches: 3
+drop-caches (22991): drop_caches: 3
+BTRFS: device fsid da66dec4-ac4d-4d52-9c23-395cb9c8e0f1 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (23257): drop_caches: 3
+drop-caches (23324): drop_caches: 3
+drop-caches (23572): drop_caches: 3
+drop-caches (23639): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23885): drop_caches: 3
+drop-caches (23952): drop_caches: 3
+BTRFS: device fsid 174fe327-1b64-45a4-83b2-955555a88e26 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (24232): drop_caches: 3
+drop-caches (24302): drop_caches: 3
+drop-caches (24550): drop_caches: 3
+drop-caches (24614): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (24862): drop_caches: 3
+drop-caches (24940): drop_caches: 3
+BTRFS: device fsid 190635ae-efdb-498a-99c8-470e6cfcbfa9 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (25208): drop_caches: 3
+drop-caches (25286): drop_caches: 3
+drop-caches (25538): drop_caches: 3
+drop-caches (25616): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25861): drop_caches: 3
+drop-caches (25942): drop_caches: 3
+BTRFS: device fsid ba66bad7-4493-4896-80d0-1dbbd9f71b9e devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (26208): drop_caches: 3
+drop-caches (26286): drop_caches: 3
+drop-caches (26535): drop_caches: 3
+drop-caches (26613): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (26858): drop_caches: 3
+drop-caches (27646): drop_caches: 3
+BTRFS: device fsid 4d04cf6f-25d0-4120-8b85-ebb5d6891066 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (28022): drop_caches: 3
+drop-caches (28682): drop_caches: 3
+drop-caches (29058): drop_caches: 3
+drop-caches (29867): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30187): drop_caches: 3
+drop-caches (30603): drop_caches: 3
+BTRFS: device fsid 38f15907-08dd-440e-b8ab-23093710f01a devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (30868): drop_caches: 3
+drop-caches (1940): drop_caches: 3
+drop-caches (2251): drop_caches: 3
+drop-caches (2502): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2821): drop_caches: 3
+drop-caches (2891): drop_caches: 3
+BTRFS: device fsid f5709cda-0454-4f66-a6a1-4855ba25051b devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (3186): drop_caches: 3
+drop-caches (3254): drop_caches: 3
+drop-caches (3499): drop_caches: 3
+drop-caches (3563): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3808): drop_caches: 3
+drop-caches (3872): drop_caches: 3
+BTRFS: device fsid e19d073c-0d66-4c48-9efd-43cf6910c2c4 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (4140): drop_caches: 3
+drop-caches (4204): drop_caches: 3
+drop-caches (4449): drop_caches: 3
+drop-caches (4516): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4761): drop_caches: 3
+drop-caches (4825): drop_caches: 3
+BTRFS: device fsid 21432666-6b5d-4a45-ba69-0dcbdf195ade devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (5094): drop_caches: 3
+drop-caches (5161): drop_caches: 3
+drop-caches (5407): drop_caches: 3
+drop-caches (5471): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5716): drop_caches: 3
+drop-caches (5786): drop_caches: 3
+BTRFS: device fsid d16efcd0-2faf-4f46-81ba-013f184f2d66 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (6066): drop_caches: 3
+drop-caches (6136): drop_caches: 3
+drop-caches (6386): drop_caches: 3
+drop-caches (6450): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6698): drop_caches: 3
+drop-caches (6779): drop_caches: 3
+BTRFS: device fsid 3fb1194e-3c10-4678-9046-2d3bf156fc83 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (7047): drop_caches: 3
+drop-caches (7125): drop_caches: 3
+drop-caches (7374): drop_caches: 3
+drop-caches (7452): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (7697): drop_caches: 3
+drop-caches (7775): drop_caches: 3
+BTRFS: device fsid 2216e2fd-bb1e-4ed7-bc5b-fe1f599d197f devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (8043): drop_caches: 3
+drop-caches (8122): drop_caches: 3
+drop-caches (8371): drop_caches: 3
+drop-caches (8449): drop_caches: 3
+Broke affinity for irq 18
+Broke affinity for irq 30
+Broke affinity for irq 42
+Broke affinity for irq 44
+Broke affinity for irq 47
+Broke affinity for irq 51
+Broke affinity for irq 61
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 4 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 30
+Broke affinity for irq 37
+Broke affinity for irq 42
+Broke affinity for irq 44
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 49
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 5 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 26
+Broke affinity for irq 30
+Broke affinity for irq 32
+Broke affinity for irq 37
+Broke affinity for irq 38
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 6 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 25
+Broke affinity for irq 26
+Broke affinity for irq 30
+Broke affinity for irq 31
+Broke affinity for irq 32
+Broke affinity for irq 37
+Broke affinity for irq 38
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 7 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8712): drop_caches: 3
+drop-caches (8778): drop_caches: 3
+BTRFS: device fsid 99bc0b5b-a1ff-4730-82f2-a52394745ae0 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (9133): drop_caches: 3
+drop-caches (9199): drop_caches: 3
+drop-caches (9526): drop_caches: 3
+drop-caches (9592): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9933): drop_caches: 3
+drop-caches (9999): drop_caches: 3
+BTRFS: device fsid c100d97a-2c1d-4153-b0be-8317078bc5bb devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (10264): drop_caches: 3
+drop-caches (10330): drop_caches: 3
+drop-caches (10594): drop_caches: 3
+drop-caches (10660): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (10905): drop_caches: 3
+drop-caches (10971): drop_caches: 3
+BTRFS: device fsid 0e79940a-0103-4333-b100-4b5482336883 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (11239): drop_caches: 3
+drop-caches (11305): drop_caches: 3
+drop-caches (11550): drop_caches: 3
+drop-caches (11619): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (11865): drop_caches: 3
+drop-caches (11931): drop_caches: 3
+BTRFS: device fsid a13941b5-d2a5-45ca-a390-4f10a41757e8 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (12196): drop_caches: 3
+drop-caches (12265): drop_caches: 3
+drop-caches (12511): drop_caches: 3
+drop-caches (12577): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (12822): drop_caches: 3
+drop-caches (12885): drop_caches: 3
+BTRFS: device fsid 97e0d36e-cb2d-435f-9252-d2d8d5a3cbd3 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (13150): drop_caches: 3
+drop-caches (13210): drop_caches: 3
+drop-caches (13459): drop_caches: 3
+drop-caches (13522): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13764): drop_caches: 3
+drop-caches (13827): drop_caches: 3
+BTRFS: device fsid 5cf97d71-1964-4ec0-868f-757139da5f46 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (14096): drop_caches: 3
+drop-caches (14159): drop_caches: 3
+drop-caches (14407): drop_caches: 3
+drop-caches (14470): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14715): drop_caches: 3
+drop-caches (14781): drop_caches: 3
+BTRFS: device fsid 295db568-0ee3-458e-b01d-12fd3584a71f devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (15050): drop_caches: 3
+drop-caches (15116): drop_caches: 3
+drop-caches (15376): drop_caches: 3
+drop-caches (15445): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15690): drop_caches: 3
+drop-caches (15756): drop_caches: 3
+BTRFS: device fsid 5292cdbf-68b3-481e-91fb-362206b1cada devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (16022): drop_caches: 3
+drop-caches (16091): drop_caches: 3
+drop-caches (16337): drop_caches: 3
+drop-caches (16403): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16651): drop_caches: 3
+drop-caches (17425): drop_caches: 3
+BTRFS: device fsid 944e01ce-57f9-4097-b418-adf7ab3035bf devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (17816): drop_caches: 3
+drop-caches (18446): drop_caches: 3
+drop-caches (18815): drop_caches: 3
+drop-caches (19787): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20146): drop_caches: 3
+drop-caches (20714): drop_caches: 3
+BTRFS: device fsid 0d69a38e-6561-4a07-bde0-c89363157db8 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (20979): drop_caches: 3
+drop-caches (23181): drop_caches: 3
+drop-caches (23467): drop_caches: 3
+drop-caches (23765): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (24010): drop_caches: 3
+drop-caches (24070): drop_caches: 3
+BTRFS: device fsid dad44656-e834-4181-99a5-ade357fd2daa devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (24338): drop_caches: 3
+drop-caches (24398): drop_caches: 3
+drop-caches (24644): drop_caches: 3
+drop-caches (24704): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (24949): drop_caches: 3
+drop-caches (25009): drop_caches: 3
+BTRFS: device fsid a4fe1a20-3906-4993-887e-d397e5baf5b2 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (25274): drop_caches: 3
+drop-caches (25334): drop_caches: 3
+drop-caches (25584): drop_caches: 3
+drop-caches (25647): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25892): drop_caches: 3
+drop-caches (25955): drop_caches: 3
+BTRFS: device fsid fdc9d8fb-8308-45f2-8f28-fcbbf90cced9 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (26220): drop_caches: 3
+drop-caches (26283): drop_caches: 3
+drop-caches (26530): drop_caches: 3
+drop-caches (26590): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (26838): drop_caches: 3
+drop-caches (26898): drop_caches: 3
+BTRFS: device fsid 6d5b83a3-165f-4327-932e-221c040d5879 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (27163): drop_caches: 3
+drop-caches (27226): drop_caches: 3
+drop-caches (27474): drop_caches: 3
+drop-caches (27534): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27782): drop_caches: 3
+drop-caches (27860): drop_caches: 3
+BTRFS: device fsid f0757871-77b3-4e3d-b37d-2776934faafc devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (28125): drop_caches: 3
+drop-caches (28194): drop_caches: 3
+drop-caches (28439): drop_caches: 3
+drop-caches (28505): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (28754): drop_caches: 3
+drop-caches (28820): drop_caches: 3
+BTRFS: device fsid dd2310e4-6651-488c-868e-99c0b270e053 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (29085): drop_caches: 3
+drop-caches (29151): drop_caches: 3
+drop-caches (29396): drop_caches: 3
+drop-caches (29462): drop_caches: 3
+Broke affinity for irq 26
+Broke affinity for irq 30
+Broke affinity for irq 59
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 2 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 26
+Broke affinity for irq 30
+Broke affinity for irq 34
+Broke affinity for irq 59
+Broke affinity for irq 60
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 3 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (29718): drop_caches: 3
+drop-caches (29778): drop_caches: 3
+BTRFS: device fsid e6431886-ea90-4939-9b6e-3a2f4423cea0 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (30106): drop_caches: 3
+drop-caches (30166): drop_caches: 3
+drop-caches (30476): drop_caches: 3
+drop-caches (30536): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30853): drop_caches: 3
+drop-caches (30913): drop_caches: 3
+BTRFS: device fsid 4318094c-6984-44a7-b83b-3d2c91f6b597 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (31189): drop_caches: 3
+drop-caches (31249): drop_caches: 3
+drop-caches (31495): drop_caches: 3
+drop-caches (31555): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31797): drop_caches: 3
+drop-caches (31860): drop_caches: 3
+BTRFS: device fsid 255ebad8-5457-4f4c-848c-795014c7d9b8 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (32135): drop_caches: 3
+drop-caches (32198): drop_caches: 3
+drop-caches (32442): drop_caches: 3
+drop-caches (32505): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (32747): drop_caches: 3
+drop-caches (339): drop_caches: 3
+BTRFS: device fsid d251008f-a417-4465-a03c-5574bf1f18fe devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (653): drop_caches: 3
+drop-caches (713): drop_caches: 3
+drop-caches (967): drop_caches: 3
+drop-caches (1039): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1289): drop_caches: 3
+drop-caches (1347): drop_caches: 3
+BTRFS: device fsid 7b1dd3d6-d32e-4f22-8319-c94c49e88948 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (1622): drop_caches: 3
+drop-caches (1685): drop_caches: 3
+drop-caches (1946): drop_caches: 3
+drop-caches (2019): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2278): drop_caches: 3
+drop-caches (2336): drop_caches: 3
+BTRFS: device fsid ac43264b-5bc8-4be1-81a4-adbfa126b7eb devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (2719): drop_caches: 3
+drop-caches (2780): drop_caches: 3
+drop-caches (3045): drop_caches: 3
+drop-caches (3106): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3362): drop_caches: 3
+drop-caches (3422): drop_caches: 3
+BTRFS: device fsid 276c4d82-2b1e-4423-9b38-de4cb91ee5b4 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (3684): drop_caches: 3
+drop-caches (3747): drop_caches: 3
+drop-caches (3992): drop_caches: 3
+drop-caches (4052): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4309): drop_caches: 3
+drop-caches (4369): drop_caches: 3
+BTRFS: device fsid 8dbbf1de-a74b-4850-b50a-e3b412a8c676 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (4634): drop_caches: 3
+drop-caches (4694): drop_caches: 3
+drop-caches (4939): drop_caches: 3
+drop-caches (4999): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5245): drop_caches: 3
+drop-caches (5988): drop_caches: 3
+BTRFS: device fsid e62dd019-a198-479c-90ae-d43508a4e051 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (6341): drop_caches: 3
+drop-caches (7025): drop_caches: 3
+drop-caches (7371): drop_caches: 3
+drop-caches (8420): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8735): drop_caches: 3
+drop-caches (9526): drop_caches: 3
+BTRFS: device fsid b1f397b6-997f-43fe-ae5c-d01bedaef030 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (9791): drop_caches: 3
+drop-caches (13209): drop_caches: 3
+drop-caches (13489): drop_caches: 3
+drop-caches (13956): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14202): drop_caches: 3
+drop-caches (14260): drop_caches: 3
+BTRFS: device fsid 7c7044ca-426e-41f2-bb9a-112a2ffff53b devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (14522): drop_caches: 3
+drop-caches (14580): drop_caches: 3
+drop-caches (14822): drop_caches: 3
+drop-caches (14883): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15129): drop_caches: 3
+drop-caches (15187): drop_caches: 3
+BTRFS: device fsid ce2caec2-94b6-4fe7-99fd-786cc062f505 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (15452): drop_caches: 3
+drop-caches (15510): drop_caches: 3
+drop-caches (15767): drop_caches: 3
+drop-caches (15825): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16068): drop_caches: 3
+drop-caches (16126): drop_caches: 3
+BTRFS: device fsid e9ecfe1e-f4c6-4561-af41-5ad491eb2037 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (16391): drop_caches: 3
+drop-caches (16449): drop_caches: 3
+drop-caches (16694): drop_caches: 3
+drop-caches (16752): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16995): drop_caches: 3
+drop-caches (17053): drop_caches: 3
+BTRFS: device fsid 19b487ca-dafe-407c-94fd-b2347023848d devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (17318): drop_caches: 3
+drop-caches (17379): drop_caches: 3
+drop-caches (17621): drop_caches: 3
+drop-caches (17682): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (17924): drop_caches: 3
+drop-caches (17985): drop_caches: 3
+BTRFS: device fsid 551e4e0e-5cff-4c60-a495-5bd52c448cfb devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (18251): drop_caches: 3
+drop-caches (18311): drop_caches: 3
+drop-caches (18553): drop_caches: 3
+drop-caches (18613): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (18858): drop_caches: 3
+drop-caches (18918): drop_caches: 3
+BTRFS: device fsid a682c872-a3cd-4fb5-bd54-9c3d41d9c480 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (19180): drop_caches: 3
+drop-caches (19240): drop_caches: 3
+drop-caches (19486): drop_caches: 3
+drop-caches (19546): drop_caches: 3
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 25
+Broke affinity for irq 26
+Broke affinity for irq 28
+Broke affinity for irq 31
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 38
+Broke affinity for irq 39
+Broke affinity for irq 40
+Broke affinity for irq 41
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 58
+Broke affinity for irq 59
+Broke affinity for irq 60
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 1 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (19801): drop_caches: 3
+drop-caches (19858): drop_caches: 3
+BTRFS: device fsid d9bd912a-41f1-4fd4-ba58-d6435835229d devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (20153): drop_caches: 3
+drop-caches (20210): drop_caches: 3
+drop-caches (20509): drop_caches: 3
+drop-caches (20566): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20850): drop_caches: 3
+drop-caches (20907): drop_caches: 3
+BTRFS: device fsid 87e6676d-15ea-490a-8ea6-de9963334b34 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (21187): drop_caches: 3
+drop-caches (21244): drop_caches: 3
+drop-caches (21490): drop_caches: 3
+drop-caches (21547): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (21792): drop_caches: 3
+drop-caches (21849): drop_caches: 3
+BTRFS: device fsid 9757a434-198a-47a6-b930-d48b688763ee devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (22114): drop_caches: 3
+drop-caches (22171): drop_caches: 3
+drop-caches (22420): drop_caches: 3
+drop-caches (22477): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22723): drop_caches: 3
+drop-caches (22780): drop_caches: 3
+BTRFS: device fsid 52e31f99-a85f-487b-bd3c-40c8fdc56fc3 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (23045): drop_caches: 3
+drop-caches (23102): drop_caches: 3
+drop-caches (23347): drop_caches: 3
+drop-caches (23404): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23649): drop_caches: 3
+drop-caches (23706): drop_caches: 3
+BTRFS: device fsid 5feea517-1285-44c0-8673-ee7d5a2ece9d devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (23971): drop_caches: 3
+drop-caches (24028): drop_caches: 3
+drop-caches (24273): drop_caches: 3
+drop-caches (24330): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (24576): drop_caches: 3
+drop-caches (24633): drop_caches: 3
+BTRFS: device fsid a6c074ee-f6f2-4420-9d07-b3b4e1b55505 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (24898): drop_caches: 3
+drop-caches (24958): drop_caches: 3
+drop-caches (25203): drop_caches: 3
+drop-caches (25260): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25522): drop_caches: 3
+drop-caches (25579): drop_caches: 3
+BTRFS: device fsid 34dd5886-ed47-49b3-8750-47a2ca70f8f3 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (25844): drop_caches: 3
+drop-caches (25901): drop_caches: 3
+drop-caches (26152): drop_caches: 3
+drop-caches (26209): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (26454): drop_caches: 3
+drop-caches (26512): drop_caches: 3
+BTRFS: device fsid 2e155949-41e1-49cb-bba9-1b9ad276dfac devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (26777): drop_caches: 3
+drop-caches (26834): drop_caches: 3
+drop-caches (27082): drop_caches: 3
+drop-caches (27139): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27384): drop_caches: 3
+drop-caches (28411): drop_caches: 3
+BTRFS: device fsid ee0305c7-b98f-4a75-b199-bf1421e17ea8 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (28760): drop_caches: 3
+drop-caches (29967): drop_caches: 3
+drop-caches (30300): drop_caches: 3
+drop-caches (31391): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31696): drop_caches: 3
+drop-caches (338): drop_caches: 3
+BTRFS: device fsid d725e6ac-4b96-48ea-a507-1e52af393a92 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (655): drop_caches: 3
+drop-caches (6480): drop_caches: 3
+drop-caches (6756): drop_caches: 3
+drop-caches (7508): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (7753): drop_caches: 3
+drop-caches (7810): drop_caches: 3
+BTRFS: device fsid cf99a746-b78a-41c7-b915-a62906bf72ff devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (8075): drop_caches: 3
+drop-caches (8132): drop_caches: 3
+drop-caches (8377): drop_caches: 3
+drop-caches (8434): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8680): drop_caches: 3
+drop-caches (8737): drop_caches: 3
+BTRFS: device fsid ca865166-befc-4fee-ba3b-0471c82fc45f devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (9002): drop_caches: 3
+drop-caches (9059): drop_caches: 3
+drop-caches (9304): drop_caches: 3
+drop-caches (9361): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9606): drop_caches: 3
+drop-caches (9663): drop_caches: 3
+BTRFS: device fsid b5e5f88d-6afd-452e-a7f8-e40b08850cd1 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (9931): drop_caches: 3
+drop-caches (9988): drop_caches: 3
+drop-caches (10245): drop_caches: 3
+drop-caches (10302): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (10547): drop_caches: 3
+drop-caches (10604): drop_caches: 3
+BTRFS: device fsid af826187-ec35-4b18-9dcc-a17a7fa16178 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (10869): drop_caches: 3
+drop-caches (10926): drop_caches: 3
+drop-caches (11171): drop_caches: 3
+drop-caches (11228): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (11473): drop_caches: 3
+drop-caches (11530): drop_caches: 3
+BTRFS: device fsid 551602e7-14ff-48b0-a51a-bee64071fb7c devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (11795): drop_caches: 3
+drop-caches (11857): drop_caches: 3
+drop-caches (12102): drop_caches: 3
+drop-caches (12159): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (12405): drop_caches: 3
+drop-caches (12462): drop_caches: 3
+BTRFS: device fsid b9018b24-4ce9-43ba-8d83-98186bf5f0f8 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (12727): drop_caches: 3
+drop-caches (12784): drop_caches: 3
+drop-caches (13029): drop_caches: 3
+x86: Booting SMP configuration:
+smpboot: Booting Node 0 Processor 1 APIC 0x2
+smpboot: Booting Node 0 Processor 2 APIC 0x4
+smpboot: Booting Node 0 Processor 3 APIC 0x6
+smpboot: Booting Node 0 Processor 4 APIC 0x8
+smpboot: Booting Node 0 Processor 5 APIC 0xa
+smpboot: Booting Node 0 Processor 6 APIC 0xc
+smpboot: Booting Node 0 Processor 7 APIC 0xe
+smpboot: Booting Node 1 Processor 8 APIC 0x10
+intel_rapl: Found RAPL domain package
+intel_rapl: Found RAPL domain dram
+intel_rapl: DRAM domain energy unit 15300pj
+smpboot: Booting Node 1 Processor 9 APIC 0x12
+smpboot: Booting Node 1 Processor 10 APIC 0x14
+smpboot: Booting Node 1 Processor 11 APIC 0x16
+smpboot: Booting Node 1 Processor 12 APIC 0x18
+smpboot: Booting Node 1 Processor 13 APIC 0x1a
+smpboot: Booting Node 1 Processor 14 APIC 0x1c
+smpboot: Booting Node 1 Processor 15 APIC 0x1e
+smpboot: Booting Node 0 Processor 16 APIC 0x1
+smpboot: Booting Node 0 Processor 17 APIC 0x3
+smpboot: Booting Node 0 Processor 18 APIC 0x5
+smpboot: Booting Node 0 Processor 19 APIC 0x7
+smpboot: Booting Node 0 Processor 20 APIC 0x9
+smpboot: Booting Node 0 Processor 21 APIC 0xb
+smpboot: Booting Node 0 Processor 22 APIC 0xd
+smpboot: Booting Node 0 Processor 23 APIC 0xf
+smpboot: Booting Node 1 Processor 24 APIC 0x11
+smpboot: Booting Node 1 Processor 25 APIC 0x13
+smpboot: Booting Node 1 Processor 26 APIC 0x15
+smpboot: Booting Node 1 Processor 27 APIC 0x17
+smpboot: Booting Node 1 Processor 28 APIC 0x19
+smpboot: Booting Node 1 Processor 29 APIC 0x1b
+smpboot: Booting Node 1 Processor 30 APIC 0x1d
+smpboot: Booting Node 1 Processor 31 APIC 0x1f
+drop-caches (13132): drop_caches: 3
+smpboot: CPU 16 is now offline
+Broke affinity for irq 65
+smpboot: CPU 17 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+smpboot: CPU 18 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+smpboot: CPU 19 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+smpboot: CPU 20 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+smpboot: CPU 21 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+smpboot: CPU 22 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+smpboot: CPU 23 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+smpboot: CPU 24 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+smpboot: CPU 25 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+smpboot: CPU 26 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+smpboot: CPU 27 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+smpboot: CPU 28 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+smpboot: CPU 29 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+smpboot: CPU 30 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 31 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13191): drop_caches: 3
+drop-caches (13295): drop_caches: 3
+BTRFS: device fsid dd5f4c35-5fa3-4f92-a5da-bcb32e4764c2 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (13495): drop_caches: 3
+drop-caches (13594): drop_caches: 3
+drop-caches (13782): drop_caches: 3
+drop-caches (13884): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14024): drop_caches: 3
+drop-caches (14129): drop_caches: 3
+BTRFS: device fsid 731d294c-c885-4956-8906-431227c9b0b1 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (14189): drop_caches: 3
+drop-caches (14305): drop_caches: 3
+drop-caches (14358): drop_caches: 3
+drop-caches (14460): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14500): drop_caches: 3
+drop-caches (14605): drop_caches: 3
+BTRFS: device fsid 8066bafc-5ae8-408e-8821-7120088e6dd7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (14665): drop_caches: 3
+drop-caches (14767): drop_caches: 3
+drop-caches (14807): drop_caches: 3
+drop-caches (14909): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14949): drop_caches: 3
+drop-caches (15052): drop_caches: 3
+BTRFS: device fsid e9fc47ba-55d6-4ae7-8a16-60a19f80080e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (15115): drop_caches: 3
+drop-caches (15217): drop_caches: 3
+drop-caches (15263): drop_caches: 3
+drop-caches (15365): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15405): drop_caches: 3
+drop-caches (15483): drop_caches: 3
+BTRFS: device fsid d723e83a-7217-4966-b9f8-e509250658cd devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (15543): drop_caches: 3
+drop-caches (15624): drop_caches: 3
+drop-caches (15664): drop_caches: 3
+drop-caches (15742): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15782): drop_caches: 3
+drop-caches (15896): drop_caches: 3
+BTRFS: device fsid 7a30710a-3b56-4bbc-84e4-d205fe122ce5 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (15960): drop_caches: 3
+drop-caches (16060): drop_caches: 3
+drop-caches (16104): drop_caches: 3
+drop-caches (16200): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16240): drop_caches: 3
+drop-caches (16342): drop_caches: 3
+BTRFS: device fsid d41ff047-6442-4523-9aec-fc0e2e565fb5 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (16405): drop_caches: 3
+drop-caches (16519): drop_caches: 3
+drop-caches (16562): drop_caches: 3
+drop-caches (16664): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16704): drop_caches: 3
+drop-caches (16806): drop_caches: 3
+BTRFS: device fsid 603ac49b-c62b-4e6e-a9c3-aced0b54c98f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (16869): drop_caches: 3
+drop-caches (16972): drop_caches: 3
+drop-caches (17015): drop_caches: 3
+drop-caches (17117): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (17157): drop_caches: 3
+drop-caches (18062): drop_caches: 3
+BTRFS: device fsid 1d936466-08f2-4cc9-af42-8c3e498aee15 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (18222): drop_caches: 3
+drop-caches (19132): drop_caches: 3
+drop-caches (19270): drop_caches: 3
+drop-caches (20204): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20313): drop_caches: 3
+drop-caches (21290): drop_caches: 3
+BTRFS: device fsid eb48f4e3-6e7e-46d6-8a0f-b764890a9db9 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (21354): drop_caches: 3
+drop-caches (30749): drop_caches: 3
+drop-caches (30832): drop_caches: 3
+drop-caches (31843): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31883): drop_caches: 3
+drop-caches (31955): drop_caches: 3
+BTRFS: device fsid 46ad43d8-c967-42f1-b689-7576a4aa1744 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (32015): drop_caches: 3
+drop-caches (32088): drop_caches: 3
+drop-caches (32131): drop_caches: 3
+drop-caches (32203): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (32243): drop_caches: 3
+drop-caches (32315): drop_caches: 3
+BTRFS: device fsid 2b0f8f24-a401-417e-b458-e00d82734405 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (32379): drop_caches: 3
+drop-caches (32451): drop_caches: 3
+drop-caches (32494): drop_caches: 3
+drop-caches (32566): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (32606): drop_caches: 3
+drop-caches (32681): drop_caches: 3
+BTRFS: device fsid eb2e98be-548d-4a6a-8b86-67066c529437 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (32744): drop_caches: 3
+drop-caches (351): drop_caches: 3
+drop-caches (429): drop_caches: 3
+drop-caches (515): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (556): drop_caches: 3
+drop-caches (643): drop_caches: 3
+BTRFS: device fsid e017f93e-850e-443f-93a1-b935fd9208d3 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (707): drop_caches: 3
+drop-caches (806): drop_caches: 3
+drop-caches (851): drop_caches: 3
+drop-caches (943): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (982): drop_caches: 3
+drop-caches (1094): drop_caches: 3
+BTRFS: device fsid 856c9315-8c76-4577-8f27-1a7d2ba4352b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1159): drop_caches: 3
+drop-caches (1267): drop_caches: 3
+drop-caches (1310): drop_caches: 3
+drop-caches (1419): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1459): drop_caches: 3
+drop-caches (1562): drop_caches: 3
+BTRFS: device fsid c2010e4a-a67a-4d9d-88d8-37b930f7f76e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1628): drop_caches: 3
+drop-caches (1737): drop_caches: 3
+drop-caches (1786): drop_caches: 3
+drop-caches (1893): drop_caches: 3
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 79
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 12 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 13 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 14 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 15 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1943): drop_caches: 3
+drop-caches (2048): drop_caches: 3
+BTRFS: device fsid d8d499a6-5b2a-49e0-835b-5ee9c993072d devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (2267): drop_caches: 3
+drop-caches (2359): drop_caches: 3
+drop-caches (2578): drop_caches: 3
+drop-caches (2738): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2904): drop_caches: 3
+drop-caches (3010): drop_caches: 3
+BTRFS: device fsid 0858601b-a116-4f00-86cd-76772137df9e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3077): drop_caches: 3
+drop-caches (3180): drop_caches: 3
+drop-caches (3229): drop_caches: 3
+drop-caches (3322): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3362): drop_caches: 3
+drop-caches (3452): drop_caches: 3
+BTRFS: device fsid b7ed121b-dd5e-4bc0-af90-3f7fded844ae devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3512): drop_caches: 3
+drop-caches (3602): drop_caches: 3
+drop-caches (3645): drop_caches: 3
+drop-caches (3732): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3772): drop_caches: 3
+drop-caches (3865): drop_caches: 3
+BTRFS: device fsid bdd3277f-7092-4146-97a8-280eb59da73b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3925): drop_caches: 3
+drop-caches (4018): drop_caches: 3
+drop-caches (4064): drop_caches: 3
+drop-caches (4156): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4196): drop_caches: 3
+drop-caches (4267): drop_caches: 3
+BTRFS: device fsid 2f443e3a-5bd4-40b1-a516-6074aa494622 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (4330): drop_caches: 3
+drop-caches (4407): drop_caches: 3
+drop-caches (4449): drop_caches: 3
+drop-caches (4523): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4563): drop_caches: 3
+drop-caches (4649): drop_caches: 3
+BTRFS: device fsid ba824118-fa87-458f-a178-13ba90dfd52b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (4710): drop_caches: 3
+drop-caches (4799): drop_caches: 3
+drop-caches (4840): drop_caches: 3
+drop-caches (4938): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4977): drop_caches: 3
+drop-caches (5068): drop_caches: 3
+BTRFS: device fsid 73e22176-316d-4fd0-8537-1b1536c6c9af devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (5132): drop_caches: 3
+drop-caches (5222): drop_caches: 3
+drop-caches (5262): drop_caches: 3
+drop-caches (5355): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5395): drop_caches: 3
+drop-caches (5485): drop_caches: 3
+BTRFS: device fsid fee338c6-ec00-4f65-bd5b-97f277e517de devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (5548): drop_caches: 3
+drop-caches (5638): drop_caches: 3
+drop-caches (5678): drop_caches: 3
+drop-caches (5771): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5811): drop_caches: 3
+drop-caches (6715): drop_caches: 3
+BTRFS: device fsid 5707a253-ef4f-4f68-a54d-229df8a54551 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (6872): drop_caches: 3
+drop-caches (7787): drop_caches: 3
+drop-caches (7923): drop_caches: 3
+drop-caches (8866): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8978): drop_caches: 3
+drop-caches (9941): drop_caches: 3
+BTRFS: device fsid ac410b62-b2e0-45a0-9823-185f6b9e974c devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (10005): drop_caches: 3
+drop-caches (17394): drop_caches: 3
+drop-caches (17478): drop_caches: 3
+drop-caches (18501): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (18541): drop_caches: 3
+drop-caches (18609): drop_caches: 3
+BTRFS: device fsid dc8b80d4-d233-4024-95ec-845c4af41784 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (18672): drop_caches: 3
+drop-caches (18740): drop_caches: 3
+drop-caches (18783): drop_caches: 3
+drop-caches (18851): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (18891): drop_caches: 3
+drop-caches (18959): drop_caches: 3
+BTRFS: device fsid 6f4743c5-c8f4-4eb0-8fac-df13cc7f1ba7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (19022): drop_caches: 3
+drop-caches (19096): drop_caches: 3
+drop-caches (19139): drop_caches: 3
+drop-caches (19207): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (19248): drop_caches: 3
+drop-caches (19319): drop_caches: 3
+BTRFS: device fsid 998e505d-ee7c-44fe-952c-309b8a481d5f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (19382): drop_caches: 3
+drop-caches (19456): drop_caches: 3
+drop-caches (19499): drop_caches: 3
+drop-caches (19570): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (19610): drop_caches: 3
+drop-caches (19693): drop_caches: 3
+BTRFS: device fsid 5450df40-7a0c-416f-aca4-4e7ad1d4661b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (19754): drop_caches: 3
+drop-caches (19843): drop_caches: 3
+drop-caches (19884): drop_caches: 3
+drop-caches (19964): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20004): drop_caches: 3
+drop-caches (20094): drop_caches: 3
+BTRFS: device fsid 886afe8f-b718-4e9c-bbe1-7086e458cad9 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (20154): drop_caches: 3
+drop-caches (20247): drop_caches: 3
+drop-caches (20290): drop_caches: 3
+drop-caches (20381): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20421): drop_caches: 3
+drop-caches (20511): drop_caches: 3
+BTRFS: device fsid ab930958-e7d0-4248-98ba-633700c1b3e8 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (20574): drop_caches: 3
+drop-caches (20664): drop_caches: 3
+drop-caches (20707): drop_caches: 3
+drop-caches (20797): drop_caches: 3
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 8 is now offline
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 9 is now offline
+Broke affinity for irq 16
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 10 is now offline
+Broke affinity for irq 1
+Broke affinity for irq 8
+Broke affinity for irq 9
+Broke affinity for irq 12
+Broke affinity for irq 16
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 11 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20866): drop_caches: 3
+drop-caches (20947): drop_caches: 3
+BTRFS: device fsid d2ce0b48-992f-40e0-9bdd-acfa2e5e81e7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (21166): drop_caches: 3
+drop-caches (21247): drop_caches: 3
+drop-caches (21433): drop_caches: 3
+drop-caches (21515): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (21708): drop_caches: 3
+drop-caches (21789): drop_caches: 3
+BTRFS: device fsid ddf09c60-b6f0-48df-977c-cc299ec0d2c0 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (21848): drop_caches: 3
+drop-caches (21929): drop_caches: 3
+drop-caches (21980): drop_caches: 3
+drop-caches (22061): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22101): drop_caches: 3
+drop-caches (22179): drop_caches: 3
+BTRFS: device fsid d2210d4d-bec6-48e4-8a74-6e66e0f8441a devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (22238): drop_caches: 3
+drop-caches (22319): drop_caches: 3
+drop-caches (22358): drop_caches: 3
+drop-caches (22436): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22476): drop_caches: 3
+drop-caches (22554): drop_caches: 3
+BTRFS: device fsid 26ea33a1-8a23-4398-a3b4-a256eb429d76 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (22617): drop_caches: 3
+drop-caches (22695): drop_caches: 3
+drop-caches (22740): drop_caches: 3
+drop-caches (22818): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22858): drop_caches: 3
+drop-caches (22925): drop_caches: 3
+BTRFS: device fsid d1dcdf60-9c40-4264-ae45-97ccc4e9352a devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (22987): drop_caches: 3
+drop-caches (23057): drop_caches: 3
+drop-caches (23096): drop_caches: 3
+drop-caches (23163): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23203): drop_caches: 3
+drop-caches (23279): drop_caches: 3
+BTRFS: device fsid 507639e9-ffda-4a52-a22f-298bbc1a10eb devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (23342): drop_caches: 3
+drop-caches (23430): drop_caches: 3
+drop-caches (23479): drop_caches: 3
+drop-caches (23555): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23595): drop_caches: 3
+drop-caches (23673): drop_caches: 3
+BTRFS: device fsid 5f15b344-2411-4ae4-980e-ab69c9b68018 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (23735): drop_caches: 3
+drop-caches (23813): drop_caches: 3
+drop-caches (23852): drop_caches: 3
+drop-caches (23933): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23973): drop_caches: 3
+drop-caches (24052): drop_caches: 3
+BTRFS: device fsid b6964225-8540-4fcb-b74b-44d3eb1b0311 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (24114): drop_caches: 3
+drop-caches (24192): drop_caches: 3
+drop-caches (24232): drop_caches: 3
+drop-caches (24313): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (24353): drop_caches: 3
+drop-caches (25246): drop_caches: 3
+BTRFS: device fsid b9b2522f-c323-43e6-b7ee-79efb7dcc371 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (25417): drop_caches: 3
+drop-caches (26362): drop_caches: 3
+drop-caches (26508): drop_caches: 3
+drop-caches (27404): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27516): drop_caches: 3
+drop-caches (28475): drop_caches: 3
+BTRFS: device fsid 0313bdbe-fc83-4534-9251-97fd0cbcab44 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (28541): drop_caches: 3
+drop-caches (32515): drop_caches: 3
+drop-caches (32595): drop_caches: 3
+drop-caches (1215): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1257): drop_caches: 3
+drop-caches (1326): drop_caches: 3
+BTRFS: device fsid 5023009e-3f34-47e1-a57b-63fc1ca1bc20 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1388): drop_caches: 3
+drop-caches (1459): drop_caches: 3
+drop-caches (1499): drop_caches: 3
+drop-caches (1563): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1604): drop_caches: 3
+drop-caches (1672): drop_caches: 3
+BTRFS: device fsid 316a261f-e014-4283-9a4b-4b3fea1f2ec3 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1739): drop_caches: 3
+drop-caches (1812): drop_caches: 3
+drop-caches (1855): drop_caches: 3
+drop-caches (1921): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1963): drop_caches: 3
+drop-caches (2044): drop_caches: 3
+BTRFS: device fsid c6635ab2-f3d3-4fc3-a6c2-a1db4be63157 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (2107): drop_caches: 3
+drop-caches (2183): drop_caches: 3
+drop-caches (2226): drop_caches: 3
+drop-caches (2294): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2334): drop_caches: 3
+drop-caches (2441): drop_caches: 3
+BTRFS: device fsid 49618f28-b748-428e-840e-6943577f25ef devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (2512): drop_caches: 3
+drop-caches (2596): drop_caches: 3
+drop-caches (2706): drop_caches: 3
+drop-caches (2779): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2819): drop_caches: 3
+drop-caches (2903): drop_caches: 3
+BTRFS: device fsid c959b4d7-9cbc-432a-a906-759230376820 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (2973): drop_caches: 3
+drop-caches (3059): drop_caches: 3
+drop-caches (3106): drop_caches: 3
+drop-caches (3194): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3237): drop_caches: 3
+drop-caches (3315): drop_caches: 3
+BTRFS: device fsid 92fc03c1-2c67-420a-8cec-7a2648a5d45f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3377): drop_caches: 3
+drop-caches (3455): drop_caches: 3
+drop-caches (3498): drop_caches: 3
+drop-caches (3576): drop_caches: 3
+Broke affinity for irq 25
+Broke affinity for irq 33
+Broke affinity for irq 37
+Broke affinity for irq 61
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 4 is now offline
+Broke affinity for irq 25
+Broke affinity for irq 33
+Broke affinity for irq 37
+Broke affinity for irq 39
+Broke affinity for irq 41
+Broke affinity for irq 46
+Broke affinity for irq 48
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 5 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 25
+Broke affinity for irq 27
+Broke affinity for irq 33
+Broke affinity for irq 37
+Broke affinity for irq 39
+Broke affinity for irq 41
+Broke affinity for irq 42
+Broke affinity for irq 44
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 6 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 25
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 32
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 39
+Broke affinity for irq 40
+Broke affinity for irq 41
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 7 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3624): drop_caches: 3
+drop-caches (3690): drop_caches: 3
+BTRFS: device fsid 6922c842-c283-4b0b-9679-202ec8820395 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3894): drop_caches: 3
+drop-caches (3963): drop_caches: 3
+drop-caches (4142): drop_caches: 3
+drop-caches (4208): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4383): drop_caches: 3
+drop-caches (4449): drop_caches: 3
+BTRFS: device fsid a664a901-8cd1-4c1e-9323-fa4fa7381748 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (4511): drop_caches: 3
+drop-caches (4577): drop_caches: 3
+drop-caches (4620): drop_caches: 3
+drop-caches (4686): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4726): drop_caches: 3
+drop-caches (4792): drop_caches: 3
+BTRFS: device fsid 0eaa870c-d5b0-48fa-bc76-5a6d062dc300 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (4855): drop_caches: 3
+drop-caches (4921): drop_caches: 3
+drop-caches (4960): drop_caches: 3
+drop-caches (5029): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5069): drop_caches: 3
+drop-caches (5136): drop_caches: 3
+BTRFS: device fsid 6bc40d1a-300c-4b17-b11d-bf43c9582937 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (5195): drop_caches: 3
+drop-caches (5264): drop_caches: 3
+drop-caches (5315): drop_caches: 3
+drop-caches (5381): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5421): drop_caches: 3
+drop-caches (5484): drop_caches: 3
+BTRFS: device fsid db0b7007-5dc9-42e3-9d41-f5f3add781e0 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (5546): drop_caches: 3
+drop-caches (5606): drop_caches: 3
+drop-caches (5645): drop_caches: 3
+drop-caches (5708): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5748): drop_caches: 3
+drop-caches (5811): drop_caches: 3
+BTRFS: device fsid f8a9ea58-8d41-4a51-a064-5e56dbb04f4b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (5873): drop_caches: 3
+drop-caches (5942): drop_caches: 3
+drop-caches (5984): drop_caches: 3
+drop-caches (6047): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6087): drop_caches: 3
+drop-caches (6156): drop_caches: 3
+BTRFS: device fsid 35573d9c-3995-4437-a3d3-cb4d59861b1b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (6216): drop_caches: 3
+drop-caches (6285): drop_caches: 3
+drop-caches (6324): drop_caches: 3
+drop-caches (6390): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6430): drop_caches: 3
+drop-caches (6499): drop_caches: 3
+BTRFS: device fsid 6e3d8dc3-1b52-491e-acad-8d4e20a21312 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (6558): drop_caches: 3
+drop-caches (6627): drop_caches: 3
+drop-caches (6666): drop_caches: 3
+drop-caches (6732): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6772): drop_caches: 3
+drop-caches (7679): drop_caches: 3
+BTRFS: device fsid f6e3239b-1a32-4ed7-ad71-44ceb802e1f2 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (7859): drop_caches: 3
+drop-caches (8763): drop_caches: 3
+drop-caches (8921): drop_caches: 3
+drop-caches (9825): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9964): drop_caches: 3
+drop-caches (11203): drop_caches: 3
+BTRFS: device fsid 97cf7642-495a-4cbe-afce-5ab7b50aedee devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (11266): drop_caches: 3
+drop-caches (13896): drop_caches: 3
+drop-caches (13988): drop_caches: 3
+drop-caches (15226): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15270): drop_caches: 3
+drop-caches (15330): drop_caches: 3
+BTRFS: device fsid 28351d48-4d43-4e39-b606-f55ed82ffac4 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (15389): drop_caches: 3
+drop-caches (15452): drop_caches: 3
+drop-caches (15494): drop_caches: 3
+drop-caches (15554): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15594): drop_caches: 3
+drop-caches (15654): drop_caches: 3
+BTRFS: device fsid 121731e6-da77-4064-bfbb-3c0e6b6b6ddb devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (15716): drop_caches: 3
+drop-caches (15776): drop_caches: 3
+drop-caches (15815): drop_caches: 3
+drop-caches (15875): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15915): drop_caches: 3
+drop-caches (15978): drop_caches: 3
+BTRFS: device fsid ab286279-9f5b-45da-bcfe-bbac8d41a150 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (16037): drop_caches: 3
+drop-caches (16101): drop_caches: 3
+drop-caches (16141): drop_caches: 3
+drop-caches (16204): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16244): drop_caches: 3
+drop-caches (16310): drop_caches: 3
+BTRFS: device fsid 82ac7255-e232-4285-bea3-6ab9ad0ad608 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (16369): drop_caches: 3
+drop-caches (16438): drop_caches: 3
+drop-caches (16477): drop_caches: 3
+drop-caches (16540): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16580): drop_caches: 3
+drop-caches (16649): drop_caches: 3
+BTRFS: device fsid 264b3e21-4ff2-4d6c-9a85-f4bc14b0263e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (16708): drop_caches: 3
+drop-caches (16774): drop_caches: 3
+drop-caches (16817): drop_caches: 3
+drop-caches (16886): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16926): drop_caches: 3
+drop-caches (16993): drop_caches: 3
+BTRFS: device fsid 3d0fb8a6-2bfa-437a-aad0-933866dd0bd4 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (17052): drop_caches: 3
+drop-caches (17121): drop_caches: 3
+drop-caches (17163): drop_caches: 3
+drop-caches (17229): drop_caches: 3
+Broke affinity for irq 19
+Broke affinity for irq 25
+Broke affinity for irq 28
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 38
+Broke affinity for irq 40
+Broke affinity for irq 41
+Broke affinity for irq 42
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 53
+Broke affinity for irq 59
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 2 is now offline
+Broke affinity for irq 19
+Broke affinity for irq 25
+Broke affinity for irq 26
+Broke affinity for irq 28
+Broke affinity for irq 32
+Broke affinity for irq 33
+Broke affinity for irq 34
+Broke affinity for irq 37
+Broke affinity for irq 38
+Broke affinity for irq 39
+Broke affinity for irq 40
+Broke affinity for irq 41
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 50
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 59
+Broke affinity for irq 60
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 3 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (17274): drop_caches: 3
+drop-caches (17334): drop_caches: 3
+BTRFS: device fsid a861f87b-9cf5-4d9e-831e-7cfcc0f29ee5 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (17491): drop_caches: 3
+drop-caches (17551): drop_caches: 3
+drop-caches (17693): drop_caches: 3
+drop-caches (17753): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (17895): drop_caches: 3
+drop-caches (17958): drop_caches: 3
+BTRFS: device fsid 65445812-221b-431d-8991-04fb5bf4ed5f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (18017): drop_caches: 3
+drop-caches (18077): drop_caches: 3
+drop-caches (18119): drop_caches: 3
+drop-caches (18179): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (18215): drop_caches: 3
+drop-caches (18278): drop_caches: 3
+BTRFS: device fsid ea94cac3-2b17-48ae-99b7-419bac26c955 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (18336): drop_caches: 3
+drop-caches (18396): drop_caches: 3
+drop-caches (18435): drop_caches: 3
+drop-caches (18495): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (18535): drop_caches: 3
+drop-caches (18598): drop_caches: 3
+BTRFS: device fsid 55293917-9476-42f4-9feb-dedca1a3044f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (18657): drop_caches: 3
+drop-caches (18717): drop_caches: 3
+drop-caches (18756): drop_caches: 3
+drop-caches (18816): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (18856): drop_caches: 3
+drop-caches (18917): drop_caches: 3
+BTRFS: device fsid 217bd03a-5705-48c9-a835-15744bf8670f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (18976): drop_caches: 3
+drop-caches (19037): drop_caches: 3
+drop-caches (19076): drop_caches: 3
+drop-caches (19134): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (19174): drop_caches: 3
+drop-caches (19235): drop_caches: 3
+BTRFS: device fsid 50385d10-f9ec-4a2b-82a5-0d0466e4ff3d devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (19294): drop_caches: 3
+drop-caches (19358): drop_caches: 3
+drop-caches (19400): drop_caches: 3
+drop-caches (19461): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (19501): drop_caches: 3
+drop-caches (19561): drop_caches: 3
+BTRFS: device fsid 3fc8dbf6-2fd6-4694-9007-a967f3ed6b1c devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (19623): drop_caches: 3
+drop-caches (19683): drop_caches: 3
+drop-caches (19722): drop_caches: 3
+drop-caches (19782): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (19822): drop_caches: 3
+drop-caches (19886): drop_caches: 3
+BTRFS: device fsid 8a7b1d3c-19e6-4c30-99d6-ad457fce8392 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (19945): drop_caches: 3
+drop-caches (20005): drop_caches: 3
+drop-caches (20048): drop_caches: 3
+drop-caches (20111): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20151): drop_caches: 3
+drop-caches (21096): drop_caches: 3
+BTRFS: device fsid b74efb43-f10d-4b9c-869b-c8e895de5dcd devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (21246): drop_caches: 3
+drop-caches (22154): drop_caches: 3
+drop-caches (22281): drop_caches: 3
+drop-caches (23199): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23308): drop_caches: 3
+drop-caches (25310): drop_caches: 3
+BTRFS: device fsid 85b802c0-f606-4ca6-8fda-bc23a5848e58 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (25370): drop_caches: 3
+drop-caches (29555): drop_caches: 3
+drop-caches (29629): drop_caches: 3
+drop-caches (31459): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31499): drop_caches: 3
+drop-caches (31557): drop_caches: 3
+BTRFS: device fsid c38a0d96-e085-411f-97c7-8f453bc7a414 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (31616): drop_caches: 3
+drop-caches (31674): drop_caches: 3
+drop-caches (31721): drop_caches: 3
+drop-caches (31779): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31819): drop_caches: 3
+drop-caches (31877): drop_caches: 3
+BTRFS: device fsid fcd08d31-d5fa-4893-9738-ab843a07791f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (31936): drop_caches: 3
+drop-caches (31997): drop_caches: 3
+drop-caches (32039): drop_caches: 3
+drop-caches (32098): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (32138): drop_caches: 3
+drop-caches (32196): drop_caches: 3
+BTRFS: device fsid 2c09be37-ca3f-43c2-90e8-285debf316a6 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (32258): drop_caches: 3
+drop-caches (32316): drop_caches: 3
+drop-caches (32355): drop_caches: 3
+drop-caches (32416): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (32456): drop_caches: 3
+drop-caches (32515): drop_caches: 3
+BTRFS: device fsid bdaf9220-3963-46f7-89e7-7a7c18de94f4 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (32577): drop_caches: 3
+drop-caches (32638): drop_caches: 3
+drop-caches (32677): drop_caches: 3
+drop-caches (32738): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (310): drop_caches: 3
+drop-caches (393): drop_caches: 3
+BTRFS: device fsid ab889364-cd07-442e-ac4d-f279f890e27e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (464): drop_caches: 3
+drop-caches (549): drop_caches: 3
+drop-caches (591): drop_caches: 3
+drop-caches (651): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (691): drop_caches: 3
+drop-caches (751): drop_caches: 3
+BTRFS: device fsid 549ccbab-6985-4431-b160-6db3798128d0 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (812): drop_caches: 3
+drop-caches (881): drop_caches: 3
+drop-caches (920): drop_caches: 3
+drop-caches (1002): drop_caches: 3
+Broke affinity for irq 31
+Broke affinity for irq 39
+Broke affinity for irq 58
+Broke affinity for irq 59
+Broke affinity for irq 60
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 1 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1049): drop_caches: 3
+drop-caches (1106): drop_caches: 3
+BTRFS: device fsid 6a2008d1-f4e2-4603-bf01-fddeed78d484 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1216): drop_caches: 3
+drop-caches (1280): drop_caches: 3
+drop-caches (1374): drop_caches: 3
+drop-caches (1441): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1533): drop_caches: 3
+drop-caches (1590): drop_caches: 3
+BTRFS: device fsid ee6238d1-1802-441c-96a7-913d350a8e36 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1652): drop_caches: 3
+drop-caches (1719): drop_caches: 3
+drop-caches (1758): drop_caches: 3
+drop-caches (1828): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1864): drop_caches: 3
+drop-caches (1926): drop_caches: 3
+BTRFS: device fsid 70687e6e-6820-4a59-b767-0ad2dae78d94 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1988): drop_caches: 3
+drop-caches (2057): drop_caches: 3
+drop-caches (2097): drop_caches: 3
+drop-caches (2158): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2205): drop_caches: 3
+drop-caches (2264): drop_caches: 3
+BTRFS: device fsid 68f01589-bcac-40c2-bdaf-5069af1b652d devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (2322): drop_caches: 3
+drop-caches (2389): drop_caches: 3
+drop-caches (2459): drop_caches: 3
+drop-caches (2530): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2569): drop_caches: 3
+drop-caches (2699): drop_caches: 3
+BTRFS: device fsid ea761a3b-b13d-474c-8aa0-f388f8bf007e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (2758): drop_caches: 3
+drop-caches (2815): drop_caches: 3
+drop-caches (2857): drop_caches: 3
+drop-caches (2925): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2967): drop_caches: 3
+drop-caches (3034): drop_caches: 3
+BTRFS: device fsid 2edf6f2d-b733-47f2-97a5-e614bafc6a1d devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3100): drop_caches: 3
+drop-caches (3170): drop_caches: 3
+drop-caches (3210): drop_caches: 3
+drop-caches (3271): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3308): drop_caches: 3
+drop-caches (3368): drop_caches: 3
+BTRFS: device fsid 223f676d-1c9e-4614-aa77-386a950ee0c3 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3427): drop_caches: 3
+drop-caches (3485): drop_caches: 3
+drop-caches (3524): drop_caches: 3
+drop-caches (3581): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3621): drop_caches: 3
+drop-caches (3678): drop_caches: 3
+BTRFS: device fsid 5ee14a4a-5f69-4e6c-be11-ad60b6d53460 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3740): drop_caches: 3
+drop-caches (3797): drop_caches: 3
+drop-caches (3836): drop_caches: 3
+drop-caches (3893): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3933): drop_caches: 3
+drop-caches (4952): drop_caches: 3
+BTRFS: device fsid 0cebc096-62f2-4aef-9e0b-a694f8a166db devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (5096): drop_caches: 3
+drop-caches (6133): drop_caches: 3
+drop-caches (6258): drop_caches: 3
+drop-caches (7222): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (7322): drop_caches: 3
+drop-caches (10579): drop_caches: 3
+BTRFS: device fsid 39360d15-a74f-4de4-9fdd-468660be5c98 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (10638): drop_caches: 3
+drop-caches (18245): drop_caches: 3
+drop-caches (18315): drop_caches: 3
+drop-caches (21346): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (21386): drop_caches: 3
+drop-caches (21443): drop_caches: 3
+BTRFS: device fsid 9c68584d-532e-4f29-ac98-44e7b7553407 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (21506): drop_caches: 3
+drop-caches (21563): drop_caches: 3
+drop-caches (21602): drop_caches: 3
+drop-caches (21659): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (21698): drop_caches: 3
+drop-caches (21755): drop_caches: 3
+BTRFS: device fsid 4639eeca-4bc3-41db-bf7f-645c9e11cab0 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (21813): drop_caches: 3
+drop-caches (21870): drop_caches: 3
+drop-caches (21909): drop_caches: 3
+drop-caches (21966): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22005): drop_caches: 3
+drop-caches (22065): drop_caches: 3
+BTRFS: device fsid 6fcc8652-fc87-4f3d-b0c6-f42fab0dd85c devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (22123): drop_caches: 3
+drop-caches (22180): drop_caches: 3
+drop-caches (22219): drop_caches: 3
+drop-caches (22276): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22316): drop_caches: 3
+drop-caches (22376): drop_caches: 3
+BTRFS: device fsid 10ca3399-7aaf-422b-955d-07f0ae38dabf devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (22435): drop_caches: 3
+drop-caches (22495): drop_caches: 3
+drop-caches (22531): drop_caches: 3
+drop-caches (22592): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22632): drop_caches: 3
+drop-caches (22689): drop_caches: 3
+BTRFS: device fsid 47dac6ca-6aee-4ebb-b342-21b8b14295fc devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (22748): drop_caches: 3
+drop-caches (22805): drop_caches: 3
+drop-caches (22844): drop_caches: 3
+drop-caches (22901): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22940): drop_caches: 3
+drop-caches (22997): drop_caches: 3
+BTRFS: device fsid 490596c1-3ff4-4b37-9283-431e84e79a14 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (23055): drop_caches: 3
+drop-caches (23115): drop_caches: 3
+drop-caches (23151): drop_caches: 3
+x86: Booting SMP configuration:
+smpboot: Booting Node 0 Processor 1 APIC 0x2
+smpboot: Booting Node 0 Processor 2 APIC 0x4
+smpboot: Booting Node 0 Processor 3 APIC 0x6
+smpboot: Booting Node 0 Processor 4 APIC 0x8
+smpboot: Booting Node 0 Processor 5 APIC 0xa
+smpboot: Booting Node 0 Processor 6 APIC 0xc
+smpboot: Booting Node 0 Processor 7 APIC 0xe
+smpboot: Booting Node 1 Processor 8 APIC 0x10
+intel_rapl: Found RAPL domain package
+intel_rapl: Found RAPL domain dram
+intel_rapl: DRAM domain energy unit 15300pj
+smpboot: Booting Node 1 Processor 9 APIC 0x12
+smpboot: Booting Node 1 Processor 10 APIC 0x14
+smpboot: Booting Node 1 Processor 11 APIC 0x16
+smpboot: Booting Node 1 Processor 12 APIC 0x18
+smpboot: Booting Node 1 Processor 13 APIC 0x1a
+smpboot: Booting Node 1 Processor 14 APIC 0x1c
+smpboot: Booting Node 1 Processor 15 APIC 0x1e
+smpboot: Booting Node 0 Processor 16 APIC 0x1
+smpboot: Booting Node 0 Processor 17 APIC 0x3
+smpboot: Booting Node 0 Processor 18 APIC 0x5
+smpboot: Booting Node 0 Processor 19 APIC 0x7
+smpboot: Booting Node 0 Processor 20 APIC 0x9
+smpboot: Booting Node 0 Processor 21 APIC 0xb
+smpboot: Booting Node 0 Processor 22 APIC 0xd
+smpboot: Booting Node 0 Processor 23 APIC 0xf
+smpboot: Booting Node 1 Processor 24 APIC 0x11
+smpboot: Booting Node 1 Processor 25 APIC 0x13
+smpboot: Booting Node 1 Processor 26 APIC 0x15
+smpboot: Booting Node 1 Processor 27 APIC 0x17
+smpboot: Booting Node 1 Processor 28 APIC 0x19
+smpboot: Booting Node 1 Processor 29 APIC 0x1b
+smpboot: Booting Node 1 Processor 30 APIC 0x1d
+smpboot: Booting Node 1 Processor 31 APIC 0x1f
+F2FS-fs (md0): FAULT_INJECTION was not selected
+F2FS-fs (md0): FAULT_INJECTION was not selected
+python (28084): drop_caches: 3
+python (28084): drop_caches: 3
+python (28664): drop_caches: 3
+python (28664): drop_caches: 3
+python (29291): drop_caches: 3
+python (29291): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: discard
+python (17917): drop_caches: 3
+python (17917): drop_caches: 3
+python (18395): drop_caches: 3
+python (18395): drop_caches: 3
+python (18869): drop_caches: 3
+python (18869): drop_caches: 3

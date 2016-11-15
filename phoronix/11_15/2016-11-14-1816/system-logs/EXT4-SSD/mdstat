@@ -1,0 +1,5 @@
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+md0 : active raid0 ram3[3] ram2[2] ram1[1] ram0[0]
+      67107840 blocks super 1.2 256k chunks
+      
+unused devices: <none>
