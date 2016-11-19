@@ -1,0 +1,133 @@
+=== md0 -- F2FS ===
+
+#  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
+#	Version 3.3, 4 thread(s) starting at Thu Nov 17 07:45:16 2016
+#	Sync method: INBAND FSYNC: fsync() per file in write loop.
+#	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
+#	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
+#	Files info: size 8192 bytes, written with an IO size of 16384 bytes per write
+#	App overhead is time in microseconds spent in the test not doing file writing related system calls.
+#
+FSUse%        Count         Size    Files/sec     App Overhead
+    23      1179648         8192      40728.9          7908472
+    44      2359296         8192      36249.2          7649700
+    66      3538944         8192      34870.5          7633582
+    87      4718592         8192      32840.4          7800660
+=== md0 -- EXT4 ===
+
+#  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
+#	Version 3.3, 4 thread(s) starting at Thu Nov 17 07:48:27 2016
+#	Sync method: INBAND FSYNC: fsync() per file in write loop.
+#	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
+#	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
+#	Files info: size 8192 bytes, written with an IO size of 16384 bytes per write
+#	App overhead is time in microseconds spent in the test not doing file writing related system calls.
+#
+FSUse%        Count         Size    Files/sec     App Overhead
+    19      1179648         8192      30414.1          6355869
+    34      2359296         8192      31038.4          6150972
+    48      3538944         8192      32444.5          5847368
+=== md0 -- BTRFS ===
+
+#  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
+#	Version 3.3, 4 thread(s) starting at Thu Nov 17 07:51:16 2016
+#	Sync method: INBAND FSYNC: fsync() per file in write loop.
+#	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
+#	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
+#	Files info: size 8192 bytes, written with an IO size of 16384 bytes per write
+#	App overhead is time in microseconds spent in the test not doing file writing related system calls.
+#
+FSUse%        Count         Size    Files/sec     App Overhead
+    18      1179648         8192        389.2         19411922
+    34      2359296         8192        392.4         19254237
+    51      3538944         8192        392.8         19429078
+    68      4718592         8192        392.0         19528235
+=== nvme0n1p1 -- F2FS ===
+
+#  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
+#	Version 3.3, 4 thread(s) starting at Thu Nov 17 11:12:32 2016
+#	Sync method: INBAND FSYNC: fsync() per file in write loop.
+#	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
+#	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
+#	Files info: size 8192 bytes, written with an IO size of 16384 bytes per write
+#	App overhead is time in microseconds spent in the test not doing file writing related system calls.
+#
+FSUse%        Count         Size    Files/sec     App Overhead
+    23      1179648         8192      31546.6          9565666
+    44      2359296         8192      27224.5          9539743
+    66      3538944         8192      26709.1          9167505
+    87      4718592         8192      24627.9          9428432
+=== nvme0n1p1 -- EXT4 ===
+
+#  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
+#	Version 3.3, 4 thread(s) starting at Thu Nov 17 11:16:06 2016
+#	Sync method: INBAND FSYNC: fsync() per file in write loop.
+#	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
+#	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
+#	Files info: size 8192 bytes, written with an IO size of 16384 bytes per write
+#	App overhead is time in microseconds spent in the test not doing file writing related system calls.
+#
+FSUse%        Count         Size    Files/sec     App Overhead
+    19      1179648         8192      20882.6          7043405
+    34      2359296         8192      21259.0          6878959
+    48      3538944         8192      20577.5          7310224
+=== nvme0n1p1 -- BTRFS ===
+
+#  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
+#	Version 3.3, 4 thread(s) starting at Thu Nov 17 11:19:44 2016
+#	Sync method: INBAND FSYNC: fsync() per file in write loop.
+#	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
+#	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
+#	Files info: size 8192 bytes, written with an IO size of 16384 bytes per write
+#	App overhead is time in microseconds spent in the test not doing file writing related system calls.
+#
+FSUse%        Count         Size    Files/sec     App Overhead
+    17      1179648         8192       5428.4          8810384
+    32      2359296         8192       4116.6          9665614
+    48      3538944         8192       3752.8         10162744
+    64      4718592         8192       3481.3         10181725
+=== sdb1 -- F2FS ===
+
+#  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
+#	Version 3.3, 4 thread(s) starting at Thu Nov 17 11:39:56 2016
+#	Sync method: INBAND FSYNC: fsync() per file in write loop.
+#	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
+#	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
+#	Files info: size 8192 bytes, written with an IO size of 16384 bytes per write
+#	App overhead is time in microseconds spent in the test not doing file writing related system calls.
+#
+FSUse%        Count         Size    Files/sec     App Overhead
+     2      1179648         8192       1816.3         21183592
+     3      2359296         8192       1773.6         21468645
+     5      3538944         8192       1671.7         21321644
+     6      4718592         8192       1675.2         21062816
+=== sdb1 -- EXT4 ===
+
+#  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
+#	Version 3.3, 4 thread(s) starting at Thu Nov 17 12:26:40 2016
+#	Sync method: INBAND FSYNC: fsync() per file in write loop.
+#	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
+#	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
+#	Files info: size 8192 bytes, written with an IO size of 16384 bytes per write
+#	App overhead is time in microseconds spent in the test not doing file writing related system calls.
+#
+FSUse%        Count         Size    Files/sec     App Overhead
+     6      1179648         8192       1051.5         22315755
+     7      2359296         8192        971.3         22368767
+     8      3538944         8192        947.3         22407853
+     9      4718592         8192        940.3         22411234
+=== sdb1 -- BTRFS ===
+
+#  fs_mark  -d  /mnt/test/1  -d  /mnt/test/2  -d  /mnt/test/3  -d  /mnt/test/4  -D  16  -N  256  -n  294912  -L  4  -S  1  -s  8192 
+#	Version 3.3, 4 thread(s) starting at Thu Nov 17 13:48:14 2016
+#	Sync method: INBAND FSYNC: fsync() per file in write loop.
+#	Directories:  Round Robin between directories across 16 subdirectories with 256 files per subdirectory.
+#	File names: 40 bytes long, (16 initial bytes of time stamp with 24 random bytes at end of name)
+#	Files info: size 8192 bytes, written with an IO size of 16384 bytes per write
+#	App overhead is time in microseconds spent in the test not doing file writing related system calls.
+#
+FSUse%        Count         Size    Files/sec     App Overhead
+     1      1179648         8192        508.0         21632209
+     2      2359296         8192        490.0         21862513
+     3      3538944         8192        456.4         21512488
+     4      4718592         8192        446.4         21588698
