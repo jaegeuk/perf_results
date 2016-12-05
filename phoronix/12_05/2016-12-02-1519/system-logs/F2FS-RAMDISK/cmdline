@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-4.9.0-rc6+ root=UUID=04e7788e-651c-4593-b013-93bf3b6568d4 ro nomdmonddf nomdmonisw
