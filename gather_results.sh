@@ -24,9 +24,18 @@ rsync -r --delete-excluded --delete perf:/root/fxmark-f2fs/fxmark_nvme/* fxmark/
 echo "Info: copy phoronix/$1 from perf"
 rm -rf phoronix/$1 2>/dev/null
 mkdir phoronix/$1 2>/dev/null
-rsync -r --delete-excluded --delete perf:/var/www/html/test-results/20??* phoronix/$1/
-rsync -r --delete-excluded --delete perf:/var/www/html/test-results/merge-* phoronix/$1/
+rsync -r --delete-excluded --delete perf:/var/www/html/test-results/* phoronix/$1/
 ls phoronix/$1 | grep merge
+
+echo -n "Git push? (y/n) "
+read ans
+if [ $ans = "y" ]; then
+	git add fs_mark/$1
+	git add fxmark/$1
+	git add phoronix/$1
+	git commit -m "$1: add retuls"
+	git push origin -f
+fi
 
 echo -n "Send email? (Use Ctrl-C to cancel) "
 read ans
