@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v6.8.0m1 [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif, droid-sans, helvetica, verdana, tahoma" viewbox="0 0 1992 361" width="1992" height="361" preserveAspectRatio="xMinYMin meet">
+  <rect x="0" y="0" width="1992" height="361" fill="#FEFEFE" stroke="#757575" stroke-width="2"/>
+  <rect x="1" y="1" width="1991" height="360" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <path d="m74 22v9m-5-16v16m-5-28v28m-23-2h12.5c2.485281 0 4.5-2.014719 4.5-4.5s-2.014719-4.5-4.5-4.5h-8c-2.485281 0-4.5-2.014719-4.5-4.5s2.014719-4.5 4.5-4.5h12.5m-21 5h-11m11 13h-2c-4.970563 0-9-4.029437-9-9v-20m-24 40v-20c0-4.970563 4.0294373-9 9-9 4.970563 0 9 4.029437 9 9s-4.029437 9-9 9h-9" stroke="#000000" stroke-width="4" fill="none" transform="translate(488,28)"/>
+  <line x1="1056" y1="185" x2="1992" y2="185" stroke="#BABABA" stroke-width="320" stroke-dasharray="104,104"/>
+  <line x1="996" y1="73" x2="996" y2="345" stroke="#949494" stroke-width="1992" stroke-dasharray="16,16"/>
+  <line x1="1056" y1="185" x2="1992" y2="185" stroke="#757575" stroke-width="320" stroke-dasharray="1,103"/>
+  <rect x="1" y="1" width="1990" height="25" fill="#231f20"/>
+  <text x="5" y="19" font-size="17" fill="#FEFEFE" text-anchor="start">f2fs-ramdisk</text>
+  <line x1="1" y1="25" x2="1991" y2="25" stroke="#757575" stroke-width="1"/>
+  <g font-size="10" font-weight="bold" text-anchor="end" fill="#065695">
+    <a xlink:href="http://openbenchmarking.org/test/pts/aio-stress-1.1.1" xlink:show="new">
+      <text x="1054" y="85" fill="#065695">aio-stress: Test: Random Write</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fio-1.8.2" xlink:show="new">
+      <text x="1054" y="101" fill="#065695">fio: Type: Random Read - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 4KB - Disk Target: Default Test Directory - Result: IOPS</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fio-1.8.2" xlink:show="new">
+      <text x="1054" y="117" fill="#065695">fio: Type: Random Write - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 4KB - Disk Target: Default Test Directory - Result: IOPS</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fio-1.8.2" xlink:show="new">
+      <text x="1054" y="133" fill="#065695">fio: Type: Sequential Read - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 1MB - Disk Target: Default Test Directory - Result: MB/s</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fio-1.8.2" xlink:show="new">
+      <text x="1054" y="149" fill="#065695">fio: Type: Sequential Write - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 1MB - Disk Target: Default Test Directory - Result: MB/s</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fs-mark-1.0.1" xlink:show="new">
+      <text x="1054" y="165" fill="#065695">fs-mark: Test: 1000 Files, 1MB Size</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fs-mark-1.0.1" xlink:show="new">
+      <text x="1054" y="181" fill="#065695">fs-mark: Test: 5000 Files, 1MB Size, 4 Threads</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fs-mark-1.0.1" xlink:show="new">
+      <text x="1054" y="197" fill="#065695">fs-mark: Test: 4000 Files, 32 Sub Dirs, 1MB Size</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fs-mark-1.0.1" xlink:show="new">
+      <text x="1054" y="213" fill="#065695">fs-mark: Test: 1000 Files, 1MB Size, No Sync/FSync</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/dbench-1.0.0" xlink:show="new">
+      <text x="1054" y="229" fill="#065695">dbench: Client Count: 6</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/iozone-1.8.0" xlink:show="new">
+      <text x="1054" y="245" fill="#065695">iozone: Record Size: 1MB - File Size: 2GB - Disk Test: Read Performance</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/iozone-1.8.0" xlink:show="new">
+      <text x="1054" y="261" fill="#065695">iozone: Record Size: 1MB - File Size: 2GB - Disk Test: Write Performance</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/tiobench-1.2.0" xlink:show="new">
+      <text x="1054" y="277" fill="#065695">tiobench: Test: Random Read - Size Per Thread: 64MB - Thread Count: 4</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/tiobench-1.2.0" xlink:show="new">
+      <text x="1054" y="293" fill="#065695">tiobench: Test: Random Write - Size Per Thread: 64MB - Thread Count: 4</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/compilebench-1.0.1" xlink:show="new">
+      <text x="1054" y="309" fill="#065695">compilebench: Test: Compile</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/unpack-linux-1.0.0" xlink:show="new">
+      <text x="1054" y="325" fill="#065695">unpack-linux: linux-2.6.32.tar.bz2</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/postmark-1.1.0" xlink:show="new">
+      <text x="1054" y="341" fill="#065695">postmark: Disk Transaction Performance</text>
+    </a>
+  </g>
+  <g font-size="10" fill="#065695" font-weight="bold" text-anchor="middle" dominant-baseline="text-before-edge">
+    <text x="1108" y="49">f2fs-ramdisk</text>
+    <text x="1212" y="49">ext4-ramdisk</text>
+    <text x="1316" y="49">btrfs-ramdisk</text>
+    <text x="1420" y="49">f2fs-nvme</text>
+    <text x="1524" y="49">ext4-nvme</text>
+    <text x="1628" y="49">btrfs-nvme</text>
+    <text x="1732" y="49">f2fs-ssd</text>
+    <text x="1836" y="49">ext4-ssd</text>
+    <text x="1940" y="49">btrfs-ssd</text>
+  </g>
+  <g/>
+  <g text-anchor="middle" font-size="10">
+    <text x="1108" y="86" fill="#065695" xlink:title="STD Dev: 3.43%;  STD Error: 34.15">2225.65</text>
+    <text x="1108" y="102" fill="#005a00" xlink:title="STD Dev: 0.99%;  STD Error: 1453.39">254024</text>
+    <text x="1108" y="118" fill="#065695" xlink:title="STD Dev: 3.05%;  STD Error: 3272.19">185940</text>
+    <text x="1108" y="134" fill="#065695" xlink:title="STD Dev: 8.85%;  STD Error: 62.18">1721.03</text>
+    <text x="1108" y="150" fill="#065695" xlink:title="STD Dev: 2.19%;  STD Error: 12.73">1007.97</text>
+    <text x="1108" y="166" fill="#065695" xlink:title="STD Dev: 45.42%;  STD Error: 150.09">809.40</text>
+    <text x="1108" y="182" fill="#065695" xlink:title="STD Dev: 24.33%;  STD Error: 93.03">936.65</text>
+    <text x="1108" y="198" fill="#065695" xlink:title="STD Dev: 21.06%;  STD Error: 62.68">729.15</text>
+    <text x="1108" y="214" fill="#065695" xlink:title="STD Dev: 2.98%;  STD Error: 26.69">1792.08</text>
+    <text x="1108" y="230" fill="#005a00" xlink:title="STD Dev: 1.27%;  STD Error: 34.28">4689.56</text>
+    <text x="1108" y="246" fill="#005a00" xlink:title="STD Dev: 0.12%;  STD Error: 4.48">6516.74</text>
+    <text x="1108" y="262" fill="#005a00" xlink:title="STD Dev: 6.16%;  STD Error: 25.25">1004.02</text>
+    <text x="1108" y="278" fill="#065695" xlink:title="STD Dev: 8.90%;  STD Error: 326.67">8992.49</text>
+    <text x="1108" y="294" fill="#065695" xlink:title="STD Dev: 19.61%;  STD Error: 44.14">551.28</text>
+    <text x="1108" y="310" fill="#065695" xlink:title="STD Dev: 1.92%;  STD Error: 19.78">1781.56</text>
+    <text x="1108" y="326" fill="#065695" xlink:title="STD Dev: 3.50%;  STD Error: 0.17">9.84</text>
+    <text x="1108" y="342" fill="#065695" xlink:title="STD Dev: 1.28%;  STD Error: 40.33">5474</text>
+    <text x="1212" y="86" fill="#065695" xlink:title="STD Dev: 2.15%;  STD Error: 22.06">1775.46</text>
+    <text x="1212" y="102" fill="#065695" xlink:title="STD Dev: 3.43%;  STD Error: 4297.71">250950</text>
+    <text x="1212" y="118" fill="#005a00" xlink:title="STD Dev: 3.90%;  STD Error: 3164.16">198745</text>
+    <text x="1212" y="134" fill="#005a00" xlink:title="STD Dev: 3.14%;  STD Error: 32.45">1788.90</text>
+    <text x="1212" y="150" fill="#065695" xlink:title="STD Dev: 2.63%;  STD Error: 15.61">1029.23</text>
+    <text x="1212" y="166" fill="#065695" xlink:title="STD Dev: 13.36%;  STD Error: 32.39">593.72</text>
+    <text x="1212" y="182" fill="#005a00" xlink:title="STD Dev: 14.98%;  STD Error: 117.95">1928.52</text>
+    <text x="1212" y="198" fill="#065695" xlink:title="STD Dev: 11.31%;  STD Error: 30.36">657.30</text>
+    <text x="1212" y="214" fill="#C80000" xlink:title="STD Dev: 2.25%;  STD Error: 17.31">1333.43</text>
+    <text x="1212" y="230" fill="#065695" xlink:title="STD Dev: 5.82%;  STD Error: 102.89">4330.77</text>
+    <text x="1212" y="246" fill="#065695" xlink:title="STD Dev: 12.63%;  STD Error: 319.86">6204.05</text>
+    <text x="1212" y="262" fill="#065695" xlink:title="STD Dev: 3.22%;  STD Error: 15.01">931.75</text>
+    <text x="1212" y="278" fill="#065695" xlink:title="STD Dev: 14.77%;  STD Error: 437.19">7250.33</text>
+    <text x="1212" y="294" fill="#005a00" xlink:title="STD Dev: 7.80%;  STD Error: 22.06">693.18</text>
+    <text x="1212" y="310" fill="#065695" xlink:title="STD Dev: 2.88%;  STD Error: 22.74">1369.56</text>
+    <text x="1212" y="326" fill="#065695" xlink:title="STD Dev: 5.27%;  STD Error: 0.19">10.01</text>
+    <text x="1212" y="342" fill="#065695" xlink:title="STD Dev: 1.89%;  STD Error: 51.39">4717</text>
+    <text x="1316" y="86" fill="#065695" xlink:title="STD Dev: 3.39%;  STD Error: 40.40">2065.97</text>
+    <text x="1316" y="102" fill="#065695" xlink:title="STD Dev: 1.29%;  STD Error: 541.15">72627</text>
+    <text x="1316" y="118" fill="#C80000" xlink:title="STD Dev: 2.25%;  STD Error: 487.15">37528</text>
+    <text x="1316" y="134" fill="#065695" xlink:title="STD Dev: 0.56%;  STD Error: 2.60">798.10</text>
+    <text x="1316" y="150" fill="#005a00" xlink:title="STD Dev: 2.91%;  STD Error: 27.59">1640.07</text>
+    <text x="1316" y="166" fill="#065695" xlink:title="STD Dev: 23.23%;  STD Error: 62.04">654.05</text>
+    <text x="1316" y="182" fill="#065695" xlink:title="STD Dev: 2.57%;  STD Error: 4.07">274.90</text>
+    <text x="1316" y="198" fill="#065695" xlink:title="STD Dev: 26.84%;  STD Error: 65.35">596.37</text>
+    <text x="1316" y="214" fill="#005a00" xlink:title="STD Dev: 1.33%;  STD Error: 14.00">1818.53</text>
+    <text x="1316" y="230" fill="#C80000" xlink:title="STD Dev: 0.63%;  STD Error: 0.55">153.25</text>
+    <text x="1316" y="246" fill="#065695" xlink:title="STD Dev: 1.61%;  STD Error: 60.09">6484.30</text>
+    <text x="1316" y="262" fill="#065695" xlink:title="STD Dev: 1.16%;  STD Error: 6.53">975.72</text>
+    <text x="1316" y="278" fill="#065695" xlink:title="STD Dev: 0.64%;  STD Error: 26.87">7314.13</text>
+    <text x="1316" y="294" fill="#C80000" xlink:title="STD Dev: 1.10%;  STD Error: 0.01">1.68</text>
+    <text x="1316" y="310" fill="#065695" xlink:title="STD Dev: 7.62%;  STD Error: 24.38">783.58</text>
+    <text x="1316" y="326" fill="#C80000" xlink:title="STD Dev: 3.26%;  STD Error: 0.18">12.65</text>
+    <text x="1316" y="342" fill="#065695" xlink:title="STD Dev: 8.99%;  STD Error: 160.62">4379</text>
+    <text x="1420" y="86" fill="#005a00" xlink:title="STD Dev: 1.08%;  STD Error: 14.21">2272.22</text>
+    <text x="1420" y="102" fill="#065695" xlink:title="STD Dev: 2.55%;  STD Error: 156.13">10621</text>
+    <text x="1420" y="118" fill="#065695" xlink:title="STD Dev: 0.63%;  STD Error: 559.74">153230</text>
+    <text x="1420" y="134" fill="#065695" xlink:title="STD Dev: 3.30%;  STD Error: 18.31">960.71</text>
+    <text x="1420" y="150" fill="#065695" xlink:title="STD Dev: 0.82%;  STD Error: 3.77">797.71</text>
+    <text x="1420" y="166" fill="#005a00" xlink:title="STD Dev: 2.06%;  STD Error: 10.64">894.97</text>
+    <text x="1420" y="182" fill="#065695" xlink:title="STD Dev: 5.54%;  STD Error: 21.50">951.30</text>
+    <text x="1420" y="198" fill="#065695" xlink:title="STD Dev: 10.14%;  STD Error: 33.23">803.05</text>
+    <text x="1420" y="214" fill="#065695" xlink:title="STD Dev: 0.73%;  STD Error: 7.66">1812.17</text>
+    <text x="1420" y="230" fill="#065695" xlink:title="STD Dev: 0.10%;  STD Error: 2.08">3737.86</text>
+    <text x="1420" y="246" fill="#065695" xlink:title="STD Dev: 0.76%;  STD Error: 22.53">5116.17</text>
+    <text x="1420" y="262" fill="#065695" xlink:title="STD Dev: 1.76%;  STD Error: 7.74">761.81</text>
+    <text x="1420" y="278" fill="#065695" xlink:title="STD Dev: 14.09%;  STD Error: 523.00">9089.81</text>
+    <text x="1420" y="294" fill="#065695" xlink:title="STD Dev: 6.56%;  STD Error: 13.97">521.80</text>
+    <text x="1420" y="310" fill="#005a00" xlink:title="STD Dev: 3.27%;  STD Error: 33.82">1793.83</text>
+    <text x="1420" y="326" fill="#065695" xlink:title="STD Dev: 4.91%;  STD Error: 0.17">9.99</text>
+    <text x="1420" y="342" fill="#005a00" xlink:title="STD Dev: 1.30%;  STD Error: 42.00">5597</text>
+    <text x="1524" y="86" fill="#C80000" xlink:title="STD Dev: 3.74%;  STD Error: 26.24">1717.39</text>
+    <text x="1524" y="102" fill="#065695" xlink:title="STD Dev: 2.53%;  STD Error: 155.44">10630</text>
+    <text x="1524" y="118" fill="#065695" xlink:title="STD Dev: 3.27%;  STD Error: 2786.78">147472</text>
+    <text x="1524" y="134" fill="#065695" xlink:title="STD Dev: 1.00%;  STD Error: 5.02">867.23</text>
+    <text x="1524" y="150" fill="#065695" xlink:title="STD Dev: 1.44%;  STD Error: 5.84">702.67</text>
+    <text x="1524" y="166" fill="#065695" xlink:title="STD Dev: 3.50%;  STD Error: 12.01">767.38</text>
+    <text x="1524" y="182" fill="#065695" xlink:title="STD Dev: 3.30%;  STD Error: 12.26">829.56</text>
+    <text x="1524" y="198" fill="#005a00" xlink:title="STD Dev: 2.59%;  STD Error: 13.04">872.33</text>
+    <text x="1524" y="214" fill="#065695" xlink:title="STD Dev: 0.94%;  STD Error: 7.36">1358.13</text>
+    <text x="1524" y="230" fill="#065695" xlink:title="STD Dev: 1.04%;  STD Error: 16.09">2674.71</text>
+    <text x="1524" y="246" fill="#C80000" xlink:title="STD Dev: 4.43%;  STD Error: 72.97">4031.55</text>
+    <text x="1524" y="262" fill="#065695" xlink:title="STD Dev: 1.44%;  STD Error: 5.64">679.99</text>
+    <text x="1524" y="278" fill="#005a00" xlink:title="STD Dev: 1.68%;  STD Error: 90.86">9373.02</text>
+    <text x="1524" y="294" fill="#065695" xlink:title="STD Dev: 7.17%;  STD Error: 19.49">666.00</text>
+    <text x="1524" y="310" fill="#065695" xlink:title="STD Dev: 1.70%;  STD Error: 13.61">1388.82</text>
+    <text x="1524" y="326" fill="#065695" xlink:title="STD Dev: 4.67%;  STD Error: 0.16">9.78</text>
+    <text x="1524" y="342" fill="#065695" xlink:title="STD Dev: 1.81%;  STD Error: 47.63">4546</text>
+    <text x="1628" y="86" fill="#065695" xlink:title="STD Dev: 3.15%;  STD Error: 37.09">2042.04</text>
+    <text x="1628" y="102" fill="#065695" xlink:title="STD Dev: 4.22%;  STD Error: 146.46">8507</text>
+    <text x="1628" y="118" fill="#065695" xlink:title="STD Dev: 3.33%;  STD Error: 695.51">46758</text>
+    <text x="1628" y="134" fill="#065695" xlink:title="STD Dev: 5.66%;  STD Error: 22.98">995.21</text>
+    <text x="1628" y="150" fill="#065695" xlink:title="STD Dev: 0.50%;  STD Error: 3.12">1074.90</text>
+    <text x="1628" y="166" fill="#065695" xlink:title="STD Dev: 12.07%;  STD Error: 30.60">620.98</text>
+    <text x="1628" y="182" fill="#065695" xlink:title="STD Dev: 3.51%;  STD Error: 13.11">916.22</text>
+    <text x="1628" y="198" fill="#065695" xlink:title="STD Dev: 9.92%;  STD Error: 28.18">695.77</text>
+    <text x="1628" y="214" fill="#065695" xlink:title="STD Dev: 0.41%;  STD Error: 4.28">1813.50</text>
+    <text x="1628" y="230" fill="#065695" xlink:title="STD Dev: 1.99%;  STD Error: 12.44">1080.06</text>
+    <text x="1628" y="246" fill="#065695" xlink:title="STD Dev: 10.29%;  STD Error: 223.61">5323.54</text>
+    <text x="1628" y="262" fill="#065695" xlink:title="STD Dev: 1.68%;  STD Error: 7.55">776.96</text>
+    <text x="1628" y="278" fill="#065695" xlink:title="STD Dev: 4.67%;  STD Error: 137.02">7189.69</text>
+    <text x="1628" y="294" fill="#065695" xlink:title="STD Dev: 8.15%;  STD Error: 1.05">31.60</text>
+    <text x="1628" y="310" fill="#065695" xlink:title="STD Dev: 2.28%;  STD Error: 12.01">913.21</text>
+    <text x="1628" y="326" fill="#065695" xlink:title="STD Dev: 4.59%;  STD Error: 0.19">11.51</text>
+    <text x="1628" y="342" fill="#C80000" xlink:title="STD Dev: 7.98%;  STD Error: 140.34">4308</text>
+    <text x="1732" y="86" fill="#065695" xlink:title="STD Dev: 3.35%;  STD Error: 43.00">2220.90</text>
+    <text x="1732" y="102" fill="#065695" xlink:title="STD Dev: 0.08%;  STD Error: 3.46">7827</text>
+    <text x="1732" y="118" fill="#065695" xlink:title="STD Dev: 1.30%;  STD Error: 647.76">86417</text>
+    <text x="1732" y="134" fill="#065695" xlink:title="STD Dev: 0.10%;  STD Error: 0.30">521.79</text>
+    <text x="1732" y="150" fill="#C80000" xlink:title="STD Dev: 25.85%;  STD Error: 34.07">322.79</text>
+    <text x="1732" y="166" fill="#065695" xlink:title="STD Dev: 3.27%;  STD Error: 2.54">173.50</text>
+    <text x="1732" y="182" fill="#C80000" xlink:title="STD Dev: 1.93%;  STD Error: 2.24">200.93</text>
+    <text x="1732" y="198" fill="#065695" xlink:title="STD Dev: 9.10%;  STD Error: 7.58">204.07</text>
+    <text x="1732" y="214" fill="#065695" xlink:title="STD Dev: 3.50%;  STD Error: 35.61">1764.80</text>
+    <text x="1732" y="230" fill="#065695" xlink:title="STD Dev: 5.24%;  STD Error: 21.27">703.03</text>
+    <text x="1732" y="246" fill="#065695" xlink:title="STD Dev: 2.59%;  STD Error: 71.98">4809.96</text>
+    <text x="1732" y="262" fill="#065695" xlink:title="STD Dev: 0.39%;  STD Error: 0.88">387.96</text>
+    <text x="1732" y="278" fill="#065695" xlink:title="STD Dev: 4.18%;  STD Error: 156.39">9161.87</text>
+    <text x="1732" y="294" fill="#065695" xlink:title="STD Dev: 1.20%;  STD Error: 0.07">9.76</text>
+    <text x="1732" y="310" fill="#065695" xlink:title="STD Dev: 4.38%;  STD Error: 31.57">1765.87</text>
+    <text x="1732" y="326" fill="#065695" xlink:title="STD Dev: 3.00%;  STD Error: 0.15">10.03</text>
+    <text x="1732" y="342" fill="#005a00" xlink:title="STD Dev: 1.30%;  STD Error: 42.00">5597</text>
+    <text x="1836" y="86" fill="#065695" xlink:title="STD Dev: 2.15%;  STD Error: 22.27">1795.30</text>
+    <text x="1836" y="102" fill="#065695" xlink:title="STD Dev: 0.21%;  STD Error: 8.88">7435</text>
+    <text x="1836" y="118" fill="#065695" xlink:title="STD Dev: 1.03%;  STD Error: 509.49">85682</text>
+    <text x="1836" y="134" fill="#C80000" xlink:title="STD Dev: 0.04%;  STD Error: 0.12">488.55</text>
+    <text x="1836" y="150" fill="#065695" xlink:title="STD Dev: 0.54%;  STD Error: 1.25">397.91</text>
+    <text x="1836" y="166" fill="#065695" xlink:title="STD Dev: 4.95%;  STD Error: 3.25">160.60</text>
+    <text x="1836" y="182" fill="#065695" xlink:title="STD Dev: 1.00%;  STD Error: 1.54">265.33</text>
+    <text x="1836" y="198" fill="#065695" xlink:title="STD Dev: 2.61%;  STD Error: 2.49">165.03</text>
+    <text x="1836" y="214" fill="#065695" xlink:title="STD Dev: 0.78%;  STD Error: 6.13">1366.47</text>
+    <text x="1836" y="230" fill="#065695" xlink:title="STD Dev: 0.11%;  STD Error: 0.28">448.72</text>
+    <text x="1836" y="246" fill="#065695" xlink:title="STD Dev: 1.64%;  STD Error: 47.29">5009.24</text>
+    <text x="1836" y="262" fill="#C80000" xlink:title="STD Dev: 1.10%;  STD Error: 2.30">364.23</text>
+    <text x="1836" y="278" fill="#065695" xlink:title="STD Dev: 5.98%;  STD Error: 217.37">8897.34</text>
+    <text x="1836" y="294" fill="#065695" xlink:title="STD Dev: 1.63%;  STD Error: 0.09">9.31</text>
+    <text x="1836" y="310" fill="#065695" xlink:title="STD Dev: 3.22%;  STD Error: 22.20">1377.31</text>
+    <text x="1836" y="326" fill="#005a00" xlink:title="STD Dev: 2.45%;  STD Error: 0.12">9.75</text>
+    <text x="1836" y="342" fill="#065695" xlink:title="STD Dev: 1.07%;  STD Error: 29.00">4687</text>
+    <text x="1940" y="86" fill="#065695" xlink:title="STD Dev: 3.24%;  STD Error: 29.78">2054.12</text>
+    <text x="1940" y="102" fill="#C80000" xlink:title="STD Dev: 0.40%;  STD Error: 14.73">6439</text>
+    <text x="1940" y="118" fill="#065695" xlink:title="STD Dev: 26.76%;  STD Error: 5494.17">50288</text>
+    <text x="1940" y="134" fill="#065695" xlink:title="STD Dev: 3.42%;  STD Error: 7.06">505.42</text>
+    <text x="1940" y="150" fill="#065695" xlink:title="STD Dev: 0.09%;  STD Error: 0.26">468.23</text>
+    <text x="1940" y="166" fill="#C80000" xlink:title="STD Dev: 12.25%;  STD Error: 7.50">149.98</text>
+    <text x="1940" y="182" fill="#065695" xlink:title="STD Dev: 1.34%;  STD Error: 1.63">209.77</text>
+    <text x="1940" y="198" fill="#C80000" xlink:title="STD Dev: 1.79%;  STD Error: 1.52">146.97</text>
+    <text x="1940" y="214" fill="#065695" xlink:title="STD Dev: 0.86%;  STD Error: 8.93">1793.90</text>
+    <text x="1940" y="230" fill="#065695" xlink:title="STD Dev: 0.70%;  STD Error: 1.91">470.58</text>
+    <text x="1940" y="246" fill="#065695" xlink:title="STD Dev: 12.74%;  STD Error: 237.16">4558.41</text>
+    <text x="1940" y="262" fill="#065695" xlink:title="STD Dev: 0.12%;  STD Error: 0.26">393.12</text>
+    <text x="1940" y="278" fill="#C80000" xlink:title="STD Dev: 12.66%;  STD Error: 363.55">7035.80</text>
+    <text x="1940" y="294" fill="#065695" xlink:title="STD Dev: 1.50%;  STD Error: 0.06">6.48</text>
+    <text x="1940" y="310" fill="#C80000" xlink:title="STD Dev: 4.62%;  STD Error: 12.32">653.18</text>
+    <text x="1940" y="326" fill="#065695" xlink:title="STD Dev: 3.55%;  STD Error: 0.14">11.26</text>
+    <text x="1940" y="342" fill="#065695">4629</text>
+  </g>
+  <line x1="996" y1="73" x2="996" y2="345" stroke="#949494" stroke-width="1992" stroke-dasharray="1,15"/>
+  <rect x="0" y="345" width="1992" height="16" fill="#231f20"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="1990" y="358" font-size="10" fill="#FFFFFF" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+</svg>

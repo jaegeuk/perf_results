@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.8.0m1-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>f2fs-ramdisk</Title>
+    <LastModified>2017-02-03 18:53:48</LastModified>
+    <TestClient>Phoronix Test Suite v6.8.0m1 (Tana)</TestClient>
+    <Description>2 x Intel Xeon E5-2630 v3 testing with a HP 2129 v1.01 and NVIDIA Device 11b4 4096MB on Ubuntu 14.04 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>f2fs-ramdisk</Identifier>
+    <Hardware>Processor: 2 x Intel Xeon E5-2630 v3 @ 3.20GHz (32 Cores), Motherboard: HP 2129 v1.01, Chipset: Intel Haswell-E DMI2, Memory: 16 x 16384 MB 1866MHz Hynix, Disk: 2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4, Graphics: NVIDIA Device 11b4 4096MB, Audio: Realtek ALC221, Network: Intel Connection</Hardware>
+    <Software>OS: Ubuntu 14.04, Kernel: 4.10.0-rc5+ (x86_64) 20170130, Display Driver: nouveau 1.0.10, Compiler: GCC 4.8.4, File-System: F2FS, Screen Resolution: 1024x768</Software>
+    <User>root</User>
+    <TimeStamp>2017-02-03 17:56:47</TimeStamp>
+    <TestClientVersion>6.8.0m1</TestClientVersion>
+    <Notes>Python 2.7.6.</Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-libmudflap --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-multilib-list=m32,m64,mx32 --with-tune=generic -v","disk-scheduler":"DEADLINE","disk-mount-options":"data=ordered,errors=remount-ro,relatime,rw","cpu-scaling-governor":"intel_pstate powersave"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/aio-stress-1.1.1</Identifier>
+    <Title>AIO-Stress</Title>
+    <AppVersion>0.21</AppVersion>
+    <Arguments>-o 2</Arguments>
+    <Description>Test: Random Write</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>2225.65</Value>
+        <RawString>2290.91:2156.38:2130.82:2288.98:2261.18</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -laio"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>randread sync 1 0 4k  IOPS</Arguments>
+    <Description>Type: Random Read - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 4KB - Disk Target: Default Test Directory - Result: IOPS</Description>
+    <Scale>IOPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>254024</Value>
+        <RawString>251385:256399:254287</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>randwrite sync 1 0 4k  IOPS</Arguments>
+    <Description>Type: Random Write - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 4KB - Disk Target: Default Test Directory - Result: IOPS</Description>
+    <Scale>IOPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>185940</Value>
+        <RawString>186118:191516:180185</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>read sync 1 0 1m  MBS</Arguments>
+    <Description>Type: Sequential Read - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 1MB - Disk Target: Default Test Directory - Result: MB/s</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>1721.03</Value>
+        <RawString>1433.8:1888.1:1733.6:1789.2:1739.6:1741.9</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>write sync 1 0 1m  MBS</Arguments>
+    <Description>Type: Sequential Write - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 1MB - Disk Target: Default Test Directory - Result: MB/s</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>1007.97</Value>
+        <RawString>982.796:1023.9:1017.2</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 1000</Arguments>
+    <Description>Test: 1000 Files, 1MB Size</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>809.40</Value>
+        <RawString>59.6:982.9:941.2:967.4:959.5:945.8</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 5000 -t 4</Arguments>
+    <Description>Test: 5000 Files, 1MB Size, 4 Threads</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>936.65</Value>
+        <RawString>1071.2:1096:692.1:1067.4:1094.6:598.6</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 4000 -D 32</Arguments>
+    <Description>Test: 4000 Files, 32 Sub Dirs, 1MB Size</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>729.15</Value>
+        <RawString>417.6:770:789.9:779.3:800.3:817.8</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 1000 -S 0</Arguments>
+    <Description>Test: 1000 Files, 1MB Size, No Sync/FSync</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>1792.08</Value>
+        <RawString>1714.1:1817.6:1833.1:1803.5</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/dbench-1.0.0</Identifier>
+    <Title>Dbench</Title>
+    <AppVersion>4.0</AppVersion>
+    <Arguments>6</Arguments>
+    <Description>Client Count: 6</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>4689.56</Value>
+        <RawString>4700.66:4625.41:4742.6</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lpopt -O2"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/iozone-1.8.0</Identifier>
+    <Title>IOzone</Title>
+    <AppVersion>3.405</AppVersion>
+    <Arguments>-r 1m -s 2048M -i0 -i1</Arguments>
+    <Description>Record Size: 1MB - File Size: 2GB - Disk Test: Read Performance</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>6516.74</Value>
+        <RawString>6515.5283203125:6525.03515625:6509.6669921875</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/iozone-1.8.0</Identifier>
+    <Title>IOzone</Title>
+    <AppVersion>3.405</AppVersion>
+    <Arguments>-r 1m -s 2048M -i0</Arguments>
+    <Description>Record Size: 1MB - File Size: 2GB - Disk Test: Write Performance</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>1004.02</Value>
+        <RawString>992.7763671875:928.2841796875:1100.6923828125:1039.8212890625:953.0224609375:1009.50390625</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/tiobench-1.2.0</Identifier>
+    <Title>Threaded I/O Tester</Title>
+    <AppVersion>0.3.3</AppVersion>
+    <Arguments>-k2 -k1 -f 64 -t 4</Arguments>
+    <Description>Test: Random Read - Size Per Thread: 64MB - Thread Count: 4</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>8992.49</Value>
+        <RawString>8033.419:9356.287:10382.06:8733.93:8661.308:8787.964</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/tiobench-1.2.0</Identifier>
+    <Title>Threaded I/O Tester</Title>
+    <AppVersion>0.3.3</AppVersion>
+    <Arguments>-k3 -k2 -f 64 -t 4</Arguments>
+    <Description>Test: Random Write - Size Per Thread: 64MB - Thread Count: 4</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>551.28</Value>
+        <RawString>592.26:470.25:476.111:737.62:455.287:576.143</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compilebench-1.0.1</Identifier>
+    <Title>Compile Bench</Title>
+    <AppVersion>0.6</AppVersion>
+    <Arguments>COMPILE</Arguments>
+    <Description>Test: Compile</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>1781.56</Value>
+        <RawString>1810.7:1790.14:1743.83</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/unpack-linux-1.0.0</Identifier>
+    <Title>Unpacking The Linux Kernel</Title>
+    <AppVersion></AppVersion>
+    <Arguments></Arguments>
+    <Description>linux-2.6.32.tar.bz2</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>9.84</Value>
+        <RawString>9.57377409935:10.261236906052:9.9897899627686:9.5480051040649</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/postmark-1.1.0</Identifier>
+    <Title>PostMark</Title>
+    <AppVersion>1.51</AppVersion>
+    <Arguments></Arguments>
+    <Description>Disk Transaction Performance</Description>
+    <Scale>TPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>f2fs-ramdisk</Identifier>
+        <Value>5474</Value>
+        <RawString>5434:5434:5555</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
