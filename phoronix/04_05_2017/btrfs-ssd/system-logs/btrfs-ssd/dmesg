@@ -1,0 +1,4190 @@
+ drm(E) libahci(E) scsi_transport_sas(E) wmi(E) [last unloaded: f2fs]
+CPU: 12 PID: 30300 Comm: umount Tainted: G        W  OE   4.11.0-rc3+ #116
+Hardware name: Hewlett-Packard HP Z840 Workstation/2129, BIOS M60 v02.23 07/22/2016
+Call Trace:
+ dump_stack+0x63/0x87
+ __warn+0xd1/0xf0
+ warn_slowpath_null+0x1d/0x20
+ btrfs_free_block_groups+0x28c/0x3e0 [btrfs]
+ close_ctree+0x11c/0x2f0 [btrfs]
+ btrfs_put_super+0x15/0x20 [btrfs]
+ generic_shutdown_super+0x6f/0x100
+ kill_anon_super+0x12/0x20
+ btrfs_kill_super+0x18/0x110 [btrfs]
+ deactivate_locked_super+0x43/0x70
+ deactivate_super+0x46/0x60
+ cleanup_mnt+0x3f/0x80
+ __cleanup_mnt+0x12/0x20
+ task_work_run+0x83/0xb0
+ exit_to_usermode_loop+0x59/0x85
+ syscall_return_slowpath+0x59/0x60
+ entry_SYSCALL_64_fastpath+0xab/0xad
+RIP: 0033:0x7ff4e34aa417
+RSP: 002b:00007ffd5322bc48 EFLAGS: 00000246 ORIG_RAX: 00000000000000a6
+RAX: 0000000000000000 RBX: 0000000000000000 RCX: 00007ff4e34aa417
+RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000000677750
+RBP: 0000000000677750 R08: 0000000000000000 R09: 0000000000000000
+R10: 0000000000000000 R11: 0000000000000246 R12: 00000000006777f0
+R13: 0000000000000000 R14: 0000000000677670 R15: 0000000000677670
+---[ end trace c73af49f0a95244e ]---
+BTRFS info (device sdb1): space_info 4 has 18446744010365026304 free, is not full
+BTRFS info (device sdb1): space_info total=1082130432, used=2080768, pinned=0, reserved=0, may_use=64424509440, readonly=65536
+F2FS-fs (md0): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (md0): Can't find valid F2FS filesystem in 1th superblock
+F2FS-fs (md0): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (md0): Can't find valid F2FS filesystem in 2th superblock
+F2FS-fs (md0): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (md0): Can't find valid F2FS filesystem in 1th superblock
+F2FS-fs (md0): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (md0): Can't find valid F2FS filesystem in 2th superblock
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: discard
+BTRFS: device fsid bcfca186-33d3-4ba4-b66d-acfe0ea57753 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): turning on discard
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+F2FS-fs (nvme0n1p1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (nvme0n1p1): Can't find valid F2FS filesystem in 1th superblock
+F2FS-fs (nvme0n1p1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (nvme0n1p1): Can't find valid F2FS filesystem in 2th superblock
+F2FS-fs (nvme0n1p1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (nvme0n1p1): Can't find valid F2FS filesystem in 1th superblock
+F2FS-fs (nvme0n1p1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (nvme0n1p1): Can't find valid F2FS filesystem in 2th superblock
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: discard
+BTRFS: device fsid 38399bff-21f9-4868-b871-457e98ca3f50 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): turning on discard
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+F2FS-fs (sdb1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (sdb1): Can't find valid F2FS filesystem in 1th superblock
+F2FS-fs (sdb1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (sdb1): Can't find valid F2FS filesystem in 2th superblock
+F2FS-fs (sdb1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (sdb1): Can't find valid F2FS filesystem in 1th superblock
+F2FS-fs (sdb1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (sdb1): Can't find valid F2FS filesystem in 2th superblock
+EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: discard
+BTRFS: device fsid 92c9bc89-0723-4122-ac1a-17ebc8036502 devid 1 transid 4 /dev/sdb1
+BTRFS info (device sdb1): turning on discard
+BTRFS info (device sdb1): disk space caching is enabled
+BTRFS info (device sdb1): flagging fs with big metadata feature
+BTRFS info (device sdb1): detected SSD devices, enabling SSD mode
+BTRFS info (device sdb1): creating UUID tree
+drop-caches (32074): drop_caches: 3
+smpboot: CPU 16 is now offline
+Broke affinity for irq 67
+smpboot: CPU 17 is now offline
+Broke affinity for irq 52
+Broke affinity for irq 67
+Broke affinity for irq 68
+smpboot: CPU 18 is now offline
+Broke affinity for irq 52
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+smpboot: CPU 19 is now offline
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+smpboot: CPU 20 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+smpboot: CPU 21 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+smpboot: CPU 22 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+smpboot: CPU 23 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+smpboot: CPU 24 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+smpboot: CPU 25 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+smpboot: CPU 26 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+smpboot: CPU 27 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+smpboot: CPU 28 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 29 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+smpboot: CPU 30 is now offline
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 31 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (911): drop_caches: 3
+drop-caches (1024): drop_caches: 3
+BTRFS: device fsid b6b5a543-e465-4e26-bc72-783ef9312afc devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (1415): drop_caches: 3
+drop-caches (1515): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 7668a977
+drop-caches (1919): drop_caches: 3
+drop-caches (2035): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2430): drop_caches: 3
+drop-caches (2533): drop_caches: 3
+BTRFS: device fsid 924c25e8-18fd-4abf-8f7b-42a5b759fa16 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (2894): drop_caches: 3
+drop-caches (3030): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 4a98f36d
+drop-caches (3355): drop_caches: 3
+drop-caches (3458): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3748): drop_caches: 3
+drop-caches (3847): drop_caches: 3
+BTRFS: device fsid 94616ad9-a6c1-4500-b3d1-de432750a09c devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (4131): drop_caches: 3
+drop-caches (4230): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 5a5faaa9
+drop-caches (4498): drop_caches: 3
+drop-caches (4597): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4857): drop_caches: 3
+drop-caches (4956): drop_caches: 3
+BTRFS: device fsid 49876dac-a3fb-4bab-bfea-67321ea9696a devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (5240): drop_caches: 3
+drop-caches (5342): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 3b4bd6e1
+drop-caches (5625): drop_caches: 3
+drop-caches (5724): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6014): drop_caches: 3
+drop-caches (6089): drop_caches: 3
+BTRFS: device fsid c340503f-b59e-4b85-8ab9-3aae3f60b25c devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (6373): drop_caches: 3
+drop-caches (6445): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 158b20a1
+drop-caches (6704): drop_caches: 3
+drop-caches (6776): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (7060): drop_caches: 3
+drop-caches (7132): drop_caches: 3
+BTRFS: device fsid f2acd3ee-6c40-4358-bd57-56a66e0f3430 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (7413): drop_caches: 3
+drop-caches (7494): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 5493c21f
+drop-caches (7811): drop_caches: 3
+drop-caches (7883): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8170): drop_caches: 3
+drop-caches (8272): drop_caches: 3
+BTRFS: device fsid a77fa0a1-9200-4d02-8cb9-e3edf9f1b134 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (8556): drop_caches: 3
+drop-caches (8658): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 6ba417fb
+drop-caches (8923): drop_caches: 3
+drop-caches (9025): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9315): drop_caches: 3
+drop-caches (9417): drop_caches: 3
+BTRFS: device fsid 674f48eb-3c30-4648-8fb9-05f8b6789d62 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (9701): drop_caches: 3
+drop-caches (9803): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 6ca13bef
+drop-caches (10080): drop_caches: 3
+drop-caches (10182): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (10442): drop_caches: 3
+drop-caches (10956): drop_caches: 3
+BTRFS: device fsid 466bca5a-daa8-4914-9a0e-7ce640408609 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (11372): drop_caches: 3
+drop-caches (11863): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = ef5b8d1
+drop-caches (12264): drop_caches: 3
+drop-caches (13015): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13332): drop_caches: 3
+drop-caches (14140): drop_caches: 3
+BTRFS: device fsid fa572423-cb8e-4bec-ac76-ce3af98348dd devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (14470): drop_caches: 3
+drop-caches (23766): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 53e748c7
+drop-caches (24114): drop_caches: 3
+drop-caches (24442): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (24702): drop_caches: 3
+drop-caches (24771): drop_caches: 3
+BTRFS: device fsid 218a1eec-cf15-4118-b5fb-6965909dbbd4 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (25088): drop_caches: 3
+drop-caches (25157): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = f587667
+drop-caches (25434): drop_caches: 3
+drop-caches (25503): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25763): drop_caches: 3
+drop-caches (25832): drop_caches: 3
+BTRFS: device fsid 84e9b84f-b6aa-4c49-80ea-86325ef53ac2 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (26155): drop_caches: 3
+drop-caches (26227): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 29384257
+drop-caches (26501): drop_caches: 3
+drop-caches (26570): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (26863): drop_caches: 3
+drop-caches (26932): drop_caches: 3
+BTRFS: device fsid 0286820c-40a5-47a2-b0c4-8184cbd2799d devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (27219): drop_caches: 3
+drop-caches (27288): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 73da352d
+drop-caches (27556): drop_caches: 3
+drop-caches (27626): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27917): drop_caches: 3
+drop-caches (27989): drop_caches: 3
+BTRFS: device fsid be4771d6-9a80-47b6-856a-010965150e55 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (28276): drop_caches: 3
+drop-caches (28354): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 7069bee1
+drop-caches (28671): drop_caches: 3
+drop-caches (28743): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (29030): drop_caches: 3
+drop-caches (29129): drop_caches: 3
+BTRFS: device fsid b0da02e4-c4e2-405a-bee9-f8ed18e07ea8 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (29410): drop_caches: 3
+drop-caches (29509): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 6f97973f
+drop-caches (29822): drop_caches: 3
+drop-caches (29921): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30181): drop_caches: 3
+drop-caches (30280): drop_caches: 3
+BTRFS: device fsid 47bc9a23-0976-4a4d-bd82-f28a1e8f4600 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (30562): drop_caches: 3
+drop-caches (30664): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 7d156a1d
+drop-caches (30990): drop_caches: 3
+drop-caches (31089): drop_caches: 3
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 81
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 12 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 13 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 14 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 15 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31401): drop_caches: 3
+drop-caches (31488): drop_caches: 3
+BTRFS: device fsid 5989e8c5-c007-41bc-b32d-67ae7e8934a2 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (31913): drop_caches: 3
+drop-caches (32000): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 28254b19
+drop-caches (32397): drop_caches: 3
+drop-caches (32487): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (436): drop_caches: 3
+drop-caches (535): drop_caches: 3
+BTRFS: device fsid c829f61e-bca0-4322-8fb2-0ef37918ae87 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (865): drop_caches: 3
+drop-caches (961): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 41906b13
+drop-caches (1288): drop_caches: 3
+drop-caches (1375): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1686): drop_caches: 3
+drop-caches (1784): drop_caches: 3
+BTRFS: device fsid 3437fb0c-17fc-407f-8d1c-f65073079517 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (2144): drop_caches: 3
+drop-caches (2236): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 117d361b
+drop-caches (2653): drop_caches: 3
+drop-caches (2740): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3069): drop_caches: 3
+drop-caches (3156): drop_caches: 3
+BTRFS: device fsid 567ca62c-13fe-4976-ac80-6e5b1a0ef3df devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (3486): drop_caches: 3
+drop-caches (3576): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 2129d9c3
+drop-caches (3892): drop_caches: 3
+drop-caches (3979): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4290): drop_caches: 3
+drop-caches (4358): drop_caches: 3
+BTRFS: device fsid e90bc3d6-b86f-4a60-b850-5de3ce49d580 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (4687): drop_caches: 3
+drop-caches (4755): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 39057285
+drop-caches (5065): drop_caches: 3
+drop-caches (5133): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5438): drop_caches: 3
+drop-caches (5506): drop_caches: 3
+BTRFS: device fsid 16ab7134-692f-4491-8d88-2ca16579dfb3 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (5835): drop_caches: 3
+drop-caches (5909): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 19a6bb15
+drop-caches (6224): drop_caches: 3
+drop-caches (6292): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6585): drop_caches: 3
+drop-caches (6675): drop_caches: 3
+BTRFS: device fsid c0674c3a-5bc8-4259-aa0d-3ecbc6dd0d10 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (7001): drop_caches: 3
+drop-caches (7094): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 604e419
+drop-caches (7398): drop_caches: 3
+drop-caches (7488): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (7793): drop_caches: 3
+drop-caches (7883): drop_caches: 3
+BTRFS: device fsid b9bfe70c-54a2-4bf2-81f6-84b264a67577 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (8209): drop_caches: 3
+drop-caches (8299): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 61e26299
+drop-caches (8603): drop_caches: 3
+drop-caches (8693): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8995): drop_caches: 3
+drop-caches (9532): drop_caches: 3
+BTRFS: device fsid 81646bf5-10b7-4fae-9ba6-3c8048eba30a devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (9942): drop_caches: 3
+drop-caches (10463): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 7c82f5
+drop-caches (10858): drop_caches: 3
+drop-caches (11581): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (11941): drop_caches: 3
+drop-caches (12625): drop_caches: 3
+BTRFS: device fsid cbd03cf8-8c6c-4ed3-bde2-9bca7c0b4cf4 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (12951): drop_caches: 3
+drop-caches (19938): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 1f54bf0f
+drop-caches (20282): drop_caches: 3
+drop-caches (20585): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20896): drop_caches: 3
+drop-caches (20961): drop_caches: 3
+BTRFS: device fsid 72bcd99a-700b-4024-94ac-6b7465f19ca3 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (21287): drop_caches: 3
+drop-caches (21352): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 2b09333b
+drop-caches (21660): drop_caches: 3
+drop-caches (21725): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22021): drop_caches: 3
+drop-caches (22086): drop_caches: 3
+BTRFS: device fsid 7c8b3c8b-3a76-4896-bc52-08238f9d4638 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (22412): drop_caches: 3
+drop-caches (22480): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 2cc03e1b
+drop-caches (22790): drop_caches: 3
+drop-caches (22858): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23154): drop_caches: 3
+drop-caches (23219): drop_caches: 3
+BTRFS: device fsid 28da40dc-7d88-420b-b48e-b66f839aa9ad devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (23548): drop_caches: 3
+drop-caches (23613): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 3dee48cd
+drop-caches (23919): drop_caches: 3
+drop-caches (23984): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (24291): drop_caches: 3
+drop-caches (24356): drop_caches: 3
+BTRFS: device fsid 41cf3952-0705-4d67-88ca-f497b2275a52 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (24688): drop_caches: 3
+drop-caches (24762): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 73163ca1
+drop-caches (25072): drop_caches: 3
+drop-caches (25140): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25438): drop_caches: 3
+drop-caches (25528): drop_caches: 3
+BTRFS: device fsid 75d20245-ee97-4566-b138-e4d7133136d3 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (25860): drop_caches: 3
+drop-caches (25947): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 159fb1c5
+drop-caches (26259): drop_caches: 3
+drop-caches (26349): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (26651): drop_caches: 3
+drop-caches (26738): drop_caches: 3
+BTRFS: device fsid 142e5e29-0c99-4fc4-b31c-37f01463fd78 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (27061): drop_caches: 3
+drop-caches (27152): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 7e841823
+drop-caches (27459): drop_caches: 3
+drop-caches (27546): drop_caches: 3
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 8 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 9 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 10 is now offline
+Broke affinity for irq 1
+Broke affinity for irq 8
+Broke affinity for irq 9
+Broke affinity for irq 12
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 11 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27882): drop_caches: 3
+drop-caches (27957): drop_caches: 3
+BTRFS: device fsid 1bc1528f-cdcc-4246-8f51-fa1bdf3a3eb2 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (28405): drop_caches: 3
+drop-caches (28483): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 5626b5d1
+drop-caches (28890): drop_caches: 3
+drop-caches (28965): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (29396): drop_caches: 3
+drop-caches (29474): drop_caches: 3
+BTRFS: device fsid 252bf246-0c90-4a9a-ac8a-9d83426f85e3 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (29803): drop_caches: 3
+drop-caches (29885): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 49d624a5
+drop-caches (30197): drop_caches: 3
+drop-caches (30275): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30577): drop_caches: 3
+drop-caches (30652): drop_caches: 3
+BTRFS: device fsid 4c798f8a-2b75-4648-8fda-cd08dfdd1b89 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (30990): drop_caches: 3
+drop-caches (31065): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 9307951
+drop-caches (31373): drop_caches: 3
+drop-caches (31448): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31747): drop_caches: 3
+drop-caches (31822): drop_caches: 3
+BTRFS: device fsid 5d9e9108-0de5-477a-91ce-b681a318f4d2 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (32149): drop_caches: 3
+drop-caches (32227): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 77cd2b23
+drop-caches (32539): drop_caches: 3
+drop-caches (32614): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (482): drop_caches: 3
+drop-caches (558): drop_caches: 3
+BTRFS: device fsid 9d607e1e-a5c3-4540-9d8a-9321537a8c19 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (891): drop_caches: 3
+drop-caches (956): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 1233a8f
+drop-caches (1280): drop_caches: 3
+drop-caches (1347): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1652): drop_caches: 3
+drop-caches (1732): drop_caches: 3
+BTRFS: device fsid 7b94ad50-0d55-48ef-bca4-adcae50641f0 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (2084): drop_caches: 3
+drop-caches (2161): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 536f99a9
+drop-caches (2521): drop_caches: 3
+drop-caches (2654): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2976): drop_caches: 3
+drop-caches (3060): drop_caches: 3
+BTRFS: device fsid 631c65cd-4039-4fba-9774-907ae55d835e devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (3394): drop_caches: 3
+drop-caches (3476): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 1d3ca5cd
+drop-caches (3783): drop_caches: 3
+drop-caches (3861): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4172): drop_caches: 3
+drop-caches (4250): drop_caches: 3
+BTRFS: device fsid 76fa343b-2ca3-41d3-9827-881aff617244 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (4581): drop_caches: 3
+drop-caches (4659): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 49a1c595
+drop-caches (4972): drop_caches: 3
+drop-caches (5050): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5349): drop_caches: 3
+drop-caches (5915): drop_caches: 3
+BTRFS: device fsid 996abe76-3f61-4335-b024-7f25a1d42aef devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (6321): drop_caches: 3
+drop-caches (6870): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 6f073e45
+drop-caches (7266): drop_caches: 3
+drop-caches (7982): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8350): drop_caches: 3
+drop-caches (8808): drop_caches: 3
+BTRFS: device fsid 7b3edddd-5423-4cde-9400-dd6be929f7c0 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (9133): drop_caches: 3
+drop-caches (11142): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 669e5ec9
+drop-caches (11474): drop_caches: 3
+drop-caches (11749): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (12057): drop_caches: 3
+drop-caches (12118): drop_caches: 3
+BTRFS: device fsid 77a60bd2-a4c5-4eb8-a8ee-bc06fd94468c devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (12440): drop_caches: 3
+drop-caches (12501): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 560c8d89
+drop-caches (12817): drop_caches: 3
+drop-caches (12880): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13186): drop_caches: 3
+drop-caches (13247): drop_caches: 3
+BTRFS: device fsid c507e5c8-39e6-4d13-9f92-792fd85928e6 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (13578): drop_caches: 3
+drop-caches (13642): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 67405ed
+drop-caches (13955): drop_caches: 3
+drop-caches (14019): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14327): drop_caches: 3
+drop-caches (14388): drop_caches: 3
+BTRFS: device fsid c9cb068d-4b1b-45d1-810d-e1652e02f043 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (14713): drop_caches: 3
+drop-caches (14774): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 6ac6c57f
+drop-caches (15078): drop_caches: 3
+drop-caches (15139): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15447): drop_caches: 3
+drop-caches (15511): drop_caches: 3
+BTRFS: device fsid 460ce84a-f1bf-4296-9c83-13fb1a6743ef devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (15839): drop_caches: 3
+drop-caches (15909): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 1443a149
+drop-caches (16212): drop_caches: 3
+drop-caches (16279): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16578): drop_caches: 3
+drop-caches (16653): drop_caches: 3
+BTRFS: device fsid 7b3bbf92-8619-4184-99cd-57784ce962aa devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (16984): drop_caches: 3
+drop-caches (17059): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 74fc3cf9
+drop-caches (17366): drop_caches: 3
+drop-caches (17441): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (17749): drop_caches: 3
+drop-caches (17824): drop_caches: 3
+BTRFS: device fsid a4c287fc-ee17-4cb1-a1e4-48e219968bde devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (18164): drop_caches: 3
+drop-caches (18242): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 42af4c0d
+drop-caches (18552): drop_caches: 3
+drop-caches (18627): drop_caches: 3
+Broke affinity for irq 25
+Broke affinity for irq 33
+Broke affinity for irq 35
+Broke affinity for irq 39
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 49
+Broke affinity for irq 55
+Broke affinity for irq 63
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 4 is now offline
+Broke affinity for irq 25
+Broke affinity for irq 28
+Broke affinity for irq 33
+Broke affinity for irq 35
+Broke affinity for irq 39
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 5 is now offline
+Broke affinity for irq 25
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 33
+Broke affinity for irq 35
+Broke affinity for irq 39
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 6 is now offline
+Broke affinity for irq 25
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 33
+Broke affinity for irq 35
+Broke affinity for irq 37
+Broke affinity for irq 39
+Broke affinity for irq 40
+Broke affinity for irq 41
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 51
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 7 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (18941): drop_caches: 3
+drop-caches (19007): drop_caches: 3
+BTRFS: device fsid 54d86f8c-5249-4e9f-a186-ed76a4b5a5af devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (19431): drop_caches: 3
+drop-caches (19495): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 441ac869
+drop-caches (19881): drop_caches: 3
+drop-caches (19944): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (20358): drop_caches: 3
+drop-caches (20424): drop_caches: 3
+BTRFS: device fsid 9bb3eb0a-369e-4040-a609-3855034b7eac devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (20743): drop_caches: 3
+drop-caches (20809): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 7dec5007
+drop-caches (21116): drop_caches: 3
+drop-caches (21179): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (21483): drop_caches: 3
+drop-caches (21549): drop_caches: 3
+BTRFS: device fsid fc50da8e-9f51-4ba8-86ed-94586a53d4db devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (21874): drop_caches: 3
+drop-caches (21937): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 7a606b0d
+drop-caches (22240): drop_caches: 3
+drop-caches (22303): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22614): drop_caches: 3
+drop-caches (22677): drop_caches: 3
+BTRFS: device fsid acd9f806-0e64-41c3-8a09-448d502b620b devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (23005): drop_caches: 3
+drop-caches (23071): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 5899352b
+drop-caches (23375): drop_caches: 3
+drop-caches (23438): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23751): drop_caches: 3
+drop-caches (23813): drop_caches: 3
+BTRFS: device fsid f338a677-e79f-47f6-83ff-b75f017241d5 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (24132): drop_caches: 3
+drop-caches (24195): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 644f3e47
+drop-caches (24505): drop_caches: 3
+drop-caches (24565): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (24870): drop_caches: 3
+drop-caches (24933): drop_caches: 3
+BTRFS: device fsid 239f04c7-6f4e-4511-a573-dab16def255d devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (25256): drop_caches: 3
+drop-caches (25319): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 3c7d4b09
+drop-caches (25622): drop_caches: 3
+drop-caches (25679): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25979): drop_caches: 3
+drop-caches (26045): drop_caches: 3
+BTRFS: device fsid 3f28b545-3ad1-4913-aa36-9c1ec817c1b0 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (26370): drop_caches: 3
+drop-caches (26436): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 5d0dfb2b
+drop-caches (26740): drop_caches: 3
+drop-caches (26806): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27105): drop_caches: 3
+drop-caches (27172): drop_caches: 3
+BTRFS: device fsid cbccdbc7-180b-489a-be81-50f070cb5c6d devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (27491): drop_caches: 3
+drop-caches (27557): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 2d9df503
+drop-caches (27875): drop_caches: 3
+drop-caches (27941): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (28240): drop_caches: 3
+drop-caches (28805): drop_caches: 3
+BTRFS: device fsid 0792af15-6a36-4575-a219-06866bf58a49 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (29208): drop_caches: 3
+drop-caches (29702): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 2afddb53
+drop-caches (30109): drop_caches: 3
+drop-caches (30851): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31209): drop_caches: 3
+drop-caches (31759): drop_caches: 3
+BTRFS: device fsid 2efe7993-ed7f-43b2-ab97-d7dde57b4b44 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (32099): drop_caches: 3
+drop-caches (2022): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 472afa7d
+drop-caches (2413): drop_caches: 3
+drop-caches (2826): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3157): drop_caches: 3
+drop-caches (3214): drop_caches: 3
+BTRFS: device fsid 973736db-33fd-4502-8af0-75e3da151ec0 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (3550): drop_caches: 3
+drop-caches (3607): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 6b1c4899
+drop-caches (3923): drop_caches: 3
+drop-caches (3980): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4279): drop_caches: 3
+drop-caches (4336): drop_caches: 3
+BTRFS: device fsid 79fe3e6b-277f-411d-8c5e-b51978788138 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (4658): drop_caches: 3
+drop-caches (4718): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 64a9b297
+drop-caches (5025): drop_caches: 3
+drop-caches (5082): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5387): drop_caches: 3
+drop-caches (5447): drop_caches: 3
+BTRFS: device fsid 5aeaf181-d4db-4a85-8d08-d25610e1809a devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (5766): drop_caches: 3
+drop-caches (5826): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 42fda961
+drop-caches (6132): drop_caches: 3
+drop-caches (6192): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6500): drop_caches: 3
+drop-caches (6557): drop_caches: 3
+BTRFS: device fsid cf371d28-80e6-4555-9813-34ed7f2c413a devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (6876): drop_caches: 3
+drop-caches (6939): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 29991dd
+drop-caches (7242): drop_caches: 3
+drop-caches (7302): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (7613): drop_caches: 3
+drop-caches (7676): drop_caches: 3
+BTRFS: device fsid 6c95a22f-5a53-4db3-9043-7d00c937054e devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (7995): drop_caches: 3
+drop-caches (8061): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 29abf677
+drop-caches (8377): drop_caches: 3
+drop-caches (8440): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8742): drop_caches: 3
+drop-caches (8805): drop_caches: 3
+BTRFS: device fsid d5abb9fa-fe63-483c-a609-94cd7d334bc6 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (9133): drop_caches: 3
+drop-caches (9199): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 5eba7b2f
+drop-caches (9509): drop_caches: 3
+drop-caches (9572): drop_caches: 3
+Broke affinity for irq 25
+Broke affinity for irq 26
+Broke affinity for irq 29
+Broke affinity for irq 37
+Broke affinity for irq 38
+Broke affinity for irq 39
+Broke affinity for irq 40
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 52
+Broke affinity for irq 55
+Broke affinity for irq 61
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 2 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 25
+Broke affinity for irq 26
+Broke affinity for irq 29
+Broke affinity for irq 37
+Broke affinity for irq 38
+Broke affinity for irq 39
+Broke affinity for irq 40
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 52
+Broke affinity for irq 53
+Broke affinity for irq 55
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 3 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9875): drop_caches: 3
+drop-caches (9935): drop_caches: 3
+BTRFS: device fsid c8392e3c-c10d-4e64-aafe-e66589c28419 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (10317): drop_caches: 3
+drop-caches (10377): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 65e2276d
+drop-caches (10738): drop_caches: 3
+drop-caches (10798): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (11169): drop_caches: 3
+drop-caches (11229): drop_caches: 3
+BTRFS: device fsid 8e02c069-75ca-41b8-b846-23ff8fdb80fe devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (11554): drop_caches: 3
+drop-caches (11611): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 736ea977
+drop-caches (11911): drop_caches: 3
+drop-caches (11971): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (12270): drop_caches: 3
+drop-caches (12327): drop_caches: 3
+BTRFS: device fsid 84d1d858-960a-480f-9192-4adf2536e7b8 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (12656): drop_caches: 3
+drop-caches (12716): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 6354a803
+drop-caches (13035): drop_caches: 3
+drop-caches (13095): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13391): drop_caches: 3
+drop-caches (13451): drop_caches: 3
+BTRFS: device fsid b0ecc164-cfa0-4757-89b4-a69d48985241 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (13770): drop_caches: 3
+drop-caches (13830): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 12d3b665
+drop-caches (14130): drop_caches: 3
+drop-caches (14190): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14486): drop_caches: 3
+drop-caches (14544): drop_caches: 3
+BTRFS: device fsid 9f5ebb89-b2d3-46ce-a879-5b08c2c13ee1 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (14863): drop_caches: 3
+drop-caches (14921): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 588b9e7d
+drop-caches (15232): drop_caches: 3
+drop-caches (15290): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15586): drop_caches: 3
+drop-caches (15644): drop_caches: 3
+BTRFS: device fsid f76f1e7f-7915-4207-9bce-3e942e774b43 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (15963): drop_caches: 3
+drop-caches (16021): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 773fc2ef
+drop-caches (16321): drop_caches: 3
+drop-caches (16379): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16675): drop_caches: 3
+drop-caches (16735): drop_caches: 3
+BTRFS: device fsid 9eeeef5b-47a5-47dd-87c3-c815fd86ae2f devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (17054): drop_caches: 3
+drop-caches (17115): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 6c68ee21
+drop-caches (17427): drop_caches: 3
+drop-caches (17487): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (17783): drop_caches: 3
+drop-caches (17843): drop_caches: 3
+BTRFS: device fsid ede402c2-57b1-4478-b1fc-4086b0d1fef6 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (18162): drop_caches: 3
+drop-caches (18222): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 5da68d5
+drop-caches (18522): drop_caches: 3
+drop-caches (18582): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (18887): drop_caches: 3
+drop-caches (19485): drop_caches: 3
+BTRFS: device fsid 2cb8831f-2efe-4831-998b-17cdd3e8824f devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (19879): drop_caches: 3
+drop-caches (20456): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 72f759b3
+drop-caches (20840): drop_caches: 3
+drop-caches (21612): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (21976): drop_caches: 3
+drop-caches (22821): drop_caches: 3
+BTRFS: device fsid 3db8227a-5367-4f93-bfd8-f5e1df6a2d2f devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (23140): drop_caches: 3
+drop-caches (26513): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 31fb4111
+drop-caches (26848): drop_caches: 3
+drop-caches (27355): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27651): drop_caches: 3
+drop-caches (27709): drop_caches: 3
+BTRFS: device fsid f6046aef-3cf5-4309-9cc6-fc042fb02039 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (28037): drop_caches: 3
+drop-caches (28095): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 1799fa9b
+drop-caches (28392): drop_caches: 3
+drop-caches (28450): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (28755): drop_caches: 3
+drop-caches (28813): drop_caches: 3
+BTRFS: device fsid 365c07a7-bbf4-42a0-b507-a909d3424ca0 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (29138): drop_caches: 3
+drop-caches (29196): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 5a9de39
+drop-caches (29500): drop_caches: 3
+drop-caches (29559): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (29856): drop_caches: 3
+drop-caches (29915): drop_caches: 3
+BTRFS: device fsid c140990e-90b2-47fd-8ca4-08640808b1ee devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (30252): drop_caches: 3
+drop-caches (30310): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 2320a25d
+drop-caches (30614): drop_caches: 3
+drop-caches (30672): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30969): drop_caches: 3
+drop-caches (31024): drop_caches: 3
+BTRFS: device fsid 0f34bfeb-2050-4d56-95d5-5932f4637d7b devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (31344): drop_caches: 3
+drop-caches (31402): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 2155709
+drop-caches (31702): drop_caches: 3
+drop-caches (31760): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (32066): drop_caches: 3
+drop-caches (32127): drop_caches: 3
+BTRFS: device fsid 517361b0-1e88-431e-a5bf-fcd45d9fd7fa devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (32446): drop_caches: 3
+drop-caches (32506): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 42c0e8f1
+drop-caches (342): drop_caches: 3
+drop-caches (430): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (741): drop_caches: 3
+drop-caches (801): drop_caches: 3
+BTRFS: device fsid a66c5720-3a6f-4f42-963b-69c701975779 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (1142): drop_caches: 3
+drop-caches (1203): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 19673b27
+drop-caches (1512): drop_caches: 3
+drop-caches (1572): drop_caches: 3
+Broke affinity for irq 27
+Broke affinity for irq 53
+Broke affinity for irq 60
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 1 is now offline
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1910): drop_caches: 3
+drop-caches (1971): drop_caches: 3
+BTRFS: device fsid e443ec8e-6e03-41f3-8da8-33d3a71ddb96 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (2373): drop_caches: 3
+drop-caches (2459): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 42d79489
+drop-caches (2897): drop_caches: 3
+drop-caches (2963): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3311): drop_caches: 3
+drop-caches (3370): drop_caches: 3
+BTRFS: device fsid 5a171695-e8d8-4be4-b496-b38f5f849cc3 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (3695): drop_caches: 3
+drop-caches (3752): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 65f49245
+drop-caches (4064): drop_caches: 3
+drop-caches (4121): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4420): drop_caches: 3
+drop-caches (4477): drop_caches: 3
+BTRFS: device fsid 861cfb89-1976-4ff2-b5ab-284f5d0394fc devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (4800): drop_caches: 3
+drop-caches (4857): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 760cb9a1
+drop-caches (5160): drop_caches: 3
+drop-caches (5220): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (5519): drop_caches: 3
+drop-caches (5576): drop_caches: 3
+BTRFS: device fsid c3b61ce4-fab3-4522-a8a0-98ecf5c0b4ad devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (5901): drop_caches: 3
+drop-caches (5958): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 7ddf15cd
+drop-caches (6264): drop_caches: 3
+drop-caches (6318): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6620): drop_caches: 3
+drop-caches (6677): drop_caches: 3
+BTRFS: device fsid 4d936e96-9710-4e7a-b381-d06ad29494db devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (7011): drop_caches: 3
+drop-caches (7068): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 6bf85757
+drop-caches (7380): drop_caches: 3
+drop-caches (7437): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (7736): drop_caches: 3
+drop-caches (7793): drop_caches: 3
+BTRFS: device fsid bbda3330-f30c-4a2b-953a-ffc707d1e5fe devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (8116): drop_caches: 3
+drop-caches (8173): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 1f1ec04d
+drop-caches (8479): drop_caches: 3
+drop-caches (8536): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8835): drop_caches: 3
+drop-caches (8892): drop_caches: 3
+BTRFS: device fsid 7b368b4b-c646-4364-90ae-cbc564f59d11 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (9214): drop_caches: 3
+drop-caches (9271): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 4f7128d1
+drop-caches (9577): drop_caches: 3
+drop-caches (9634): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9933): drop_caches: 3
+drop-caches (9990): drop_caches: 3
+BTRFS: device fsid adcbbdb2-5d7e-4ffb-aaec-be6ce25fafc8 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (10312): drop_caches: 3
+drop-caches (10369): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 160db255
+drop-caches (10675): drop_caches: 3
+drop-caches (10732): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (11031): drop_caches: 3
+drop-caches (12031): drop_caches: 3
+BTRFS: device fsid a9ffefb1-524e-4def-91ae-64638567a204 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (12428): drop_caches: 3
+drop-caches (13450): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 47f5d98f
+drop-caches (13844): drop_caches: 3
+drop-caches (14859): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15215): drop_caches: 3
+drop-caches (16446): drop_caches: 3
+BTRFS: device fsid bdc961a9-1e87-4d24-b5f6-8aab860957ca devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (16768): drop_caches: 3
+drop-caches (22482): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 298bb65b
+drop-caches (22822): drop_caches: 3
+drop-caches (23636): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23939): drop_caches: 3
+drop-caches (23996): drop_caches: 3
+BTRFS: device fsid 601f9405-1cfe-4d54-af14-4566f32fe3b3 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (24318): drop_caches: 3
+drop-caches (24375): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 4219f0f7
+drop-caches (24690): drop_caches: 3
+drop-caches (24747): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25046): drop_caches: 3
+drop-caches (25103): drop_caches: 3
+BTRFS: device fsid 13ec5b27-706d-49a5-9f42-f1ba03f3da53 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (25425): drop_caches: 3
+drop-caches (25482): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 655130ad
+drop-caches (25794): drop_caches: 3
+drop-caches (25851): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (26151): drop_caches: 3
+drop-caches (26208): drop_caches: 3
+BTRFS: device fsid 68a2e3bd-7bef-4549-95b4-b3193415e933 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (26533): drop_caches: 3
+drop-caches (26591): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 526d1265
+drop-caches (26897): drop_caches: 3
+drop-caches (26954): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27253): drop_caches: 3
+drop-caches (27310): drop_caches: 3
+BTRFS: device fsid 542bec4c-2839-42a6-bb6e-b96b5b3fd452 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (27632): drop_caches: 3
+drop-caches (27689): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 54f3e86b
+drop-caches (28013): drop_caches: 3
+drop-caches (28070): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (28379): drop_caches: 3
+drop-caches (28436): drop_caches: 3
+BTRFS: device fsid 12417a0e-1548-4e84-81ce-1413f8aa1e26 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (28758): drop_caches: 3
+drop-caches (28815): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 30ff63c1
+drop-caches (29127): drop_caches: 3
+drop-caches (29184): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (29483): drop_caches: 3
+drop-caches (29540): drop_caches: 3
+BTRFS: device fsid 8a035634-32f8-4ef1-8dcd-01e46e1801a5 devid 1 transid 4 /dev/md0
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+drop-caches (29862): drop_caches: 3
+drop-caches (29920): drop_caches: 3
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 2c756d69
+drop-caches (30232): drop_caches: 3
+x86: Booting SMP configuration:
+smpboot: Booting Node 0 Processor 1 APIC 0x2
+smpboot: Booting Node 0 Processor 2 APIC 0x4
+smpboot: Booting Node 0 Processor 3 APIC 0x6
+smpboot: Booting Node 0 Processor 4 APIC 0x8
+smpboot: Booting Node 0 Processor 5 APIC 0xa
+smpboot: Booting Node 0 Processor 6 APIC 0xc
+smpboot: Booting Node 0 Processor 7 APIC 0xe
+smpboot: Booting Node 1 Processor 8 APIC 0x10
+intel_rapl: Found RAPL domain package
+intel_rapl: Found RAPL domain dram
+intel_rapl: DRAM domain energy unit 15300pj
+smpboot: Booting Node 1 Processor 9 APIC 0x12
+smpboot: Booting Node 1 Processor 10 APIC 0x14
+smpboot: Booting Node 1 Processor 11 APIC 0x16
+smpboot: Booting Node 1 Processor 12 APIC 0x18
+smpboot: Booting Node 1 Processor 13 APIC 0x1a
+smpboot: Booting Node 1 Processor 14 APIC 0x1c
+smpboot: Booting Node 1 Processor 15 APIC 0x1e
+smpboot: Booting Node 0 Processor 16 APIC 0x1
+smpboot: Booting Node 0 Processor 17 APIC 0x3
+smpboot: Booting Node 0 Processor 18 APIC 0x5
+smpboot: Booting Node 0 Processor 19 APIC 0x7
+smpboot: Booting Node 0 Processor 20 APIC 0x9
+smpboot: Booting Node 0 Processor 21 APIC 0xb
+smpboot: Booting Node 0 Processor 22 APIC 0xd
+smpboot: Booting Node 0 Processor 23 APIC 0xf
+smpboot: Booting Node 1 Processor 24 APIC 0x11
+smpboot: Booting Node 1 Processor 25 APIC 0x13
+smpboot: Booting Node 1 Processor 26 APIC 0x15
+smpboot: Booting Node 1 Processor 27 APIC 0x17
+smpboot: Booting Node 1 Processor 28 APIC 0x19
+smpboot: Booting Node 1 Processor 29 APIC 0x1b
+smpboot: Booting Node 1 Processor 30 APIC 0x1d
+smpboot: Booting Node 1 Processor 31 APIC 0x1f
+drop-caches (30337): drop_caches: 3
+smpboot: CPU 16 is now offline
+Broke affinity for irq 67
+smpboot: CPU 17 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+smpboot: CPU 18 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+smpboot: CPU 19 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+smpboot: CPU 20 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+smpboot: CPU 21 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+smpboot: CPU 22 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+smpboot: CPU 23 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+smpboot: CPU 24 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+smpboot: CPU 25 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+smpboot: CPU 26 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+smpboot: CPU 27 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+smpboot: CPU 28 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+smpboot: CPU 29 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+smpboot: CPU 30 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 31 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30398): drop_caches: 3
+drop-caches (30501): drop_caches: 3
+BTRFS: device fsid 2b0275ce-22bb-4e91-a064-de11996675dd devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (30697): drop_caches: 3
+drop-caches (30796): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 7be34129
+drop-caches (30961): drop_caches: 3
+drop-caches (31060): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31204): drop_caches: 3
+drop-caches (31306): drop_caches: 3
+BTRFS: device fsid cfad229c-5992-4f94-8d85-c13153afc3d8 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (31372): drop_caches: 3
+drop-caches (31483): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 5eb795d3
+drop-caches (31556): drop_caches: 3
+drop-caches (31658): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31704): drop_caches: 3
+drop-caches (31803): drop_caches: 3
+BTRFS: device fsid 034e507e-7884-4b49-b607-a8cca2f339ee devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (31869): drop_caches: 3
+drop-caches (31968): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 7647de13
+drop-caches (32015): drop_caches: 3
+drop-caches (32116): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (32159): drop_caches: 3
+drop-caches (32264): drop_caches: 3
+BTRFS: device fsid 9c76b4cc-630e-4432-975d-f71b7e7e9752 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (32330): drop_caches: 3
+drop-caches (32432): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 60f00a79
+drop-caches (32484): drop_caches: 3
+drop-caches (32589): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (32632): drop_caches: 3
+drop-caches (32707): drop_caches: 3
+BTRFS: device fsid 7537cb87-4dbf-4041-8fa4-90985d2f705e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (306): drop_caches: 3
+drop-caches (399): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 44a0882b
+drop-caches (469): drop_caches: 3
+drop-caches (556): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (600): drop_caches: 3
+drop-caches (735): drop_caches: 3
+BTRFS: device fsid 5447a88d-0b07-4faf-84aa-ebf85a161d50 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (802): drop_caches: 3
+drop-caches (906): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 715d200d
+drop-caches (961): drop_caches: 3
+drop-caches (1076): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1119): drop_caches: 3
+drop-caches (1225): drop_caches: 3
+BTRFS: device fsid 493d13c1-a92f-44a5-b09a-e004aba76315 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1297): drop_caches: 3
+drop-caches (1399): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 6c7998cf
+drop-caches (1450): drop_caches: 3
+drop-caches (1553): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1597): drop_caches: 3
+drop-caches (1711): drop_caches: 3
+BTRFS: device fsid 9790b19e-11b6-44d1-8e35-5a1202118074 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1784): drop_caches: 3
+drop-caches (1891): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 20a546dd
+drop-caches (1957): drop_caches: 3
+drop-caches (2073): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2119): drop_caches: 3
+drop-caches (3965): drop_caches: 3
+BTRFS: device fsid 7b65a33c-def5-47a8-a0bb-4a4c134a405e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (4203): drop_caches: 3
+drop-caches (5945): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 213dbe21
+drop-caches (6200): drop_caches: 3
+drop-caches (7929): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8114): drop_caches: 3
+drop-caches (9963): drop_caches: 3
+BTRFS: device fsid 89828c37-b03e-4839-af55-b26134dc060f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (10033): drop_caches: 3
+drop-caches (27983): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 55b4f09b
+drop-caches (28124): drop_caches: 3
+drop-caches (29962): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30005): drop_caches: 3
+drop-caches (30074): drop_caches: 3
+BTRFS: device fsid f8dafe28-0499-4393-b4be-b32ec1b9dea7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (30140): drop_caches: 3
+drop-caches (30209): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 35b716e1
+drop-caches (30259): drop_caches: 3
+drop-caches (30332): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30375): drop_caches: 3
+drop-caches (30447): drop_caches: 3
+BTRFS: device fsid 931fc853-3c50-4448-a0d4-98dbea8e7b0b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (30514): drop_caches: 3
+drop-caches (30586): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 63657233
+drop-caches (30636): drop_caches: 3
+drop-caches (30708): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30754): drop_caches: 3
+drop-caches (30831): drop_caches: 3
+BTRFS: device fsid 9a305267-8b30-48e6-9da7-042aa71d9443 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (30897): drop_caches: 3
+drop-caches (30978): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 2919317
+drop-caches (31029): drop_caches: 3
+drop-caches (31106): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31149): drop_caches: 3
+drop-caches (31236): drop_caches: 3
+BTRFS: device fsid b26e9873-f6b6-4573-98e8-9d8fc83fff4f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (31303): drop_caches: 3
+drop-caches (31399): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 59d7dabb
+drop-caches (31454): drop_caches: 3
+drop-caches (31545): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31588): drop_caches: 3
+drop-caches (31687): drop_caches: 3
+BTRFS: device fsid 2f855e01-9997-455b-9387-13c95a5a3dc5 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (31753): drop_caches: 3
+drop-caches (31852): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 6fa17d5b
+drop-caches (31905): drop_caches: 3
+drop-caches (32004): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (32047): drop_caches: 3
+drop-caches (32151): drop_caches: 3
+BTRFS: device fsid f6ea75eb-9af5-423d-ba28-f983caf873f9 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (32217): drop_caches: 3
+drop-caches (32319): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 680a4513
+drop-caches (32369): drop_caches: 3
+drop-caches (32471): drop_caches: 3
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 81
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 12 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 13 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 14 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 15 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (32525): drop_caches: 3
+drop-caches (32612): drop_caches: 3
+BTRFS: device fsid d7eed127-93d9-426a-9ffa-430d0c0d360b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (353): drop_caches: 3
+drop-caches (473): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 400bf5a5
+drop-caches (647): drop_caches: 3
+drop-caches (734): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (890): drop_caches: 3
+drop-caches (992): drop_caches: 3
+BTRFS: device fsid 446d5a1c-1244-4d73-8a24-2c30d324ae35 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1063): drop_caches: 3
+drop-caches (1155): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 392992ab
+drop-caches (1222): drop_caches: 3
+drop-caches (1318): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1364): drop_caches: 3
+drop-caches (1453): drop_caches: 3
+BTRFS: device fsid 1aa111f2-ea32-4331-9ea4-5e80c0f2264b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1520): drop_caches: 3
+drop-caches (1608): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 1c538d07
+drop-caches (1662): drop_caches: 3
+drop-caches (1758): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1807): drop_caches: 3
+drop-caches (1907): drop_caches: 3
+BTRFS: device fsid acd66d0d-e04b-4798-a5b6-6f75547efd0a devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1977): drop_caches: 3
+drop-caches (2080): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 7ba69dd7
+drop-caches (2145): drop_caches: 3
+drop-caches (2240): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2283): drop_caches: 3
+drop-caches (2359): drop_caches: 3
+BTRFS: device fsid bca86e0d-a11d-4ba3-9e2c-9fb6b04ab245 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (2460): drop_caches: 3
+drop-caches (2539): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 429368e7
+drop-caches (2660): drop_caches: 3
+drop-caches (2731): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2774): drop_caches: 3
+drop-caches (2877): drop_caches: 3
+BTRFS: device fsid 58d6c125-5be4-4ea3-909e-2cdaac1dace0 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (2956): drop_caches: 3
+drop-caches (3051): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 4a669b0f
+drop-caches (3101): drop_caches: 3
+drop-caches (3181): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3227): drop_caches: 3
+drop-caches (3318): drop_caches: 3
+BTRFS: device fsid 52606d76-5de0-46c5-87c1-32835f077f48 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3386): drop_caches: 3
+drop-caches (3477): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 639b5927
+drop-caches (3527): drop_caches: 3
+drop-caches (3617): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3660): drop_caches: 3
+drop-caches (3753): drop_caches: 3
+BTRFS: device fsid 0aeaea60-ea99-4f42-ae70-1f749a81182e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3816): drop_caches: 3
+drop-caches (3909): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 5d01c90d
+drop-caches (3958): drop_caches: 3
+drop-caches (4049): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (4092): drop_caches: 3
+drop-caches (5797): drop_caches: 3
+BTRFS: device fsid d3d45669-8e81-44a2-b69e-9fbb4a74856e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (6052): drop_caches: 3
+drop-caches (7776): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 45b78fd3
+drop-caches (8025): drop_caches: 3
+drop-caches (9765): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9946): drop_caches: 3
+drop-caches (11794): drop_caches: 3
+BTRFS: device fsid 4cb6e157-7c43-453f-9a1c-2b04d84848e8 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (11861): drop_caches: 3
+drop-caches (27439): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 3e82a45
+drop-caches (27587): drop_caches: 3
+drop-caches (29439): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (29485): drop_caches: 3
+drop-caches (29550): drop_caches: 3
+BTRFS: device fsid 85159b57-5fdb-44a8-9493-f391f6561997 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (29616): drop_caches: 3
+drop-caches (29681): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 4bf6723f
+drop-caches (29734): drop_caches: 3
+drop-caches (29799): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (29842): drop_caches: 3
+drop-caches (29910): drop_caches: 3
+BTRFS: device fsid 5c05bb48-d77c-47d6-b024-b14d9e408b54 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (29976): drop_caches: 3
+drop-caches (30044): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 5d5f6cad
+drop-caches (30094): drop_caches: 3
+drop-caches (30162): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30208): drop_caches: 3
+drop-caches (30277): drop_caches: 3
+BTRFS: device fsid fc6abf67-9cab-4457-a819-8dd3d8f0507c devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (30347): drop_caches: 3
+drop-caches (30415): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 1689cc19
+drop-caches (30466): drop_caches: 3
+drop-caches (30534): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30577): drop_caches: 3
+drop-caches (30657): drop_caches: 3
+BTRFS: device fsid f7118fac-cf36-495f-80ad-4a4f82bb9051 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (30724): drop_caches: 3
+drop-caches (30812): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 2d87cce3
+drop-caches (30864): drop_caches: 3
+drop-caches (30945): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (30989): drop_caches: 3
+drop-caches (31077): drop_caches: 3
+BTRFS: device fsid 173dc3ef-99e0-4314-8708-a5e995558214 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (31144): drop_caches: 3
+drop-caches (31231): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 74f3151d
+drop-caches (31281): drop_caches: 3
+drop-caches (31368): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31411): drop_caches: 3
+drop-caches (31506): drop_caches: 3
+BTRFS: device fsid cef998f6-f9be-41b1-9144-bc787589ebff devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (31569): drop_caches: 3
+drop-caches (31662): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 1e655a2f
+drop-caches (31712): drop_caches: 3
+drop-caches (31802): drop_caches: 3
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 8 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 9 is now offline
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 10 is now offline
+Broke affinity for irq 1
+Broke affinity for irq 8
+Broke affinity for irq 9
+Broke affinity for irq 12
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 11 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (31877): drop_caches: 3
+drop-caches (31958): drop_caches: 3
+BTRFS: device fsid 1ab9ae5c-89c8-4ef6-94a6-9f86660a3e5c devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (32221): drop_caches: 3
+drop-caches (32299): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 4fac319
+drop-caches (32506): drop_caches: 3
+drop-caches (32581): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (354): drop_caches: 3
+drop-caches (462): drop_caches: 3
+BTRFS: device fsid 598e0869-d512-4de5-aa22-8cb40f65cf6e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (539): drop_caches: 3
+drop-caches (621): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 5ced2b69
+drop-caches (674): drop_caches: 3
+drop-caches (752): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (795): drop_caches: 3
+drop-caches (880): drop_caches: 3
+BTRFS: device fsid 931c8ec6-4806-48cc-891c-1e443f056542 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (947): drop_caches: 3
+drop-caches (1032): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = f356751
+drop-caches (1080): drop_caches: 3
+drop-caches (1159): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1203): drop_caches: 3
+drop-caches (1287): drop_caches: 3
+BTRFS: device fsid 92890eea-1f69-43ac-a317-ed88b67adc3d devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1352): drop_caches: 3
+drop-caches (1432): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 73dde153
+drop-caches (1482): drop_caches: 3
+drop-caches (1560): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1607): drop_caches: 3
+drop-caches (1680): drop_caches: 3
+BTRFS: device fsid 2c307b8e-399a-493b-a0ff-bae7b5be3ae3 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (1750): drop_caches: 3
+drop-caches (1823): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 153c88d
+drop-caches (1874): drop_caches: 3
+drop-caches (1945): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1994): drop_caches: 3
+drop-caches (2082): drop_caches: 3
+BTRFS: device fsid 4fd9dca7-1d77-4828-901a-ebed48e4ac10 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (2160): drop_caches: 3
+drop-caches (2242): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 3f9b419
+drop-caches (2296): drop_caches: 3
+drop-caches (2414): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2457): drop_caches: 3
+drop-caches (2541): drop_caches: 3
+BTRFS: device fsid 15523937-a977-4283-ae5a-0d8e94da3436 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (2673): drop_caches: 3
+drop-caches (2754): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 4d0c97ed
+drop-caches (2802): drop_caches: 3
+drop-caches (2889): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (2944): drop_caches: 3
+drop-caches (3028): drop_caches: 3
+BTRFS: device fsid a27b09ca-bb3b-41f7-b91b-11365479dcb2 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3093): drop_caches: 3
+drop-caches (3171): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 109202f
+drop-caches (3220): drop_caches: 3
+drop-caches (3299): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (3343): drop_caches: 3
+drop-caches (5031): drop_caches: 3
+BTRFS: device fsid 3ee456e1-a04c-4c54-92c1-dcb172659b73 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (5274): drop_caches: 3
+drop-caches (6984): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 4ac64c75
+drop-caches (7224): drop_caches: 3
+drop-caches (8922): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9097): drop_caches: 3
+drop-caches (10944): drop_caches: 3
+BTRFS: device fsid e7cf93a2-2b7b-41fc-89d0-7da9ed02e0ff devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (11010): drop_caches: 3
+drop-caches (20058): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 35d2918b
+drop-caches (20199): drop_caches: 3
+drop-caches (22102): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22145): drop_caches: 3
+drop-caches (22206): drop_caches: 3
+BTRFS: device fsid 59130646-6a3b-4558-aaf2-7d088d4bebe3 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (22271): drop_caches: 3
+drop-caches (22332): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 5392a141
+drop-caches (22381): drop_caches: 3
+drop-caches (22442): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22488): drop_caches: 3
+drop-caches (22552): drop_caches: 3
+BTRFS: device fsid e2893528-7138-495c-aa92-5a6d504db49f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (22617): drop_caches: 3
+drop-caches (22684): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 31c69f3d
+drop-caches (22733): drop_caches: 3
+drop-caches (22797): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22840): drop_caches: 3
+drop-caches (22904): drop_caches: 3
+BTRFS: device fsid 79e88962-095a-4352-aa46-5dffd99da462 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (22969): drop_caches: 3
+drop-caches (23033): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 74acac39
+drop-caches (23079): drop_caches: 3
+drop-caches (23143): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23189): drop_caches: 3
+drop-caches (23259): drop_caches: 3
+BTRFS: device fsid dbaf5299-57bd-472a-a2af-9de6e94a55fd devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (23324): drop_caches: 3
+drop-caches (23400): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 78f5abb9
+drop-caches (23450): drop_caches: 3
+drop-caches (23520): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23566): drop_caches: 3
+drop-caches (23641): drop_caches: 3
+BTRFS: device fsid 96e1cc91-ce31-44de-94a4-1215205d5322 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (23706): drop_caches: 3
+drop-caches (23781): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 397caf6f
+drop-caches (23827): drop_caches: 3
+drop-caches (23905): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (23948): drop_caches: 3
+drop-caches (24027): drop_caches: 3
+BTRFS: device fsid 417842f1-4692-4903-ab03-7c0143ff67c8 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (24092): drop_caches: 3
+drop-caches (24170): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 3dbb3f0d
+drop-caches (24220): drop_caches: 3
+drop-caches (24298): drop_caches: 3
+Broke affinity for irq 25
+Broke affinity for irq 27
+Broke affinity for irq 36
+Broke affinity for irq 38
+Broke affinity for irq 40
+Broke affinity for irq 43
+Broke affinity for irq 53
+Broke affinity for irq 63
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 4 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 25
+Broke affinity for irq 27
+Broke affinity for irq 36
+Broke affinity for irq 38
+Broke affinity for irq 40
+Broke affinity for irq 43
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 5 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 25
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 36
+Broke affinity for irq 38
+Broke affinity for irq 40
+Broke affinity for irq 43
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 6 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 25
+Broke affinity for irq 26
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 29
+Broke affinity for irq 36
+Broke affinity for irq 38
+Broke affinity for irq 40
+Broke affinity for irq 42
+Broke affinity for irq 43
+Broke affinity for irq 44
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 49
+Broke affinity for irq 51
+Broke affinity for irq 53
+Broke affinity for irq 54
+Broke affinity for irq 55
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 7 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (24349): drop_caches: 3
+drop-caches (24415): drop_caches: 3
+BTRFS: device fsid da19da64-1710-4b46-b894-d9b5d54e5fe6 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (24634): drop_caches: 3
+drop-caches (24697): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 3e0799fb
+drop-caches (24883): drop_caches: 3
+drop-caches (24946): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25145): drop_caches: 3
+drop-caches (25211): drop_caches: 3
+BTRFS: device fsid e4284341-11ca-4e01-b12c-2463b33674b8 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (25276): drop_caches: 3
+drop-caches (25342): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 31a345df
+drop-caches (25394): drop_caches: 3
+drop-caches (25460): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25503): drop_caches: 3
+drop-caches (25569): drop_caches: 3
+BTRFS: device fsid 6e3aaead-84de-4ccf-b767-a50986f44633 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (25634): drop_caches: 3
+drop-caches (25697): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 79f4ee03
+drop-caches (25743): drop_caches: 3
+drop-caches (25809): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (25852): drop_caches: 3
+drop-caches (25918): drop_caches: 3
+BTRFS: device fsid 2192fddb-63ac-434e-8074-dbe8d8c3461b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (25983): drop_caches: 3
+drop-caches (26049): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 2ea671bf
+drop-caches (26101): drop_caches: 3
+drop-caches (26167): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (26210): drop_caches: 3
+drop-caches (26273): drop_caches: 3
+BTRFS: device fsid 2722b861-b297-47ae-9d95-0054fe3eab83 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (26338): drop_caches: 3
+drop-caches (26404): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 562317c1
+drop-caches (26450): drop_caches: 3
+drop-caches (26513): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (26556): drop_caches: 3
+drop-caches (26634): drop_caches: 3
+BTRFS: device fsid 61bc6c57-6cc9-4935-9a62-850ab163af6f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (26700): drop_caches: 3
+drop-caches (26766): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 5b1f67db
+drop-caches (26816): drop_caches: 3
+drop-caches (26882): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (26925): drop_caches: 3
+drop-caches (26991): drop_caches: 3
+BTRFS: device fsid 2f672fa7-fc9e-4213-91f5-8fa6314b9895 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (27056): drop_caches: 3
+drop-caches (27122): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 3baa4aa9
+drop-caches (27171): drop_caches: 3
+drop-caches (27237): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27280): drop_caches: 3
+drop-caches (27346): drop_caches: 3
+BTRFS: device fsid c9c0fe9a-55f1-4361-af11-3d7cb8e5f6dc devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (27411): drop_caches: 3
+drop-caches (27477): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 24b1bb99
+drop-caches (27526): drop_caches: 3
+drop-caches (27592): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (27635): drop_caches: 3
+drop-caches (29335): drop_caches: 3
+BTRFS: device fsid 0f2e7452-7ac3-4ad1-bc24-2767a68a80cc devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (29563): drop_caches: 3
+drop-caches (31369): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 18c1bccd
+drop-caches (31615): drop_caches: 3
+drop-caches (904): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (1104): drop_caches: 3
+drop-caches (3717): drop_caches: 3
+BTRFS: device fsid b1af2dae-b294-4307-a0c7-f12731b9998e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (3783): drop_caches: 3
+drop-caches (9083): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 33bcc8ff
+drop-caches (9215): drop_caches: 3
+drop-caches (11671): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (11714): drop_caches: 3
+drop-caches (11774): drop_caches: 3
+BTRFS: device fsid d1050ced-627a-4c8c-b285-225f8cea3c71 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (11839): drop_caches: 3
+drop-caches (11896): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 158c2ce3
+drop-caches (11945): drop_caches: 3
+drop-caches (12002): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (12045): drop_caches: 3
+drop-caches (12108): drop_caches: 3
+BTRFS: device fsid 75a1e8a6-2e24-4b52-a70c-dafa82b9e938 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (12170): drop_caches: 3
+drop-caches (12234): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 5e93dbdf
+drop-caches (12283): drop_caches: 3
+drop-caches (12346): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (12389): drop_caches: 3
+drop-caches (12449): drop_caches: 3
+BTRFS: device fsid 2e8d41eb-2124-4128-abf4-a52f529ab3c5 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (12515): drop_caches: 3
+drop-caches (12575): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 6e7b44fd
+drop-caches (12622): drop_caches: 3
+drop-caches (12693): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (12736): drop_caches: 3
+drop-caches (12802): drop_caches: 3
+BTRFS: device fsid ee9141ef-937c-49ca-a775-e253a0fc5b08 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (12864): drop_caches: 3
+drop-caches (12933): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = aa2f3eb
+drop-caches (12980): drop_caches: 3
+drop-caches (13046): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13089): drop_caches: 3
+drop-caches (13152): drop_caches: 3
+BTRFS: device fsid 6620c1af-6a84-43d1-bb28-08338a6b3430 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (13217): drop_caches: 3
+drop-caches (13283): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 1a8eaa6b
+drop-caches (13329): drop_caches: 3
+drop-caches (13392): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13438): drop_caches: 3
+drop-caches (13504): drop_caches: 3
+BTRFS: device fsid 4970c599-ec13-4f97-b6ac-d2db09709fb4 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (13569): drop_caches: 3
+drop-caches (13635): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 573aa67b
+drop-caches (13684): drop_caches: 3
+drop-caches (13750): drop_caches: 3
+Broke affinity for irq 27
+Broke affinity for irq 55
+Broke affinity for irq 61
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 2 is now offline
+Broke affinity for irq 18
+Broke affinity for irq 19
+Broke affinity for irq 27
+Broke affinity for irq 28
+Broke affinity for irq 34
+Broke affinity for irq 35
+Broke affinity for irq 36
+Broke affinity for irq 39
+Broke affinity for irq 42
+Broke affinity for irq 45
+Broke affinity for irq 46
+Broke affinity for irq 47
+Broke affinity for irq 48
+Broke affinity for irq 51
+Broke affinity for irq 52
+Broke affinity for irq 55
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 3 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13798): drop_caches: 3
+drop-caches (13858): drop_caches: 3
+BTRFS: device fsid 2af75d01-422f-4381-8db4-8a4adb1ac96d devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (14017): drop_caches: 3
+drop-caches (14077): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 7200c0f5
+drop-caches (14218): drop_caches: 3
+drop-caches (14278): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14423): drop_caches: 3
+drop-caches (14483): drop_caches: 3
+BTRFS: device fsid c0abfd0c-fac8-4aaa-b07d-e586a1cbc203 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (14548): drop_caches: 3
+drop-caches (14608): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 3c817073
+drop-caches (14660): drop_caches: 3
+drop-caches (14720): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14763): drop_caches: 3
+drop-caches (14823): drop_caches: 3
+BTRFS: device fsid 540786c6-032b-48be-a57f-3a5c7005a8a2 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (14888): drop_caches: 3
+drop-caches (14948): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 7b3c6849
+drop-caches (14994): drop_caches: 3
+drop-caches (15054): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15097): drop_caches: 3
+drop-caches (15157): drop_caches: 3
+BTRFS: device fsid 6a00a676-4a8e-483e-b157-f899f8fcc44d devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (15222): drop_caches: 3
+drop-caches (15282): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 6c7aae0b
+drop-caches (15328): drop_caches: 3
+drop-caches (15391): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15434): drop_caches: 3
+drop-caches (15492): drop_caches: 3
+BTRFS: device fsid b012e8c9-c4ee-4163-afcd-a7e74fd2cfec devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (15557): drop_caches: 3
+drop-caches (15615): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 227ab15d
+drop-caches (15661): drop_caches: 3
+drop-caches (15722): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15765): drop_caches: 3
+drop-caches (15835): drop_caches: 3
+BTRFS: device fsid 6838bfcb-fe5c-4c6a-b3b2-36d5cfaacb78 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (15901): drop_caches: 3
+drop-caches (15962): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 21550aa1
+drop-caches (16011): drop_caches: 3
+drop-caches (16069): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16115): drop_caches: 3
+drop-caches (16175): drop_caches: 3
+BTRFS: device fsid 8d4d7a56-c682-4dc0-9e83-173b9f0ff854 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (16240): drop_caches: 3
+drop-caches (16300): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 305e5895
+drop-caches (16346): drop_caches: 3
+drop-caches (16409): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16452): drop_caches: 3
+drop-caches (16512): drop_caches: 3
+BTRFS: device fsid 66c5915f-34a3-454b-979f-7db04dee92be devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (16577): drop_caches: 3
+drop-caches (16637): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 657b0405
+drop-caches (16686): drop_caches: 3
+drop-caches (16746): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (16789): drop_caches: 3
+drop-caches (18516): drop_caches: 3
+BTRFS: device fsid c13cf38e-7de3-4cd7-9a55-874a46365a24 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (18740): drop_caches: 3
+drop-caches (20409): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 746c7441
+drop-caches (20622): drop_caches: 3
+drop-caches (22338): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (22504): drop_caches: 3
+drop-caches (26501): drop_caches: 3
+BTRFS: device fsid ac06f267-b951-415c-9265-12c27990cf5a devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (26564): drop_caches: 3
+drop-caches (2676): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 5c8f33f9
+drop-caches (2813): drop_caches: 3
+drop-caches (6483): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6526): drop_caches: 3
+drop-caches (6584): drop_caches: 3
+BTRFS: device fsid 19265504-d7f2-4e0a-b693-c065c6216ed5 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (6649): drop_caches: 3
+drop-caches (6707): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 2dcc8b4b
+drop-caches (6753): drop_caches: 3
+drop-caches (6811): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (6854): drop_caches: 3
+drop-caches (6912): drop_caches: 3
+BTRFS: device fsid 2eec7760-a395-48a3-9618-fac1a80e8344 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (6977): drop_caches: 3
+drop-caches (7035): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 25b934a3
+drop-caches (7084): drop_caches: 3
+drop-caches (7142): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (7185): drop_caches: 3
+drop-caches (7246): drop_caches: 3
+BTRFS: device fsid 69b2fa44-1dfb-4148-a4c7-6b05fdb8d901 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (7308): drop_caches: 3
+drop-caches (7369): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 500240ed
+drop-caches (7415): drop_caches: 3
+drop-caches (7473): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (7516): drop_caches: 3
+drop-caches (7577): drop_caches: 3
+BTRFS: device fsid 81d31ab1-40eb-4e53-95a5-55138de4dc84 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (7642): drop_caches: 3
+drop-caches (7703): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 3d7e881b
+drop-caches (7750): drop_caches: 3
+drop-caches (7811): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (7854): drop_caches: 3
+drop-caches (7914): drop_caches: 3
+BTRFS: device fsid 06795a8d-78ec-4061-bb0a-19b85da8c686 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (7979): drop_caches: 3
+drop-caches (8040): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 2e738c7
+drop-caches (8089): drop_caches: 3
+drop-caches (8149): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8193): drop_caches: 3
+drop-caches (8253): drop_caches: 3
+BTRFS: device fsid 304fc64e-1538-4988-af47-0091c192349f devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (8318): drop_caches: 3
+drop-caches (8378): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 2208da33
+drop-caches (8424): drop_caches: 3
+drop-caches (8484): drop_caches: 3
+Broke affinity for irq 27
+Broke affinity for irq 53
+Broke affinity for irq 60
+Broke affinity for irq 61
+Broke affinity for irq 62
+Broke affinity for irq 63
+Broke affinity for irq 64
+Broke affinity for irq 65
+Broke affinity for irq 66
+Broke affinity for irq 67
+Broke affinity for irq 68
+Broke affinity for irq 69
+Broke affinity for irq 70
+Broke affinity for irq 71
+Broke affinity for irq 75
+Broke affinity for irq 76
+Broke affinity for irq 77
+Broke affinity for irq 78
+Broke affinity for irq 79
+Broke affinity for irq 80
+Broke affinity for irq 81
+Broke affinity for irq 82
+Broke affinity for irq 83
+Broke affinity for irq 84
+Broke affinity for irq 85
+Broke affinity for irq 86
+Broke affinity for irq 87
+Broke affinity for irq 88
+Broke affinity for irq 89
+Broke affinity for irq 90
+Broke affinity for irq 91
+Broke affinity for irq 92
+smpboot: CPU 1 is now offline
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (8532): drop_caches: 3
+drop-caches (8589): drop_caches: 3
+BTRFS: device fsid f3c1ee33-02f1-4898-8503-588e7ed64c24 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (8700): drop_caches: 3
+drop-caches (8760): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 699f20d
+drop-caches (8857): drop_caches: 3
+drop-caches (8914): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9011): drop_caches: 3
+drop-caches (9068): drop_caches: 3
+BTRFS: device fsid 0aedaa4f-975e-4dec-90d3-23fc82e6d657 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (9130): drop_caches: 3
+drop-caches (9191): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 5cf5fc83
+drop-caches (9237): drop_caches: 3
+drop-caches (9294): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9337): drop_caches: 3
+drop-caches (9394): drop_caches: 3
+BTRFS: device fsid dd646b4a-4bdf-4b39-9c84-4c850c7e7c61 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (9459): drop_caches: 3
+drop-caches (9516): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 36e2e109
+drop-caches (9562): drop_caches: 3
+drop-caches (9619): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9662): drop_caches: 3
+drop-caches (9719): drop_caches: 3
+BTRFS: device fsid 50a1fb7f-eb89-4e6b-80e4-707f426f64bc devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (9784): drop_caches: 3
+drop-caches (9841): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 3a3058d1
+drop-caches (9887): drop_caches: 3
+drop-caches (9944): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (9987): drop_caches: 3
+drop-caches (10044): drop_caches: 3
+BTRFS: device fsid 3d65efd0-308a-473f-83d4-274c492b481b devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (10109): drop_caches: 3
+drop-caches (10166): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 368187a1
+drop-caches (10212): drop_caches: 3
+drop-caches (10269): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (10312): drop_caches: 3
+drop-caches (10372): drop_caches: 3
+BTRFS: device fsid 2d3a381c-e6ee-4108-ac93-a3638811ef82 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (10434): drop_caches: 3
+drop-caches (10494): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 1b9fd3fb
+drop-caches (10540): drop_caches: 3
+drop-caches (10597): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (10640): drop_caches: 3
+drop-caches (10700): drop_caches: 3
+BTRFS: device fsid 7f24bd0c-8d98-4415-a9ba-f862ab2fed25 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (10762): drop_caches: 3
+drop-caches (10822): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 2a0d59f9
+drop-caches (10868): drop_caches: 3
+drop-caches (10925): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (10968): drop_caches: 3
+drop-caches (11025): drop_caches: 3
+BTRFS: device fsid 3e2c79c0-1cd1-46d1-b51a-18f5f043b627 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (11090): drop_caches: 3
+drop-caches (11147): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 2e043a3d
+drop-caches (11193): drop_caches: 3
+drop-caches (11250): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (11293): drop_caches: 3
+drop-caches (13153): drop_caches: 3
+BTRFS: device fsid b9392686-c2ca-41db-a4d9-ac0c41574a43 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (13378): drop_caches: 3
+drop-caches (15221): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 2c7257a1
+drop-caches (15436): drop_caches: 3
+drop-caches (17192): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (17349): drop_caches: 3
+drop-caches (23876): drop_caches: 3
+BTRFS: device fsid 72a3806d-f489-42be-a469-c9edcbbf1aab devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (23943): drop_caches: 3
+drop-caches (7309): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 6554e6e1
+drop-caches (7431): drop_caches: 3
+drop-caches (13382): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13425): drop_caches: 3
+drop-caches (13482): drop_caches: 3
+BTRFS: device fsid ab784b92-ae5f-4751-b493-bb93474f10fb devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (13547): drop_caches: 3
+drop-caches (13604): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 75c8e0b9
+drop-caches (13653): drop_caches: 3
+drop-caches (13710): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (13754): drop_caches: 3
+drop-caches (13811): drop_caches: 3
+BTRFS: device fsid 9558786c-4181-4296-b5ae-288404847cda devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (13876): drop_caches: 3
+drop-caches (13933): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = d1720ed
+drop-caches (13979): drop_caches: 3
+drop-caches (14036): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14079): drop_caches: 3
+drop-caches (14136): drop_caches: 3
+BTRFS: device fsid 312b1c38-9736-4adb-bc19-18529f729d21 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (14200): drop_caches: 3
+drop-caches (14258): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 1c787f81
+drop-caches (14307): drop_caches: 3
+drop-caches (14364): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14407): drop_caches: 3
+drop-caches (14467): drop_caches: 3
+BTRFS: device fsid 2b404009-de38-458f-b6b8-258c5b895f65 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (14529): drop_caches: 3
+drop-caches (14589): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 29443e63
+drop-caches (14635): drop_caches: 3
+drop-caches (14692): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (14735): drop_caches: 3
+drop-caches (14792): drop_caches: 3
+BTRFS: device fsid f207cdcc-17d8-43d3-9913-71937244e4a1 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (14857): drop_caches: 3
+drop-caches (14914): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 325aea1d
+drop-caches (14960): drop_caches: 3
+drop-caches (15017): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: (null)
+drop-caches (15060): drop_caches: 3
+drop-caches (15117): drop_caches: 3
+BTRFS: device fsid bf06460a-c8ec-444b-b599-48b79544466e devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+drop-caches (15182): drop_caches: 3
+drop-caches (15239): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 5c1f8501
+drop-caches (15285): drop_caches: 3
+x86: Booting SMP configuration:
+smpboot: Booting Node 0 Processor 1 APIC 0x2
+smpboot: Booting Node 0 Processor 2 APIC 0x4
+smpboot: Booting Node 0 Processor 3 APIC 0x6
+smpboot: Booting Node 0 Processor 4 APIC 0x8
+smpboot: Booting Node 0 Processor 5 APIC 0xa
+smpboot: Booting Node 0 Processor 6 APIC 0xc
+smpboot: Booting Node 0 Processor 7 APIC 0xe
+smpboot: Booting Node 1 Processor 8 APIC 0x10
+intel_rapl: Found RAPL domain package
+intel_rapl: Found RAPL domain dram
+intel_rapl: DRAM domain energy unit 15300pj
+smpboot: Booting Node 1 Processor 9 APIC 0x12
+smpboot: Booting Node 1 Processor 10 APIC 0x14
+smpboot: Booting Node 1 Processor 11 APIC 0x16
+smpboot: Booting Node 1 Processor 12 APIC 0x18
+smpboot: Booting Node 1 Processor 13 APIC 0x1a
+smpboot: Booting Node 1 Processor 14 APIC 0x1c
+smpboot: Booting Node 1 Processor 15 APIC 0x1e
+smpboot: Booting Node 0 Processor 16 APIC 0x1
+smpboot: Booting Node 0 Processor 17 APIC 0x3
+smpboot: Booting Node 0 Processor 18 APIC 0x5
+smpboot: Booting Node 0 Processor 19 APIC 0x7
+smpboot: Booting Node 0 Processor 20 APIC 0x9
+smpboot: Booting Node 0 Processor 21 APIC 0xb
+smpboot: Booting Node 0 Processor 22 APIC 0xd
+smpboot: Booting Node 0 Processor 23 APIC 0xf
+smpboot: Booting Node 1 Processor 24 APIC 0x11
+smpboot: Booting Node 1 Processor 25 APIC 0x13
+smpboot: Booting Node 1 Processor 26 APIC 0x15
+smpboot: Booting Node 1 Processor 27 APIC 0x17
+smpboot: Booting Node 1 Processor 28 APIC 0x19
+smpboot: Booting Node 1 Processor 29 APIC 0x1b
+smpboot: Booting Node 1 Processor 30 APIC 0x1d
+smpboot: Booting Node 1 Processor 31 APIC 0x1f
+F2FS-fs (sdb1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (sdb1): Can't find valid F2FS filesystem in 1th superblock
+F2FS-fs (sdb1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (sdb1): Can't find valid F2FS filesystem in 2th superblock
+F2FS-fs (sdb1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (sdb1): Can't find valid F2FS filesystem in 1th superblock
+F2FS-fs (sdb1): Magic Mismatch, valid(0xf2f52010) - read(0x0)
+F2FS-fs (sdb1): Can't find valid F2FS filesystem in 2th superblock
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 3bcc83fd
+F2FS-fs (md0): Found nat_bits in checkpoint
+F2FS-fs (md0): Mounted with checkpoint version = 10a525cd
+python (24229): drop_caches: 3
+python (24229): drop_caches: 3
+python (25001): drop_caches: 3
+python (25001): drop_caches: 3
+python (25559): drop_caches: 3
+python (25559): drop_caches: 3
+python (26108): drop_caches: 3
+python (26108): drop_caches: 3
+python (26660): drop_caches: 3
+python (26660): drop_caches: 3
+python (27210): drop_caches: 3
+python (27210): drop_caches: 3
+EXT4-fs (md0): mounted filesystem with ordered data mode. Opts: discard
+python (16064): drop_caches: 3
+python (16064): drop_caches: 3
+python (16539): drop_caches: 3
+python (16539): drop_caches: 3
+python (17010): drop_caches: 3
+python (17010): drop_caches: 3
+SGI XFS with ACLs, security attributes, realtime, no debug enabled
+XFS (md0): Mounting V5 Filesystem
+XFS (md0): Ending clean mount
+python (9374): drop_caches: 3
+python (9374): drop_caches: 3
+python (10038): drop_caches: 3
+python (10038): drop_caches: 3
+python (10711): drop_caches: 3
+python (10711): drop_caches: 3
+XFS (md0): Unmounting Filesystem
+BTRFS: device fsid 2280d782-49e6-4097-9f61-07f5649c94fa devid 1 transid 4 /dev/md0
+BTRFS info (device md0): turning on discard
+BTRFS info (device md0): disk space caching is enabled
+BTRFS info (device md0): flagging fs with big metadata feature
+BTRFS info (device md0): creating UUID tree
+python (1441): drop_caches: 3
+python (1441): drop_caches: 3
+python (2254): drop_caches: 3
+python (2254): drop_caches: 3
+python (3146): drop_caches: 3
+python (3146): drop_caches: 3
+python (3875): drop_caches: 3
+python (3875): drop_caches: 3
+python (4591): drop_caches: 3
+python (4591): drop_caches: 3
+python (5336): drop_caches: 3
+python (5336): drop_caches: 3
+F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 6960c241
+python (25621): drop_caches: 3
+python (25621): drop_caches: 3
+python (26722): drop_caches: 3
+python (26722): drop_caches: 3
+python (27708): drop_caches: 3
+python (27708): drop_caches: 3
+EXT4-fs (nvme0n1p1): mounted filesystem with ordered data mode. Opts: discard
+python (16749): drop_caches: 3
+python (16749): drop_caches: 3
+python (17386): drop_caches: 3
+python (17386): drop_caches: 3
+python (18008): drop_caches: 3
+python (18008): drop_caches: 3
+SGI XFS with ACLs, security attributes, realtime, no debug enabled
+XFS (nvme0n1p1): Mounting V5 Filesystem
+XFS (nvme0n1p1): Ending clean mount
+python (6573): drop_caches: 3
+python (6573): drop_caches: 3
+python (7383): drop_caches: 3
+python (7383): drop_caches: 3
+python (8297): drop_caches: 3
+python (8297): drop_caches: 3
+XFS (nvme0n1p1): Unmounting Filesystem
+BTRFS: device fsid 14dcb483-1b90-410e-9bde-1c69aec9cdc7 devid 1 transid 4 /dev/nvme0n1p1
+BTRFS info (device nvme0n1p1): turning on discard
+BTRFS info (device nvme0n1p1): disk space caching is enabled
+BTRFS info (device nvme0n1p1): flagging fs with big metadata feature
+BTRFS info (device nvme0n1p1): detected SSD devices, enabling SSD mode
+BTRFS info (device nvme0n1p1): creating UUID tree
+python (2138): drop_caches: 3
+python (2138): drop_caches: 3
+python (3105): drop_caches: 3
+python (3105): drop_caches: 3
+python (4031): drop_caches: 3
+python (4031): drop_caches: 3
+python (4851): drop_caches: 3
+python (4851): drop_caches: 3
+------------[ cut here ]------------
+WARNING: CPU: 15 PID: 9177 at fs/btrfs/extent-tree.c:5700 btrfs_free_block_groups+0x33d/0x3e0 [btrfs]
+Modules linked in: xfs(E) f2fs(OE) ipt_MASQUERADE(E) nf_nat_masquerade_ipv4(E) iptable_nat(E) nf_nat_ipv4(E) nf_nat(E) nf_conntrack_ipv4(E) nf_defrag_ipv4(E) xt_conntrack(E) nf_conntrack(E) ipt_REJECT(E) nf_reject_ipv4(E) xt_CHECKSUM(E) iptable_mangle(E) xt_tcpudp(E) bridge(E) stp(E) llc(E) ip6table_filter(E) ip6_tables(E) iptable_filter(E) ip_tables(E) ebtable_nat(E) ebtables(E) x_tables(E) snd_hda_codec_hdmi(E) dm_mod(E) intel_rapl(E) sb_edac(E) edac_core(E) x86_pkg_temp_thermal(E) intel_powerclamp(E) coretemp(E) kvm_intel(E) hp_wmi(E) sparse_keymap(E) kvm(E) irqbypass(E) crct10dif_pclmul(E) crc32_pclmul(E) ghash_clmulni_intel(E) pcbc(E) aesni_intel(E) aes_x86_64(E) crypto_simd(E) glue_helper(E) cryptd(E) snd_hda_codec_realtek(E) snd_hda_codec_generic(E) serio_raw(E) nvme(E) nvme_core(E)
+ snd_hda_intel(E) snd_hda_codec(E) snd_seq_midi(E) snd_seq_midi_event(E) snd_hda_core(E) snd_rawmidi(E) snd_hwdep(E) snd_pcm(E) lpc_ich(E) snd_seq(E) mei_me(E) mei(E) snd_seq_device(E) snd_timer(E) snd(E) soundcore(E) tpm_infineon(E) bnep(E) rfcomm(E) bluetooth(E) mac_hid(E) parport_pc(E) ppdev(E) lp(E) parport(E) nfsd(E) binfmt_misc(E) auth_rpcgss(E) nfs_acl(E) nfs(E) lockd(E) grace(E) sunrpc(E) fscache(E) nls_iso8859_1(E) btrfs(E) raid10(E) raid456(E) async_raid6_recov(E) async_memcpy(E) async_pq(E) async_xor(E) async_tx(E) xor(E) raid6_pq(E) libcrc32c(E) raid1(E) raid0(E) multipath(E) nouveau(E) mxm_wmi(E) video(E) ttm(E) drm_kms_helper(E) syscopyarea(E) sysfillrect(E) sysimgblt(E) igb(E) psmouse(E) fb_sys_fops(E) e1000e(E) dca(E) mpt3sas(E) ptp(E) ahci(E) raid_class(E) i2c_algo_bit(E)
+ pps_core(E) drm(E) libahci(E) scsi_transport_sas(E) wmi(E) [last unloaded: xfs]
+CPU: 15 PID: 9177 Comm: umount Tainted: G        W  OE   4.11.0-rc3+ #116
+Hardware name: Hewlett-Packard HP Z840 Workstation/2129, BIOS M60 v02.23 07/22/2016
+Call Trace:
+ dump_stack+0x63/0x87
+ __warn+0xd1/0xf0
+ warn_slowpath_null+0x1d/0x20
+ btrfs_free_block_groups+0x33d/0x3e0 [btrfs]
+ close_ctree+0x11c/0x2f0 [btrfs]
+ btrfs_put_super+0x15/0x20 [btrfs]
+ generic_shutdown_super+0x6f/0x100
+ kill_anon_super+0x12/0x20
+ btrfs_kill_super+0x18/0x110 [btrfs]
+ deactivate_locked_super+0x43/0x70
+ deactivate_super+0x46/0x60
+ cleanup_mnt+0x3f/0x80
+ __cleanup_mnt+0x12/0x20
+ task_work_run+0x83/0xb0
+ exit_to_usermode_loop+0x59/0x85
+ syscall_return_slowpath+0x59/0x60
+ entry_SYSCALL_64_fastpath+0xab/0xad
+RIP: 0033:0x7f755a7eb417
+RSP: 002b:00007fffdd1b2658 EFLAGS: 00000246 ORIG_RAX: 00000000000000a6
+RAX: 0000000000000000 RBX: 0000000000000000 RCX: 00007f755a7eb417
+RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000001514750
+RBP: 0000000001514750 R08: 0000000000000000 R09: 0000000000000000
+R10: 0000000000000000 R11: 0000000000000246 R12: 00000000015147f0
+R13: 0000000000000000 R14: 0000000001514670 R15: 0000000001514670
+---[ end trace c73af49f0a95244f ]---
+------------[ cut here ]------------
+WARNING: CPU: 15 PID: 9177 at fs/btrfs/extent-tree.c:5701 btrfs_free_block_groups+0x3d7/0x3e0 [btrfs]
+Modules linked in: xfs(E) f2fs(OE) ipt_MASQUERADE(E) nf_nat_masquerade_ipv4(E) iptable_nat(E) nf_nat_ipv4(E) nf_nat(E) nf_conntrack_ipv4(E) nf_defrag_ipv4(E) xt_conntrack(E) nf_conntrack(E) ipt_REJECT(E) nf_reject_ipv4(E) xt_CHECKSUM(E) iptable_mangle(E) xt_tcpudp(E) bridge(E) stp(E) llc(E) ip6table_filter(E) ip6_tables(E) iptable_filter(E) ip_tables(E) ebtable_nat(E) ebtables(E) x_tables(E) snd_hda_codec_hdmi(E) dm_mod(E) intel_rapl(E) sb_edac(E) edac_core(E) x86_pkg_temp_thermal(E) intel_powerclamp(E) coretemp(E) kvm_intel(E) hp_wmi(E) sparse_keymap(E) kvm(E) irqbypass(E) crct10dif_pclmul(E) crc32_pclmul(E) ghash_clmulni_intel(E) pcbc(E) aesni_intel(E) aes_x86_64(E) crypto_simd(E) glue_helper(E) cryptd(E) snd_hda_codec_realtek(E) snd_hda_codec_generic(E) serio_raw(E) nvme(E) nvme_core(E)
+ snd_hda_intel(E) snd_hda_codec(E) snd_seq_midi(E) snd_seq_midi_event(E) snd_hda_core(E) snd_rawmidi(E) snd_hwdep(E) snd_pcm(E) lpc_ich(E) snd_seq(E) mei_me(E) mei(E) snd_seq_device(E) snd_timer(E) snd(E) soundcore(E) tpm_infineon(E) bnep(E) rfcomm(E) bluetooth(E) mac_hid(E) parport_pc(E) ppdev(E) lp(E) parport(E) nfsd(E) binfmt_misc(E) auth_rpcgss(E) nfs_acl(E) nfs(E) lockd(E) grace(E) sunrpc(E) fscache(E) nls_iso8859_1(E) btrfs(E) raid10(E) raid456(E) async_raid6_recov(E) async_memcpy(E) async_pq(E) async_xor(E) async_tx(E) xor(E) raid6_pq(E) libcrc32c(E) raid1(E) raid0(E) multipath(E) nouveau(E) mxm_wmi(E) video(E) ttm(E) drm_kms_helper(E) syscopyarea(E) sysfillrect(E) sysimgblt(E) igb(E) psmouse(E) fb_sys_fops(E) e1000e(E) dca(E) mpt3sas(E) ptp(E) ahci(E) raid_class(E) i2c_algo_bit(E)
+ pps_core(E) drm(E) libahci(E) scsi_transport_sas(E) wmi(E) [last unloaded: xfs]
+CPU: 15 PID: 9177 Comm: umount Tainted: G        W  OE   4.11.0-rc3+ #116
+Hardware name: Hewlett-Packard HP Z840 Workstation/2129, BIOS M60 v02.23 07/22/2016
+Call Trace:
+ dump_stack+0x63/0x87
+ __warn+0xd1/0xf0
+ warn_slowpath_null+0x1d/0x20
+ btrfs_free_block_groups+0x3d7/0x3e0 [btrfs]
+ close_ctree+0x11c/0x2f0 [btrfs]
+ btrfs_put_super+0x15/0x20 [btrfs]
+ generic_shutdown_super+0x6f/0x100
+ kill_anon_super+0x12/0x20
+ btrfs_kill_super+0x18/0x110 [btrfs]
+ deactivate_locked_super+0x43/0x70
+ deactivate_super+0x46/0x60
+ cleanup_mnt+0x3f/0x80
+ __cleanup_mnt+0x12/0x20
+ task_work_run+0x83/0xb0
+ exit_to_usermode_loop+0x59/0x85
+ syscall_return_slowpath+0x59/0x60
+ entry_SYSCALL_64_fastpath+0xab/0xad
+RIP: 0033:0x7f755a7eb417
+RSP: 002b:00007fffdd1b2658 EFLAGS: 00000246 ORIG_RAX: 00000000000000a6
+RAX: 0000000000000000 RBX: 0000000000000000 RCX: 00007f755a7eb417
+RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000001514750
+RBP: 0000000001514750 R08: 0000000000000000 R09: 0000000000000000
+R10: 0000000000000000 R11: 0000000000000246 R12: 00000000015147f0
+R13: 0000000000000000 R14: 0000000001514670 R15: 0000000001514670
+---[ end trace c73af49f0a952450 ]---
+------------[ cut here ]------------
+WARNING: CPU: 15 PID: 9177 at fs/btrfs/extent-tree.c:9826 btrfs_free_block_groups+0x28c/0x3e0 [btrfs]
+Modules linked in: xfs(E) f2fs(OE) ipt_MASQUERADE(E) nf_nat_masquerade_ipv4(E) iptable_nat(E) nf_nat_ipv4(E) nf_nat(E) nf_conntrack_ipv4(E) nf_defrag_ipv4(E) xt_conntrack(E) nf_conntrack(E) ipt_REJECT(E) nf_reject_ipv4(E) xt_CHECKSUM(E) iptable_mangle(E) xt_tcpudp(E) bridge(E) stp(E) llc(E) ip6table_filter(E) ip6_tables(E) iptable_filter(E) ip_tables(E) ebtable_nat(E) ebtables(E) x_tables(E) snd_hda_codec_hdmi(E) dm_mod(E) intel_rapl(E) sb_edac(E) edac_core(E) x86_pkg_temp_thermal(E) intel_powerclamp(E) coretemp(E) kvm_intel(E) hp_wmi(E) sparse_keymap(E) kvm(E) irqbypass(E) crct10dif_pclmul(E) crc32_pclmul(E) ghash_clmulni_intel(E) pcbc(E) aesni_intel(E) aes_x86_64(E) crypto_simd(E) glue_helper(E) cryptd(E) snd_hda_codec_realtek(E) snd_hda_codec_generic(E) serio_raw(E) nvme(E) nvme_core(E)
+ snd_hda_intel(E) snd_hda_codec(E) snd_seq_midi(E) snd_seq_midi_event(E) snd_hda_core(E) snd_rawmidi(E) snd_hwdep(E) snd_pcm(E) lpc_ich(E) snd_seq(E) mei_me(E) mei(E) snd_seq_device(E) snd_timer(E) snd(E) soundcore(E) tpm_infineon(E) bnep(E) rfcomm(E) bluetooth(E) mac_hid(E) parport_pc(E) ppdev(E) lp(E) parport(E) nfsd(E) binfmt_misc(E) auth_rpcgss(E) nfs_acl(E) nfs(E) lockd(E) grace(E) sunrpc(E) fscache(E) nls_iso8859_1(E) btrfs(E) raid10(E) raid456(E) async_raid6_recov(E) async_memcpy(E) async_pq(E) async_xor(E) async_tx(E) xor(E) raid6_pq(E) libcrc32c(E) raid1(E) raid0(E) multipath(E) nouveau(E) mxm_wmi(E) video(E) ttm(E) drm_kms_helper(E) syscopyarea(E) sysfillrect(E) sysimgblt(E) igb(E) psmouse(E) fb_sys_fops(E) e1000e(E) dca(E) mpt3sas(E) ptp(E) ahci(E) raid_class(E) i2c_algo_bit(E)
+ pps_core(E) drm(E) libahci(E) scsi_transport_sas(E) wmi(E) [last unloaded: xfs]
+CPU: 15 PID: 9177 Comm: umount Tainted: G        W  OE   4.11.0-rc3+ #116
+Hardware name: Hewlett-Packard HP Z840 Workstation/2129, BIOS M60 v02.23 07/22/2016
+Call Trace:
+ dump_stack+0x63/0x87
+ __warn+0xd1/0xf0
+ warn_slowpath_null+0x1d/0x20
+ btrfs_free_block_groups+0x28c/0x3e0 [btrfs]
+ close_ctree+0x11c/0x2f0 [btrfs]
+ btrfs_put_super+0x15/0x20 [btrfs]
+ generic_shutdown_super+0x6f/0x100
+ kill_anon_super+0x12/0x20
+ btrfs_kill_super+0x18/0x110 [btrfs]
+ deactivate_locked_super+0x43/0x70
+ deactivate_super+0x46/0x60
+ cleanup_mnt+0x3f/0x80
+ __cleanup_mnt+0x12/0x20
+ task_work_run+0x83/0xb0
+ exit_to_usermode_loop+0x59/0x85
+ syscall_return_slowpath+0x59/0x60
+ entry_SYSCALL_64_fastpath+0xab/0xad
+RIP: 0033:0x7f755a7eb417
+RSP: 002b:00007fffdd1b2658 EFLAGS: 00000246 ORIG_RAX: 00000000000000a6
+RAX: 0000000000000000 RBX: 0000000000000000 RCX: 00007f755a7eb417
+RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000001514750
+RBP: 0000000001514750 R08: 0000000000000000 R09: 0000000000000000
+R10: 0000000000000000 R11: 0000000000000246 R12: 00000000015147f0
+R13: 0000000000000000 R14: 0000000001514670 R15: 0000000001514670
+---[ end trace c73af49f0a952451 ]---
+BTRFS info (device nvme0n1p1): space_info 4 has 18446744061904551936 free, is not full
+BTRFS info (device nvme0n1p1): space_info total=1082130432, used=2162688, pinned=0, reserved=0, may_use=12884901888, readonly=65536
+F2FS-fs (sdb1): Found nat_bits in checkpoint
+F2FS-fs (sdb1): Mounted with checkpoint version = 10563897
+python (4437): drop_caches: 3
+python (4437): drop_caches: 3
+python (5697): drop_caches: 3
+python (5697): drop_caches: 3
+python (7018): drop_caches: 3
+python (7018): drop_caches: 3
+EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: discard
+python (4373): drop_caches: 3
+python (4373): drop_caches: 3
+python (5441): drop_caches: 3
+python (5441): drop_caches: 3
+python (6513): drop_caches: 3
+python (6513): drop_caches: 3
+SGI XFS with ACLs, security attributes, realtime, no debug enabled
+XFS (sdb1): Mounting V5 Filesystem
+XFS (sdb1): Ending clean mount
+python (570): drop_caches: 3
+python (570): drop_caches: 3
+python (2478): drop_caches: 3
+python (2478): drop_caches: 3
+python (4340): drop_caches: 3
+python (4340): drop_caches: 3
+python (6188): drop_caches: 3
+python (6188): drop_caches: 3
+python (7870): drop_caches: 3
+python (7870): drop_caches: 3
+python (9671): drop_caches: 3
+python (9671): drop_caches: 3
+XFS (sdb1): Unmounting Filesystem
+BTRFS: device fsid 06578447-8345-4166-8d25-8351fd45d0e9 devid 1 transid 4 /dev/sdb1
+BTRFS info (device sdb1): turning on discard
+BTRFS info (device sdb1): disk space caching is enabled
+BTRFS info (device sdb1): flagging fs with big metadata feature
+BTRFS info (device sdb1): detected SSD devices, enabling SSD mode
+BTRFS info (device sdb1): creating UUID tree
+python (15838): drop_caches: 3
+python (15838): drop_caches: 3
+python (16929): drop_caches: 3
+python (16929): drop_caches: 3
+python (18084): drop_caches: 3
+python (18084): drop_caches: 3
+python (19212): drop_caches: 3
+python (19212): drop_caches: 3
+python (20440): drop_caches: 3
+python (20440): drop_caches: 3
+python (21692): drop_caches: 3
+python (21692): drop_caches: 3
