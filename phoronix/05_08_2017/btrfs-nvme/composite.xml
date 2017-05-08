@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.8.0m1-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>btrfs-nvme</Title>
+    <LastModified>2017-05-04 23:52:46</LastModified>
+    <TestClient>Phoronix Test Suite v6.8.0m1 (Tana)</TestClient>
+    <Description>2 x Intel Xeon E5-2630 v3 testing with a HP 2129 v1.01 and NVIDIA Device 11b4 4096MB on Ubuntu 14.04 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>btrfs-nvme</Identifier>
+    <Hardware>Processor: 2 x Intel Xeon E5-2630 v3 @ 3.20GHz (32 Cores), Motherboard: HP 2129 v1.01, Chipset: Intel Haswell-E DMI2, Memory: 16 x 16384 MB 1866MHz Hynix, Disk: 2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4, Graphics: NVIDIA Device 11b4 4096MB, Audio: Realtek ALC221, Network: Intel Connection</Hardware>
+    <Software>OS: Ubuntu 14.04, Kernel: 4.11.0-rc3+ (x86_64) 20170327, Display Driver: nouveau 1.0.10, Compiler: GCC 4.8.4, File-System: btrfs, Screen Resolution: 1024x768</Software>
+    <User>root</User>
+    <TimeStamp>2017-05-04 22:55:00</TimeStamp>
+    <TestClientVersion>6.8.0m1</TestClientVersion>
+    <Notes>Python 2.7.6.</Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-libmudflap --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-multilib-list=m32,m64,mx32 --with-tune=generic -v","disk-scheduler":"DEADLINE","disk-mount-options":"data=ordered,errors=remount-ro,relatime,rw","cpu-scaling-governor":"intel_pstate powersave"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/aio-stress-1.1.1</Identifier>
+    <Title>AIO-Stress</Title>
+    <AppVersion>0.21</AppVersion>
+    <Arguments>-o 2</Arguments>
+    <Description>Test: Random Write</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>2682.84</Value>
+        <RawString>2531.24:2778.99:2775.93:2708.53:2596.71:2705.66</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -laio"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>randread sync 1 0 4k  IOPS</Arguments>
+    <Description>Type: Random Read - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 4KB - Disk Target: Default Test Directory - Result: IOPS</Description>
+    <Scale>IOPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>9654</Value>
+        <RawString>9153:9952:9222:10027:10076:9491</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>randwrite sync 1 0 4k  IOPS</Arguments>
+    <Description>Type: Random Write - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 4KB - Disk Target: Default Test Directory - Result: IOPS</Description>
+    <Scale>IOPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>45230</Value>
+        <RawString>46966:40751:51148:45518:43875:43121</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>read sync 1 0 1m  MBS</Arguments>
+    <Description>Type: Sequential Read - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 1MB - Disk Target: Default Test Directory - Result: MB/s</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>844.85</Value>
+        <RawString>829.559:868.718:836.262</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fio-1.8.2</Identifier>
+    <Title>Flexible IO Tester</Title>
+    <AppVersion>2.1.13</AppVersion>
+    <Arguments>write sync 1 0 1m  MBS</Arguments>
+    <Description>Type: Sequential Write - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 1MB - Disk Target: Default Test Directory - Result: MB/s</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>1115.33</Value>
+        <RawString>1118.1:1117.7:1110.2</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 1000</Arguments>
+    <Description>Test: 1000 Files, 1MB Size</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>852.93</Value>
+        <RawString>879.7:840.7:838.4</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 5000 -t 4</Arguments>
+    <Description>Test: 5000 Files, 1MB Size, 4 Threads</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>1001.40</Value>
+        <RawString>1017.8:1008.1:978.3</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 4000 -D 32</Arguments>
+    <Description>Test: 4000 Files, 32 Sub Dirs, 1MB Size</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>812.90</Value>
+        <RawString>775.4:829:822.2:825</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fs-mark-1.0.1</Identifier>
+    <Title>FS-Mark</Title>
+    <AppVersion>3.3</AppVersion>
+    <Arguments>-s 1048576 -n 1000 -S 0</Arguments>
+    <Description>Test: 1000 Files, 1MB Size, No Sync/FSync</Description>
+    <Scale>Files/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>2340.60</Value>
+        <RawString>2302.8:2354.3:2364.7</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/dbench-1.0.0</Identifier>
+    <Title>Dbench</Title>
+    <AppVersion>4.0</AppVersion>
+    <Arguments>6</Arguments>
+    <Description>Client Count: 6</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>1102.99</Value>
+        <RawString>1115.38:1102.05:1091.54</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lpopt -O2"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/iozone-1.8.0</Identifier>
+    <Title>IOzone</Title>
+    <AppVersion>3.405</AppVersion>
+    <Arguments>-r 1m -s 2048M -i0 -i1</Arguments>
+    <Description>Record Size: 1MB - File Size: 2GB - Disk Test: Read Performance</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>6959.47</Value>
+        <RawString>6889.8671875:6864.2822265625:7124.2490234375</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/iozone-1.8.0</Identifier>
+    <Title>IOzone</Title>
+    <AppVersion>3.405</AppVersion>
+    <Arguments>-r 1m -s 2048M -i0</Arguments>
+    <Description>Record Size: 1MB - File Size: 2GB - Disk Test: Write Performance</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>837.40</Value>
+        <RawString>833.484375:833.482421875:845.2353515625</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/tiobench-1.3.0</Identifier>
+    <Title>Threaded I/O Tester</Title>
+    <AppVersion>20170503</AppVersion>
+    <Arguments>-k2 -k1 -f 64 -t 4</Arguments>
+    <Description>Test: Random Read - Size Per Thread: 64MB - Thread Count: 4</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>19077.64</Value>
+        <RawString>48494.033:23381.131:18296.169:8345.558:7006.021:8942.919</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/tiobench-1.3.0</Identifier>
+    <Title>Threaded I/O Tester</Title>
+    <AppVersion>20170503</AppVersion>
+    <Arguments>-k3 -k2 -f 64 -t 4</Arguments>
+    <Description>Test: Random Write - Size Per Thread: 64MB - Thread Count: 4</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>545.57</Value>
+        <RawString>540.22:559.887:489.313:599.139:551.936:532.94</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compilebench-1.0.1</Identifier>
+    <Title>Compile Bench</Title>
+    <AppVersion>0.6</AppVersion>
+    <Arguments>COMPILE</Arguments>
+    <Description>Test: Compile</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>1015.95</Value>
+        <RawString>998.74:1026.8:1022.31</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/unpack-linux-1.0.0</Identifier>
+    <Title>Unpacking The Linux Kernel</Title>
+    <AppVersion></AppVersion>
+    <Arguments></Arguments>
+    <Description>linux-2.6.32.tar.bz2</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>10.60</Value>
+        <RawString>10.588235855103:10.642621040344:10.536398887634:10.619206905365</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/postmark-1.1.0</Identifier>
+    <Title>PostMark</Title>
+    <AppVersion>1.51</AppVersion>
+    <Arguments></Arguments>
+    <Description>Disk Transaction Performance</Description>
+    <Scale>TPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>btrfs-nvme</Identifier>
+        <Value>5000</Value>
+        <RawString>5000:5000:5000</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
