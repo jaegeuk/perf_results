@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v6.8.0m1 [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif, droid-sans, helvetica, verdana, tahoma" viewbox="0 0 1123 361" width="1123" height="361" preserveAspectRatio="xMinYMin meet">
+  <rect x="0" y="0" width="1123" height="361" fill="#FEFEFE" stroke="#757575" stroke-width="2"/>
+  <rect x="1" y="1" width="1122" height="360" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <path d="m74 22v9m-5-16v16m-5-28v28m-23-2h12.5c2.485281 0 4.5-2.014719 4.5-4.5s-2.014719-4.5-4.5-4.5h-8c-2.485281 0-4.5-2.014719-4.5-4.5s2.014719-4.5 4.5-4.5h12.5m-21 5h-11m11 13h-2c-4.970563 0-9-4.029437-9-9v-20m-24 40v-20c0-4.970563 4.0294373-9 9-9 4.970563 0 9 4.029437 9 9s-4.029437 9-9 9h-9" stroke="#000000" stroke-width="4" fill="none" transform="translate(488,28)"/>
+  <line x1="1056" y1="185" x2="1123" y2="185" stroke="#BABABA" stroke-width="320" stroke-dasharray="67,67"/>
+  <line x1="562" y1="73" x2="562" y2="345" stroke="#949494" stroke-width="1123" stroke-dasharray="16,16"/>
+  <line x1="1056" y1="185" x2="1123" y2="185" stroke="#757575" stroke-width="320" stroke-dasharray="1,66"/>
+  <rect x="1" y="1" width="1121" height="25" fill="#231f20"/>
+  <text x="5" y="19" font-size="17" fill="#FEFEFE" text-anchor="start">ext4-ssd</text>
+  <line x1="1" y1="25" x2="1122" y2="25" stroke="#757575" stroke-width="1"/>
+  <g font-size="10" font-weight="bold" text-anchor="end" fill="#065695">
+    <a xlink:href="http://openbenchmarking.org/test/pts/aio-stress-1.1.1" xlink:show="new">
+      <text x="1054" y="85" fill="#065695">aio-stress: Test: Random Write</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fio-1.8.2" xlink:show="new">
+      <text x="1054" y="101" fill="#065695">fio: Type: Random Read - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 4KB - Disk Target: Default Test Directory - Result: IOPS</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fio-1.8.2" xlink:show="new">
+      <text x="1054" y="117" fill="#065695">fio: Type: Random Write - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 4KB - Disk Target: Default Test Directory - Result: IOPS</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fio-1.8.2" xlink:show="new">
+      <text x="1054" y="133" fill="#065695">fio: Type: Sequential Read - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 1MB - Disk Target: Default Test Directory - Result: MB/s</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fio-1.8.2" xlink:show="new">
+      <text x="1054" y="149" fill="#065695">fio: Type: Sequential Write - IO Engine: Sync - Buffered: Yes - Direct: No - Block Size: 1MB - Disk Target: Default Test Directory - Result: MB/s</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fs-mark-1.0.1" xlink:show="new">
+      <text x="1054" y="165" fill="#065695">fs-mark: Test: 1000 Files, 1MB Size</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fs-mark-1.0.1" xlink:show="new">
+      <text x="1054" y="181" fill="#065695">fs-mark: Test: 5000 Files, 1MB Size, 4 Threads</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fs-mark-1.0.1" xlink:show="new">
+      <text x="1054" y="197" fill="#065695">fs-mark: Test: 4000 Files, 32 Sub Dirs, 1MB Size</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/fs-mark-1.0.1" xlink:show="new">
+      <text x="1054" y="213" fill="#065695">fs-mark: Test: 1000 Files, 1MB Size, No Sync/FSync</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/dbench-1.0.0" xlink:show="new">
+      <text x="1054" y="229" fill="#065695">dbench: Client Count: 6</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/iozone-1.8.0" xlink:show="new">
+      <text x="1054" y="245" fill="#065695">iozone: Record Size: 1MB - File Size: 2GB - Disk Test: Read Performance</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/iozone-1.8.0" xlink:show="new">
+      <text x="1054" y="261" fill="#065695">iozone: Record Size: 1MB - File Size: 2GB - Disk Test: Write Performance</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/tiobench-1.3.0" xlink:show="new">
+      <text x="1054" y="277" fill="#065695">tiobench: Test: Random Read - Size Per Thread: 64MB - Thread Count: 4</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/tiobench-1.3.0" xlink:show="new">
+      <text x="1054" y="293" fill="#065695">tiobench: Test: Random Write - Size Per Thread: 64MB - Thread Count: 4</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/compilebench-1.0.1" xlink:show="new">
+      <text x="1054" y="309" fill="#065695">compilebench: Test: Compile</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/unpack-linux-1.0.0" xlink:show="new">
+      <text x="1054" y="325" fill="#065695">unpack-linux: linux-2.6.32.tar.bz2</text>
+    </a>
+    <a xlink:href="http://openbenchmarking.org/test/pts/postmark-1.1.0" xlink:show="new">
+      <text x="1054" y="341" fill="#065695">postmark: Disk Transaction Performance</text>
+    </a>
+  </g>
+  <g font-size="10" fill="#065695" font-weight="bold" text-anchor="middle" dominant-baseline="text-before-edge">
+    <text x="1089.5" y="49">ext4-ssd</text>
+  </g>
+  <g/>
+  <g text-anchor="middle" font-size="10">
+    <text x="1089.5" y="86" fill="#065695" xlink:title="STD Dev: 3.33%;  STD Error: 27.60">2030.08</text>
+    <text x="1089.5" y="102" fill="#065695" xlink:title="STD Dev: 0.44%;  STD Error: 17.85">7105</text>
+    <text x="1089.5" y="118" fill="#065695" xlink:title="STD Dev: 0.39%;  STD Error: 203.96">90954</text>
+    <text x="1089.5" y="134" fill="#065695" xlink:title="STD Dev: 0.35%;  STD Error: 1.03">502.22</text>
+    <text x="1089.5" y="150" fill="#065695" xlink:title="STD Dev: 7.02%;  STD Error: 12.60">439.53</text>
+    <text x="1089.5" y="166" fill="#065695" xlink:title="STD Dev: 2.47%;  STD Error: 2.55">178.53</text>
+    <text x="1089.5" y="182" fill="#065695" xlink:title="STD Dev: 5.17%;  STD Error: 5.41">256.40</text>
+    <text x="1089.5" y="198" fill="#065695" xlink:title="STD Dev: 3.12%;  STD Error: 3.05">169.70</text>
+    <text x="1089.5" y="214" fill="#065695" xlink:title="STD Dev: 0.88%;  STD Error: 8.59">1687.57</text>
+    <text x="1089.5" y="230" fill="#065695" xlink:title="STD Dev: 0.34%;  STD Error: 0.89">454.80</text>
+    <text x="1089.5" y="246" fill="#065695" xlink:title="STD Dev: 0.66%;  STD Error: 21.85">5737.00</text>
+    <text x="1089.5" y="262" fill="#065695" xlink:title="STD Dev: 0.21%;  STD Error: 0.47">379.09</text>
+    <text x="1089.5" y="278" fill="#065695" xlink:title="STD Dev: 2.00%;  STD Error: 517.79">44832.58</text>
+    <text x="1089.5" y="294" fill="#065695" xlink:title="STD Dev: 1.71%;  STD Error: 1.46">147.27</text>
+    <text x="1089.5" y="310" fill="#065695" xlink:title="STD Dev: 1.11%;  STD Error: 9.31">1457.50</text>
+    <text x="1089.5" y="326" fill="#065695" xlink:title="STD Dev: 1.69%;  STD Error: 0.08">9.33</text>
+    <text x="1089.5" y="342" fill="#065695" xlink:title="STD Dev: 1.10%;  STD Error: 30.33">4777</text>
+  </g>
+  <line x1="562" y1="73" x2="562" y2="345" stroke="#949494" stroke-width="1123" stroke-dasharray="1,15"/>
+  <rect x="0" y="345" width="1123" height="16" fill="#231f20"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="1121" y="358" font-size="10" fill="#FFFFFF" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+</svg>
