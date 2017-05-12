@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v6.8.0m1 [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif, droid-sans, helvetica, verdana, tahoma" viewbox="0 0 600 570" width="600" height="570" preserveAspectRatio="xMinYMin meet">
+  <rect x="0" y="0" width="600" height="570" fill="#FEFEFE" stroke="#757575" stroke-width="2"/>
+  <g stroke="#757575" stroke-width="1">
+    <line x1="93.5" y1="64" x2="93.5" y2="497"/>
+    <line x1="93" y1="496.5" x2="586" y2="496.5"/>
+  </g>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="585" y="59" font-size="7" fill="#065695" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+  <polygon points="102.5,56 93.5,60.5 93.5,51.5" fill="#065695" stroke="#949494" stroke-width="1"/>
+  <text x="105" y="59" font-size="7" fill="#065695" text-anchor="start">Files/s, More Is Better</text>
+  <rect x="0" y="0" width="600" height="48" fill="#231f20"/>
+  <a xlink:href="http://openbenchmarking.org/test/pts/fs-mark-1.0.1" xlink:show="new">
+    <text x="6" y="19" font-size="17" fill="#FEFEFE" text-anchor="start" xlink:show="new">FS-Mark v3.3</text>
+  </a>
+  <text x="6" y="36" font-size="11" fill="#FEFEFE" text-anchor="start">Test: 5000 Files, 1MB Size, 4 Threads</text>
+  <path d="m74 22v9m-5-16v16m-5-28v28m-23-2h12.5c2.485281 0 4.5-2.014719 4.5-4.5s-2.014719-4.5-4.5-4.5h-8c-2.485281 0-4.5-2.014719-4.5-4.5s2.014719-4.5 4.5-4.5h12.5m-21 5h-11m11 13h-2c-4.970563 0-9-4.029437-9-9v-20m-24 40v-20c0-4.970563 4.0294373-9 9-9 4.970563 0 9 4.029437 9 9s-4.029437 9-9 9h-9" stroke="#ffffff" stroke-width="4" fill="none" transform="translate(508,4)"/>
+  <line x1="93.5" y1="100" x2="93.5" y2="466" stroke="#757575" stroke-width="11" stroke-dasharray="1,35"/>
+  <g font-size="10" fill="#231f20">
+    <text x="88" y="80" text-anchor="end">f2fs-ramdisk</text>
+    <text x="88" y="116" text-anchor="end">ext4-ramdisk</text>
+    <text x="88" y="152" text-anchor="end">xfs-ramdisk</text>
+    <text x="88" y="188" text-anchor="end">btrfs-ramdisk</text>
+    <text x="88" y="224" text-anchor="end">f2fs-nvme</text>
+    <text x="88" y="260" text-anchor="end">ext4-nvme</text>
+    <text x="88" y="296" text-anchor="end">xfs-nvme</text>
+    <text x="88" y="332" text-anchor="end">btrfs-nvme</text>
+    <text x="88" y="368" text-anchor="end">f2fs-ssd</text>
+    <text x="88" y="404" text-anchor="end">ext4-ssd</text>
+    <text x="88" y="440" text-anchor="end">xfs-ssd</text>
+    <text x="88" y="476" text-anchor="end">btrfs-ssd</text>
+  </g>
+  <g font-size="10" fill="#065695" text-anchor="middle">
+    <text x="177.5" y="511">200</text>
+    <text x="259.5" y="511">400</text>
+    <text x="341.5" y="511">600</text>
+    <text x="423.5" y="511">800</text>
+    <text x="505.5" y="511">1000</text>
+  </g>
+  <g stroke="#BABABA" stroke-width="1">
+    <line x1="177.5" y1="64" x2="177.5" y2="491" stroke-dasharray="5,5"/>
+    <line x1="177.5" y1="492" x2="177.5" y2="501"/>
+    <line x1="259.5" y1="64" x2="259.5" y2="491" stroke-dasharray="5,5"/>
+    <line x1="259.5" y1="492" x2="259.5" y2="501"/>
+    <line x1="341.5" y1="64" x2="341.5" y2="491" stroke-dasharray="5,5"/>
+    <line x1="341.5" y1="492" x2="341.5" y2="501"/>
+    <line x1="423.5" y1="64" x2="423.5" y2="491" stroke-dasharray="5,5"/>
+    <line x1="423.5" y1="492" x2="423.5" y2="501"/>
+    <line x1="505.5" y1="64" x2="505.5" y2="491" stroke-dasharray="5,5"/>
+    <line x1="505.5" y1="492" x2="505.5" y2="501"/>
+  </g>
+  <g stroke="#949494" stroke-width="1">
+    <rect x="93.5" y="70.5" height="24" width="329" fill="#2196f3" xlink:title="f2fs-ramdisk: 802.00"/>
+    <rect x="93.5" y="106.5" height="24" width="307" fill="#2196f3" xlink:title="ext4-ramdisk: 748.70"/>
+    <rect x="93.5" y="142.5" height="24" width="278" fill="#2196f3" xlink:title="xfs-ramdisk: 677.93"/>
+    <rect x="93.5" y="178.5" height="24" width="82" fill="#2196f3" xlink:title="btrfs-ramdisk: 200.10"/>
+    <rect x="93.5" y="214.5" height="24" width="451" fill="#2196f3" xlink:title="f2fs-nvme: 1101.10"/>
+    <rect x="93.5" y="250.5" height="24" width="358" fill="#2196f3" xlink:title="ext4-nvme: 872.67"/>
+    <rect x="93.5" y="286.5" height="24" width="307" fill="#2196f3" xlink:title="xfs-nvme: 749.40"/>
+    <rect x="93.5" y="322.5" height="24" width="391" fill="#2196f3" xlink:title="btrfs-nvme: 953.48"/>
+    <rect x="93.5" y="358.5" height="24" width="79" fill="#2196f3" xlink:title="f2fs-ssd: 193.47"/>
+    <rect x="93.5" y="394.5" height="24" width="101" fill="#2196f3" xlink:title="ext4-ssd: 247.20"/>
+    <rect x="93.5" y="430.5" height="24" width="28" fill="#2196f3" xlink:title="xfs-ssd: 69.50"/>
+    <rect x="93.5" y="466.5" height="24" width="85" fill="#2196f3" xlink:title="btrfs-ssd: 207.63"/>
+  </g>
+  <g font-size="8" fill="#065695" text-anchor="end">
+    <text y="94" x="88">SE +/- 20.79</text>
+    <text y="130" x="88">SE +/- 13.39</text>
+    <text y="166" x="88">SE +/- 9.48</text>
+    <text y="202" x="88">SE +/- 1.27</text>
+    <text y="238" x="88">SE +/- 10.80</text>
+    <text y="274" x="88">SE +/- 13.45</text>
+    <text y="310" x="88">SE +/- 4.52</text>
+    <text y="346" x="88">SE +/- 15.25</text>
+    <text y="382" x="88">SE +/- 1.19</text>
+    <text y="418" x="88">SE +/- 9.58</text>
+    <text y="454" x="88">SE +/- 0.96</text>
+    <text y="490" x="88">SE +/- 2.32</text>
+  </g>
+  <g font-size="10" fill="#FFFFFF">
+    <text x="417" y="88" text-anchor="end">802.00</text>
+    <text x="395" y="124" text-anchor="end">748.70</text>
+    <text x="366" y="160" text-anchor="end">677.93</text>
+    <text x="170" y="196" text-anchor="end">200.10</text>
+    <text x="539" y="232" text-anchor="end">1101.10</text>
+    <text x="446" y="268" text-anchor="end">872.67</text>
+    <text x="395" y="304" text-anchor="end">749.40</text>
+    <text x="479" y="340" text-anchor="end">953.48</text>
+    <text x="167" y="376" text-anchor="end">193.47</text>
+    <text x="189" y="412" text-anchor="end">247.20</text>
+    <text x="127" y="448" fill="#065695" text-anchor="start">69.50</text>
+    <text x="173" y="484" text-anchor="end">207.63</text>
+  </g>
+  <line x1="413.5" y1="70" x2="413.5" y2="78" stroke="#757575" stroke-width="1"/>
+  <line x1="431.5" y1="70" x2="431.5" y2="78" stroke="#757575" stroke-width="1"/>
+  <line x1="413.5" y1="70.5" x2="431.5" y2="70.5" stroke="#757575" stroke-width="1"/>
+  <line x1="395.5" y1="106" x2="395.5" y2="114" stroke="#757575" stroke-width="1"/>
+  <line x1="405.5" y1="106" x2="405.5" y2="114" stroke="#757575" stroke-width="1"/>
+  <line x1="395.5" y1="106.5" x2="405.5" y2="106.5" stroke="#757575" stroke-width="1"/>
+  <line x1="445.5" y1="250" x2="445.5" y2="258" stroke="#757575" stroke-width="1"/>
+  <line x1="457.5" y1="250" x2="457.5" y2="258" stroke="#757575" stroke-width="1"/>
+  <line x1="445.5" y1="250.5" x2="457.5" y2="250.5" stroke="#757575" stroke-width="1"/>
+  <line x1="478.5" y1="322" x2="478.5" y2="330" stroke="#757575" stroke-width="1"/>
+  <line x1="490.5" y1="322" x2="490.5" y2="330" stroke="#757575" stroke-width="1"/>
+  <line x1="478.5" y1="322.5" x2="490.5" y2="322.5" stroke="#757575" stroke-width="1"/>
+  <rect x="0" y="518" width="600" height="52" fill="#231f20"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="585" y="530" font-size="9" fill="#FEFEFE" text-anchor="end" xlink:show="new">Phoronix Test Suite 6.8.0m1</text>
+  </a>
+  <text x="5" y="544" font-size="8" fill="#FEFEFE" text-anchor="start" xlink:title="-static" width="595">1. (CC) gcc options: -static</text>
+</svg>

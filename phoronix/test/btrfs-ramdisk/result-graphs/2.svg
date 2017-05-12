@@ -23,11 +23,11 @@
     <text x="88" y="85" text-anchor="end">btrfs-ramdisk</text>
   </g>
   <g font-size="10" fill="#065695" text-anchor="middle">
-    <text x="177.5" y="125">8000</text>
-    <text x="259.5" y="125">16000</text>
-    <text x="341.5" y="125">24000</text>
-    <text x="423.5" y="125">32000</text>
-    <text x="505.5" y="125">40000</text>
+    <text x="177.5" y="125">7000</text>
+    <text x="259.5" y="125">14000</text>
+    <text x="341.5" y="125">21000</text>
+    <text x="423.5" y="125">28000</text>
+    <text x="505.5" y="125">35000</text>
   </g>
   <g stroke="#BABABA" stroke-width="1">
     <line x1="177.5" y1="64" x2="177.5" y2="105" stroke-dasharray="5,5"/>
@@ -42,17 +42,17 @@
     <line x1="505.5" y1="106" x2="505.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="93.5" y="70.5" height="34" width="360" fill="#2196f3" xlink:title="btrfs-ramdisk: 35131"/>
+    <rect x="93.5" y="70.5" height="34" width="386" fill="#2196f3" xlink:title="btrfs-ramdisk: 32967"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="88">SE +/- 2450.29</text>
+    <text y="101" x="88">SE +/- 1327.27</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="448" y="93" text-anchor="end">35131</text>
+    <text x="474" y="93" text-anchor="end">32967</text>
   </g>
-  <line x1="428.5" y1="70" x2="428.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="478.5" y1="70" x2="478.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="428.5" y1="70.5" x2="478.5" y2="70.5" stroke="#757575" stroke-width="1"/>
+  <line x1="463.5" y1="70" x2="463.5" y2="78" stroke="#757575" stroke-width="1"/>
+  <line x1="495.5" y1="70" x2="495.5" y2="78" stroke="#757575" stroke-width="1"/>
+  <line x1="463.5" y1="70.5" x2="495.5" y2="70.5" stroke="#757575" stroke-width="1"/>
   <rect x="0" y="132" width="600" height="59" fill="#231f20"/>
   <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
     <text x="585" y="144" font-size="9" fill="#FEFEFE" text-anchor="end" xlink:show="new">Phoronix Test Suite 6.8.0m1</text>

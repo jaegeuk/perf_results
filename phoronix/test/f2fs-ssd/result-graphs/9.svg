@@ -23,11 +23,11 @@
     <text x="65" y="85" text-anchor="end">f2fs-ssd</text>
   </g>
   <g font-size="10" fill="#065695" text-anchor="middle">
-    <text x="158.5" y="125">500</text>
-    <text x="244.5" y="125">1000</text>
-    <text x="330.5" y="125">1500</text>
-    <text x="416.5" y="125">2000</text>
-    <text x="502.5" y="125">2500</text>
+    <text x="158.5" y="125">400</text>
+    <text x="244.5" y="125">800</text>
+    <text x="330.5" y="125">1200</text>
+    <text x="416.5" y="125">1600</text>
+    <text x="502.5" y="125">2000</text>
   </g>
   <g stroke="#BABABA" stroke-width="1">
     <line x1="158.5" y1="64" x2="158.5" y2="105" stroke-dasharray="5,5"/>
@@ -42,17 +42,14 @@
     <line x1="502.5" y1="106" x2="502.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="70.5" y="70.5" height="34" width="367" fill="#2196f3" xlink:title="f2fs-ssd: 2138.07"/>
+    <rect x="70.5" y="70.5" height="34" width="449" fill="#2196f3" xlink:title="f2fs-ssd: 2091.45"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="65">SE +/- 29.22</text>
+    <text y="101" x="65">SE +/- 19.95</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="432" y="93" text-anchor="end">2138.07</text>
+    <text x="514" y="93" text-anchor="end">2091.45</text>
   </g>
-  <line x1="432.5" y1="70" x2="432.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="442.5" y1="70" x2="442.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="432.5" y1="70.5" x2="442.5" y2="70.5" stroke="#757575" stroke-width="1"/>
   <rect x="0" y="132" width="600" height="52" fill="#231f20"/>
   <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
     <text x="585" y="144" font-size="9" fill="#FEFEFE" text-anchor="end" xlink:show="new">Phoronix Test Suite 6.8.0m1</text>

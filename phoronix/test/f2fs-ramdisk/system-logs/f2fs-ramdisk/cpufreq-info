@@ -54,7 +54,7 @@ analyzing CPU 4:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.22 GHz (asserted by call to hardware).
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
 analyzing CPU 5:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 5
@@ -76,7 +76,7 @@ analyzing CPU 6:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+  current CPU frequency is 2.78 GHz (asserted by call to hardware).
 analyzing CPU 7:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 7
@@ -87,7 +87,7 @@ analyzing CPU 7:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 2.37 GHz (asserted by call to hardware).
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
 analyzing CPU 8:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 8
@@ -98,7 +98,7 @@ analyzing CPU 8:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.28 GHz (asserted by call to hardware).
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
 analyzing CPU 9:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 9
@@ -109,7 +109,7 @@ analyzing CPU 9:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+  current CPU frequency is 1.43 GHz (asserted by call to hardware).
 analyzing CPU 10:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 10
@@ -131,7 +131,7 @@ analyzing CPU 11:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 2.40 GHz (asserted by call to hardware).
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
 analyzing CPU 12:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 12
@@ -164,7 +164,7 @@ analyzing CPU 14:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+  current CPU frequency is 1.36 GHz (asserted by call to hardware).
 analyzing CPU 15:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 15
@@ -230,7 +230,7 @@ analyzing CPU 20:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.58 GHz (asserted by call to hardware).
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
 analyzing CPU 21:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 21
@@ -252,7 +252,7 @@ analyzing CPU 22:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+  current CPU frequency is 2.01 GHz (asserted by call to hardware).
 analyzing CPU 23:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 23
@@ -263,7 +263,7 @@ analyzing CPU 23:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.64 GHz (asserted by call to hardware).
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
 analyzing CPU 24:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 24
@@ -274,7 +274,7 @@ analyzing CPU 24:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.40 GHz (asserted by call to hardware).
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
 analyzing CPU 25:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 25
@@ -285,7 +285,7 @@ analyzing CPU 25:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.35 GHz (asserted by call to hardware).
+  current CPU frequency is 2.51 GHz (asserted by call to hardware).
 analyzing CPU 26:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 26
@@ -307,7 +307,7 @@ analyzing CPU 27:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.24 GHz (asserted by call to hardware).
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
 analyzing CPU 28:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 28
@@ -318,7 +318,7 @@ analyzing CPU 28:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.34 GHz (asserted by call to hardware).
+  current CPU frequency is 1.20 GHz (asserted by call to hardware).
 analyzing CPU 29:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 29
@@ -340,7 +340,7 @@ analyzing CPU 30:
   current policy: frequency should be within 1.20 GHz and 3.20 GHz.
                   The governor "powersave" may decide which speed to use
                   within this range.
-  current CPU frequency is 1.20 GHz (asserted by call to hardware).
+  current CPU frequency is 1.24 GHz (asserted by call to hardware).
 analyzing CPU 31:
   driver: intel_pstate
   CPUs which run at the same hardware frequency: 31

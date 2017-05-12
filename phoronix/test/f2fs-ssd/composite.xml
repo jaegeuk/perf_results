@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <Generated>
     <Title>f2fs-ssd</Title>
-    <LastModified>2017-05-11 03:08:54</LastModified>
+    <LastModified>2017-05-12 01:22:19</LastModified>
     <TestClient>Phoronix Test Suite v6.8.0m1 (Tana)</TestClient>
     <Description>2 x Intel Xeon E5-2630 v3 testing with a HP 2129 v1.01 and NVIDIA Device 11b4 4096MB on Ubuntu 14.04 via the Phoronix Test Suite.</Description>
   </Generated>
@@ -12,7 +12,7 @@
     <Hardware>Processor: 2 x Intel Xeon E5-2630 v3 @ 3.20GHz (32 Cores), Motherboard: HP 2129 v1.01, Chipset: Intel Haswell-E DMI2, Memory: 16 x 16384 MB 1866MHz Hynix, Disk: 2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4, Graphics: NVIDIA Device 11b4 4096MB, Audio: Realtek ALC221, Network: Intel Connection</Hardware>
     <Software>OS: Ubuntu 14.04, Kernel: 4.11.0+ (x86_64), Display Driver: nouveau 1.0.10, Compiler: GCC 4.8.4, File-System: F2FS, Screen Resolution: 1024x768</Software>
     <User>root</User>
-    <TimeStamp>2017-05-11 01:24:51</TimeStamp>
+    <TimeStamp>2017-05-11 23:36:40</TimeStamp>
     <TestClientVersion>6.8.0m1</TestClientVersion>
     <Notes>Python 2.7.6.</Notes>
     <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-libmudflap --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-multilib-list=m32,m64,mx32 --with-tune=generic -v","disk-scheduler":"DEADLINE","disk-mount-options":"data=ordered,errors=remount-ro,relatime,rw","cpu-scaling-governor":"intel_pstate powersave"}</JSON>
@@ -29,8 +29,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>2668.54</Value>
-        <RawString>2665.38:2681.5:2658.75</RawString>
+        <Value>2680.91</Value>
+        <RawString>2666.5:2679.54:2696.68</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -laio"}}</JSON>
       </Entry>
     </Data>
@@ -47,8 +47,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>7804</Value>
-        <RawString>7907:7729:7775</RawString>
+        <Value>8310</Value>
+        <RawString>8607:8142:8180</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -65,8 +65,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>93661</Value>
-        <RawString>95380:94627:90977</RawString>
+        <Value>80377</Value>
+        <RawString>95947:97888:102772:62603:61978:61071</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -83,8 +83,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>536.01</Value>
-        <RawString>534.194:536.652:537.188</RawString>
+        <Value>535.14</Value>
+        <RawString>534.45:534.092:536.881</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -101,8 +101,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>317.51</Value>
-        <RawString>421.34:410.192:318.021:252.9:253.635:248.997</RawString>
+        <Value>322.02</Value>
+        <RawString>430.292:451.994:303.347:245.937:249.685:250.868</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -119,8 +119,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>158.53</Value>
-        <RawString>160.4:157.3:157.9</RawString>
+        <Value>163.27</Value>
+        <RawString>164.2:160.5:165.1</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -137,8 +137,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>189.33</Value>
-        <RawString>189.6:188:190.4</RawString>
+        <Value>193.47</Value>
+        <RawString>194:195.2:191.2</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -155,8 +155,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>161.17</Value>
-        <RawString>156.3:164.7:162.5</RawString>
+        <Value>156.40</Value>
+        <RawString>154.1:156.6:158.5</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -173,8 +173,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>2138.07</Value>
-        <RawString>2083.3:2183.1:2147.8</RawString>
+        <Value>2091.45</Value>
+        <RawString>2071.5:2111.4</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -191,8 +191,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>663.60</Value>
-        <RawString>746.809:645.326:647.952:647.285:646.205:648.019</RawString>
+        <Value>664.45</Value>
+        <RawString>748.64:647.372:648.851:649.578:645.947:646.29</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lpopt -O2"}}</JSON>
       </Entry>
     </Data>
@@ -209,8 +209,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>5504.37</Value>
-        <RawString>5885.1904296875:5480.4345703125:5494.84375:5277.763671875:5639.9296875:5248.0537109375</RawString>
+        <Value>5479.74</Value>
+        <RawString>5519.0556640625:5595.796875:5324.376953125</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -227,8 +227,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>399.27</Value>
-        <RawString>400.8125:398.927734375:398.076171875</RawString>
+        <Value>401.34</Value>
+        <RawString>402.66796875:398.48046875:402.8662109375</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -245,8 +245,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>44406.16</Value>
-        <RawString>43075.888:44872.918:45269.673</RawString>
+        <Value>46018.37</Value>
+        <RawString>47504.175:46368.412:44016.506:46184.377</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -263,8 +263,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>162.54</Value>
-        <RawString>168.878:159.385:159.365</RawString>
+        <Value>164.11</Value>
+        <RawString>163.623:166.44:162.267</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -281,8 +281,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>1853.93</Value>
-        <RawString>1845.44:1881.8:1834.55</RawString>
+        <Value>1884.30</Value>
+        <RawString>1890.65:1867.66:1894.6</RawString>
       </Entry>
     </Data>
   </Result>
@@ -298,8 +298,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>9.37</Value>
-        <RawString>9.6433219909668:9.276095867157:9.3861818313599:9.1795611381531</RawString>
+        <Value>9.67</Value>
+        <RawString>9.5272631645203:9.4720342159271:9.6734139919281:10.02330994606</RawString>
       </Entry>
     </Data>
   </Result>
@@ -315,8 +315,8 @@
     <Data>
       <Entry>
         <Identifier>f2fs-ssd</Identifier>
-        <Value>5597</Value>
-        <RawString>5555:5555:5681</RawString>
+        <Value>5555</Value>
+        <RawString>5555:5555:5555</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>

@@ -22,9 +22,9 @@
   </g>
   <g/>
   <g text-anchor="middle" font-size="10">
-    <text x="190.5" y="101" fill="#065695" xlink:title="STD Dev: 19.17%;  STD Error: 160.27">2048.42</text>
-    <text x="190.5" y="117" fill="#065695">160.27</text>
-    <text x="190.5" y="133" fill="#065695">19.17%</text>
+    <text x="190.5" y="101" fill="#065695" xlink:title="STD Dev: 15.70%;  STD Error: 170.04">2652.53</text>
+    <text x="190.5" y="117" fill="#065695">170.04</text>
+    <text x="190.5" y="133" fill="#065695">15.70%</text>
   </g>
   <line x1="120" y1="88" x2="120" y2="136" stroke="#949494" stroke-width="239" stroke-dasharray="1,15"/>
   <rect x="0" y="136" width="239" height="16" fill="#231f20"/>

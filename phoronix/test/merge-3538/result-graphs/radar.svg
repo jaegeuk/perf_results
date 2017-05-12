@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v6.8.0m1 [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif, droid-sans, helvetica, verdana, tahoma" viewbox="0 0 600 698" width="600" height="698" preserveAspectRatio="xMinYMin meet">
+  <rect x="0" y="0" width="600" height="698" fill="#FEFEFE" stroke="#757575" stroke-width="2"/>
+  <rect x="0" y="0" width="600" height="48" fill="#231f20"/>
+  <image xlink:href="https://openbenchmarking.org/static/images/pts-77x40-white.png" x="10" y="2" width="77" height="40"/>
+  <text x="100" y="21" font-size="17" fill="#FEFEFE" text-anchor="start">f2fs-ramdisk</text>
+  <text x="100" y="33" font-size="9" fill="#FEFEFE" text-anchor="start" href="http://www.phoronix-test-suite.com/">Phoronix Test Suite 6.8.0m1</text>
+  <path fill="#FEFEFE" stroke="#949494" stroke-width="1" stroke-dasharray="10,20" d="M35,98 L562,98 A527,527 0 0,1 35,625 Z"/>
+  <text x="562" y="90" font-size="10" fill="#757575" text-anchor="middle">6.2</text>
+  <line x1="562" y1="92" x2="562" y2="98" stroke="#757575" stroke-width="1"/>
+  <text x="27" y="625" font-size="10" fill="#757575" text-anchor="end" dominant-baseline="middle">6.2</text>
+  <line x1="29" y1="625" x2="35" y2="625" stroke="#757575" stroke-width="1"/>
+  <path fill="#FEFEFE" stroke="#949494" stroke-width="1" stroke-dasharray="10,20" d="M35,98 L486,98 A451,451 0 0,1 35,549 Z"/>
+  <text x="486" y="90" font-size="10" fill="#757575" text-anchor="middle">5.3</text>
+  <line x1="486" y1="92" x2="486" y2="98" stroke="#757575" stroke-width="1"/>
+  <text x="27" y="549" font-size="10" fill="#757575" text-anchor="end" dominant-baseline="middle">5.3</text>
+  <line x1="29" y1="549" x2="35" y2="549" stroke="#757575" stroke-width="1"/>
+  <path fill="#FEFEFE" stroke="#949494" stroke-width="1" stroke-dasharray="10,20" d="M35,98 L418,98 A383,383 0 0,1 35,481 Z"/>
+  <text x="418" y="90" font-size="10" fill="#757575" text-anchor="middle">4.5</text>
+  <line x1="418" y1="92" x2="418" y2="98" stroke="#757575" stroke-width="1"/>
+  <text x="27" y="481" font-size="10" fill="#757575" text-anchor="end" dominant-baseline="middle">4.5</text>
+  <line x1="29" y1="481" x2="35" y2="481" stroke="#757575" stroke-width="1"/>
+  <path fill="#FEFEFE" stroke="#949494" stroke-width="1" stroke-dasharray="10,20" d="M35,98 L341,98 A306,306 0 0,1 35,404 Z"/>
+  <text x="341" y="90" font-size="10" fill="#757575" text-anchor="middle">3.6</text>
+  <line x1="341" y1="92" x2="341" y2="98" stroke="#757575" stroke-width="1"/>
+  <text x="27" y="404" font-size="10" fill="#757575" text-anchor="end" dominant-baseline="middle">3.6</text>
+  <line x1="29" y1="404" x2="35" y2="404" stroke="#757575" stroke-width="1"/>
+  <path fill="#FEFEFE" stroke="#949494" stroke-width="1" stroke-dasharray="10,20" d="M35,98 L265,98 A230,230 0 0,1 35,328 Z"/>
+  <text x="265" y="90" font-size="10" fill="#757575" text-anchor="middle">2.7</text>
+  <line x1="265" y1="92" x2="265" y2="98" stroke="#757575" stroke-width="1"/>
+  <text x="27" y="328" font-size="10" fill="#757575" text-anchor="end" dominant-baseline="middle">2.7</text>
+  <line x1="29" y1="328" x2="35" y2="328" stroke="#757575" stroke-width="1"/>
+  <path fill="#FEFEFE" stroke="#949494" stroke-width="1" stroke-dasharray="10,20" d="M35,98 L197,98 A162,162 0 0,1 35,260 Z"/>
+  <text x="197" y="90" font-size="10" fill="#757575" text-anchor="middle">1.9</text>
+  <line x1="197" y1="92" x2="197" y2="98" stroke="#757575" stroke-width="1"/>
+  <text x="27" y="260" font-size="10" fill="#757575" text-anchor="end" dominant-baseline="middle">1.9</text>
+  <line x1="29" y1="260" x2="35" y2="260" stroke="#757575" stroke-width="1"/>
+  <path fill="#FEFEFE" stroke="#949494" stroke-width="1" stroke-dasharray="10,20" d="M35,98 L120,98 A85,85 0 0,1 35,183 Z"/>
+  <text x="120" y="90" font-size="10" fill="#757575" text-anchor="middle">1.0</text>
+  <line x1="120" y1="92" x2="120" y2="98" stroke="#757575" stroke-width="1"/>
+  <text x="27" y="183" font-size="10" fill="#757575" text-anchor="end" dominant-baseline="middle">1.0</text>
+  <line x1="29" y1="183" x2="35" y2="183" stroke="#757575" stroke-width="1"/>
+  <line x1="35" y1="98" x2="590" y2="98" stroke="#757575" stroke-width="1"/>
+  <line x1="35" y1="98" x2="35" y2="676" stroke="#757575" stroke-width="1"/>
+  <line x1="590" y1="676" x2="590" y2="98" stroke="#757575" stroke-width="1"/>
+  <line x1="35" y1="676" x2="590" y2="676" stroke="#757575" stroke-width="1"/>
+  <polygon points="35,98 157,98 155,117" fill="#f44336" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - f2fs-ramdisk - 6.187x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 157,98 155,117" fill="#673ab7" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - ext4-ramdisk - 5.838x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 156,98 154,117" fill="#01579b" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - xfs-ramdisk - 5.617x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 155,98 153,117" fill="#4caf50" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - f2fs-nvme - 5.441x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 153,98 151,116" fill="#ff5722" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - ext4-nvme - 5.375x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 149,98 147,116" fill="#e91e63" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - xfs-nvme - 5.144x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 140,98 139,114" fill="#607d8b" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - ext4-ssd - 2.950x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 139,98 137,114" fill="#FFB300" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - xfs-ssd - 2.910x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 126,98 125,112" fill="#9e9e9e" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - f2fs-ssd - 2.606x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 126,98 125,112" fill="#795548" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - btrfs-nvme - 1.467x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 126,98 125,112" fill="#009688" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - btrfs-ramdisk - 1.154x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 120,98 119,111" fill="#803E75" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - btrfs-ssd - 1.000x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 554,180 535,261" fill="#9e9e9e" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - f2fs-ssd - 1.327x Faster Than ext4-ssd"/>
+  <polygon points="35,98 525,176 507,251" fill="#4caf50" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - f2fs-nvme - 1.327x Faster Than ext4-ssd"/>
+  <polygon points="35,98 507,173 489,246" fill="#f44336" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - f2fs-ramdisk - 1.319x Faster Than ext4-ssd"/>
+  <polygon points="35,98 492,170 475,241" fill="#01579b" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - xfs-ramdisk - 1.247x Faster Than ext4-ssd"/>
+  <polygon points="35,98 486,169 470,239" fill="#FFB300" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - xfs-ssd - 1.237x Faster Than ext4-ssd"/>
+  <polygon points="35,98 467,166 451,233" fill="#e91e63" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - xfs-nvme - 1.236x Faster Than ext4-ssd"/>
+  <polygon points="35,98 283,137 273,175" fill="#009688" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - btrfs-ramdisk - 1.225x Faster Than ext4-ssd"/>
+  <polygon points="35,98 279,137 270,174" fill="#795548" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - btrfs-nvme - 1.221x Faster Than ext4-ssd"/>
+  <polygon points="35,98 254,133 246,166" fill="#803E75" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - btrfs-ssd - 1.217x Faster Than ext4-ssd"/>
+  <polygon points="35,98 158,118 154,137" fill="#673ab7" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - ext4-ramdisk - 1.014x Faster Than ext4-ssd"/>
+  <polygon points="35,98 132,113 128,128" fill="#ff5722" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - ext4-nvme - 1.011x Faster Than ext4-ssd"/>
+  <polygon points="35,98 119,111 116,124" fill="#607d8b" stroke="#065695" stroke-width="2" xlink:title="AIO-Stress - ext4-ssd - 1.000x Faster Than ext4-ssd"/>
+  <polygon points="35,98 142,133 136,149" fill="#01579b" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - xfs-ramdisk - 6.029x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 142,133 136,149" fill="#f44336" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - f2fs-ramdisk - 5.868x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 142,133 135,149" fill="#673ab7" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - ext4-ramdisk - 5.830x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 136,131 129,146" fill="#4caf50" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - f2fs-nvme - 2.016x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 135,130 129,146" fill="#e91e63" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - xfs-nvme - 1.928x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 135,130 129,146" fill="#ff5722" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - ext4-nvme - 1.911x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 134,130 128,145" fill="#795548" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - btrfs-nvme - 1.814x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 134,130 127,145" fill="#009688" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - btrfs-ramdisk - 1.707x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 133,130 127,145" fill="#9e9e9e" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - f2fs-ssd - 1.184x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 117,125 112,137" fill="#FFB300" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - xfs-ssd - 1.174x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 117,125 112,137" fill="#607d8b" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - ext4-ssd - 1.106x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 116,124 111,137" fill="#803E75" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - btrfs-ssd - 1.000x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 492,331 450,399" fill="#009688" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - btrfs-ramdisk - 4.056x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 479,324 439,391" fill="#795548" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - btrfs-nvme - 3.422x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 477,323 436,389" fill="#f44336" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - f2fs-ramdisk - 3.291x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 188,176 174,199" fill="#01579b" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - xfs-ramdisk - 3.091x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 181,172 168,194" fill="#673ab7" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - ext4-ramdisk - 2.745x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 180,172 166,193" fill="#4caf50" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - f2fs-nvme - 2.729x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 172,168 160,189" fill="#e91e63" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - xfs-nvme - 2.684x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 164,164 152,183" fill="#ff5722" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - ext4-nvme - 2.516x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 125,144 116,157" fill="#803E75" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - btrfs-ssd - 1.567x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 124,143 116,157" fill="#FFB300" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - xfs-ssd - 1.373x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 119,141 111,153" fill="#607d8b" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - ext4-ssd - 1.325x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 111,137 104,148" fill="#9e9e9e" stroke="#065695" stroke-width="2" xlink:title="Flexible IO Tester - f2fs-ssd - 1.000x Faster Than f2fs-ssd"/>
+  <polygon points="35,98 314,301 279,342" fill="#9e9e9e" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - f2fs-ssd - 3.775x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 270,269 241,304" fill="#f44336" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - f2fs-ramdisk - 3.759x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 261,262 233,296" fill="#4caf50" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - f2fs-nvme - 3.677x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 248,252 221,284" fill="#e91e63" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - xfs-nvme - 3.144x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 224,235 200,263" fill="#FFB300" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - xfs-ssd - 3.123x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 223,234 199,262" fill="#01579b" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - xfs-ramdisk - 3.091x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 220,232 196,259" fill="#ff5722" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - ext4-nvme - 2.969x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 208,224 186,249" fill="#673ab7" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - ext4-ramdisk - 2.956x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 143,176 129,192" fill="#607d8b" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - ext4-ssd - 2.894x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 129,167 118,181" fill="#795548" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - btrfs-nvme - 1.855x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 126,164 115,178" fill="#009688" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - btrfs-ramdisk - 1.446x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 104,148 95,158" fill="#803E75" stroke="#065695" stroke-width="2" xlink:title="Compile Bench - btrfs-ssd - 1.000x Faster Than btrfs-ssd"/>
+  <polygon points="35,98 262,325 224,358" fill="#4caf50" stroke="#065695" stroke-width="2" xlink:title="IOzone - f2fs-nvme - 1.445x Faster Than ext4-nvme"/>
+  <polygon points="35,98 261,324 223,356" fill="#FFB300" stroke="#065695" stroke-width="2" xlink:title="IOzone - xfs-ssd - 1.440x Faster Than ext4-nvme"/>
+  <polygon points="35,98 256,319 219,351" fill="#795548" stroke="#065695" stroke-width="2" xlink:title="IOzone - btrfs-nvme - 1.433x Faster Than ext4-nvme"/>
+  <polygon points="35,98 224,287 192,314" fill="#803E75" stroke="#065695" stroke-width="2" xlink:title="IOzone - btrfs-ssd - 1.310x Faster Than ext4-nvme"/>
+  <polygon points="35,98 223,286 191,313" fill="#e91e63" stroke="#065695" stroke-width="2" xlink:title="IOzone - xfs-nvme - 1.285x Faster Than ext4-nvme"/>
+  <polygon points="35,98 221,284 189,311" fill="#607d8b" stroke="#065695" stroke-width="2" xlink:title="IOzone - ext4-ssd - 1.254x Faster Than ext4-nvme"/>
+  <polygon points="35,98 213,276 183,302" fill="#9e9e9e" stroke="#065695" stroke-width="2" xlink:title="IOzone - f2fs-ssd - 1.237x Faster Than ext4-nvme"/>
+  <polygon points="35,98 213,276 183,301" fill="#009688" stroke="#065695" stroke-width="2" xlink:title="IOzone - btrfs-ramdisk - 1.189x Faster Than ext4-nvme"/>
+  <polygon points="35,98 209,272 180,297" fill="#01579b" stroke="#065695" stroke-width="2" xlink:title="IOzone - xfs-ramdisk - 1.133x Faster Than ext4-nvme"/>
+  <polygon points="35,98 146,209 128,226" fill="#f44336" stroke="#065695" stroke-width="2" xlink:title="IOzone - f2fs-ramdisk - 1.040x Faster Than ext4-nvme"/>
+  <polygon points="35,98 122,185 107,197" fill="#673ab7" stroke="#065695" stroke-width="2" xlink:title="IOzone - ext4-ramdisk - 1.006x Faster Than ext4-nvme"/>
+  <polygon points="35,98 95,158 85,167" fill="#ff5722" stroke="#065695" stroke-width="2" xlink:title="IOzone - ext4-nvme - 1.000x Faster Than ext4-nvme"/>
+  <polygon points="35,98 107,197 91,207" fill="#795548" stroke="#065695" stroke-width="2" xlink:title="IOzone - btrfs-nvme - 2.190x Faster Than ext4-ssd"/>
+  <polygon points="35,98 107,197 91,207" fill="#4caf50" stroke="#065695" stroke-width="2" xlink:title="IOzone - f2fs-nvme - 2.136x Faster Than ext4-ssd"/>
+  <polygon points="35,98 107,197 90,207" fill="#f44336" stroke="#065695" stroke-width="2" xlink:title="IOzone - f2fs-ramdisk - 2.016x Faster Than ext4-ssd"/>
+  <polygon points="35,98 100,188 86,197" fill="#e91e63" stroke="#065695" stroke-width="2" xlink:title="IOzone - xfs-nvme - 1.973x Faster Than ext4-ssd"/>
+  <polygon points="35,98 99,186 85,195" fill="#009688" stroke="#065695" stroke-width="2" xlink:title="IOzone - btrfs-ramdisk - 1.964x Faster Than ext4-ssd"/>
+  <polygon points="35,98 98,184 83,193" fill="#ff5722" stroke="#065695" stroke-width="2" xlink:title="IOzone - ext4-nvme - 1.891x Faster Than ext4-ssd"/>
+  <polygon points="35,98 97,183 83,192" fill="#01579b" stroke="#065695" stroke-width="2" xlink:title="IOzone - xfs-ramdisk - 1.745x Faster Than ext4-ssd"/>
+  <polygon points="35,98 94,180 81,188" fill="#673ab7" stroke="#065695" stroke-width="2" xlink:title="IOzone - ext4-ramdisk - 1.684x Faster Than ext4-ssd"/>
+  <polygon points="35,98 92,176 79,184" fill="#803E75" stroke="#065695" stroke-width="2" xlink:title="IOzone - btrfs-ssd - 1.071x Faster Than ext4-ssd"/>
+  <polygon points="35,98 87,170 75,177" fill="#9e9e9e" stroke="#065695" stroke-width="2" xlink:title="IOzone - f2fs-ssd - 1.060x Faster Than ext4-ssd"/>
+  <polygon points="35,98 85,167 74,174" fill="#FFB300" stroke="#065695" stroke-width="2" xlink:title="IOzone - xfs-ssd - 1.011x Faster Than ext4-ssd"/>
+  <polygon points="35,98 85,167 74,174" fill="#607d8b" stroke="#065695" stroke-width="2" xlink:title="IOzone - ext4-ssd - 1.000x Faster Than ext4-ssd"/>
+  <polygon points="35,98 120,264 93,275" fill="#ff5722" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - ext4-nvme - 1.205x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 117,260 91,271" fill="#e91e63" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - xfs-nvme - 1.187x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 113,251 88,261" fill="#607d8b" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - ext4-ssd - 1.171x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 111,247 87,257" fill="#4caf50" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - f2fs-nvme - 1.165x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 111,247 87,257" fill="#673ab7" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - ext4-ramdisk - 1.165x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 108,241 85,251" fill="#01579b" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - xfs-ramdisk - 1.157x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 102,230 81,239" fill="#f44336" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - f2fs-ramdisk - 1.157x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 100,226 79,234" fill="#FFB300" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - xfs-ssd - 1.149x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 76,179 63,185" fill="#9e9e9e" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - f2fs-ssd - 1.149x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 76,178 63,184" fill="#795548" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - btrfs-nvme - 1.034x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 74,175 62,180" fill="#803E75" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - btrfs-ssd - 1.001x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 74,174 61,179" fill="#009688" stroke="#065695" stroke-width="2" xlink:title="Unpacking The Linux Kernel - btrfs-ramdisk - 1.000x Faster Than btrfs-ramdisk"/>
+  <polygon points="35,98 67,195 51,199" fill="#f44336" stroke="#065695" stroke-width="2" xlink:title="PostMark - f2fs-ramdisk - 1.348x Faster Than xfs-ssd"/>
+  <polygon points="35,98 66,194 51,198" fill="#4caf50" stroke="#065695" stroke-width="2" xlink:title="PostMark - f2fs-nvme - 1.338x Faster Than xfs-ssd"/>
+  <polygon points="35,98 66,193 51,196" fill="#9e9e9e" stroke="#065695" stroke-width="2" xlink:title="PostMark - f2fs-ssd - 1.319x Faster Than xfs-ssd"/>
+  <polygon points="35,98 66,192 50,196" fill="#009688" stroke="#065695" stroke-width="2" xlink:title="PostMark - btrfs-ramdisk - 1.148x Faster Than xfs-ssd"/>
+  <polygon points="35,98 66,192 50,196" fill="#673ab7" stroke="#065695" stroke-width="2" xlink:title="PostMark - ext4-ramdisk - 1.141x Faster Than xfs-ssd"/>
+  <polygon points="35,98 65,192 50,195" fill="#ff5722" stroke="#065695" stroke-width="2" xlink:title="PostMark - ext4-nvme - 1.141x Faster Than xfs-ssd"/>
+  <polygon points="35,98 65,192 50,195" fill="#795548" stroke="#065695" stroke-width="2" xlink:title="PostMark - btrfs-nvme - 1.141x Faster Than xfs-ssd"/>
+  <polygon points="35,98 65,191 50,194" fill="#607d8b" stroke="#065695" stroke-width="2" xlink:title="PostMark - ext4-ssd - 1.127x Faster Than xfs-ssd"/>
+  <polygon points="35,98 65,191 50,194" fill="#803E75" stroke="#065695" stroke-width="2" xlink:title="PostMark - btrfs-ssd - 1.106x Faster Than xfs-ssd"/>
+  <polygon points="35,98 62,182 49,185" fill="#01579b" stroke="#065695" stroke-width="2" xlink:title="PostMark - xfs-ramdisk - 1.060x Faster Than xfs-ssd"/>
+  <polygon points="35,98 61,179 48,182" fill="#e91e63" stroke="#065695" stroke-width="2" xlink:title="PostMark - xfs-nvme - 1.053x Faster Than xfs-ssd"/>
+  <polygon points="35,98 61,179 48,182" fill="#FFB300" stroke="#065695" stroke-width="2" xlink:title="PostMark - xfs-ssd - 1.000x Faster Than xfs-ssd"/>
+  <path fill="#FEFEFE" stroke="#757575" stroke-width="1" d="M35,98 L120,98 A85,85 0 0,1 35,183 Z"/>
+  <text x="93.171056368402" y="147.68277569726" font-size="11" fill="#C80000" text-anchor="end" dominant-baseline="middle">Disk</text>
+  <text x="586" y="667" font-size="9" fill="#f44336" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="658" font-size="9" fill="#673ab7" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="649" font-size="9" fill="#01579b" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="640" font-size="9" fill="#009688" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="631" font-size="9" fill="#4caf50" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="622" font-size="9" fill="#ff5722" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="613" font-size="9" fill="#e91e63" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="604" font-size="9" fill="#795548" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="595" font-size="9" fill="#9e9e9e" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="586" font-size="9" fill="#607d8b" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="577" font-size="9" fill="#FFB300" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+  <text x="586" y="568" font-size="9" fill="#803E75" text-anchor="end" dominant-baseline="middle">2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4</text>
+</svg>

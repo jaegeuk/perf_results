@@ -42,13 +42,13 @@
     <line x1="502.5" y1="106" x2="502.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="70.5" y="70.5" height="34" width="369" fill="#2196f3" xlink:title="xfs-nvme: 860.18"/>
+    <rect x="70.5" y="70.5" height="34" width="371" fill="#2196f3" xlink:title="xfs-nvme: 864.27"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="65">SE +/- 9.10</text>
+    <text y="101" x="65">SE +/- 8.83</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="434" y="93" text-anchor="end">860.18</text>
+    <text x="436" y="93" text-anchor="end">864.27</text>
   </g>
   <rect x="0" y="132" width="600" height="59" fill="#231f20"/>
   <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">

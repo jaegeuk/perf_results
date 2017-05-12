@@ -42,17 +42,17 @@
     <line x1="504.5" y1="106" x2="504.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="87.5" y="70.5" height="34" width="442" fill="#2196f3" xlink:title="ext4-ramdisk: 159881.12"/>
+    <rect x="87.5" y="70.5" height="34" width="374" fill="#2196f3" xlink:title="ext4-ramdisk: 135279.04"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="82">SE +/- 13031.98</text>
+    <text y="101" x="82">SE +/- 10902.38</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="524" y="93" text-anchor="end">159881.12</text>
+    <text x="456" y="93" text-anchor="end">135279.04</text>
   </g>
-  <line x1="493.5" y1="70" x2="493.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="565.5" y1="70" x2="565.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="493.5" y1="70.5" x2="565.5" y2="70.5" stroke="#757575" stroke-width="1"/>
+  <line x1="431.5" y1="70" x2="431.5" y2="78" stroke="#757575" stroke-width="1"/>
+  <line x1="491.5" y1="70" x2="491.5" y2="78" stroke="#757575" stroke-width="1"/>
+  <line x1="431.5" y1="70.5" x2="491.5" y2="70.5" stroke="#757575" stroke-width="1"/>
   <rect x="0" y="132" width="600" height="52" fill="#231f20"/>
   <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
     <text x="585" y="144" font-size="9" fill="#FEFEFE" text-anchor="end" xlink:show="new">Phoronix Test Suite 6.8.0m1</text>

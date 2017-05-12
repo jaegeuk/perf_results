@@ -23,11 +23,11 @@
     <text x="65" y="85" text-anchor="end">btrfs-ssd</text>
   </g>
   <g font-size="10" fill="#065695" text-anchor="middle">
-    <text x="158.5" y="125">100</text>
-    <text x="244.5" y="125">200</text>
-    <text x="330.5" y="125">300</text>
-    <text x="416.5" y="125">400</text>
-    <text x="502.5" y="125">500</text>
+    <text x="158.5" y="125">110</text>
+    <text x="244.5" y="125">220</text>
+    <text x="330.5" y="125">330</text>
+    <text x="416.5" y="125">440</text>
+    <text x="502.5" y="125">550</text>
   </g>
   <g stroke="#BABABA" stroke-width="1">
     <line x1="158.5" y1="64" x2="158.5" y2="105" stroke-dasharray="5,5"/>
@@ -42,13 +42,13 @@
     <line x1="502.5" y1="106" x2="502.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="70.5" y="70.5" height="34" width="416" fill="#2196f3" xlink:title="btrfs-ssd: 485.18"/>
+    <rect x="70.5" y="70.5" height="34" width="380" fill="#2196f3" xlink:title="btrfs-ssd: 486.44"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="65">SE +/- 2.90</text>
+    <text y="101" x="65">SE +/- 1.63</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="481" y="93" text-anchor="end">485.18</text>
+    <text x="445" y="93" text-anchor="end">486.44</text>
   </g>
   <rect x="0" y="132" width="600" height="52" fill="#231f20"/>
   <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">

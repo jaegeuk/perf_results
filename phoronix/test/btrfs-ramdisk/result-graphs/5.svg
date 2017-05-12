@@ -42,17 +42,17 @@
     <line x1="505.5" y1="106" x2="505.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="93.5" y="70.5" height="34" width="338" fill="#2196f3" xlink:title="btrfs-ramdisk: 1234.92"/>
+    <rect x="93.5" y="70.5" height="34" width="357" fill="#2196f3" xlink:title="btrfs-ramdisk: 1306.15"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="88">SE +/- 91.92</text>
+    <text y="101" x="88">SE +/- 79.31</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="426" y="93" text-anchor="end">1234.92</text>
+    <text x="445" y="93" text-anchor="end">1306.15</text>
   </g>
-  <line x1="406.5" y1="70" x2="406.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="456.5" y1="70" x2="456.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="406.5" y1="70.5" x2="456.5" y2="70.5" stroke="#757575" stroke-width="1"/>
+  <line x1="428.5" y1="70" x2="428.5" y2="78" stroke="#757575" stroke-width="1"/>
+  <line x1="472.5" y1="70" x2="472.5" y2="78" stroke="#757575" stroke-width="1"/>
+  <line x1="428.5" y1="70.5" x2="472.5" y2="70.5" stroke="#757575" stroke-width="1"/>
   <rect x="0" y="132" width="600" height="59" fill="#231f20"/>
   <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
     <text x="585" y="144" font-size="9" fill="#FEFEFE" text-anchor="end" xlink:show="new">Phoronix Test Suite 6.8.0m1</text>

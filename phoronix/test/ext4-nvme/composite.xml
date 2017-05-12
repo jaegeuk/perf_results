@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <Generated>
     <Title>ext4-nvme</Title>
-    <LastModified>2017-05-10 23:31:02</LastModified>
+    <LastModified>2017-05-11 21:36:18</LastModified>
     <TestClient>Phoronix Test Suite v6.8.0m1 (Tana)</TestClient>
     <Description>2 x Intel Xeon E5-2630 v3 testing with a HP 2129 v1.01 and NVIDIA Device 11b4 4096MB on Ubuntu 14.04 via the Phoronix Test Suite.</Description>
   </Generated>
@@ -12,7 +12,7 @@
     <Hardware>Processor: 2 x Intel Xeon E5-2630 v3 @ 3.20GHz (32 Cores), Motherboard: HP 2129 v1.01, Chipset: Intel Haswell-E DMI2, Memory: 16 x 16384 MB 1866MHz Hynix, Disk: 2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4, Graphics: NVIDIA Device 11b4 4096MB, Audio: Realtek ALC221, Network: Intel Connection</Hardware>
     <Software>OS: Ubuntu 14.04, Kernel: 4.11.0+ (x86_64), Display Driver: nouveau 1.0.10, Compiler: GCC 4.8.4, File-System: ext4, Screen Resolution: 1024x768</Software>
     <User>root</User>
-    <TimeStamp>2017-05-10 22:36:25</TimeStamp>
+    <TimeStamp>2017-05-11 20:39:52</TimeStamp>
     <TestClientVersion>6.8.0m1</TestClientVersion>
     <Notes>Python 2.7.6.</Notes>
     <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-libmudflap --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-multilib-list=m32,m64,mx32 --with-tune=generic -v","disk-scheduler":"DEADLINE","disk-mount-options":"data=ordered,errors=remount-ro,relatime,rw","cpu-scaling-governor":"intel_pstate powersave"}</JSON>
@@ -29,8 +29,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>1973.22</Value>
-        <RawString>1942.08:1971.6:2005.97</RawString>
+        <Value>2043.58</Value>
+        <RawString>2006.58:2094.35:2029.82</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -laio"}}</JSON>
       </Entry>
     </Data>
@@ -47,8 +47,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>10857</Value>
-        <RawString>10932:10798:10841</RawString>
+        <Value>10865</Value>
+        <RawString>10820:10928:10848</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -65,8 +65,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>160135</Value>
-        <RawString>159777:160241:160387</RawString>
+        <Value>165786</Value>
+        <RawString>164736:168852:163769</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -83,8 +83,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>996.30</Value>
-        <RawString>998.708:992.36:997.838</RawString>
+        <Value>863.98</Value>
+        <RawString>808.561:868.923:916.076:886.637:866.209:837.497</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -101,8 +101,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>801.71</Value>
-        <RawString>808.034:792.588:804.517</RawString>
+        <Value>810.34</Value>
+        <RawString>808.307:805.438:817.265</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -119,8 +119,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>900.43</Value>
-        <RawString>891.8:903.7:905.8</RawString>
+        <Value>906.83</Value>
+        <RawString>908.7:909.4:902.4</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -137,8 +137,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>882.13</Value>
-        <RawString>992.8:863.8:869.7:869.4:853.5:843.6</RawString>
+        <Value>872.67</Value>
+        <RawString>913.3:845.1:887.9:824.5:871:894.2</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -155,8 +155,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>909.77</Value>
-        <RawString>917.7:897.2:914.4</RawString>
+        <Value>912.07</Value>
+        <RawString>920.6:914:901.6</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -173,8 +173,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>1665.63</Value>
-        <RawString>1677.4:1641.9:1677.6</RawString>
+        <Value>1665.77</Value>
+        <RawString>1658.4:1664.1:1674.8</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -191,8 +191,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>3075.67</Value>
-        <RawString>3060.75:3090.66:3075.61</RawString>
+        <Value>3067.81</Value>
+        <RawString>3054.34:3082.25:3066.84</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lpopt -O2"}}</JSON>
       </Entry>
     </Data>
@@ -209,8 +209,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>4790.20</Value>
-        <RawString>4466.9609375:4424.09765625:6513.0625:4431.9501953125:4446.7890625:4458.3388671875</RawString>
+        <Value>4431.16</Value>
+        <RawString>4486.1611328125:4352.3994140625:4454.92578125</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -227,8 +227,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>731.93</Value>
-        <RawString>737.521484375:725.0244140625:733.248046875</RawString>
+        <Value>715.84</Value>
+        <RawString>673.7119140625:725.1240234375:725.9609375:724.671875:729.75</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -245,8 +245,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>154664.93</Value>
-        <RawString>154309.825:156574.924:153110.048</RawString>
+        <Value>168018.02</Value>
+        <RawString>154496.077:143578.239:191473.448:153938.665:155812.538:208809.135</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -263,8 +263,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>15144.94</Value>
-        <RawString>15208.222:15052.625:15173.967</RawString>
+        <Value>14229.19</Value>
+        <RawString>13651.877:15186.569:15097.01:12017.651:14962.011:14460.009</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -281,8 +281,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>1458.59</Value>
-        <RawString>1456.27:1458.36:1461.14</RawString>
+        <Value>1481.73</Value>
+        <RawString>1458.84:1518.54:1467.8</RawString>
       </Entry>
     </Data>
   </Result>
@@ -298,8 +298,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-nvme</Identifier>
-        <Value>9.52</Value>
-        <RawString>9.7160210609436:9.8174560070038:9.2725489139557:9.257584810257</RawString>
+        <Value>9.22</Value>
+        <RawString>9.2141761779785:9.2442009449005:9.2081120014191:9.2018990516663</RawString>
       </Entry>
     </Data>
   </Result>
@@ -316,7 +316,7 @@
       <Entry>
         <Identifier>ext4-nvme</Identifier>
         <Value>4808</Value>
-        <RawString>4716:4807:4901</RawString>
+        <RawString>4716:4901:4807</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>

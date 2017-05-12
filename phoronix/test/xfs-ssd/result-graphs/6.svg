@@ -42,13 +42,13 @@
     <line x1="502.5" y1="106" x2="502.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="70.5" y="70.5" height="34" width="382" fill="#2196f3" xlink:title="xfs-ssd: 57.85"/>
+    <rect x="70.5" y="70.5" height="34" width="382" fill="#2196f3" xlink:title="xfs-ssd: 57.82"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="65">SE +/- 8.13</text>
+    <text y="101" x="65">SE +/- 8.18</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="447" y="93" text-anchor="end">57.85</text>
+    <text x="447" y="93" text-anchor="end">57.82</text>
   </g>
   <line x1="398.5" y1="70" x2="398.5" y2="78" stroke="#757575" stroke-width="1"/>
   <line x1="506.5" y1="70" x2="506.5" y2="78" stroke="#757575" stroke-width="1"/>

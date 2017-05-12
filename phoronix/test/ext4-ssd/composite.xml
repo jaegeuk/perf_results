@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <Generated>
     <Title>ext4-ssd</Title>
-    <LastModified>2017-05-11 04:24:19</LastModified>
+    <LastModified>2017-05-12 02:36:58</LastModified>
     <TestClient>Phoronix Test Suite v6.8.0m1 (Tana)</TestClient>
     <Description>2 x Intel Xeon E5-2630 v3 testing with a HP 2129 v1.01 and NVIDIA Device 11b4 4096MB on Ubuntu 14.04 via the Phoronix Test Suite.</Description>
   </Generated>
@@ -12,7 +12,7 @@
     <Hardware>Processor: 2 x Intel Xeon E5-2630 v3 @ 3.20GHz (32 Cores), Motherboard: HP 2129 v1.01, Chipset: Intel Haswell-E DMI2, Memory: 16 x 16384 MB 1866MHz Hynix, Disk: 2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4, Graphics: NVIDIA Device 11b4 4096MB, Audio: Realtek ALC221, Network: Intel Connection</Hardware>
     <Software>OS: Ubuntu 14.04, Kernel: 4.11.0+ (x86_64), Display Driver: nouveau 1.0.10, Compiler: GCC 4.8.4, File-System: ext4, Screen Resolution: 1024x768</Software>
     <User>root</User>
-    <TimeStamp>2017-05-11 03:09:47</TimeStamp>
+    <TimeStamp>2017-05-12 01:23:18</TimeStamp>
     <TestClientVersion>6.8.0m1</TestClientVersion>
     <Notes>Python 2.7.6.</Notes>
     <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-libmudflap --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-multilib-list=m32,m64,mx32 --with-tune=generic -v","disk-scheduler":"DEADLINE","disk-mount-options":"data=ordered,errors=remount-ro,relatime,rw","cpu-scaling-governor":"intel_pstate powersave"}</JSON>
@@ -29,8 +29,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>2030.08</Value>
-        <RawString>1897.02:2050.6:2060.57:2025.89:2067.68:2078.69</RawString>
+        <Value>2020.66</Value>
+        <RawString>1968.06:1998.51:2095.42</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -laio"}}</JSON>
       </Entry>
     </Data>
@@ -47,8 +47,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>7105</Value>
-        <RawString>7141:7089:7086</RawString>
+        <Value>7641</Value>
+        <RawString>7504:7706:7714</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -65,8 +65,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>90954</Value>
-        <RawString>91253:91044:90564</RawString>
+        <Value>91000</Value>
+        <RawString>91416:90900:90684</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -83,8 +83,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>502.22</Value>
-        <RawString>500.174:503.143:503.348</RawString>
+        <Value>500.06</Value>
+        <RawString>500.584:499.355:500.25</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -101,8 +101,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>439.53</Value>
-        <RawString>470.556:431.454:485.677:417.431:413.632:418.424</RawString>
+        <Value>426.82</Value>
+        <RawString>435.576:426:418.871</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -119,8 +119,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>178.53</Value>
-        <RawString>182.7:173.9:179</RawString>
+        <Value>161.15</Value>
+        <RawString>156.3:168:158.8:161.5</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -137,8 +137,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>256.40</Value>
-        <RawString>229.6:261.2:264:263.6:260.4:259.6</RawString>
+        <Value>247.20</Value>
+        <RawString>202.4:240.4:255.2:260.8:263.6:260.8</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -155,8 +155,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>169.70</Value>
-        <RawString>175.8:166.9:166.4</RawString>
+        <Value>171.93</Value>
+        <RawString>167.2:170.8:177.8</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -173,8 +173,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>1687.57</Value>
-        <RawString>1696.7:1670.4:1695.6</RawString>
+        <Value>1666.43</Value>
+        <RawString>1649.8:1681.8:1667.7</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -191,8 +191,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>454.80</Value>
-        <RawString>456.553:453.599:454.261</RawString>
+        <Value>453.76</Value>
+        <RawString>455.265:452.045:453.958</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lpopt -O2"}}</JSON>
       </Entry>
     </Data>
@@ -209,8 +209,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>5737.00</Value>
-        <RawString>5771.548828125:5696.560546875:5742.90234375</RawString>
+        <Value>5554.52</Value>
+        <RawString>4267.50390625:5810.3076171875:6080.306640625:5694.6455078125:5764.255859375:5710.125</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -227,8 +227,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>379.09</Value>
-        <RawString>379.8837890625:379.10546875:378.267578125</RawString>
+        <Value>378.62</Value>
+        <RawString>379.0400390625:378.3525390625:378.455078125</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -245,8 +245,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>44832.58</Value>
-        <RawString>45608.409:45038.705:43850.634</RawString>
+        <Value>43685.20</Value>
+        <RawString>44568.245:44708.348:37564.197:45414.227:44880.785:44975.404</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -263,8 +263,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>147.27</Value>
-        <RawString>146.551:145.182:150.076</RawString>
+        <Value>146.71</Value>
+        <RawString>146.13:146.435:147.556</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -281,8 +281,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>1457.50</Value>
-        <RawString>1439.09:1469.14:1464.28</RawString>
+        <Value>1444.34</Value>
+        <RawString>1436.8:1440.53:1455.69</RawString>
       </Entry>
     </Data>
   </Result>
@@ -298,8 +298,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>9.33</Value>
-        <RawString>9.1849820613861:9.5302908420563:9.3714399337769:9.2209320068359</RawString>
+        <Value>9.49</Value>
+        <RawString>9.7916870117188:9.6972599029541:9.2525060176849:9.2237420082092</RawString>
       </Entry>
     </Data>
   </Result>
@@ -315,8 +315,8 @@
     <Data>
       <Entry>
         <Identifier>ext4-ssd</Identifier>
-        <Value>4777</Value>
-        <RawString>4807:4716:4807</RawString>
+        <Value>4746</Value>
+        <RawString>4716:4716:4807</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>

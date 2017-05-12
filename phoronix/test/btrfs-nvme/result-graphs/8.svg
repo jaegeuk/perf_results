@@ -42,13 +42,13 @@
     <line x1="500.5" y1="106" x2="500.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="73.5" y="70.5" height="34" width="337" fill="#2196f3" xlink:title="btrfs-nvme: 790.50"/>
+    <rect x="73.5" y="70.5" height="34" width="337" fill="#2196f3" xlink:title="btrfs-nvme: 789.12"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="68">SE +/- 10.64</text>
+    <text y="101" x="68">SE +/- 10.93</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="405" y="93" text-anchor="end">790.50</text>
+    <text x="405" y="93" text-anchor="end">789.12</text>
   </g>
   <line x1="405.5" y1="70" x2="405.5" y2="78" stroke="#757575" stroke-width="1"/>
   <line x1="415.5" y1="70" x2="415.5" y2="78" stroke="#757575" stroke-width="1"/>

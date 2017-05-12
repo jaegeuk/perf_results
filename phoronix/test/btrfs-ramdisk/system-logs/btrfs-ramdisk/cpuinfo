@@ -5,7 +5,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.292
+cpu MHz		: 1200.585
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -32,7 +32,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1199.853
+cpu MHz		: 1200.146
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -59,7 +59,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.439
+cpu MHz		: 1200.292
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -86,7 +86,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.000
+cpu MHz		: 1200.878
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -113,7 +113,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.000
+cpu MHz		: 2610.498
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -140,7 +140,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 3186.474
+cpu MHz		: 1200.000
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -167,7 +167,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.000
+cpu MHz		: 1224.169
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -221,7 +221,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1659.082
+cpu MHz		: 1200.292
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -248,7 +248,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.292
+cpu MHz		: 1200.000
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -275,7 +275,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.000
+cpu MHz		: 1200.146
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -302,7 +302,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.146
+cpu MHz		: 1200.439
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -329,7 +329,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.146
+cpu MHz		: 1200.292
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -356,7 +356,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.439
+cpu MHz		: 1200.146
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -383,7 +383,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.146
+cpu MHz		: 1200.000
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -437,7 +437,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.439
+cpu MHz		: 1200.878
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -464,7 +464,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.732
+cpu MHz		: 1200.146
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -545,7 +545,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.732
+cpu MHz		: 1200.439
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -572,7 +572,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1203.076
+cpu MHz		: 1209.375
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -599,7 +599,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1203.222
+cpu MHz		: 1760.595
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -626,7 +626,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.439
+cpu MHz		: 1200.732
 cache size	: 20480 KB
 physical id	: 0
 siblings	: 16
@@ -653,7 +653,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 2418.603
+cpu MHz		: 1203.808
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -680,7 +680,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.146
+cpu MHz		: 1200.585
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -707,7 +707,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1201.171
+cpu MHz		: 1200.878
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -734,7 +734,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.439
+cpu MHz		: 1200.732
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -761,7 +761,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.439
+cpu MHz		: 1204.101
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -788,7 +788,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1201.025
+cpu MHz		: 1201.171
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -815,7 +815,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1245.117
+cpu MHz		: 1200.439
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16
@@ -842,7 +842,7 @@ model		: 63
 model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
 stepping	: 2
 microcode	: 0x38
-cpu MHz		: 1200.585
+cpu MHz		: 1200.439
 cache size	: 20480 KB
 physical id	: 1
 siblings	: 16

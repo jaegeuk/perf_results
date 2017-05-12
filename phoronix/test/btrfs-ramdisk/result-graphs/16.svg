@@ -45,7 +45,7 @@
     <rect x="93.5" y="70.5" height="34" width="304" fill="#2196f3" xlink:title="btrfs-ramdisk: 11.11"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="88">SE +/- 0.03</text>
+    <text y="101" x="88">SE +/- 0.05</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
     <text x="392" y="93" text-anchor="end">11.11</text>

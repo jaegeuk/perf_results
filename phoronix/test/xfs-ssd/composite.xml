@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <Generated>
     <Title>xfs-ssd</Title>
-    <LastModified>2017-05-11 06:19:07</LastModified>
+    <LastModified>2017-05-12 04:41:06</LastModified>
     <TestClient>Phoronix Test Suite v6.8.0m1 (Tana)</TestClient>
     <Description>2 x Intel Xeon E5-2630 v3 testing with a HP 2129 v1.01 and NVIDIA Device 11b4 4096MB on Ubuntu 14.04 via the Phoronix Test Suite.</Description>
   </Generated>
@@ -12,7 +12,7 @@
     <Hardware>Processor: 2 x Intel Xeon E5-2630 v3 @ 3.20GHz (32 Cores), Motherboard: HP 2129 v1.01, Chipset: Intel Haswell-E DMI2, Memory: 16 x 16384 MB 1866MHz Hynix, Disk: 2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4, Graphics: NVIDIA Device 11b4 4096MB, Audio: Realtek ALC221, Network: Intel Connection</Hardware>
     <Software>OS: Ubuntu 14.04, Kernel: 4.11.0+ (x86_64), Display Driver: nouveau 1.0.10, Compiler: GCC 4.8.4, File-System: xfs, Screen Resolution: 1024x768</Software>
     <User>root</User>
-    <TimeStamp>2017-05-11 04:25:12</TimeStamp>
+    <TimeStamp>2017-05-12 02:37:51</TimeStamp>
     <TestClientVersion>6.8.0m1</TestClientVersion>
     <Notes>Python 2.7.6.</Notes>
     <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-libmudflap --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-multilib-list=m32,m64,mx32 --with-tune=generic -v","disk-scheduler":"DEADLINE","disk-mount-options":"data=ordered,errors=remount-ro,relatime,rw","cpu-scaling-governor":"intel_pstate powersave"}</JSON>
@@ -29,8 +29,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>2468.57</Value>
-        <RawString>2457.08:2472.63:2476</RawString>
+        <Value>2500.29</Value>
+        <RawString>2514.03:2472.69:2514.14</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -laio"}}</JSON>
       </Entry>
     </Data>
@@ -47,8 +47,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>8037</Value>
-        <RawString>8148:8006:7958</RawString>
+        <Value>8421</Value>
+        <RawString>8392:8592:8278</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -65,8 +65,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>93292</Value>
-        <RawString>92556:91713:95607</RawString>
+        <Value>89776</Value>
+        <RawString>91686:88230:89412</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -83,8 +83,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>442.46</Value>
-        <RawString>440.51:443.45:443.421</RawString>
+        <Value>530.49</Value>
+        <RawString>528.767:532.017:530.686</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -101,8 +101,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>432.29</Value>
-        <RawString>446.083:422.306:428.484</RawString>
+        <Value>442.02</Value>
+        <RawString>454.87:471.718:428.036:433.14:429.24:435.12</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -119,8 +119,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>57.85</Value>
-        <RawString>98.5:49.7:49.7:49.7:49.8:49.7</RawString>
+        <Value>57.82</Value>
+        <RawString>98.7:49.5:49.4:50.1:49.6:49.6</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -137,8 +137,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>68.64</Value>
-        <RawString>65.1:69.1:70.4:69.9:68.7</RawString>
+        <Value>69.50</Value>
+        <RawString>71.1:71.9:65.9:71.2:67.7:69.2</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -155,8 +155,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>67.90</Value>
-        <RawString>86.2:62.2:62.2:62:67.4:67.4</RawString>
+        <Value>68.23</Value>
+        <RawString>88.1:62.1:62.1:67.6:62:67.5</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -173,8 +173,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>1386.78</Value>
-        <RawString>424.7:253.2:1906.2:1917.1:1875.3:1944.2</RawString>
+        <Value>1560.28</Value>
+        <RawString>185.8:1869.2:1858.7:1774.2:1862.4:1811.4</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -191,8 +191,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>266.21</Value>
-        <RawString>266.414:268.442:263.765</RawString>
+        <Value>262.30</Value>
+        <RawString>259.735:260.224:266.928</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lpopt -O2"}}</JSON>
       </Entry>
     </Data>
@@ -209,8 +209,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>6340.75</Value>
-        <RawString>6291.6650390625:6336.9287109375:6393.6474609375</RawString>
+        <Value>6380.54</Value>
+        <RawString>6335.830078125:6466.625:6339.1640625</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -227,8 +227,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>382.23</Value>
-        <RawString>382.2421875:381.529296875:382.927734375</RawString>
+        <Value>382.60</Value>
+        <RawString>380.357421875:383.5478515625:383.900390625</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -245,8 +245,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>45229.37</Value>
-        <RawString>46267.847:39585.588:47223.759:47267.356:45689.809:45341.835</RawString>
+        <Value>46372.72</Value>
+        <RawString>46068.022:47006.978:46043.165</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -263,8 +263,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>128.26</Value>
-        <RawString>97.268:97.645:158.025:97.908:159.897:158.836</RawString>
+        <Value>164.21</Value>
+        <RawString>161.309:169.486:161.843</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -281,8 +281,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>1550.67</Value>
-        <RawString>1591.39:1566.32:1494.29</RawString>
+        <Value>1558.80</Value>
+        <RawString>1449.41:1580.26:1559.41:1603.69:1587.79:1572.23</RawString>
       </Entry>
     </Data>
   </Result>
@@ -298,8 +298,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>9.65</Value>
-        <RawString>9.328850030899:9.5381038188934:9.6267828941345:10.140060186386:9.6022989749908</RawString>
+        <Value>9.67</Value>
+        <RawString>9.4110100269318:9.744658946991:9.7318270206451:9.7984879016876</RawString>
       </Entry>
     </Data>
   </Result>
@@ -315,8 +315,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-ssd</Identifier>
-        <Value>4310</Value>
-        <RawString>4310:4310:4310</RawString>
+        <Value>4213</Value>
+        <RawString>4166:4237:4237</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>

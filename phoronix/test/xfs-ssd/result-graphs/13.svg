@@ -42,17 +42,14 @@
     <line x1="502.5" y1="106" x2="502.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="70.5" y="70.5" height="34" width="388" fill="#2196f3" xlink:title="xfs-ssd: 45229.37"/>
+    <rect x="70.5" y="70.5" height="34" width="398" fill="#2196f3" xlink:title="xfs-ssd: 46372.72"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="65">SE +/- 1173.12</text>
+    <text y="101" x="65">SE +/- 317.21</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="453" y="93" text-anchor="end">45229.37</text>
+    <text x="463" y="93" text-anchor="end">46372.72</text>
   </g>
-  <line x1="448.5" y1="70" x2="448.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="468.5" y1="70" x2="468.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="448.5" y1="70.5" x2="468.5" y2="70.5" stroke="#757575" stroke-width="1"/>
   <rect x="0" y="132" width="600" height="52" fill="#231f20"/>
   <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
     <text x="585" y="144" font-size="9" fill="#FEFEFE" text-anchor="end" xlink:show="new">Phoronix Test Suite 6.8.0m1</text>

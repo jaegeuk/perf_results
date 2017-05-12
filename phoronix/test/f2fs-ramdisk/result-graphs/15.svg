@@ -42,13 +42,13 @@
     <line x1="504.5" y1="106" x2="504.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="87.5" y="70.5" height="34" width="389" fill="#2196f3" xlink:title="f2fs-ramdisk: 1875.07"/>
+    <rect x="87.5" y="70.5" height="34" width="389" fill="#2196f3" xlink:title="f2fs-ramdisk: 1876.21"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="82">SE +/- 1.29</text>
+    <text y="101" x="82">SE +/- 16.44</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="471" y="93" text-anchor="end">1875.07</text>
+    <text x="471" y="93" text-anchor="end">1876.21</text>
   </g>
   <rect x="0" y="132" width="600" height="17" fill="#231f20"/>
   <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">

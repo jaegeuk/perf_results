@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <Generated>
     <Title>xfs-nvme</Title>
-    <LastModified>2017-05-11 00:27:46</LastModified>
+    <LastModified>2017-05-11 22:35:18</LastModified>
     <TestClient>Phoronix Test Suite v6.8.0m1 (Tana)</TestClient>
     <Description>2 x Intel Xeon E5-2630 v3 testing with a HP 2129 v1.01 and NVIDIA Device 11b4 4096MB on Ubuntu 14.04 via the Phoronix Test Suite.</Description>
   </Generated>
@@ -12,7 +12,7 @@
     <Hardware>Processor: 2 x Intel Xeon E5-2630 v3 @ 3.20GHz (32 Cores), Motherboard: HP 2129 v1.01, Chipset: Intel Haswell-E DMI2, Memory: 16 x 16384 MB 1866MHz Hynix, Disk: 2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4, Graphics: NVIDIA Device 11b4 4096MB, Audio: Realtek ALC221, Network: Intel Connection</Hardware>
     <Software>OS: Ubuntu 14.04, Kernel: 4.11.0+ (x86_64), Display Driver: nouveau 1.0.10, Compiler: GCC 4.8.4, File-System: xfs, Screen Resolution: 1024x768</Software>
     <User>root</User>
-    <TimeStamp>2017-05-10 23:31:27</TimeStamp>
+    <TimeStamp>2017-05-11 21:36:43</TimeStamp>
     <TestClientVersion>6.8.0m1</TestClientVersion>
     <Notes>Python 2.7.6.</Notes>
     <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-libmudflap --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-multilib-list=m32,m64,mx32 --with-tune=generic -v","disk-scheduler":"DEADLINE","disk-mount-options":"data=ordered,errors=remount-ro,relatime,rw","cpu-scaling-governor":"intel_pstate powersave"}</JSON>
@@ -29,8 +29,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>2434.19</Value>
-        <RawString>2434.19:2430.91:2437.47</RawString>
+        <Value>2498.14</Value>
+        <RawString>2489.49:2520.92:2484.02</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -laio"}}</JSON>
       </Entry>
     </Data>
@@ -47,8 +47,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>10818</Value>
-        <RawString>10702:10815:10938</RawString>
+        <Value>10721</Value>
+        <RawString>10628:10697:10838</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -65,8 +65,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>156446</Value>
-        <RawString>156030:156342:156965</RawString>
+        <Value>158682</Value>
+        <RawString>165197:156878:153705:158947</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -83,8 +83,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>913.27</Value>
-        <RawString>882.029:962.512:922.117:894.726:904.966</RawString>
+        <Value>871.69</Value>
+        <RawString>835.798:789.732:903.84:919.096:919.67:862.011</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -101,8 +101,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>860.18</Value>
-        <RawString>863.98:873.689:842.856</RawString>
+        <Value>864.27</Value>
+        <RawString>878.075:866.891:847.843</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -119,8 +119,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>482.55</Value>
-        <RawString>498.3:513:442.4:503.6:502.9:435.1</RawString>
+        <Value>460.30</Value>
+        <RawString>498.7:443.2:502.6:445.5:437.2:434.6</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -137,8 +137,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>754.70</Value>
-        <RawString>746:761.5:756.6</RawString>
+        <Value>749.40</Value>
+        <RawString>740.5:755.2:752.5</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -155,8 +155,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>480.22</Value>
-        <RawString>441.3:442.7:507.7:522.2:441.6:525.8</RawString>
+        <Value>482.72</Value>
+        <RawString>441.8:439.6:523.4:441.9:525.4:524.2</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -173,8 +173,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>1947.17</Value>
-        <RawString>1909.2:1941.4:1990.9</RawString>
+        <Value>1903.13</Value>
+        <RawString>1799.3:1926.7:1974.1:1938.5:1851.4:1928.8</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -191,8 +191,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>1267.77</Value>
-        <RawString>1263.95:1269.18:1270.17</RawString>
+        <Value>1270.34</Value>
+        <RawString>1275.1:1266.21:1269.72</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lpopt -O2"}}</JSON>
       </Entry>
     </Data>
@@ -209,8 +209,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>6101.39</Value>
-        <RawString>6199.205078125:6168.48828125:5936.4736328125</RawString>
+        <Value>5695.71</Value>
+        <RawString>4442.3515625:6246.08984375:5891.3896484375:5875.3837890625:5880.3955078125:5838.6357421875</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -227,8 +227,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>745.85</Value>
-        <RawString>744.6904296875:746.4501953125:746.40625</RawString>
+        <Value>747.20</Value>
+        <RawString>736.9609375:754.1484375:750.484375</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -245,8 +245,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>186554.16</Value>
-        <RawString>191904.048:188235.294:179523.142</RawString>
+        <Value>176894.29</Value>
+        <RawString>163578.275:195718.654:178025.035:185507.246:175582.99:162953.533</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -263,8 +263,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>2039.27</Value>
-        <RawString>2012.373:2917.213:1654.121:1790.748:1822.713:2038.444</RawString>
+        <Value>1849.72</Value>
+        <RawString>1864.911:1746.236:1849.658:1898.955:1888.825</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -281,8 +281,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>1567.07</Value>
-        <RawString>1538.27:1569.57:1593.36</RawString>
+        <Value>1569.27</Value>
+        <RawString>1501.49:1572.55:1630.48:1572.55</RawString>
       </Entry>
     </Data>
   </Result>
@@ -298,8 +298,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>9.61</Value>
-        <RawString>9.8370959758759:9.3692061901093:9.3592948913574:9.87713098526</RawString>
+        <Value>9.36</Value>
+        <RawString>9.2985219955444:9.303004026413:9.4703600406647:9.3577001094818</RawString>
       </Entry>
     </Data>
   </Result>
@@ -315,8 +315,8 @@
     <Data>
       <Entry>
         <Identifier>xfs-nvme</Identifier>
-        <Value>4360</Value>
-        <RawString>4310:4385:4385</RawString>
+        <Value>4438</Value>
+        <RawString>4385:4545:4385</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>

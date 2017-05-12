@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v6.8.0m1 [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif, droid-sans, helvetica, verdana, tahoma" viewbox="0 0 1390 168" width="1390" height="168" preserveAspectRatio="xMinYMin meet">
+  <rect x="0" y="0" width="1390" height="168" fill="#FEFEFE" stroke="#757575" stroke-width="2"/>
+  <rect x="1" y="1" width="1389" height="167" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <path d="m74 22v9m-5-16v16m-5-28v28m-23-2h12.5c2.485281 0 4.5-2.014719 4.5-4.5s-2.014719-4.5-4.5-4.5h-8c-2.485281 0-4.5-2.014719-4.5-4.5s2.014719-4.5 4.5-4.5h12.5m-21 5h-11m11 13h-2c-4.970563 0-9-4.029437-9-9v-20m-24 40v-20c0-4.970563 4.0294373-9 9-9 4.970563 0 9 4.029437 9 9s-4.029437 9-9 9h-9" stroke="#000000" stroke-width="4" fill="none" transform="translate(31,43)"/>
+  <line x1="142" y1="96" x2="1390" y2="96" stroke="#BABABA" stroke-width="112" stroke-dasharray="104,104"/>
+  <line x1="695" y1="88" x2="695" y2="152" stroke="#949494" stroke-width="1390" stroke-dasharray="16,16"/>
+  <line x1="142" y1="96" x2="1390" y2="96" stroke="#757575" stroke-width="112" stroke-dasharray="1,103"/>
+  <rect x="1" y="1" width="1388" height="40" fill="#231f20"/>
+  <text x="5" y="19" font-size="17" fill="#FEFEFE" text-anchor="start">FS-Mark</text>
+  <text x="5" y="33" font-size="11" fill="#FEFEFE" text-anchor="start">Test: 1000 Files, 1MB Size</text>
+  <line x1="1" y1="40" x2="1389" y2="40" stroke="#757575" stroke-width="1"/>
+  <g font-size="10" font-weight="bold" text-anchor="end" fill="#065695">
+    <text x="140" y="100" fill="#065695">Results</text>
+    <text x="140" y="116" fill="#065695">Difference</text>
+    <text x="140" y="132" fill="#065695">Standard Error</text>
+    <text x="140" y="148" fill="#065695">Standard Deviation</text>
+  </g>
+  <g font-size="10" fill="#065695" font-weight="bold" text-anchor="middle" dominant-baseline="text-before-edge">
+    <text x="194" y="64">f2fs-ramdisk</text>
+    <text x="298" y="64">ext4-ramdisk</text>
+    <text x="402" y="64">xfs-ramdisk</text>
+    <text x="506" y="64">btrfs-ramdisk</text>
+    <text x="610" y="64">f2fs-nvme</text>
+    <text x="714" y="64">ext4-nvme</text>
+    <text x="818" y="64">xfs-nvme</text>
+    <text x="922" y="64">btrfs-nvme</text>
+    <text x="1026" y="64">f2fs-ssd</text>
+    <text x="1130" y="64">ext4-ssd</text>
+    <text x="1234" y="64">xfs-ssd</text>
+    <text x="1338" y="64">btrfs-ssd</text>
+  </g>
+  <g/>
+  <g text-anchor="middle" font-size="10">
+    <text x="194" y="101" fill="#065695" xlink:title="STD Dev: 11.45%;  STD Error: 20.74">443.82</text>
+    <text x="194" y="117" fill="#065695">7.68x</text>
+    <text x="194" y="133" fill="#065695">20.74</text>
+    <text x="194" y="149" fill="#065695">11.45%</text>
+    <text x="298" y="101" fill="#065695" xlink:title="STD Dev: 4.11%;  STD Error: 6.05">360.95</text>
+    <text x="298" y="117" fill="#065695">6.24x</text>
+    <text x="298" y="133" fill="#065695">6.05</text>
+    <text x="298" y="149" fill="#065695">4.11%</text>
+    <text x="402" y="101" fill="#065695" xlink:title="STD Dev: 2.85%;  STD Error: 6.08">369.67</text>
+    <text x="402" y="117" fill="#065695">6.39x</text>
+    <text x="402" y="133" fill="#065695">6.08</text>
+    <text x="402" y="149" fill="#065695">2.85%</text>
+    <text x="506" y="101" fill="#065695" xlink:title="STD Dev: 19.05%;  STD Error: 28.42">365.50</text>
+    <text x="506" y="117" fill="#065695">6.32x</text>
+    <text x="506" y="133" fill="#065695">28.42</text>
+    <text x="506" y="149" fill="#065695">19.05%</text>
+    <text x="610" y="101" fill="#005a00" xlink:title="STD Dev: 7.47%;  STD Error: 29.13">955.67</text>
+    <text x="610" y="117" fill="#065695">16.53x</text>
+    <text x="610" y="133" fill="#065695">29.13</text>
+    <text x="610" y="149" fill="#065695">7.47%</text>
+    <text x="714" y="101" fill="#065695" xlink:title="STD Dev: 0.43%;  STD Error: 2.23">906.83</text>
+    <text x="714" y="117" fill="#065695">15.68x</text>
+    <text x="714" y="133" fill="#065695">2.23</text>
+    <text x="714" y="149" fill="#065695">0.43%</text>
+    <text x="818" y="101" fill="#065695" xlink:title="STD Dev: 6.85%;  STD Error: 12.87">460.30</text>
+    <text x="818" y="117" fill="#065695">7.96x</text>
+    <text x="818" y="133" fill="#065695">12.87</text>
+    <text x="818" y="149" fill="#065695">6.85%</text>
+    <text x="922" y="101" fill="#065695" xlink:title="STD Dev: 1.39%;  STD Error: 6.52">813.23</text>
+    <text x="922" y="117" fill="#065695">14.06x</text>
+    <text x="922" y="133" fill="#065695">6.52</text>
+    <text x="922" y="149" fill="#065695">1.39%</text>
+    <text x="1026" y="101" fill="#065695" xlink:title="STD Dev: 1.49%;  STD Error: 1.41">163.27</text>
+    <text x="1026" y="117" fill="#065695">2.82x</text>
+    <text x="1026" y="133" fill="#065695">1.41</text>
+    <text x="1026" y="149" fill="#065695">1.49%</text>
+    <text x="1130" y="101" fill="#065695" xlink:title="STD Dev: 3.13%;  STD Error: 2.52">161.15</text>
+    <text x="1130" y="117" fill="#065695">2.79x</text>
+    <text x="1130" y="133" fill="#065695">2.52</text>
+    <text x="1130" y="149" fill="#065695">3.13%</text>
+    <text x="1234" y="101" fill="#C80000" xlink:title="STD Dev: 34.64%;  STD Error: 8.18">57.82</text>
+    <text x="1234" y="117" fill="#065695">1.00x</text>
+    <text x="1234" y="133" fill="#065695">8.18</text>
+    <text x="1234" y="149" fill="#065695">34.64%</text>
+    <text x="1338" y="101" fill="#065695" xlink:title="STD Dev: 1.41%;  STD Error: 1.44">176.67</text>
+    <text x="1338" y="117" fill="#065695">3.06x</text>
+    <text x="1338" y="133" fill="#065695">1.44</text>
+    <text x="1338" y="149" fill="#065695">1.41%</text>
+  </g>
+  <line x1="695" y1="88" x2="695" y2="152" stroke="#949494" stroke-width="1390" stroke-dasharray="1,15"/>
+  <rect x="0" y="152" width="1390" height="16" fill="#231f20"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="1388" y="165" font-size="10" fill="#FFFFFF" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+</svg>

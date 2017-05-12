@@ -42,13 +42,13 @@
     <line x1="502.5" y1="106" x2="502.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="70.5" y="70.5" height="34" width="392" fill="#2196f3" xlink:title="ext4-ssd: 502.22"/>
+    <rect x="70.5" y="70.5" height="34" width="390" fill="#2196f3" xlink:title="ext4-ssd: 500.06"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="65">SE +/- 1.03</text>
+    <text y="101" x="65">SE +/- 0.37</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="457" y="93" text-anchor="end">502.22</text>
+    <text x="455" y="93" text-anchor="end">500.06</text>
   </g>
   <rect x="0" y="132" width="600" height="59" fill="#231f20"/>
   <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">

@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <Generated>
     <Title>btrfs-nvme</Title>
-    <LastModified>2017-05-11 01:23:55</LastModified>
+    <LastModified>2017-05-11 23:35:36</LastModified>
     <TestClient>Phoronix Test Suite v6.8.0m1 (Tana)</TestClient>
     <Description>2 x Intel Xeon E5-2630 v3 testing with a HP 2129 v1.01 and NVIDIA Device 11b4 4096MB on Ubuntu 14.04 via the Phoronix Test Suite.</Description>
   </Generated>
@@ -12,7 +12,7 @@
     <Hardware>Processor: 2 x Intel Xeon E5-2630 v3 @ 3.20GHz (32 Cores), Motherboard: HP 2129 v1.01, Chipset: Intel Haswell-E DMI2, Memory: 16 x 16384 MB 1866MHz Hynix, Disk: 2 x 960GB SanDisk SDSSDHII + 1200GB INTEL SSDPE2MW012T4, Graphics: NVIDIA Device 11b4 4096MB, Audio: Realtek ALC221, Network: Intel Connection</Hardware>
     <Software>OS: Ubuntu 14.04, Kernel: 4.11.0+ (x86_64), Display Driver: nouveau 1.0.10, Compiler: GCC 4.8.4, File-System: btrfs, Screen Resolution: 1024x768</Software>
     <User>root</User>
-    <TimeStamp>2017-05-11 00:28:13</TimeStamp>
+    <TimeStamp>2017-05-11 22:35:48</TimeStamp>
     <TestClientVersion>6.8.0m1</TestClientVersion>
     <Notes>Python 2.7.6.</Notes>
     <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-libmudflap --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-multilib-list=m32,m64,mx32 --with-tune=generic -v","disk-scheduler":"DEADLINE","disk-mount-options":"data=ordered,errors=remount-ro,relatime,rw","cpu-scaling-governor":"intel_pstate powersave"}</JSON>
@@ -29,8 +29,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>2470.67</Value>
-        <RawString>2509.26:2496.38:2306.39:2562.01:2456.06:2493.9</RawString>
+        <Value>2466.85</Value>
+        <RawString>2455.04:2481.88:2463.62</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -laio"}}</JSON>
       </Entry>
     </Data>
@@ -47,8 +47,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>8152</Value>
-        <RawString>8162:8127:8166</RawString>
+        <Value>8126</Value>
+        <RawString>8069:8123:8187</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -65,8 +65,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>40677</Value>
-        <RawString>39751:41216:41063</RawString>
+        <Value>45264</Value>
+        <RawString>44583:46582:44628</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -83,8 +83,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>803.50</Value>
-        <RawString>800.815:809.658:800.038</RawString>
+        <Value>820.11</Value>
+        <RawString>817.849:825.833:816.661</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -101,8 +101,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>1094.17</Value>
-        <RawString>1068.3:1117.3:1096.9</RawString>
+        <Value>1102.00</Value>
+        <RawString>1111.5:1093.2:1101.3</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-rdynamic -std=gnu99 -O3 -ffast-math -include -ll -lnuma -lrt -laio -lz -lm -lpthread -ldl"}}</JSON>
       </Entry>
     </Data>
@@ -119,8 +119,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>820.63</Value>
-        <RawString>825.7:812.9:823.3</RawString>
+        <Value>813.23</Value>
+        <RawString>814.9:823.6:801.2</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -137,8 +137,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>964.13</Value>
-        <RawString>983.2:970.8:938.4</RawString>
+        <Value>953.48</Value>
+        <RawString>1026.5:944.4:924.9:930.2:955.6:939.3</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -155,8 +155,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>790.50</Value>
-        <RawString>776.2:784:811.3</RawString>
+        <Value>789.12</Value>
+        <RawString>752.5:818.2:801:781.8:792.1</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -173,8 +173,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>2181.80</Value>
-        <RawString>2159.8:2201.3:2184.3</RawString>
+        <Value>2216.90</Value>
+        <RawString>2250.5:2138.7:2261.5</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-static"}}</JSON>
       </Entry>
     </Data>
@@ -191,8 +191,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>1022.60</Value>
-        <RawString>998.491:1043.2:1026.11</RawString>
+        <Value>1032.67</Value>
+        <RawString>1016.55:1043.83:1037.63</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lpopt -O2"}}</JSON>
       </Entry>
     </Data>
@@ -209,8 +209,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>6288.99</Value>
-        <RawString>5726.0927734375:6281.6494140625:6472.51171875:6318.43359375:6588.7880859375:6346.494140625</RawString>
+        <Value>6348.14</Value>
+        <RawString>6522.875:6018.5556640625:6551.146484375:6405.685546875:6242.4541015625</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -227,8 +227,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>841.07</Value>
-        <RawString>845.5537109375:834.3701171875:843.2998046875</RawString>
+        <Value>829.36</Value>
+        <RawString>826.85546875:823.1416015625:838.068359375</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>
@@ -245,8 +245,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>17923.55</Value>
-        <RawString>41025.641:19107.329:15517.973:10952.809:12848.826:8088.723</RawString>
+        <Value>19178.70</Value>
+        <RawString>56699.889:24439.141:13361.866:7259.734:6846.567:6464.973</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -263,8 +263,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>504.19</Value>
-        <RawString>555.927:435.82:458.129:563.488:524.792:486.999</RawString>
+        <Value>503.17</Value>
+        <RawString>523.299:499.792:422.118:540.534:518.299:514.958</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"}}</JSON>
       </Entry>
     </Data>
@@ -281,8 +281,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>910.12</Value>
-        <RawString>923.48:895.68:911.2</RawString>
+        <Value>925.98</Value>
+        <RawString>927.46:1021:867.5:893.79:908.65:937.46</RawString>
       </Entry>
     </Data>
   </Result>
@@ -298,8 +298,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>10.77</Value>
-        <RawString>10.896786212921:10.897707939148:10.49576997757:10.770812988281</RawString>
+        <Value>10.74</Value>
+        <RawString>11.02966594696:11.013024806976:10.452289819717:10.452601909637</RawString>
       </Entry>
     </Data>
   </Result>
@@ -315,8 +315,8 @@
     <Data>
       <Entry>
         <Identifier>btrfs-nvme</Identifier>
-        <Value>4838</Value>
-        <RawString>4807:4807:4901</RawString>
+        <Value>4807</Value>
+        <RawString>4807:4807:4807</RawString>
         <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
       </Entry>
     </Data>

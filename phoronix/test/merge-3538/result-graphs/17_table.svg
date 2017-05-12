@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v6.8.0m1 [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif, droid-sans, helvetica, verdana, tahoma" viewbox="0 0 1390 168" width="1390" height="168" preserveAspectRatio="xMinYMin meet">
+  <rect x="0" y="0" width="1390" height="168" fill="#FEFEFE" stroke="#757575" stroke-width="2"/>
+  <rect x="1" y="1" width="1389" height="167" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <path d="m74 22v9m-5-16v16m-5-28v28m-23-2h12.5c2.485281 0 4.5-2.014719 4.5-4.5s-2.014719-4.5-4.5-4.5h-8c-2.485281 0-4.5-2.014719-4.5-4.5s2.014719-4.5 4.5-4.5h12.5m-21 5h-11m11 13h-2c-4.970563 0-9-4.029437-9-9v-20m-24 40v-20c0-4.970563 4.0294373-9 9-9 4.970563 0 9 4.029437 9 9s-4.029437 9-9 9h-9" stroke="#000000" stroke-width="4" fill="none" transform="translate(31,43)"/>
+  <line x1="142" y1="96" x2="1390" y2="96" stroke="#BABABA" stroke-width="112" stroke-dasharray="104,104"/>
+  <line x1="695" y1="88" x2="695" y2="152" stroke="#949494" stroke-width="1390" stroke-dasharray="16,16"/>
+  <line x1="142" y1="96" x2="1390" y2="96" stroke="#757575" stroke-width="112" stroke-dasharray="1,103"/>
+  <rect x="1" y="1" width="1388" height="40" fill="#231f20"/>
+  <text x="5" y="19" font-size="17" fill="#FEFEFE" text-anchor="start">PostMark</text>
+  <text x="5" y="33" font-size="11" fill="#FEFEFE" text-anchor="start">Disk Transaction Performance</text>
+  <line x1="1" y1="40" x2="1389" y2="40" stroke="#757575" stroke-width="1"/>
+  <g font-size="10" font-weight="bold" text-anchor="end" fill="#065695">
+    <text x="140" y="100" fill="#065695">Results</text>
+    <text x="140" y="116" fill="#065695">Difference</text>
+    <text x="140" y="132" fill="#065695">Standard Error</text>
+    <text x="140" y="148" fill="#065695">Standard Deviation</text>
+  </g>
+  <g font-size="10" fill="#065695" font-weight="bold" text-anchor="middle" dominant-baseline="text-before-edge">
+    <text x="194" y="64">f2fs-ramdisk</text>
+    <text x="298" y="64">ext4-ramdisk</text>
+    <text x="402" y="64">xfs-ramdisk</text>
+    <text x="506" y="64">btrfs-ramdisk</text>
+    <text x="610" y="64">f2fs-nvme</text>
+    <text x="714" y="64">ext4-nvme</text>
+    <text x="818" y="64">xfs-nvme</text>
+    <text x="922" y="64">btrfs-nvme</text>
+    <text x="1026" y="64">f2fs-ssd</text>
+    <text x="1130" y="64">ext4-ssd</text>
+    <text x="1234" y="64">xfs-ssd</text>
+    <text x="1338" y="64">btrfs-ssd</text>
+  </g>
+  <g/>
+  <g text-anchor="middle" font-size="10">
+    <text x="194" y="101" fill="#005a00">5681</text>
+    <text x="194" y="117" fill="#065695">1.35x</text>
+    <text x="298" y="101" fill="#065695" xlink:title="STD Dev: 1.92%;  STD Error: 53.41">4808</text>
+    <text x="298" y="117" fill="#065695">1.14x</text>
+    <text x="298" y="133" fill="#065695">53.41</text>
+    <text x="298" y="149" fill="#065695">1.92%</text>
+    <text x="402" y="101" fill="#065695">4464</text>
+    <text x="402" y="117" fill="#065695">1.06x</text>
+    <text x="506" y="101" fill="#065695" xlink:title="STD Dev: 1.12%;  STD Error: 31.33">4838</text>
+    <text x="506" y="117" fill="#065695">1.15x</text>
+    <text x="506" y="133" fill="#065695">31.33</text>
+    <text x="506" y="149" fill="#065695">1.12%</text>
+    <text x="610" y="101" fill="#065695" xlink:title="STD Dev: 1.29%;  STD Error: 42.00">5639</text>
+    <text x="610" y="117" fill="#065695">1.34x</text>
+    <text x="610" y="133" fill="#065695">42.00</text>
+    <text x="610" y="149" fill="#065695">1.29%</text>
+    <text x="714" y="101" fill="#065695" xlink:title="STD Dev: 1.92%;  STD Error: 53.41">4808</text>
+    <text x="714" y="117" fill="#065695">1.14x</text>
+    <text x="714" y="133" fill="#065695">53.41</text>
+    <text x="714" y="149" fill="#065695">1.92%</text>
+    <text x="818" y="101" fill="#065695" xlink:title="STD Dev: 2.08%;  STD Error: 53.33">4438</text>
+    <text x="818" y="117" fill="#065695">1.05x</text>
+    <text x="818" y="133" fill="#065695">53.33</text>
+    <text x="818" y="149" fill="#065695">2.08%</text>
+    <text x="922" y="101" fill="#065695">4807</text>
+    <text x="922" y="117" fill="#065695">1.14x</text>
+    <text x="1026" y="101" fill="#065695">5555</text>
+    <text x="1026" y="117" fill="#065695">1.32x</text>
+    <text x="1130" y="101" fill="#065695" xlink:title="STD Dev: 1.11%;  STD Error: 30.33">4746</text>
+    <text x="1130" y="117" fill="#065695">1.13x</text>
+    <text x="1130" y="133" fill="#065695">30.33</text>
+    <text x="1130" y="149" fill="#065695">1.11%</text>
+    <text x="1234" y="101" fill="#C80000" xlink:title="STD Dev: 0.97%;  STD Error: 23.67">4213</text>
+    <text x="1234" y="117" fill="#065695">1.00x</text>
+    <text x="1234" y="133" fill="#065695">23.67</text>
+    <text x="1234" y="149" fill="#065695">0.97%</text>
+    <text x="1338" y="101" fill="#065695" xlink:title="STD Dev: 2.87%;  STD Error: 77.24">4660</text>
+    <text x="1338" y="117" fill="#065695">1.11x</text>
+    <text x="1338" y="133" fill="#065695">77.24</text>
+    <text x="1338" y="149" fill="#065695">2.87%</text>
+  </g>
+  <line x1="695" y1="88" x2="695" y2="152" stroke="#949494" stroke-width="1390" stroke-dasharray="1,15"/>
+  <rect x="0" y="152" width="1390" height="16" fill="#231f20"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="1388" y="165" font-size="10" fill="#FFFFFF" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+</svg>

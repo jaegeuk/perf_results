@@ -69,23 +69,23 @@
   </g>
   <g/>
   <g text-anchor="middle" font-size="10">
-    <text x="1086.5" y="86" fill="#065695" xlink:title="STD Dev: 0.41%;  STD Error: 5.83">2468.57</text>
-    <text x="1086.5" y="102" fill="#065695" xlink:title="STD Dev: 1.23%;  STD Error: 57.04">8037</text>
-    <text x="1086.5" y="118" fill="#065695" xlink:title="STD Dev: 2.20%;  STD Error: 1182.80">93292</text>
-    <text x="1086.5" y="134" fill="#065695" xlink:title="STD Dev: 0.38%;  STD Error: 0.98">442.46</text>
-    <text x="1086.5" y="150" fill="#065695" xlink:title="STD Dev: 2.85%;  STD Error: 7.12">432.29</text>
-    <text x="1086.5" y="166" fill="#065695" xlink:title="STD Dev: 34.42%;  STD Error: 8.13">57.85</text>
-    <text x="1086.5" y="182" fill="#065695" xlink:title="STD Dev: 3.04%;  STD Error: 0.93">68.64</text>
-    <text x="1086.5" y="198" fill="#065695" xlink:title="STD Dev: 13.74%;  STD Error: 3.81">67.90</text>
-    <text x="1086.5" y="214" fill="#065695" xlink:title="STD Dev: 58.68%;  STD Error: 332.22">1386.78</text>
-    <text x="1086.5" y="230" fill="#065695" xlink:title="STD Dev: 0.88%;  STD Error: 1.35">266.21</text>
-    <text x="1086.5" y="246" fill="#065695" xlink:title="STD Dev: 0.81%;  STD Error: 29.50">6340.75</text>
-    <text x="1086.5" y="262" fill="#065695" xlink:title="STD Dev: 0.18%;  STD Error: 0.40">382.23</text>
-    <text x="1086.5" y="278" fill="#065695" xlink:title="STD Dev: 6.35%;  STD Error: 1173.12">45229.37</text>
-    <text x="1086.5" y="294" fill="#065695" xlink:title="STD Dev: 26.19%;  STD Error: 13.71">128.26</text>
-    <text x="1086.5" y="310" fill="#065695" xlink:title="STD Dev: 3.25%;  STD Error: 29.10">1550.67</text>
-    <text x="1086.5" y="326" fill="#065695" xlink:title="STD Dev: 3.10%;  STD Error: 0.13">9.65</text>
-    <text x="1086.5" y="342" fill="#065695">4310</text>
+    <text x="1086.5" y="86" fill="#065695" xlink:title="STD Dev: 0.96%;  STD Error: 13.80">2500.29</text>
+    <text x="1086.5" y="102" fill="#065695" xlink:title="STD Dev: 1.89%;  STD Error: 91.77">8421</text>
+    <text x="1086.5" y="118" fill="#065695" xlink:title="STD Dev: 1.96%;  STD Error: 1014.13">89776</text>
+    <text x="1086.5" y="134" fill="#065695" xlink:title="STD Dev: 0.31%;  STD Error: 0.94">530.49</text>
+    <text x="1086.5" y="150" fill="#065695" xlink:title="STD Dev: 3.96%;  STD Error: 7.15">442.02</text>
+    <text x="1086.5" y="166" fill="#065695" xlink:title="STD Dev: 34.64%;  STD Error: 8.18">57.82</text>
+    <text x="1086.5" y="182" fill="#065695" xlink:title="STD Dev: 3.37%;  STD Error: 0.96">69.50</text>
+    <text x="1086.5" y="198" fill="#065695" xlink:title="STD Dev: 14.80%;  STD Error: 4.12">68.23</text>
+    <text x="1086.5" y="214" fill="#065695" xlink:title="STD Dev: 43.22%;  STD Error: 275.30">1560.28</text>
+    <text x="1086.5" y="230" fill="#065695" xlink:title="STD Dev: 1.53%;  STD Error: 2.32">262.30</text>
+    <text x="1086.5" y="246" fill="#065695" xlink:title="STD Dev: 1.17%;  STD Error: 43.05">6380.54</text>
+    <text x="1086.5" y="262" fill="#065695" xlink:title="STD Dev: 0.51%;  STD Error: 1.13">382.60</text>
+    <text x="1086.5" y="278" fill="#065695" xlink:title="STD Dev: 1.18%;  STD Error: 317.21">46372.72</text>
+    <text x="1086.5" y="294" fill="#065695" xlink:title="STD Dev: 2.79%;  STD Error: 2.64">164.21</text>
+    <text x="1086.5" y="310" fill="#065695" xlink:title="STD Dev: 3.57%;  STD Error: 22.70">1558.80</text>
+    <text x="1086.5" y="326" fill="#065695" xlink:title="STD Dev: 1.82%;  STD Error: 0.09">9.67</text>
+    <text x="1086.5" y="342" fill="#065695" xlink:title="STD Dev: 0.97%;  STD Error: 23.67">4213</text>
   </g>
   <line x1="559" y1="73" x2="559" y2="345" stroke="#949494" stroke-width="1117" stroke-dasharray="1,15"/>
   <rect x="0" y="345" width="1117" height="16" fill="#231f20"/>

@@ -42,17 +42,17 @@
     <line x1="502.5" y1="106" x2="502.5" y2="115"/>
   </g>
   <g stroke="#949494" stroke-width="1">
-    <rect x="70.5" y="70.5" height="34" width="345" fill="#2196f3" xlink:title="f2fs-nvme: 12060.91"/>
+    <rect x="70.5" y="70.5" height="34" width="377" fill="#2196f3" xlink:title="f2fs-nvme: 13188.18"/>
   </g>
   <g font-size="8" fill="#065695" text-anchor="end">
-    <text y="101" x="65">SE +/- 330.97</text>
+    <text y="101" x="65">SE +/- 223.59</text>
   </g>
   <g font-size="10" fill="#FFFFFF">
-    <text x="410" y="93" text-anchor="end">12060.91</text>
+    <text x="442" y="93" text-anchor="end">13188.18</text>
   </g>
-  <line x1="406.5" y1="70" x2="406.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="424.5" y1="70" x2="424.5" y2="78" stroke="#757575" stroke-width="1"/>
-  <line x1="406.5" y1="70.5" x2="424.5" y2="70.5" stroke="#757575" stroke-width="1"/>
+  <line x1="441.5" y1="70" x2="441.5" y2="78" stroke="#757575" stroke-width="1"/>
+  <line x1="453.5" y1="70" x2="453.5" y2="78" stroke="#757575" stroke-width="1"/>
+  <line x1="441.5" y1="70.5" x2="453.5" y2="70.5" stroke="#757575" stroke-width="1"/>
   <rect x="0" y="132" width="600" height="52" fill="#231f20"/>
   <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
     <text x="585" y="144" font-size="9" fill="#FEFEFE" text-anchor="end" xlink:show="new">Phoronix Test Suite 6.8.0m1</text>

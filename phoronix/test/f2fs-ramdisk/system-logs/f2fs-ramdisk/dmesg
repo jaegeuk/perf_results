@@ -1,638 +1,561 @@
-pci 0000:80:03.2: PCI bridge to [bus 86]
-pci 0000:80:03.2:   bridge window [mem 0xf8000000-0xf80fffff]
-pci_bus 0000:80: on NUMA node 1
-ACPI: Enabled 4 GPEs in block 00 to 3F
-pci 0000:04:00.0: vgaarb: setting as boot VGA device
-pci 0000:04:00.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
-pci 0000:04:00.0: vgaarb: bridge control possible
-vgaarb: loaded
-SCSI subsystem initialized
-libata version 3.00 loaded.
-ACPI: bus type USB registered
-usbcore: registered new interface driver usbfs
-usbcore: registered new interface driver hub
-usbcore: registered new device driver usb
-EDAC MC: Ver: 3.0.0
-Registered efivars operations
-PCI: Using ACPI for IRQ routing
-PCI: pci_cache_line_size set to 64 bytes
-e820: reserve RAM buffer [mem 0xc7a30000-0xc7ffffff]
-e820: reserve RAM buffer [mem 0xca36b000-0xcbffffff]
-NetLabel: Initializing
-NetLabel:  domain hash size = 128
-NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
-NetLabel:  unlabeled traffic allowed by default
-hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
-hpet0: 8 comparators, 64-bit 14.318180 MHz counter
-clocksource: Switched to clocksource hpet
-VFS: Disk quotas dquot_6.6.0
-VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
-AppArmor: AppArmor Filesystem Enabled
-pnp: PnP ACPI init
-pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
-system 00:01: [io  0x0500-0x053f] has been reserved
-system 00:01: [io  0x0400-0x047f] has been reserved
-system 00:01: [io  0x0540-0x057f] has been reserved
-system 00:01: [io  0x0600-0x061f] has been reserved
-system 00:01: [io  0x0ca0-0x0ca5] has been reserved
-system 00:01: [io  0x0880-0x0883] has been reserved
-system 00:01: [io  0x0800-0x081f] has been reserved
-system 00:01: [mem 0xfed1c000-0xfed3ffff] could not be reserved
-system 00:01: [mem 0xfed45000-0xfed8bfff] has been reserved
-system 00:01: [mem 0xff000000-0xffffffff] has been reserved
-system 00:01: [mem 0xfee00000-0xfeefffff] has been reserved
-system 00:01: [mem 0xfed12000-0xfed1200f] has been reserved
-system 00:01: [mem 0xfed12010-0xfed1201f] has been reserved
-system 00:01: [mem 0xfed1b000-0xfed1bfff] has been reserved
-system 00:01: Plug and Play ACPI device, IDs PNP0c02 (active)
-pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
-pnp 00:03: Plug and Play ACPI device, IDs PNP0f03 PNP0f13 (active)
-pnp 00:04: Plug and Play ACPI device, IDs PNP0303 PNP030b (active)
-pnp 00:05: Plug and Play ACPI device, IDs IFX0102 PNP0c31 (active)
-pnp: PnP ACPI: found 6 devices
-clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
-pci 0000:01:00.0: can't claim BAR 6 [mem 0xfff00000-0xffffffff pref]: no compatible bridge window
-pci 0000:04:00.0: can't claim BAR 6 [mem 0xfff80000-0xffffffff pref]: no compatible bridge window
-pci 0000:86:00.0: can't claim BAR 6 [mem 0xffff0000-0xffffffff pref]: no compatible bridge window
-pci 0000:01:00.0: BAR 6: no space for [mem size 0x00100000 pref]
-pci 0000:01:00.0: BAR 6: failed to assign [mem size 0x00100000 pref]
-pci 0000:00:01.0: PCI bridge to [bus 01]
-pci 0000:00:01.0:   bridge window [io  0x3000-0x3fff]
-pci 0000:00:01.0:   bridge window [mem 0xf3200000-0xf32fffff]
-pci 0000:00:01.1: PCI bridge to [bus 02]
-pci 0000:00:02.0: PCI bridge to [bus 03]
-pci 0000:04:00.0: BAR 6: assigned [mem 0xf3080000-0xf30fffff pref]
-pci 0000:00:03.0: PCI bridge to [bus 04]
-pci 0000:00:03.0:   bridge window [io  0x2000-0x2fff]
-pci 0000:00:03.0:   bridge window [mem 0xf2000000-0xf30fffff]
-pci 0000:00:03.0:   bridge window [mem 0xe0000000-0xf1ffffff 64bit pref]
-pci 0000:00:1c.0: PCI bridge to [bus 05]
-pci 0000:00:1c.0:   bridge window [io  0x1000-0x1fff]
-pci 0000:00:1c.0:   bridge window [mem 0xf3100000-0xf31fffff]
-pci 0000:00:1c.3: PCI bridge to [bus 06]
-pci 0000:00:1c.4: PCI bridge to [bus 07]
-pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
-pci_bus 0000:00: resource 5 [io  0x1000-0xffff window]
-pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
-pci_bus 0000:00: resource 7 [mem 0xe0000000-0xf7ffbfff window]
-pci_bus 0000:01: resource 0 [io  0x3000-0x3fff]
-pci_bus 0000:01: resource 1 [mem 0xf3200000-0xf32fffff]
-pci_bus 0000:04: resource 0 [io  0x2000-0x2fff]
-pci_bus 0000:04: resource 1 [mem 0xf2000000-0xf30fffff]
-pci_bus 0000:04: resource 2 [mem 0xe0000000-0xf1ffffff 64bit pref]
-pci_bus 0000:05: resource 0 [io  0x1000-0x1fff]
-pci_bus 0000:05: resource 1 [mem 0xf3100000-0xf31fffff]
-pci 0000:80:00.0: PCI bridge to [bus 81]
-pci 0000:80:01.0: PCI bridge to [bus 82]
-pci 0000:80:01.1: PCI bridge to [bus 83]
-pci 0000:80:02.0: PCI bridge to [bus 84]
-pci 0000:80:03.0: PCI bridge to [bus 85]
-pci 0000:86:00.0: BAR 6: assigned [mem 0xf8010000-0xf801ffff pref]
-pci 0000:80:03.2: PCI bridge to [bus 86]
-pci 0000:80:03.2:   bridge window [mem 0xf8000000-0xf80fffff]
-pci_bus 0000:80: resource 4 [mem 0xf8000000-0xfbffbfff window]
-pci_bus 0000:86: resource 1 [mem 0xf8000000-0xf80fffff]
-NET: Registered protocol family 2
-TCP established hash table entries: 524288 (order: 10, 4194304 bytes)
-TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
-TCP: Hash tables configured (established 524288 bind 65536)
-UDP hash table entries: 65536 (order: 9, 2097152 bytes)
-UDP-Lite hash table entries: 65536 (order: 9, 2097152 bytes)
-NET: Registered protocol family 1
-pci 0000:04:00.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
-PCI: CLS mismatch (32 != 128), using 64 bytes
-Trying to unpack rootfs image as initramfs...
-Freeing initrd memory: 27780K
-PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
-software IO TLB [mem 0xbf062000-0xc3062000] (64MB) mapped at [ffff8c3b3f062000-ffff8c3b43061fff]
-Intel CQM monitoring enabled
-RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
-RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
-RAPL PMU: hw unit of domain package 2^-14 Joules
-RAPL PMU: hw unit of domain dram 2^-14 Joules
-RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
-Scanning for low memory corruption every 60 seconds
-audit: initializing netlink subsys (disabled)
-audit: type=2000 audit(1494461132.302:1): state=initialized audit_enabled=0 res=1
-Initialise system trusted keyrings
-workingset: timestamp_bits=40 max_order=26 bucket_order=0
-zbud: loaded
-fuse init (API version 7.26)
-Key type asymmetric registered
-Asymmetric key parser 'x509' registered
-Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
-io scheduler noop registered
-io scheduler deadline registered (default)
-io scheduler cfq registered
-io scheduler mq-deadline registered
-io scheduler kyber registered
-pcieport 0000:00:01.0: AER enabled with IRQ 25
-pcieport 0000:00:01.1: AER enabled with IRQ 26
-pcieport 0000:00:02.0: AER enabled with IRQ 27
-pcieport 0000:00:03.0: AER enabled with IRQ 28
-efifb: probing for efifb
-efifb: framebuffer at 0xf1000000, using 1920k, total 1920k
-efifb: mode is 800x600x32, linelength=3200, pages=1
-efifb: scrolling: redraw
-efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
-Console: switching to colour frame buffer device 100x37
-fb0: EFI VGA frame buffer device
-intel_idle: MWAIT substates: 0x2120
-intel_idle: v0.4.1 model 0x3F
-intel_idle: lapic_timer_reliable_states 0xffffffff
-input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
-ACPI: Power Button [PWRB]
-input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
-ACPI: Power Button [PWRF]
-GHES: HEST is not enabled!
-00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
-serial 0000:00:16.3: enabling device (0000 -> 0003)
-0000:00:16.3: ttyS4 at I/O 0x4090 (irq = 17, base_baud = 115200) is a 16550A
-Linux agpgart interface v0.103
-tpm_tis 00:05: 1.2 TPM (device-id 0x1A, rev-id 16)
-tpm tpm0: A TPM error (7) occurred attempting to read a pcr value
-tpm tpm0: TPM is disabled/deactivated (0x7)
-tpm tpm0: tpm_read_log_acpi: TCPA log area empty
-tpm_tis: probe of 00:05 failed with error -5
-brd: module loaded
-loop: module loaded
-libphy: Fixed MDIO Bus: probed
-tun: Universal TUN/TAP device driver, 1.6
-PPP generic driver version 2.4.2
-ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
-ehci-pci: EHCI PCI platform driver
-ehci-pci 0000:00:1a.0: EHCI Host Controller
-ehci-pci 0000:00:1a.0: new USB bus registered, assigned bus number 1
-ehci-pci 0000:00:1a.0: debug port 2
-ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
-ehci-pci 0000:00:1a.0: irq 18, io mem 0xf333a000
-ehci-pci 0000:00:1a.0: USB 2.0 started, EHCI 1.00
-usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
-usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-usb usb1: Product: EHCI Host Controller
-usb usb1: Manufacturer: Linux 4.11.0+ ehci_hcd
-usb usb1: SerialNumber: 0000:00:1a.0
-hub 1-0:1.0: USB hub found
-hub 1-0:1.0: 2 ports detected
-ehci-pci 0000:00:1d.0: EHCI Host Controller
-ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 2
-ehci-pci 0000:00:1d.0: debug port 2
-ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
-ehci-pci 0000:00:1d.0: irq 18, io mem 0xf3339000
-ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
-usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
-usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-usb usb2: Product: EHCI Host Controller
-usb usb2: Manufacturer: Linux 4.11.0+ ehci_hcd
-usb usb2: SerialNumber: 0000:00:1d.0
-hub 2-0:1.0: USB hub found
-hub 2-0:1.0: 2 ports detected
-ehci-platform: EHCI generic platform driver
-ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
-ohci-pci: OHCI PCI platform driver
-ohci-platform: OHCI generic platform driver
-uhci_hcd: USB Universal Host Controller Interface driver
-xhci_hcd 0000:00:14.0: xHCI Host Controller
-xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 3
-xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x00009810
-xhci_hcd 0000:00:14.0: cache line size of 64 is not supported
-usb usb3: New USB device found, idVendor=1d6b, idProduct=0002
-usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-usb usb3: Product: xHCI Host Controller
-usb usb3: Manufacturer: Linux 4.11.0+ xhci-hcd
-usb usb3: SerialNumber: 0000:00:14.0
-hub 3-0:1.0: USB hub found
-hub 3-0:1.0: 15 ports detected
-xhci_hcd 0000:00:14.0: xHCI Host Controller
-xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 4
-usb usb4: New USB device found, idVendor=1d6b, idProduct=0003
-usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-usb usb4: Product: xHCI Host Controller
-usb usb4: Manufacturer: Linux 4.11.0+ xhci-hcd
-usb usb4: SerialNumber: 0000:00:14.0
-hub 4-0:1.0: USB hub found
-hub 4-0:1.0: 6 ports detected
-usb: port power management may be unreliable
-i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
-serio: i8042 KBD port at 0x60,0x64 irq 1
-serio: i8042 AUX port at 0x60,0x64 irq 12
-mousedev: PS/2 mouse device common for all mice
-rtc_cmos 00:00: RTC can wake from S4
-rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
-rtc_cmos 00:00: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
-i2c /dev entries driver
-intel_pstate: Intel P-state driver initializing
-ledtrig-cpu: registered to indicate activity on CPUs
-EFI Variables Facility v0.08 2004-May-17
-NET: Registered protocol family 10
-Segment Routing with IPv6
-NET: Registered protocol family 17
-Key type dns_resolver registered
-microcode: sig=0x306f2, pf=0x1, revision=0x38
-microcode: Microcode Update Driver: v2.2.
-registered taskstats version 1
-Loading compiled-in X.509 certificates
-Loaded X.509 cert 'Build time autogenerated kernel key: 05384768664f4e181ae73d5552d32aa1d10ba633'
-zswap: loaded using pool lzo/zbud
-Key type big_key registered
-Key type trusted registered
-Key type encrypted registered
-AppArmor: AppArmor sha1 policy hashing enabled
-ima: No TPM chip found, activating TPM-bypass! (rc=-19)
-evm: HMAC attrs: 0x1
-  Magic number: 1:329:51
-memory memory83: hash matches
-rtc_cmos 00:00: setting system clock to 2017-05-11 00:05:33 UTC (1494461133)
-BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
-EDD information not available.
-PM: Hibernation image not present or could not be loaded.
-Freeing unused kernel memory: 1692K
-Write protecting the kernel read-only data: 14336k
-Freeing unused kernel memory: 1716K
-Freeing unused kernel memory: 464K
-systemd-udevd[341]: starting version 204
-wmi: module verification failed: signature and/or required key missing - tainting kernel
-pps_core: LinuxPPS API ver. 1 registered
-wmi: Mapper loaded
-pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
-PTP clock support registered
-ahci 0000:00:11.4: version 3.0
-ahci 0000:00:11.4: AHCI 0001.0300 32 slots 4 ports 6 Gbps 0xf impl RAID mode
-ahci 0000:00:11.4: flags: 64bit ncq led clo pio ems apst 
-dca service started, version 1.12.1
-mpt3sas version 15.100.00.00 loaded
-mpt3sas 0000:01:00.0: can't disable ASPM; OS doesn't have ASPM control
-mpt2sas_cm0: 64 BIT PCI BUS DMA ADDRESSING SUPPORTED, total mem (264059032 kB)
-e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
-e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
-igb: Intel(R) Gigabit Ethernet Network Driver - version 5.4.0-k
-igb: Copyright (c) 2007-2014 Intel Corporation.
-igb 0000:05:00.0: enabling device (0100 -> 0102)
-checking generic (f1000000 1e0000) vs hw (e0000000 10000000)
-checking generic (f1000000 1e0000) vs hw (f0000000 2000000)
-fb: switching to nouveaufb from EFI VGA
-Console: switching to colour dummy device 80x25
-nouveau 0000:04:00.0: NVIDIA GK104 (0e4340a2)
-scsi host1: ahci
-scsi host2: ahci
-scsi host3: ahci
-scsi host4: ahci
-ata1: SATA max UDMA/133 abar m2048@0xf333d000 port 0xf333d100 irq 29
-ata2: SATA max UDMA/133 abar m2048@0xf333d000 port 0xf333d180 irq 29
-ata3: SATA max UDMA/133 abar m2048@0xf333d000 port 0xf333d200 irq 29
-ata4: SATA max UDMA/133 abar m2048@0xf333d000 port 0xf333d280 irq 29
-e1000e 0000:00:19.0: enabling device (0140 -> 0142)
-e1000e 0000:00:19.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
-mpt2sas_cm0: MSI-X vectors supported: 16, no of cores: 32, max_msix_vectors: -1
-mpt2sas0-msix0: PCI-MSI-X enabled: IRQ 34
-mpt2sas0-msix1: PCI-MSI-X enabled: IRQ 35
-mpt2sas0-msix2: PCI-MSI-X enabled: IRQ 36
-mpt2sas0-msix3: PCI-MSI-X enabled: IRQ 37
-mpt2sas0-msix4: PCI-MSI-X enabled: IRQ 38
-mpt2sas0-msix5: PCI-MSI-X enabled: IRQ 39
-mpt2sas0-msix6: PCI-MSI-X enabled: IRQ 40
-mpt2sas0-msix7: PCI-MSI-X enabled: IRQ 41
-mpt2sas0-msix8: PCI-MSI-X enabled: IRQ 42
-mpt2sas0-msix9: PCI-MSI-X enabled: IRQ 43
-mpt2sas0-msix10: PCI-MSI-X enabled: IRQ 44
-mpt2sas0-msix11: PCI-MSI-X enabled: IRQ 45
-mpt2sas0-msix12: PCI-MSI-X enabled: IRQ 46
-mpt2sas0-msix13: PCI-MSI-X enabled: IRQ 47
-mpt2sas0-msix14: PCI-MSI-X enabled: IRQ 48
-mpt2sas0-msix15: PCI-MSI-X enabled: IRQ 49
-mpt2sas_cm0: iomem(0x00000000f3240000), mapped(0xffffa04f1a570000), size(65536)
-mpt2sas_cm0: ioport(0x0000000000003000), size(256)
-mpt2sas_cm0: sending diag reset !!
-nouveau 0000:04:00.0: bios: version 80.04.fe.00.18
-nouveau 0000:04:00.0: fb: 4096 MiB GDDR5
-e1000e 0000:00:19.0 0000:00:19.0 (uninitialized): registered PHC clock
-usb 1-1: new high-speed USB device number 2 using ehci-pci
-usb 2-1: new high-speed USB device number 2 using ehci-pci
-[TTM] Zone  kernel: Available graphics memory: 132029516 kiB
-[TTM] Zone   dma32: Available graphics memory: 2097152 kiB
-[TTM] Initializing pool allocator
-[TTM] Initializing DMA pool allocator
-nouveau 0000:04:00.0: DRM: VRAM: 4096 MiB
-nouveau 0000:04:00.0: DRM: GART: 1048576 MiB
-nouveau 0000:04:00.0: DRM: TMDS table version 2.0
-nouveau 0000:04:00.0: DRM: DCB version 4.0
-nouveau 0000:04:00.0: DRM: DCB outp 00: 01000f02 00020030
-nouveau 0000:04:00.0: DRM: DCB outp 01: 02000f00 00000000
-nouveau 0000:04:00.0: DRM: DCB outp 03: 02822fa6 0f420010
-nouveau 0000:04:00.0: DRM: DCB outp 04: 02022f62 00020010
-nouveau 0000:04:00.0: DRM: DCB outp 05: 04833fb6 0f420010
-nouveau 0000:04:00.0: DRM: DCB outp 06: 04033f72 00020010
-nouveau 0000:04:00.0: DRM: DCB conn 00: 00001030
-nouveau 0000:04:00.0: DRM: DCB conn 02: 00002246
-nouveau 0000:04:00.0: DRM: DCB conn 03: 00010346
-nouveau 0000:04:00.0: DRM: DCB conn 04: 00000460
-usb 3-13: new high-speed USB device number 2 using xhci_hcd
-e1000e 0000:00:19.0 eth0: (PCI Express:2.5GT/s:Width x1) ec:b1:d7:5f:74:fb
-e1000e 0000:00:19.0 eth0: Intel(R) PRO/1000 Network Connection
-e1000e 0000:00:19.0 eth0: MAC: 11, PHY: 12, PBA No: FFFFFF-0FF
-ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 4 ports 6 Gbps 0x3 impl RAID mode
-ahci 0000:00:1f.2: flags: 64bit ncq led clo pio ems apst 
-scsi host5: ahci
-scsi host6: ahci
-scsi host7: ahci
-scsi host8: ahci
-ata5: SATA max UDMA/133 abar m2048@0xf3338000 port 0xf3338100 irq 55
-ata6: SATA max UDMA/133 abar m2048@0xf3338000 port 0xf3338180 irq 55
-ata7: DUMMY
-ata8: DUMMY
-e1000e 0000:00:19.0 em1: renamed from eth0
-[drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
-[drm] Driver supports precise vblank timestamp query.
-nouveau 0000:04:00.0: hwmon_device_register() is deprecated. Please convert the driver to use hwmon_device_register_with_info().
-tsc: Refined TSC clocksource calibration: 2394.454 MHz
-clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2283c0783fd, max_idle_ns: 440795301468 ns
-usb 1-1: New USB device found, idVendor=8087, idProduct=800a
-usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
-hub 1-1:1.0: USB hub found
-hub 1-1:1.0: 6 ports detected
-usb 3-13: New USB device found, idVendor=0451, idProduct=8142
-usb 3-13: New USB device strings: Mfr=0, Product=0, SerialNumber=1
-usb 3-13: SerialNumber: 90080859CACD
-usb 2-1: New USB device found, idVendor=8087, idProduct=8002
-usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
-hub 2-1:1.0: USB hub found
-hub 3-13:1.0: USB hub found
-hub 3-13:1.0: 4 ports detected
-hub 2-1:1.0: 8 ports detected
-ata1: SATA link down (SStatus 0 SControl 300)
-ata3: SATA link down (SStatus 0 SControl 300)
-ata4: SATA link down (SStatus 0 SControl 300)
-ata2: SATA link down (SStatus 0 SControl 300)
-systemd-udevd[344]: renamed network interface eth0 to em1
-pps pps0: new PPS source ptp1
-igb 0000:05:00.0: added PHC on eth0
-igb 0000:05:00.0: Intel(R) Gigabit Ethernet Network Connection
-igb 0000:05:00.0: eth0: (PCIe:2.5Gb/s:Width x1) ec:b1:d7:5f:74:fc
-igb 0000:05:00.0: eth0: PBA No: 000300-000
-igb 0000:05:00.0: Using MSI-X interrupts. 4 rx queue(s), 4 tx queue(s)
-usb 4-4: new SuperSpeed USB device number 2 using xhci_hcd
-nouveau 0000:04:00.0: DRM: MM: using COPY for buffer copies
-[drm] Cannot find any crtc or sizes - going 1024x768
-nouveau 0000:04:00.0: DRM: allocated 1024x768 fb: 0x60000, bo ffff8c7a221bc800
-ata5: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
-ata6: SATA link down (SStatus 0 SControl 300)
-fbcon: nouveaufb (fb0) is primary device
-usb 4-4: New USB device found, idVendor=0451, idProduct=8140
-usb 4-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
-hub 4-4:1.0: USB hub found
-hub 4-4:1.0: 4 ports detected
-ata5.00: ATAPI: hp       DVDRAM GUB0N, SA02, max UDMA/100
-ata5.00: configured for UDMA/100
-scsi 5:0:0:0: CD-ROM            hp       DVDRAM GUB0N     SA02 PQ: 0 ANSI: 5
-sr 5:0:0:0: [sr0] scsi3-mmc drive: 24x/24x writer dvd-ram cd/rw xa/form2 cdda tray
-cdrom: Uniform CD-ROM driver Revision: 3.20
-sr 5:0:0:0: Attached scsi CD-ROM sr0
-sr 5:0:0:0: Attached scsi generic sg0 type 5
-Console: switching to colour frame buffer device 128x48
-nouveau 0000:04:00.0: fb0: nouveaufb frame buffer device
-[drm] Initialized nouveau 1.3.1 20120801 for 0000:04:00.0 on minor 0
-mpt2sas_cm0: diag reset: SUCCESS
-mpt2sas_cm0: Allocated physical memory: size(7417 kB)
-mpt2sas_cm0: Current Controller Queue Depth(2936),Max Controller Queue Depth(3072)
-mpt2sas_cm0: Scatter Gather Elements per IO(128)
-random: fast init done
-mpt2sas_cm0: LSISAS2308: FWVersion(18.10.00.00), ChipRevision(0x05), BiosVersion(07.35.02.00)
-mpt2sas_cm0: Protocol=(
-Initiator
-), 
-Capabilities=(
-Raid
-,TLR
-,EEDP
-,Snapshot Buffer
-,Diag Trace Buffer
-,Task Set Full
-,NCQ
-)
-scsi host0: Fusion MPT SAS Host
-mpt2sas_cm0: sending port enable !!
-clocksource: Switched to clocksource tsc
-mpt2sas_cm0: host_add: handle(0x0001), sas_addr(0x50014380328cf9d8), phys(8)
-mpt2sas_cm0: port enable: SUCCESS
-scsi 0:0:0:0: Direct-Access     ATA      SanDisk SDSSDHII 10RL PQ: 0 ANSI: 6
-scsi 0:0:0:0: SATA: handle(0x0009), sas_addr(0x4433221100000000), phy(0), device_name(0x5001b44e8249a043)
-scsi 0:0:0:0: SATA: enclosure_logical_id(0x50014380328cf9d8), slot(0)
-scsi 0:0:0:0: atapi(n), ncq(y), asyn_notify(n), smart(y), fua(y), sw_preserve(y)
-scsi 0:0:1:0: Direct-Access     ATA      SanDisk SDSSDHII 10RL PQ: 0 ANSI: 6
-scsi 0:0:1:0: SATA: handle(0x000a), sas_addr(0x4433221101000000), phy(1), device_name(0x5001b44e59a31258)
-scsi 0:0:1:0: SATA: enclosure_logical_id(0x50014380328cf9d8), slot(1)
-scsi 0:0:1:0: atapi(n), ncq(y), asyn_notify(n), smart(y), fua(y), sw_preserve(y)
-sd 0:0:0:0: Attached scsi generic sg1 type 0
-sd 0:0:1:0: Attached scsi generic sg2 type 0
-sd 0:0:0:0: [sda] 1875385008 512-byte logical blocks: (960 GB/894 GiB)
-sd 0:0:1:0: [sdb] 1875385008 512-byte logical blocks: (960 GB/894 GiB)
-sd 0:0:0:0: [sda] Write Protect is off
-sd 0:0:0:0: [sda] Mode Sense: 7f 00 10 08
-sd 0:0:1:0: [sdb] Write Protect is off
-sd 0:0:1:0: [sdb] Mode Sense: 7f 00 10 08
-sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, supports DPO and FUA
-sd 0:0:1:0: [sdb] Write cache: enabled, read cache: enabled, supports DPO and FUA
- sdb: sdb1
- sda: sda1 sda2 sda3
-sd 0:0:1:0: [sdb] Attached SCSI disk
-sd 0:0:0:0: [sda] Attached SCSI disk
-raid6: sse2x1   gen()  8720 MB/s
-raid6: sse2x1   xor()  6889 MB/s
-raid6: sse2x2   gen() 11092 MB/s
-raid6: sse2x2   xor()  7532 MB/s
-raid6: sse2x4   gen() 12985 MB/s
-raid6: sse2x4   xor()  9102 MB/s
-raid6: avx2x1   gen() 17245 MB/s
-raid6: avx2x1   xor() 13109 MB/s
-raid6: avx2x2   gen() 19866 MB/s
-raid6: avx2x2   xor() 13790 MB/s
-raid6: avx2x4   gen() 23236 MB/s
-raid6: avx2x4   xor() 16992 MB/s
-raid6: using algorithm avx2x4 gen() 23236 MB/s
-raid6: .... xor() 16992 MB/s, rmw enabled
-raid6: using avx2x2 recovery algorithm
-xor: automatically using best checksumming function   avx       
-async_tx: api initialized (async)
-Btrfs loaded, crc32c=crc32c-intel
-BTRFS: device fsid d7d3db80-47f5-4334-a452-8a51e192de66 devid 1 transid 253 /dev/sdb1
-EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
-init: ureadahead main process (537) terminated with status 5
-Adding 33459196k swap on /dev/sda3.  Priority:-1 extents:1 across:33459196k SSFS
-EXT4-fs (sda2): re-mounted. Opts: errors=remount-ro
-FS-Cache: Loaded
-RPC: Registered named UNIX socket transport module.
-RPC: Registered udp transport module.
-RPC: Registered tcp transport module.
-RPC: Registered tcp NFSv4.1 backchannel transport module.
-systemd-udevd[820]: starting version 204
-FS-Cache: Netfs 'nfs' registered for caching
-Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
-lp: driver loaded but no devices found
-ppdev: user-space parallel port driver
-Bluetooth: Core ver 2.22
-NET: Registered protocol family 31
-Bluetooth: HCI device and connection manager initialized
-Bluetooth: HCI socket layer initialized
-Bluetooth: L2CAP socket layer initialized
-Bluetooth: SCO socket layer initialized
-Bluetooth: RFCOMM TTY layer initialized
-Bluetooth: RFCOMM socket layer initialized
-Bluetooth: RFCOMM ver 1.11
-audit: type=1400 audit(1494461145.221:2): apparmor="STATUS" operation="profile_load" name="/usr/lib/cups/backend/cups-pdf" pid=914 comm="apparmor_parser"
-audit: type=1400 audit(1494461145.221:3): apparmor="STATUS" operation="profile_load" name="/usr/sbin/cupsd" pid=914 comm="apparmor_parser"
-audit: type=1400 audit(1494461145.222:4): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/cupsd" pid=914 comm="apparmor_parser"
-Bluetooth: BNEP (Ethernet Emulation) ver 1.3
-Bluetooth: BNEP filters: protocol multicast
-Bluetooth: BNEP socket layer initialized
-init: cups main process (1000) killed by HUP signal
-init: cups main process ended, respawning
-tpm_inf_pnp 00:05: Found TPM with ID IFX0102
-snd_hda_intel 0000:00:1b.0: enabling device (0100 -> 0102)
-snd_hda_intel 0000:04:00.1: enabling device (0100 -> 0102)
-snd_hda_intel 0000:04:00.1: Disabling MSI
-snd_hda_intel 0000:04:00.1: Handle vga_switcheroo audio client
-nvme nvme0: pci function 0000:86:00.0
-snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC221: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
-snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=1 (0x17/0x0/0x0/0x0/0x0)
-snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
-snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
-snd_hda_codec_realtek hdaudioC0D0:    inputs:
-snd_hda_codec_realtek hdaudioC0D0:      Front Mic=0x1a
-snd_hda_codec_realtek hdaudioC0D0:      Front Mic=0x18
-snd_hda_codec_realtek hdaudioC0D0:      Line=0x1b
-audit: type=1400 audit(1494461145.311:5): apparmor="STATUS" operation="profile_load" name="/sbin/dhclient" pid=1039 comm="apparmor_parser"
-audit: type=1400 audit(1494461145.311:6): apparmor="STATUS" operation="profile_load" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1039 comm="apparmor_parser"
-audit: type=1400 audit(1494461145.311:7): apparmor="STATUS" operation="profile_load" name="/usr/lib/connman/scripts/dhclient-script" pid=1039 comm="apparmor_parser"
-audit: type=1400 audit(1494461145.313:8): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1039 comm="apparmor_parser"
-audit: type=1400 audit(1494461145.313:9): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1039 comm="apparmor_parser"
-audit: type=1400 audit(1494461145.313:10): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1039 comm="apparmor_parser"
-AVX2 version of gcm_enc/dec engaged.
-AES CTR mode by8 optimization enabled
-input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input5
-input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input6
-input: HDA Intel PCH Line as /devices/pci0000:00/0000:00:1b.0/sound/card0/input7
-input: HDA Intel PCH Line Out as /devices/pci0000:00/0000:00:1b.0/sound/card0/input8
-input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card0/input9
-audit: type=1400 audit(1494461145.317:11): apparmor="STATUS" operation="profile_load" name="/usr/sbin/ntpd" pid=1057 comm="apparmor_parser"
-ACPI Error: Needed [Buffer/String/Package], found [Integer] ffff8c7a22a86360 (20170119/exresop-593)
-ACPI Exception: AE_AML_OPERAND_TYPE, While resolving operands for [OpcodeName unavailable] (20170119/dswexec-461)
-ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPO] (Node ffff8c7a2ec24168), AE_AML_OPERAND_TYPE (20170119/psparse-543)
-ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffff8c7a2ec241b8), AE_AML_OPERAND_TYPE (20170119/psparse-543)
-ACPI Error: Needed [Buffer/String/Package], found [Integer] ffff8c7a1e354288 (20170119/exresop-593)
-ACPI Exception: AE_AML_OPERAND_TYPE, While resolving operands for [OpcodeName unavailable] (20170119/dswexec-461)
-ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPO] (Node ffff8c7a2ec24168), AE_AML_OPERAND_TYPE (20170119/psparse-543)
-ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffff8c7a2ec241b8), AE_AML_OPERAND_TYPE (20170119/psparse-543)
-ACPI Error: Needed [Buffer/String/Package], found [Integer] ffff8c7a1e31a3a8 (20170119/exresop-593)
-ACPI Exception: AE_AML_OPERAND_TYPE, While resolving operands for [OpcodeName unavailable] (20170119/dswexec-461)
-ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPO] (Node ffff8c7a2ec24168), AE_AML_OPERAND_TYPE (20170119/psparse-543)
-ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffff8c7a2ec241b8), AE_AML_OPERAND_TYPE (20170119/psparse-543)
-input: HP WMI hotkeys as /devices/virtual/input/input10
-ACPI Error: Attempt to CreateField of length zero (20170119/dsopcode-168)
-ACPI Error: Method parse/execution failed [\_SB.WMIV.WVPI] (Node ffff8c7a2ec24118), AE_AML_OPERAND_VALUE (20170119/psparse-543)
-ACPI Error: Method parse/execution failed [\_SB.WMIV.WMPV] (Node ffff8c7a2ec241b8), AE_AML_OPERAND_VALUE (20170119/psparse-543)
-EDAC sbridge: Seeking for: PCI ID 8086:2fa0
-EDAC sbridge: Seeking for: PCI ID 8086:2fa0
-EDAC sbridge: Seeking for: PCI ID 8086:2fa0
-EDAC sbridge: Seeking for: PCI ID 8086:2ffc
-EDAC sbridge: Seeking for: PCI ID 8086:2ffc
-EDAC sbridge: Seeking for: PCI ID 8086:2ffc
-EDAC sbridge: Seeking for: PCI ID 8086:2ffd
-EDAC sbridge: Seeking for: PCI ID 8086:2ffd
-EDAC sbridge: Seeking for: PCI ID 8086:2ffd
-EDAC sbridge: Seeking for: PCI ID 8086:2f60
-EDAC sbridge: Seeking for: PCI ID 8086:2fa8
-EDAC sbridge: Seeking for: PCI ID 8086:2fa8
-EDAC sbridge: Seeking for: PCI ID 8086:2fa8
-EDAC sbridge: Seeking for: PCI ID 8086:2f71
-EDAC sbridge: Seeking for: PCI ID 8086:2f71
-EDAC sbridge: Seeking for: PCI ID 8086:2f71
-EDAC sbridge: Seeking for: PCI ID 8086:2faa
-EDAC sbridge: Seeking for: PCI ID 8086:2faa
-EDAC sbridge: Seeking for: PCI ID 8086:2faa
-EDAC sbridge: Seeking for: PCI ID 8086:2fab
-EDAC sbridge: Seeking for: PCI ID 8086:2fab
-EDAC sbridge: Seeking for: PCI ID 8086:2fab
-EDAC sbridge: Seeking for: PCI ID 8086:2fac
-EDAC sbridge: Seeking for: PCI ID 8086:2fac
-EDAC sbridge: Seeking for: PCI ID 8086:2fac
-EDAC sbridge: Seeking for: PCI ID 8086:2fad
-EDAC sbridge: Seeking for: PCI ID 8086:2fad
-EDAC sbridge: Seeking for: PCI ID 8086:2fad
-EDAC sbridge: Seeking for: PCI ID 8086:2fbd
-EDAC sbridge: Seeking for: PCI ID 8086:2fbf
-EDAC sbridge: Seeking for: PCI ID 8086:2fbf
-EDAC sbridge: Seeking for: PCI ID 8086:2fbf
-EDAC sbridge: Seeking for: PCI ID 8086:2fb9
-EDAC sbridge: Seeking for: PCI ID 8086:2fb9
-EDAC sbridge: Seeking for: PCI ID 8086:2fb9
-EDAC sbridge: Seeking for: PCI ID 8086:2fbb
-EDAC sbridge: Seeking for: PCI ID 8086:2fbb
-EDAC sbridge: Seeking for: PCI ID 8086:2fbb
-EDAC sbridge: Seeking for: PCI ID 8086:2f68
-EDAC sbridge: Seeking for: PCI ID 8086:2f68
-EDAC sbridge: Seeking for: PCI ID 8086:2f68
-EDAC sbridge: Seeking for: PCI ID 8086:2f79
-EDAC sbridge: Seeking for: PCI ID 8086:2f6a
-EDAC sbridge: Seeking for: PCI ID 8086:2f6b
-EDAC sbridge: Seeking for: PCI ID 8086:2f6c
-EDAC sbridge: Seeking for: PCI ID 8086:2f6d
-EDAC MC0: Giving out device to module sbridge_edac.c controller Haswell Socket#0: DEV 0000:ff:12.0 (INTERRUPT)
-EDAC MC1: Giving out device to module sbridge_edac.c controller Haswell Socket#1: DEV 0000:7f:12.0 (INTERRUPT)
-EDAC sbridge:  Ver: 1.1.1 
-intel_rapl: Found RAPL domain package
-intel_rapl: Found RAPL domain dram
-intel_rapl: DRAM domain energy unit 15300pj
-intel_rapl: Found RAPL domain package
-intel_rapl: Found RAPL domain dram
-intel_rapl: DRAM domain energy unit 15300pj
-IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
-init: Failed to obtain startpar-bridge instance: Unknown parameter: INSTANCE
-device-mapper: ioctl: 4.35.0-ioctl (2016-06-23) initialised: dm-devel@redhat.com
-input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:03.0/0000:04:00.1/sound/card1/input11
-input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:03.0/0000:04:00.1/sound/card1/input12
-input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:03.0/0000:04:00.1/sound/card1/input13
-igb 0000:05:00.0 eth0: igb: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
-IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
-init: failsafe main process (1183) killed by TERM signal
-random: crng init done
-IPv6: ADDRCONF(NETDEV_UP): em1: link is not ready
-Ebtables v2.0 registered
-ip_tables: (C) 2000-2006 Netfilter Core Team
-ip6_tables: (C) 2000-2006 Netfilter Core Team
- nvme0n1: p1
-init: plymouth-upstart-bridge main process ended, respawning
-init: plymouth-upstart-bridge main process (2360) terminated with status 1
-init: plymouth-upstart-bridge main process ended, respawning
-cgroup: systemd-logind (981) created nested cgroup for controller "memory" which has incomplete hierarchy support. Nested cgroups may change behavior in the future.
-cgroup: "memory" requires setting use_hierarchy to 1 on the root
-bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
-nf_conntrack version 0.5.0 (65536 buckets, 262144 max)
-init: plymouth-stop pre-start process (2509) terminated with status 1
-md0: detected capacity change from 0 to 68718428160
-f2fs: loading out-of-tree module taints kernel.
+blk_update_request: I/O error, dev loop0, sector 1272800
+blk_update_request: I/O error, dev loop0, sector 1273472
+blk_update_request: I/O error, dev loop0, sector 1273536
+blk_update_request: I/O error, dev loop0, sector 1275104
+blk_update_request: I/O error, dev loop0, sector 1275168
+blk_update_request: I/O error, dev loop0, sector 1280832
+blk_update_request: I/O error, dev loop0, sector 1284928
+blk_update_request: 22295 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 1629984
+blk_update_request: I/O error, dev loop0, sector 1630304
+blk_update_request: I/O error, dev loop0, sector 1631296
+blk_update_request: I/O error, dev loop0, sector 1632000
+blk_update_request: I/O error, dev loop0, sector 1632288
+blk_update_request: I/O error, dev loop0, sector 1634272
+blk_update_request: I/O error, dev loop0, sector 1637664
+blk_update_request: I/O error, dev loop0, sector 1638656
+blk_update_request: I/O error, dev loop0, sector 1639296
+blk_update_request: I/O error, dev loop0, sector 1640352
+blk_update_request: 10665 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 1838784
+blk_update_request: I/O error, dev loop0, sector 1841952
+blk_update_request: I/O error, dev loop0, sector 1842816
+blk_update_request: I/O error, dev loop0, sector 1844256
+blk_update_request: I/O error, dev loop0, sector 1844544
+blk_update_request: I/O error, dev loop0, sector 1845088
+blk_update_request: I/O error, dev loop0, sector 1845184
+blk_update_request: I/O error, dev loop0, sector 1845440
+blk_update_request: I/O error, dev loop0, sector 1845632
+blk_update_request: I/O error, dev loop0, sector 1845952
+blk_update_request: 8303 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 73952
+blk_update_request: I/O error, dev loop0, sector 74272
+blk_update_request: I/O error, dev loop0, sector 79168
+blk_update_request: I/O error, dev loop0, sector 79296
+blk_update_request: I/O error, dev loop0, sector 79680
+blk_update_request: I/O error, dev loop0, sector 79904
+blk_update_request: I/O error, dev loop0, sector 80160
+blk_update_request: I/O error, dev loop0, sector 80384
+blk_update_request: I/O error, dev loop0, sector 80576
+blk_update_request: I/O error, dev loop0, sector 80640
+blk_update_request: 2824 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 114016
+blk_update_request: I/O error, dev loop0, sector 114112
+blk_update_request: I/O error, dev loop0, sector 114400
+blk_update_request: I/O error, dev loop0, sector 114560
+blk_update_request: I/O error, dev loop0, sector 114624
+blk_update_request: I/O error, dev loop0, sector 115968
+blk_update_request: I/O error, dev loop0, sector 117088
+blk_update_request: I/O error, dev loop0, sector 124736
+blk_update_request: I/O error, dev loop0, sector 125024
+blk_update_request: I/O error, dev loop0, sector 130784
+blk_update_request: 7 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 178400
+blk_update_request: I/O error, dev loop0, sector 178816
+blk_update_request: I/O error, dev loop0, sector 178880
+blk_update_request: I/O error, dev loop0, sector 179072
+blk_update_request: I/O error, dev loop0, sector 6618608
+blk_update_request: I/O error, dev loop0, sector 40960
+blk_update_request: I/O error, dev loop0, sector 74240
+blk_update_request: I/O error, dev loop0, sector 79712
+blk_update_request: I/O error, dev loop0, sector 80128
+blk_update_request: I/O error, dev loop0, sector 80352
+blk_update_request: I/O error, dev loop0, sector 80480
+blk_update_request: I/O error, dev loop0, sector 80608
+blk_update_request: I/O error, dev loop0, sector 80672
+blk_update_request: I/O error, dev loop0, sector 80800
+blk_update_request: I/O error, dev loop0, sector 81088
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 3491 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 40992
+blk_update_request: I/O error, dev loop0, sector 179648
+blk_update_request: I/O error, dev loop0, sector 179840
+blk_update_request: I/O error, dev loop0, sector 180000
+blk_update_request: I/O error, dev loop0, sector 184832
+blk_update_request: I/O error, dev loop0, sector 185216
+blk_update_request: I/O error, dev loop0, sector 185408
+blk_update_request: I/O error, dev loop0, sector 185472
+blk_update_request: I/O error, dev loop0, sector 186784
+blk_update_request: I/O error, dev loop0, sector 193888
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 60 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 41024
+blk_update_request: I/O error, dev loop0, sector 319488
+blk_update_request: I/O error, dev loop0, sector 319712
+blk_update_request: I/O error, dev loop0, sector 321344
+blk_update_request: I/O error, dev loop0, sector 322688
+blk_update_request: I/O error, dev loop0, sector 363456
+blk_update_request: I/O error, dev loop0, sector 364064
+blk_update_request: I/O error, dev loop0, sector 364736
+blk_update_request: I/O error, dev loop0, sector 367744
+blk_update_request: I/O error, dev loop0, sector 371200
+blk_update_request: 47 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 91333888
+blk_update_request: I/O error, dev loop0, sector 14753792
+blk_update_request: I/O error, dev loop0, sector 86056960
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: I/O error, dev loop0, sector 81862656
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: I/O error, dev loop0, sector 79765504
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: I/O error, dev loop0, sector 77668352
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: I/O error, dev loop0, sector 75571200
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: I/O error, dev loop0, sector 73474048
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: I/O error, dev loop0, sector 69279744
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: I/O error, dev loop0, sector 10559488
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 2 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 40960
+blk_update_request: I/O error, dev loop0, sector 400768
+blk_update_request: I/O error, dev loop0, sector 400832
+blk_update_request: I/O error, dev loop0, sector 401056
+blk_update_request: I/O error, dev loop0, sector 401312
+blk_update_request: I/O error, dev loop0, sector 401536
+blk_update_request: I/O error, dev loop0, sector 401984
+blk_update_request: I/O error, dev loop0, sector 402560
+blk_update_request: I/O error, dev loop0, sector 402880
+blk_update_request: I/O error, dev loop0, sector 404256
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 47 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 40992
+blk_update_request: I/O error, dev loop0, sector 475904
+blk_update_request: I/O error, dev loop0, sector 475968
+blk_update_request: I/O error, dev loop0, sector 476032
+blk_update_request: I/O error, dev loop0, sector 476096
+blk_update_request: I/O error, dev loop0, sector 476448
+blk_update_request: I/O error, dev loop0, sector 476768
+blk_update_request: I/O error, dev loop0, sector 481312
+blk_update_request: I/O error, dev loop0, sector 481440
+blk_update_request: I/O error, dev loop0, sector 481600
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 47 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 41024
+blk_update_request: I/O error, dev loop0, sector 126880
+blk_update_request: I/O error, dev loop0, sector 129216
+blk_update_request: I/O error, dev loop0, sector 179776
+blk_update_request: I/O error, dev loop0, sector 567040
+blk_update_request: I/O error, dev loop0, sector 568064
+blk_update_request: I/O error, dev loop0, sector 570784
+blk_update_request: I/O error, dev loop0, sector 570944
+blk_update_request: I/O error, dev loop0, sector 571104
+blk_update_request: I/O error, dev loop0, sector 572160
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 34 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 40960
+blk_update_request: I/O error, dev loop0, sector 654208
+blk_update_request: I/O error, dev loop0, sector 655712
+blk_update_request: I/O error, dev loop0, sector 655776
+blk_update_request: I/O error, dev loop0, sector 656352
+blk_update_request: I/O error, dev loop0, sector 658752
+blk_update_request: I/O error, dev loop0, sector 659328
+blk_update_request: I/O error, dev loop0, sector 659424
+blk_update_request: I/O error, dev loop0, sector 659616
+blk_update_request: I/O error, dev loop0, sector 660672
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 637 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 73952
+blk_update_request: I/O error, dev loop0, sector 74656
+blk_update_request: I/O error, dev loop0, sector 74752
+blk_update_request: I/O error, dev loop0, sector 75968
+blk_update_request: I/O error, dev loop0, sector 77344
+blk_update_request: I/O error, dev loop0, sector 78624
+blk_update_request: I/O error, dev loop0, sector 78752
+blk_update_request: I/O error, dev loop0, sector 78976
+blk_update_request: I/O error, dev loop0, sector 79520
+blk_update_request: I/O error, dev loop0, sector 669824
+blk_update_request: 820 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 73952
+blk_update_request: I/O error, dev loop0, sector 74304
+blk_update_request: I/O error, dev loop0, sector 74656
+blk_update_request: I/O error, dev loop0, sector 74720
+blk_update_request: I/O error, dev loop0, sector 75040
+blk_update_request: I/O error, dev loop0, sector 75328
+blk_update_request: I/O error, dev loop0, sector 75968
+blk_update_request: I/O error, dev loop0, sector 76256
+blk_update_request: I/O error, dev loop0, sector 77312
+blk_update_request: I/O error, dev loop0, sector 77760
+blk_update_request: 698 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 74272
+blk_update_request: I/O error, dev loop0, sector 74624
+blk_update_request: I/O error, dev loop0, sector 74688
+blk_update_request: I/O error, dev loop0, sector 75008
+blk_update_request: I/O error, dev loop0, sector 75296
+blk_update_request: I/O error, dev loop0, sector 75936
+blk_update_request: I/O error, dev loop0, sector 76224
+blk_update_request: I/O error, dev loop0, sector 77280
+blk_update_request: I/O error, dev loop0, sector 77728
+blk_update_request: I/O error, dev loop0, sector 78336
+blk_update_request: 6178 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 316544
+blk_update_request: I/O error, dev loop0, sector 468576
+blk_update_request: I/O error, dev loop0, sector 468896
+blk_update_request: I/O error, dev loop0, sector 468960
+blk_update_request: I/O error, dev loop0, sector 469216
+blk_update_request: I/O error, dev loop0, sector 469280
+blk_update_request: I/O error, dev loop0, sector 469568
+blk_update_request: I/O error, dev loop0, sector 469696
+blk_update_request: I/O error, dev loop0, sector 469856
+blk_update_request: I/O error, dev loop0, sector 469984
+blk_update_request: 4945 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 40992
+blk_update_request: I/O error, dev loop0, sector 457792
+blk_update_request: I/O error, dev loop0, sector 917248
+blk_update_request: I/O error, dev loop0, sector 917632
+blk_update_request: I/O error, dev loop0, sector 919328
+blk_update_request: I/O error, dev loop0, sector 930976
+blk_update_request: I/O error, dev loop0, sector 931072
+blk_update_request: I/O error, dev loop0, sector 936544
+blk_update_request: I/O error, dev loop0, sector 985888
+blk_update_request: I/O error, dev loop0, sector 992160
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 947 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 73728
+blk_update_request: I/O error, dev loop0, sector 73952
+blk_update_request: I/O error, dev loop0, sector 74560
+blk_update_request: I/O error, dev loop0, sector 74880
+blk_update_request: I/O error, dev loop0, sector 75488
+blk_update_request: I/O error, dev loop0, sector 75744
+blk_update_request: I/O error, dev loop0, sector 76544
+blk_update_request: I/O error, dev loop0, sector 77088
+blk_update_request: I/O error, dev loop0, sector 77696
+blk_update_request: I/O error, dev loop0, sector 78464
+blk_update_request: 955 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 74528
+blk_update_request: I/O error, dev loop0, sector 74848
+blk_update_request: I/O error, dev loop0, sector 75456
+blk_update_request: I/O error, dev loop0, sector 75712
+blk_update_request: I/O error, dev loop0, sector 76512
+blk_update_request: I/O error, dev loop0, sector 77056
+blk_update_request: I/O error, dev loop0, sector 77632
+blk_update_request: I/O error, dev loop0, sector 78400
+blk_update_request: I/O error, dev loop0, sector 79072
+blk_update_request: I/O error, dev loop0, sector 79552
+blk_update_request: 2149 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 40960
+blk_update_request: I/O error, dev loop0, sector 212064
+blk_update_request: I/O error, dev loop0, sector 214336
+blk_update_request: I/O error, dev loop0, sector 221888
+blk_update_request: I/O error, dev loop0, sector 221952
+blk_update_request: I/O error, dev loop0, sector 357344
+blk_update_request: I/O error, dev loop0, sector 379072
+blk_update_request: I/O error, dev loop0, sector 379520
+blk_update_request: I/O error, dev loop0, sector 380928
+blk_update_request: I/O error, dev loop0, sector 384224
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 693 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 696384
+blk_update_request: I/O error, dev loop0, sector 696992
+blk_update_request: I/O error, dev loop0, sector 697152
+blk_update_request: I/O error, dev loop0, sector 697408
+blk_update_request: I/O error, dev loop0, sector 697504
+blk_update_request: I/O error, dev loop0, sector 697792
+blk_update_request: I/O error, dev loop0, sector 697920
+blk_update_request: I/O error, dev loop0, sector 698048
+blk_update_request: I/O error, dev loop0, sector 698176
+blk_update_request: I/O error, dev loop0, sector 698432
+blk_update_request: 730 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 470176
+blk_update_request: I/O error, dev loop0, sector 470624
+blk_update_request: I/O error, dev loop0, sector 471328
+blk_update_request: I/O error, dev loop0, sector 472256
+blk_update_request: I/O error, dev loop0, sector 473120
+blk_update_request: I/O error, dev loop0, sector 473440
+blk_update_request: I/O error, dev loop0, sector 474144
+blk_update_request: I/O error, dev loop0, sector 475008
+blk_update_request: I/O error, dev loop0, sector 476064
+blk_update_request: I/O error, dev loop0, sector 476512
+blk_update_request: 1816 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 40992
+blk_update_request: I/O error, dev loop0, sector 73728
+blk_update_request: I/O error, dev loop0, sector 73952
+blk_update_request: I/O error, dev loop0, sector 75136
+blk_update_request: I/O error, dev loop0, sector 76128
+blk_update_request: I/O error, dev loop0, sector 77280
+blk_update_request: I/O error, dev loop0, sector 79488
+blk_update_request: I/O error, dev loop0, sector 79648
+blk_update_request: I/O error, dev loop0, sector 81696
+blk_update_request: I/O error, dev loop0, sector 83136
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 703 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 160704
+blk_update_request: I/O error, dev loop0, sector 165984
+blk_update_request: I/O error, dev loop0, sector 166656
+blk_update_request: I/O error, dev loop0, sector 323360
+blk_update_request: I/O error, dev loop0, sector 326176
+blk_update_request: I/O error, dev loop0, sector 327424
+blk_update_request: I/O error, dev loop0, sector 328896
+blk_update_request: I/O error, dev loop0, sector 331680
+blk_update_request: I/O error, dev loop0, sector 334432
+blk_update_request: I/O error, dev loop0, sector 335680
+blk_update_request: 688 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 40960
+blk_update_request: I/O error, dev loop0, sector 131200
+blk_update_request: I/O error, dev loop0, sector 132512
+blk_update_request: I/O error, dev loop0, sector 135200
+blk_update_request: I/O error, dev loop0, sector 136512
+blk_update_request: I/O error, dev loop0, sector 137088
+blk_update_request: I/O error, dev loop0, sector 137696
+blk_update_request: I/O error, dev loop0, sector 137952
+blk_update_request: I/O error, dev loop0, sector 140480
+blk_update_request: I/O error, dev loop0, sector 143168
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 297 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 148416
+blk_update_request: I/O error, dev loop0, sector 151072
+blk_update_request: I/O error, dev loop0, sector 151776
+blk_update_request: I/O error, dev loop0, sector 151872
+blk_update_request: I/O error, dev loop0, sector 152320
+blk_update_request: I/O error, dev loop0, sector 153600
+blk_update_request: I/O error, dev loop0, sector 155200
+blk_update_request: I/O error, dev loop0, sector 155840
+blk_update_request: I/O error, dev loop0, sector 157440
+blk_update_request: I/O error, dev loop0, sector 161824
+blk_update_request: 153 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 40992
+blk_update_request: I/O error, dev loop0, sector 151264
+blk_update_request: I/O error, dev loop0, sector 151424
+blk_update_request: I/O error, dev loop0, sector 151808
+blk_update_request: I/O error, dev loop0, sector 152288
+blk_update_request: I/O error, dev loop0, sector 153568
+blk_update_request: I/O error, dev loop0, sector 155136
+blk_update_request: I/O error, dev loop0, sector 162272
+blk_update_request: I/O error, dev loop0, sector 239968
+blk_update_request: I/O error, dev loop0, sector 354560
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+BTRFS warning (device loop0): Discard failed while removing blockgroup: errno=-5 IO failure
+
+blk_update_request: 128 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 1097344
+blk_update_request: I/O error, dev loop0, sector 1097408
+blk_update_request: I/O error, dev loop0, sector 1097568
+blk_update_request: I/O error, dev loop0, sector 1097664
+blk_update_request: I/O error, dev loop0, sector 1097728
+blk_update_request: I/O error, dev loop0, sector 1098048
+blk_update_request: I/O error, dev loop0, sector 1098624
+blk_update_request: I/O error, dev loop0, sector 1099040
+blk_update_request: I/O error, dev loop0, sector 1099200
+blk_update_request: I/O error, dev loop0, sector 1105952
+blk_update_request: 178 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 1097376
+blk_update_request: I/O error, dev loop0, sector 1098048
+blk_update_request: I/O error, dev loop0, sector 1099680
+blk_update_request: I/O error, dev loop0, sector 1104320
+blk_update_request: I/O error, dev loop0, sector 1113568
+blk_update_request: I/O error, dev loop0, sector 1118592
+blk_update_request: I/O error, dev loop0, sector 1122112
+blk_update_request: I/O error, dev loop0, sector 1130688
+blk_update_request: I/O error, dev loop0, sector 1135328
+blk_update_request: I/O error, dev loop0, sector 1136832
+blk_update_request: 179 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 1207776
+blk_update_request: I/O error, dev loop0, sector 1217088
+blk_update_request: I/O error, dev loop0, sector 1218336
+blk_update_request: I/O error, dev loop0, sector 1218720
+blk_update_request: I/O error, dev loop0, sector 1218912
+blk_update_request: I/O error, dev loop0, sector 1219008
+blk_update_request: I/O error, dev loop0, sector 1219200
+blk_update_request: I/O error, dev loop0, sector 1219360
+blk_update_request: I/O error, dev loop0, sector 1219456
+blk_update_request: I/O error, dev loop0, sector 1219520
+blk_update_request: 183 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 1218816
+blk_update_request: I/O error, dev loop0, sector 1218880
+blk_update_request: I/O error, dev loop0, sector 1218944
+blk_update_request: I/O error, dev loop0, sector 1219104
+blk_update_request: I/O error, dev loop0, sector 1219328
+blk_update_request: I/O error, dev loop0, sector 1219488
+blk_update_request: I/O error, dev loop0, sector 1219616
+blk_update_request: I/O error, dev loop0, sector 1219776
+blk_update_request: I/O error, dev loop0, sector 1220288
+blk_update_request: I/O error, dev loop0, sector 1220736
+blk_update_request: 167 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 73728
+blk_update_request: I/O error, dev loop0, sector 73952
+blk_update_request: I/O error, dev loop0, sector 79552
+blk_update_request: I/O error, dev loop0, sector 81024
+blk_update_request: I/O error, dev loop0, sector 82304
+blk_update_request: I/O error, dev loop0, sector 89568
+blk_update_request: I/O error, dev loop0, sector 92352
+blk_update_request: I/O error, dev loop0, sector 98432
+blk_update_request: I/O error, dev loop0, sector 101760
+blk_update_request: I/O error, dev loop0, sector 103520
+blk_update_request: 195 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 127840
+blk_update_request: I/O error, dev loop0, sector 134528
+blk_update_request: I/O error, dev loop0, sector 135584
+blk_update_request: I/O error, dev loop0, sector 135680
+blk_update_request: I/O error, dev loop0, sector 135840
+blk_update_request: I/O error, dev loop0, sector 135936
+blk_update_request: I/O error, dev loop0, sector 136064
+blk_update_request: I/O error, dev loop0, sector 136288
+blk_update_request: I/O error, dev loop0, sector 136544
+blk_update_request: I/O error, dev loop0, sector 136608
+blk_update_request: 188 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 135616
+blk_update_request: I/O error, dev loop0, sector 135808
+blk_update_request: I/O error, dev loop0, sector 135968
+blk_update_request: I/O error, dev loop0, sector 136256
+blk_update_request: I/O error, dev loop0, sector 136480
+blk_update_request: I/O error, dev loop0, sector 136576
+blk_update_request: I/O error, dev loop0, sector 136736
+blk_update_request: I/O error, dev loop0, sector 136864
+blk_update_request: I/O error, dev loop0, sector 137056
+blk_update_request: I/O error, dev loop0, sector 142880
+blk_update_request: 161 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 322336
+blk_update_request: I/O error, dev loop0, sector 479104
+blk_update_request: I/O error, dev loop0, sector 479168
+blk_update_request: I/O error, dev loop0, sector 479360
+blk_update_request: I/O error, dev loop0, sector 479680
+blk_update_request: I/O error, dev loop0, sector 479776
+blk_update_request: I/O error, dev loop0, sector 479936
+blk_update_request: I/O error, dev loop0, sector 480320
+blk_update_request: I/O error, dev loop0, sector 480704
+blk_update_request: I/O error, dev loop0, sector 481280
+blk_update_request: 188 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 790112
+blk_update_request: I/O error, dev loop0, sector 790496
+blk_update_request: I/O error, dev loop0, sector 791584
+blk_update_request: I/O error, dev loop0, sector 791648
+blk_update_request: I/O error, dev loop0, sector 791936
+blk_update_request: I/O error, dev loop0, sector 795968
+blk_update_request: I/O error, dev loop0, sector 903136
+blk_update_request: I/O error, dev loop0, sector 993728
+blk_update_request: I/O error, dev loop0, sector 1017696
+blk_update_request: I/O error, dev loop0, sector 1025760
+blk_update_request: 84 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 1110720
+blk_update_request: I/O error, dev loop0, sector 1110784
+blk_update_request: I/O error, dev loop0, sector 1110848
+blk_update_request: I/O error, dev loop0, sector 1111232
+blk_update_request: I/O error, dev loop0, sector 1111552
+blk_update_request: I/O error, dev loop0, sector 1192864
+blk_update_request: I/O error, dev loop0, sector 1199200
+blk_update_request: I/O error, dev loop0, sector 1199328
+blk_update_request: I/O error, dev loop0, sector 6705576
+blk_update_request: I/O error, dev loop0, sector 6706784
 F2FS-fs (nvme0n1p1): Found nat_bits in checkpoint
-F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 77afa6c1
-kauditd_printk_skb: 25 callbacks suppressed
-audit: type=1400 audit(1494461175.274:37): apparmor="STATUS" operation="profile_replace" name="/usr/lib/cups/backend/cups-pdf" pid=3804 comm="apparmor_parser"
-audit: type=1400 audit(1494461175.274:38): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/cupsd" pid=3804 comm="apparmor_parser"
-audit: type=1400 audit(1494461175.274:39): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/cupsd" pid=3804 comm="apparmor_parser"
+F2FS-fs (nvme0n1p1): Mounted with checkpoint version = 7a36ddf
 F2FS-fs (loop0): Found nat_bits in checkpoint
-F2FS-fs (loop0): Mounted with checkpoint version = 11ab47e7
+F2FS-fs (loop0): Mounted with checkpoint version = afd6699
+blk_update_request: 4 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 849288
 blk_update_request: I/O error, dev loop0, sector 765952
 blk_update_request: I/O error, dev loop0, sector 778240
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 1067312
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 3712160
-blk_update_request: I/O error, dev loop0, sector 9011200
+blk_update_request: I/O error, dev loop0, sector 880640
+blk_update_request: I/O error, dev loop0, sector 831488
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 3527352
+blk_update_request: I/O error, dev loop0, sector 11915952
 blk_update_request: I/O error, dev loop0, sector 778304
 blk_update_request: I/O error, dev loop0, sector 778552
-blk_update_request: I/O error, dev loop0, sector 778616
 blk_update_request: I/O error, dev loop0, sector 782616
 blk_update_request: I/O error, dev loop0, sector 786456
-blk_update_request: I/O error, dev loop0, sector 824536
-blk_update_request: I/O error, dev loop0, sector 3711328
+blk_update_request: I/O error, dev loop0, sector 824208
+blk_update_request: I/O error, dev loop0, sector 824256
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -644,162 +567,82 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 7 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 1064960
+blk_update_request: 4 callbacks suppressed
 blk_update_request: I/O error, dev loop0, sector 778632
-blk_update_request: I/O error, dev loop0, sector 3711312
-blk_update_request: I/O error, dev loop0, sector 3712032
-blk_update_request: I/O error, dev loop0, sector 3712152
-blk_update_request: I/O error, dev loop0, sector 9014688
+blk_update_request: I/O error, dev loop0, sector 851992
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 778656
+blk_update_request: I/O error, dev loop0, sector 852008
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 831488
+blk_update_request: I/O error, dev loop0, sector 856064
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 9007104
+blk_update_request: I/O error, dev loop0, sector 19083264
+blk_update_request: I/O error, dev loop0, sector 27471864
+blk_update_request: I/O error, dev loop0, sector 35860464
+blk_update_request: I/O error, dev loop0, sector 44249064
+blk_update_request: I/O error, dev loop0, sector 52637664
+blk_update_request: I/O error, dev loop0, sector 61026264
+blk_update_request: I/O error, dev loop0, sector 69414864
+blk_update_request: I/O error, dev loop0, sector 77803464
+blk_update_request: 4 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 119746464
+blk_update_request: I/O error, dev loop0, sector 128135064
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 16744448
+blk_update_request: I/O error, dev loop0, sector 849288
 blk_update_request: I/O error, dev loop0, sector 778664
-blk_update_request: I/O error, dev loop0, sector 9012520
-blk_update_request: I/O error, dev loop0, sector 9014728
+blk_update_request: I/O error, dev loop0, sector 851368
+blk_update_request: I/O error, dev loop0, sector 851984
+blk_update_request: I/O error, dev loop0, sector 852024
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 1069056
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 9015296
-blk_update_request: I/O error, dev loop0, sector 17403896
-blk_update_request: I/O error, dev loop0, sector 25792496
-blk_update_request: I/O error, dev loop0, sector 34181096
-blk_update_request: I/O error, dev loop0, sector 42569696
-blk_update_request: I/O error, dev loop0, sector 50958296
-blk_update_request: I/O error, dev loop0, sector 59346896
-blk_update_request: I/O error, dev loop0, sector 67735496
-blk_update_request: I/O error, dev loop0, sector 76124096
-blk_update_request: 3 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 109678496
-blk_update_request: I/O error, dev loop0, sector 118067096
-blk_update_request: I/O error, dev loop0, sector 126455696
-blk_update_request: I/O error, dev loop0, sector 9012528
-blk_update_request: I/O error, dev loop0, sector 776496
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 3526656
+blk_update_request: I/O error, dev loop0, sector 778672
+blk_update_request: I/O error, dev loop0, sector 852048
+blk_update_request: I/O error, dev loop0, sector 854128
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 18841600
 blk_update_request: I/O error, dev loop0, sector 778680
-blk_update_request: I/O error, dev loop0, sector 9014592
-blk_update_request: I/O error, dev loop0, sector 9014680
-blk_update_request: I/O error, dev loop0, sector 9014744
+blk_update_request: I/O error, dev loop0, sector 851384
+blk_update_request: I/O error, dev loop0, sector 854720
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 19083264
+blk_update_request: I/O error, dev loop0, sector 27471864
+blk_update_request: I/O error, dev loop0, sector 35860464
+blk_update_request: I/O error, dev loop0, sector 44249064
+blk_update_request: I/O error, dev loop0, sector 52637664
+blk_update_request: I/O error, dev loop0, sector 61026264
+blk_update_request: I/O error, dev loop0, sector 69414864
+blk_update_request: I/O error, dev loop0, sector 77803464
+blk_update_request: I/O error, dev loop0, sector 86192064
+blk_update_request: I/O error, dev loop0, sector 94580664
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: 5 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 11092904
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 765952
-blk_update_request: I/O error, dev loop0, sector 782360
-blk_update_request: I/O error, dev loop0, sector 782544
-blk_update_request: I/O error, dev loop0, sector 782584
-blk_update_request: I/O error, dev loop0, sector 782680
-blk_update_request: I/O error, dev loop0, sector 782840
-blk_update_request: I/O error, dev loop0, sector 782880
-blk_update_request: I/O error, dev loop0, sector 783272
-blk_update_request: I/O error, dev loop0, sector 783896
-blk_update_request: I/O error, dev loop0, sector 783992
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 51 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 774144
-blk_update_request: I/O error, dev loop0, sector 778696
-blk_update_request: I/O error, dev loop0, sector 6842360
-blk_update_request: I/O error, dev loop0, sector 9014720
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 14908920
-blk_update_request: I/O error, dev loop0, sector 23297520
-blk_update_request: I/O error, dev loop0, sector 31686120
-blk_update_request: I/O error, dev loop0, sector 40074720
-blk_update_request: I/O error, dev loop0, sector 48463320
-blk_update_request: I/O error, dev loop0, sector 56851920
-blk_update_request: I/O error, dev loop0, sector 65240520
-blk_update_request: I/O error, dev loop0, sector 73629120
-blk_update_request: I/O error, dev loop0, sector 82017720
-blk_update_request: I/O error, dev loop0, sector 90406320
-blk_update_request: 3 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 123960720
-blk_update_request: I/O error, dev loop0, sector 132349320
-F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 14864552
-blk_update_request: I/O error, dev loop0, sector 6840320
-blk_update_request: I/O error, dev loop0, sector 9011776
+blk_update_request: I/O error, dev loop0, sector 11047088
+blk_update_request: I/O error, dev loop0, sector 852056
 blk_update_request: I/O error, dev loop0, sector 778560
-blk_update_request: I/O error, dev loop0, sector 778704
-blk_update_request: I/O error, dev loop0, sector 6842352
-blk_update_request: I/O error, dev loop0, sector 6842384
-blk_update_request: I/O error, dev loop0, sector 9014688
+blk_update_request: I/O error, dev loop0, sector 778688
+blk_update_request: I/O error, dev loop0, sector 825040
+blk_update_request: I/O error, dev loop0, sector 852040
+blk_update_request: I/O error, dev loop0, sector 854752
+blk_update_request: I/O error, dev loop0, sector 854696
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -808,22 +651,21 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 85495808
+blk_update_request: I/O error, dev loop0, sector 131178496
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 1 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 96980992
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 9015296
-blk_update_request: I/O error, dev loop0, sector 17403896
-blk_update_request: I/O error, dev loop0, sector 25792496
-blk_update_request: I/O error, dev loop0, sector 34181096
-blk_update_request: I/O error, dev loop0, sector 42569696
-blk_update_request: I/O error, dev loop0, sector 50958296
-blk_update_request: I/O error, dev loop0, sector 59346896
-blk_update_request: I/O error, dev loop0, sector 67735496
-blk_update_request: I/O error, dev loop0, sector 76124096
+blk_update_request: I/O error, dev loop0, sector 132136960
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 133117272
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 127085824
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 19083264
+blk_update_request: I/O error, dev loop0, sector 27471864
+blk_update_request: I/O error, dev loop0, sector 35860464
+blk_update_request: I/O error, dev loop0, sector 44249064
+blk_update_request: I/O error, dev loop0, sector 52637664
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -845,25 +687,25 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: 24 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 85491712
+blk_update_request: I/O error, dev loop0, sector 130912856
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 85897216
+blk_update_request: I/O error, dev loop0, sector 94285816
+blk_update_request: I/O error, dev loop0, sector 102674416
+blk_update_request: I/O error, dev loop0, sector 111063016
+blk_update_request: I/O error, dev loop0, sector 119451616
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 127086592
+blk_update_request: I/O error, dev loop0, sector 131178496
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 30 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 97144832
-blk_update_request: I/O error, dev loop0, sector 105533432
-blk_update_request: I/O error, dev loop0, sector 113922032
-blk_update_request: I/O error, dev loop0, sector 122310632
+blk_update_request: I/O error, dev loop0, sector 132136960
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 130661720
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 7225344
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 9015296
-blk_update_request: I/O error, dev loop0, sector 17403896
-blk_update_request: I/O error, dev loop0, sector 2592768
-blk_update_request: I/O error, dev loop0, sector 6956088
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -878,21 +720,10 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 11 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 130662400
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 9015296
-blk_update_request: I/O error, dev loop0, sector 10315128
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 10406272
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 11370496
-blk_update_request: I/O error, dev loop0, sector 19759096
-blk_update_request: I/O error, dev loop0, sector 28147696
-blk_update_request: I/O error, dev loop0, sector 36536296
-blk_update_request: I/O error, dev loop0, sector 44924896
-blk_update_request: I/O error, dev loop0, sector 53313496
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -909,18 +740,7 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 20 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 110213208
-blk_update_request: I/O error, dev loop0, sector 118601808
-blk_update_request: I/O error, dev loop0, sector 126990408
-blk_update_request: I/O error, dev loop0, sector 10402520
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 2600960
-blk_update_request: I/O error, dev loop0, sector 779528
-blk_update_request: I/O error, dev loop0, sector 10064416
-blk_update_request: I/O error, dev loop0, sector 2603928
-blk_update_request: I/O error, dev loop0, sector 10379944
-blk_update_request: I/O error, dev loop0, sector 779056
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -962,18 +782,7 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 34 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 3133440
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 3645440
-blk_update_request: I/O error, dev loop0, sector 9981952
-blk_update_request: I/O error, dev loop0, sector 9994240
-blk_update_request: I/O error, dev loop0, sector 10014720
-blk_update_request: I/O error, dev loop0, sector 10063872
-blk_update_request: I/O error, dev loop0, sector 10108928
-blk_update_request: I/O error, dev loop0, sector 10366976
-blk_update_request: I/O error, dev loop0, sector 10375168
-blk_update_request: I/O error, dev loop0, sector 10403840
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -1012,25 +821,294 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 35 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 3133440
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 118599680
-blk_update_request: I/O error, dev loop0, sector 126988280
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 130662400
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 3645440
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 6844416
-blk_update_request: I/O error, dev loop0, sector 7909376
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 7917568
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 9015296
-blk_update_request: I/O error, dev loop0, sector 10317824
 F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: 216 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 74571776
+blk_update_request: I/O error, dev loop0, sector 82960376
+blk_update_request: I/O error, dev loop0, sector 91348976
+blk_update_request: I/O error, dev loop0, sector 99737576
+blk_update_request: I/O error, dev loop0, sector 108126176
+blk_update_request: I/O error, dev loop0, sector 116514776
+blk_update_request: I/O error, dev loop0, sector 124903376
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 127086592
+blk_update_request: I/O error, dev loop0, sector 131178496
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 132136960
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: 14 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 61026264
+blk_update_request: I/O error, dev loop0, sector 65863680
+blk_update_request: I/O error, dev loop0, sector 65929216
+blk_update_request: I/O error, dev loop0, sector 66101248
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 66154496
+blk_update_request: I/O error, dev loop0, sector 66355200
+blk_update_request: I/O error, dev loop0, sector 66449408
+blk_update_request: I/O error, dev loop0, sector 8481336
+blk_update_request: I/O error, dev loop0, sector 8538144
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 8572944
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: 66 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 856064
+blk_update_request: I/O error, dev loop0, sector 3567616
+blk_update_request: I/O error, dev loop0, sector 4001792
+blk_update_request: I/O error, dev loop0, sector 4689920
+blk_update_request: I/O error, dev loop0, sector 5758976
+blk_update_request: I/O error, dev loop0, sector 6037504
+blk_update_request: I/O error, dev loop0, sector 6430720
+blk_update_request: I/O error, dev loop0, sector 7606272
+blk_update_request: I/O error, dev loop0, sector 8192000
+blk_update_request: I/O error, dev loop0, sector 8228864
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: 46 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 113049600
+blk_update_request: I/O error, dev loop0, sector 121438200
+blk_update_request: I/O error, dev loop0, sector 839704
+blk_update_request: I/O error, dev loop0, sector 856064
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 876544
+blk_update_request: I/O error, dev loop0, sector 3350528
+F2FS-fs (loop0): Issue discard failed, ret: -5
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 3358720
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 4034560
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 5808128
+F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 127086592
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -1042,25 +1120,25 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 blk_update_request: 9 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 1515520
+blk_update_request: I/O error, dev loop0, sector 827392
+blk_update_request: I/O error, dev loop0, sector 856064
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 2572288
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 3133440
+blk_update_request: I/O error, dev loop0, sector 876544
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 3645440
+blk_update_request: I/O error, dev loop0, sector 3350528
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 6844416
+blk_update_request: I/O error, dev loop0, sector 4034560
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 7909376
+blk_update_request: I/O error, dev loop0, sector 5808128
+blk_update_request: I/O error, dev loop0, sector 8577024
+blk_update_request: I/O error, dev loop0, sector 8622080
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 9015296
-blk_update_request: I/O error, dev loop0, sector 10317824
-blk_update_request: I/O error, dev loop0, sector 10330112
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 8663040
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 10403840
+blk_update_request: I/O error, dev loop0, sector 15388672
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -1072,17 +1150,17 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 11 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 34320152
-blk_update_request: I/O error, dev loop0, sector 34320384
-blk_update_request: I/O error, dev loop0, sector 34330264
-blk_update_request: I/O error, dev loop0, sector 34330496
-blk_update_request: I/O error, dev loop0, sector 34340376
-blk_update_request: I/O error, dev loop0, sector 34340608
-blk_update_request: I/O error, dev loop0, sector 34350488
-blk_update_request: I/O error, dev loop0, sector 34350720
-blk_update_request: I/O error, dev loop0, sector 34360600
-blk_update_request: I/O error, dev loop0, sector 34360832
+blk_update_request: 10 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 26495984
+blk_update_request: I/O error, dev loop0, sector 26496216
+blk_update_request: I/O error, dev loop0, sector 28189552
+blk_update_request: I/O error, dev loop0, sector 28189784
+blk_update_request: I/O error, dev loop0, sector 28250224
+blk_update_request: I/O error, dev loop0, sector 28250456
+blk_update_request: I/O error, dev loop0, sector 28260336
+blk_update_request: I/O error, dev loop0, sector 28260568
+blk_update_request: I/O error, dev loop0, sector 28270448
+blk_update_request: I/O error, dev loop0, sector 28270680
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -1934,44 +2012,42 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+python (20310): drop_caches: 3
+python (20310): drop_caches: 3
+blk_update_request: 841 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 15384576
+blk_update_request: I/O error, dev loop0, sector 23408640
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-python (26608): drop_caches: 3
-python (26608): drop_caches: 3
-blk_update_request: 843 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 21164032
-blk_update_request: I/O error, dev loop0, sector 29548544
-F2FS-fs (loop0): Issue discard failed, ret: -5
-F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 29554280
-blk_update_request: I/O error, dev loop0, sector 36126872
-blk_update_request: I/O error, dev loop0, sector 44515472
-blk_update_request: I/O error, dev loop0, sector 3608576
-blk_update_request: I/O error, dev loop0, sector 3842048
+blk_update_request: I/O error, dev loop0, sector 23419384
+blk_update_request: I/O error, dev loop0, sector 29984352
+blk_update_request: I/O error, dev loop0, sector 38372952
+blk_update_request: I/O error, dev loop0, sector 2109440
+blk_update_request: I/O error, dev loop0, sector 1847296
+blk_update_request: I/O error, dev loop0, sector 23415856
 blk_update_request: I/O error, dev loop0, sector 786472
-blk_update_request: I/O error, dev loop0, sector 1072000
+blk_update_request: I/O error, dev loop0, sector 776616
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 3608576
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 2 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 6130848
-blk_update_request: I/O error, dev loop0, sector 6131080
-blk_update_request: I/O error, dev loop0, sector 6140992
-blk_update_request: I/O error, dev loop0, sector 6141208
-blk_update_request: I/O error, dev loop0, sector 6151072
-blk_update_request: I/O error, dev loop0, sector 6161432
-blk_update_request: I/O error, dev loop0, sector 6171304
-blk_update_request: I/O error, dev loop0, sector 6181408
-blk_update_request: I/O error, dev loop0, sector 6201632
-blk_update_request: I/O error, dev loop0, sector 6211760
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: 3 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 4402488
+blk_update_request: I/O error, dev loop0, sector 4412568
+blk_update_request: I/O error, dev loop0, sector 4412816
+blk_update_request: I/O error, dev loop0, sector 4422680
+blk_update_request: I/O error, dev loop0, sector 4432792
+blk_update_request: I/O error, dev loop0, sector 4433024
+blk_update_request: I/O error, dev loop0, sector 4442912
+blk_update_request: I/O error, dev loop0, sector 4463376
+blk_update_request: I/O error, dev loop0, sector 4473248
+blk_update_request: I/O error, dev loop0, sector 4483352
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -2852,6 +2928,7 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+python (21052): drop_caches: 3
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -2869,49 +2946,48 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-python (27328): drop_caches: 3
-python (27328): drop_caches: 3
-blk_update_request: 888 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 6844416
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 7909376
-blk_update_request: I/O error, dev loop0, sector 8986624
-blk_update_request: I/O error, dev loop0, sector 49623040
-blk_update_request: I/O error, dev loop0, sector 58011640
-blk_update_request: I/O error, dev loop0, sector 9015296
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 8798208
-blk_update_request: I/O error, dev loop0, sector 6224696
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 6219456
-blk_update_request: I/O error, dev loop0, sector 6117448
+python (21052): drop_caches: 3
+blk_update_request: 893 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 4616200
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 5808128
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 6766592
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: I/O error, dev loop0, sector 7254016
+blk_update_request: I/O error, dev loop0, sector 43479040
+blk_update_request: I/O error, dev loop0, sector 51867640
+blk_update_request: I/O error, dev loop0, sector 4491064
+blk_update_request: I/O error, dev loop0, sector 830240
+blk_update_request: I/O error, dev loop0, sector 4390048
+blk_update_request: I/O error, dev loop0, sector 786952
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: 6 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 6123192
-blk_update_request: I/O error, dev loop0, sector 6133328
-blk_update_request: I/O error, dev loop0, sector 6143408
-blk_update_request: I/O error, dev loop0, sector 6153568
-blk_update_request: I/O error, dev loop0, sector 6163408
-blk_update_request: I/O error, dev loop0, sector 6173512
-blk_update_request: I/O error, dev loop0, sector 6183624
-blk_update_request: I/O error, dev loop0, sector 6193736
-blk_update_request: I/O error, dev loop0, sector 6203880
-blk_update_request: I/O error, dev loop0, sector 6204040
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+blk_update_request: 4 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 4394824
+blk_update_request: I/O error, dev loop0, sector 4424896
+blk_update_request: I/O error, dev loop0, sector 4425136
+blk_update_request: I/O error, dev loop0, sector 4435024
+blk_update_request: I/O error, dev loop0, sector 4435288
+blk_update_request: I/O error, dev loop0, sector 4445136
+blk_update_request: I/O error, dev loop0, sector 4445344
+blk_update_request: I/O error, dev loop0, sector 4455504
+blk_update_request: I/O error, dev loop0, sector 4465352
+blk_update_request: I/O error, dev loop0, sector 4475456
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
@@ -3849,27 +3925,25 @@ F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
+python (21731): drop_caches: 3
+python (21731): drop_caches: 3
+blk_update_request: 927 callbacks suppressed
+blk_update_request: I/O error, dev loop0, sector 827392
+blk_update_request: I/O error, dev loop0, sector 7479296
+blk_update_request: I/O error, dev loop0, sector 834632
+blk_update_request: I/O error, dev loop0, sector 856064
+blk_update_request: I/O error, dev loop0, sector 876544
+blk_update_request: I/O error, dev loop0, sector 3350528
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-python (28027): drop_caches: 3
-python (28027): drop_caches: 3
-blk_update_request: 933 callbacks suppressed
-blk_update_request: I/O error, dev loop0, sector 1515520
-blk_update_request: I/O error, dev loop0, sector 9216000
-blk_update_request: I/O error, dev loop0, sector 2575312
-blk_update_request: I/O error, dev loop0, sector 3133440
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 3645440
-F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 6844416
-F2FS-fs (loop0): Issue discard failed, ret: -5
-blk_update_request: I/O error, dev loop0, sector 7909376
-blk_update_request: I/O error, dev loop0, sector 8982528
-blk_update_request: I/O error, dev loop0, sector 64335872
-blk_update_request: I/O error, dev loop0, sector 72724472
+blk_update_request: I/O error, dev loop0, sector 4034560
+blk_update_request: I/O error, dev loop0, sector 5808128
+blk_update_request: I/O error, dev loop0, sector 58191872
+blk_update_request: I/O error, dev loop0, sector 66580472
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
 F2FS-fs (loop0): Issue discard failed, ret: -5
